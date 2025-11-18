@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <h1>Quiz Interativo</h1>
+    <div id="quiz-container">
+        <select id="subject-select">
+            <option value="">Todos os assuntos</option>
+            <option value="LeiExecucaoPenal">Lei de Execução Penal</option>
+            <option value="EstatutoDesarmamento">Estatuto do Desarmamento</option>
+            <option value="CrimesHediondos">Crimes Hediondos</option>
+            <option value="FurtoCodigoPenal">Furto - Codigo Penal</option>
+	    <option value="RouboCodigoPenal">Roubo - Codigo Penal</option>
+
+        </select>
+        <div id="quiz-content">
+            <div id="question-container"></div>
+            <button id="answer-btn">Responder</button>
+        </div>
+        <div id="score-counter">
+            Corretas: <span id="correct-count">0</span> | Erradas: <span id="wrong-count">0</span>
+        </div>
+        <div id="navigation">
+            <button id="prev-btn" disabled>Anterior</button>
+            <button id="next-btn">Próxima</button>
+        </div>
+        <button id="submit-btn" style="display: none;">Enviar Respostas</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
