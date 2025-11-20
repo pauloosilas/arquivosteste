@@ -1,6 +1,626 @@
 // Banco de questões
 const questions = {  
 
+EstadoDeDefesaESitioConstituiçao: [
+  {
+    "question": "Qual é um dos pressupostos constitucionais para a decretação do **Estado de Defesa** pelo Presidente da República, conforme o Art. 136 da Constituição Federal?",
+    "options": [
+      "Comprovação de grave comoção nacional ou ineficácia do Estado de Defesa.",
+      "Agressão armada por força estrangeira.",
+      "Preservação ou pronto restabelecimento da ordem ou paz social, ameaçadas por calamidades de grandes proporções na natureza.",
+      "Necessidade de manter, em local determinado, a presença de forças militares federais."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Antes de decretar o **Estado de Defesa**, o Presidente da República deve ouvir o Conselho da República e qual outro órgão?",
+    "options": [
+      "O Supremo Tribunal Federal.",
+      "A Câmara dos Deputados.",
+      "O Conselho Nacional de Justiça.",
+      "O Conselho de Defesa Nacional."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Qual é o prazo máximo de duração inicial do **Estado de Defesa** e por quanto tempo ele pode ser prorrogado, se persistirem as razões que o justificaram?",
+    "options": [
+      "60 dias, prorrogável por igual período.",
+      "30 dias, prorrogável por até mais 30 dias.",
+      "90 dias, prorrogável por 60 dias.",
+      "Tempo indeterminado, a depender da permanência da situação de emergência."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Conforme o Art. 136, § 3º, durante a vigência do **Estado de Defesa**, apenas uma das seguintes medidas poderá ser restringida nos termos da lei, sendo as demais reservadas ao Estado de Sítio ou não passíveis de restrição neste contexto:",
+    "options": [
+      "O sigilo da correspondência e da comunicação telegráfica e telefônica.",
+      "A liberdade de reunião.",
+      "A liberdade de expressão, independentemente de censura prévia.",
+      "A inviolabilidade do domicílio."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Após a decretação do **Estado de Defesa**, a quem o Presidente da República deve submeter o ato, com a respectiva justificação, e qual é o quórum para aprovação?",
+    "options": [
+      "Ao Senado Federal, por maioria simples.",
+      "Ao Congresso Nacional, que decidirá por maioria absoluta.",
+      "Ao Supremo Tribunal Federal, que avalia sua constitucionalidade por dois terços de seus membros.",
+      "À Câmara dos Deputados, por maioria simples."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Em qual das seguintes hipóteses o Presidente da República pode solicitar ao Congresso Nacional autorização para decretar o **Estado de Sítio**?",
+    "options": [
+      "Calamidade pública de grandes proporções na natureza.",
+      "Grave comoção de repercussão nacional ou ocorrência de fatos que comprovem a ineficácia de medida tomada durante o Estado de Defesa.",
+      "Perturbação da ordem pública por manifestações pacíficas.",
+      "Ameaça à ordem pública ou paz social."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Quem tem a competência constitucional para autorizar o Presidente da República a decretar o **Estado de Sítio** ou prorrogar sua vigência?",
+    "options": [
+      "O Supremo Tribunal Federal, após provocação do Procurador-Geral da República.",
+      "O Conselho de Defesa Nacional, em reunião conjunta com o Conselho da República.",
+      "O Congresso Nacional.",
+      "O Senado Federal, em votação secreta."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "De acordo com o Art. 138, § 2º, se o Congresso Nacional estiver em recesso quando for solicitada a autorização para o **Estado de Sítio**, o Presidente do Senado Federal convocará extraordinariamente o Congresso Nacional no prazo de:",
+    "options": [
+      "5 dias.",
+      "48 horas.",
+      "24 horas.",
+      "72 horas."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O pedido de autorização do Presidente da República para decretar o **Estado de Sítio** deve indicar, **obrigatoriamente**, qual dos seguintes elementos:",
+    "options": [
+      "O rol de autoridades públicas que serão destituídas e processadas.",
+      "O programa a ser executado, o prazo de duração, e as normas necessárias a sua execução.",
+      "A manifestação favorável do Supremo Tribunal Federal e do Tribunal de Contas da União.",
+      "A suspensão imediata de todos os direitos e garantias individuais."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual das seguintes medidas **pode** ser adotada durante o **Estado de Sítio**, conforme o Art. 139 da Constituição Federal?",
+    "options": [
+      "Restrição à liberdade de reunião.",
+      "Restrição ao sigilo da correspondência e das comunicações telegráficas e telefônicas.",
+      "Obrigação de permanência em localidade determinada.",
+      "Todas as anteriores."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Durante o **Estado de Sítio**, a requisição de bens pode ocorrer, com a observância de qual condição fundamental, conforme o Art. 139, VII?",
+    "options": [
+      "Indenização prévia em dinheiro, garantido o preço de mercado.",
+      "Indenização anterior ou posterior, assegurado o preço justo e atualizado.",
+      "Indenização ulterior, se houver dano.",
+      "Indenização em títulos da dívida pública, a serem resgatados após o término do estado de sítio."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Qual das seguintes vedações ou garantias é mantida mesmo durante a vigência do **Estado de Sítio**, não podendo ser incluída nas restrições listadas no Art. 139?",
+    "options": [
+      "A incomunicabilidade do preso.",
+      "A prisão por crime comum, desde que apurado por inquérito policial regular.",
+      "O direito de petição aos poderes públicos.",
+      "A liberdade de locomoção em todo o território nacional."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Durante o **Estado de Defesa** ou **Estado de Sítio**, as imunidades materiais dos Deputados Federais e Senadores são mantidas?",
+    "options": [
+      "Sim, em todas as hipóteses, em respeito à soberania popular.",
+      "Não, todas as imunidades são suspensas durante o período.",
+      "Não, mas somente as que se referem a atos estranhos à função parlamentar.",
+      "Sim, mas as imunidades materiais podem ser suspensas por voto de dois terços dos membros da respectiva Casa em caso de atos praticados fora do recinto do Congresso Nacional, incompatíveis com a execução das medidas."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Terminada a vigência do **Estado de Defesa** ou do **Estado de Sítio**, cessam seus efeitos. Conforme o Art. 141, quem é responsabilizado por excessos ou desvios de poder?",
+    "options": [
+      "Exclusivamente o Presidente da República, por crime de responsabilidade.",
+      "O Presidente da República e os que houverem colaborado na execução das medidas.",
+      "Apenas os agentes públicos de execução direta que cometerem ilícitos.",
+      "O Supremo Tribunal Federal, que avaliará a conduta das autoridades mediante provocação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Após o término do **Estado de Defesa** ou **Estado de Sítio**, qual é a obrigação constitucional do Presidente da República perante o Congresso Nacional, conforme o Art. 141, parágrafo único?",
+    "options": [
+      "Conceder anistia a todos os atingidos pelas medidas.",
+      "Indenizar previamente as pessoas que sofreram restrições.",
+      "Relatar as medidas aplicadas, com a justificação das providências e a indicação das responsabilidades apuradas.",
+      "Solicitar a prorrogação das medidas por mais 30 dias para a conclusão de inquéritos."
+    ],
+    "correct": 2
+  }
+],
+
+
+
+
+
+PenasRestritivasDeDireitos:[
+  {
+    "question": "A Seção II do Código Penal trata das Penas Restritivas de Direitos (PRD), as quais, em regra, são autônomas e substituem as penas privativas de liberdade. Assinale a alternativa **INCORRETA** quanto às espécies de PRD expressamente previstas no Art. 43 do CP.",
+    "options": [
+      "Prestação de serviço à comunidade ou a entidades públicas.",
+      "Perda de bens e valores.",
+      "Interdição temporária de direitos.",
+      "Prisão domiciliar."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Conforme o Art. 44 do CP, a substituição da pena privativa de liberdade por restritivas de direitos depende do preenchimento de requisitos objetivos e subjetivos. Assinale a alternativa **INCORRETA** acerca desses requisitos.",
+    "options": [
+      "A pena aplicada não seja superior a quatro anos, se o crime for culposo.",
+      "O crime não seja cometido com violência ou grave ameaça à pessoa, quando a pena aplicada não for superior a quatro anos.",
+      "A culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias, indiquem que a substituição é suficiente.",
+      "O condenado não seja reincidente em crime doloso, salvo se a substituição for socialmente recomendável e a reincidência não se houver operado em virtude da prática do mesmo crime."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A respeito da Prestação Pecuniária, espécie de Pena Restritiva de Direitos regulamentada pelo Art. 45, § 1º, do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Consiste no pagamento em dinheiro à vítima, a seus dependentes, ou a entidade pública ou privada com destinação social.",
+      "O valor pago é deduzido do montante de eventual condenação a título de reparação do dano a que se refere o inciso IV do caput do Art. 91 do CP.",
+      "O valor da prestação pecuniária deve ser fixado em, no mínimo, 1 (um) salário mínimo e, no máximo, 500 (quinhentos) salários mínimos.",
+      "O juiz pode autorizar que o valor seja descontado do salário ou da remuneração, observados os limites previstos em lei."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A Perda de Bens e Valores é a PRD em que o condenado perde em favor do Fundo Penitenciário Nacional o montante correspondente ao prejuízo causado ou ao proveito obtido com o crime. Assinale a alternativa **INCORRETA** sobre esta espécie de pena.",
+    "options": [
+      "A perda de bens e valores terá como teto o que for apurado como proveito auferido pelo agente com o delito.",
+      "Os bens e valores perdidos reverterão ao Fundo Penitenciário Nacional.",
+      "A perda de bens e valores é fixada pelo juiz da execução, após trânsito em julgado da sentença condenatória.",
+      "Esta pena consiste na transferência ao Fundo Penitenciário Nacional de bens e valores que pertençam ao condenado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a Prestação de Serviço à Comunidade ou a Entidades Públicas, disciplinada pelo Art. 46 do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "A pena de serviço à comunidade não poderá ser cumprida em tempo inferior à metade da pena privativa de liberdade fixada na sentença.",
+      "O local do cumprimento deve ser em entidades assistenciais, hospitais, escolas, orfanatos e outros estabelecimentos congêneres, em programas comunitários ou estatais.",
+      "A prestação de serviço à comunidade é aplicável a condenações iguais ou inferiores a um ano.",
+      "A jornada de trabalho semanal não pode ser superior a oito horas, salvo se o condenado preferir cumpri-la em menor tempo."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A Interdição Temporária de Direitos é uma espécie de PRD que impede o condenado de exercer certos direitos por um período. Assinale a alternativa **INCORRETA** sobre as interdições temporárias previstas no Art. 47 do CP.",
+    "options": [
+      "Proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo.",
+      "Suspensão de autorização ou de habilitação para dirigir veículo.",
+      "Proibição de frequentar determinados lugares.",
+      "Proibição de inscrever-se em concurso, avaliação ou exame públicos."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A Limitação de Fim de Semana, embora regulamentada no Art. 48 (fora da Seção II), é listada como espécie de PRD no Art. 43, V. Sobre essa PRD, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Consiste na obrigação de permanecer, aos sábados e domingos, por 5 (cinco) horas diárias, em casa do albergado ou outro estabelecimento adequado.",
+      "Durante a permanência, o condenado estará sujeito a palestras ou atividades educativas.",
+      "A Limitação de Fim de Semana será aplicada em penas de prisão simples, mas não em condenações por reclusão ou detenção.",
+      "Os horários de permanência devem ser fixados pelo juiz, de modo a não prejudicar a jornada normal de trabalho ou estudo do condenado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Quanto às regras gerais de substituição da pena privativa de liberdade por restritivas de direitos, estabelecidas no Art. 44 do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Se a pena for igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma PRD.",
+      "Se superior a um ano, a pena privativa de liberdade pode ser substituída por duas PRD ou por uma PRD e multa.",
+      "A substituição é vedada ao reincidente em crime doloso, em qualquer hipótese.",
+      "A substituição não é cabível se a pena privativa de liberdade for superior a quatro anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A respeito da aplicação das Penas Restritivas de Direitos pelo juiz na sentença condenatória, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Na condenação por crime doloso, a prestação de serviço à comunidade só é aplicável se a pena privativa de liberdade for superior a seis meses.",
+      "A pena de interdição temporária de direitos deve ter duração idêntica à da pena privativa de liberdade substituída.",
+      "Em caso de Prestação Pecuniária, o valor total da prestação deverá ser quitado integralmente antes do início do cumprimento da pena.",
+      "A Prestação de Serviços à Comunidade deve ser cumprida em tarefas compatíveis com as aptidões do condenado e com sua jornada normal de trabalho."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a Prestação de Serviço à Comunidade ou a Entidades Públicas, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "A jornada de trabalho será de 8 (oito) horas semanais, no máximo.",
+      "O tempo de serviço não é computado na contagem da pena privativa de liberdade substituída.",
+      "Poderá ser exigido o cumprimento em finais de semana e feriados, desde que compatível com as aptidões do condenado.",
+      "O juiz pode determinar que a pena seja cumprida em menor tempo, não inferior à metade da pena privativa de liberdade substituída."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A Interdição Temporária de Direitos, em sua modalidade de proibição de exercício de profissão, atividade ou ofício, é aplicável nas hipóteses previstas no Art. 47, I, do CP. Assinale a alternativa **INCORRETA** sobre esta modalidade.",
+    "options": [
+      "A interdição deve ser aplicada quando houver compatibilidade entre o crime praticado e a profissão, atividade ou ofício.",
+      "A proibição de exercício abrange cargo, função ou atividade pública, mas não se estende a mandato eletivo.",
+      "A interdição de direitos aplica-se somente a atividades públicas, sendo vedada a proibição de exercício de profissão, atividade ou ofício privado.",
+      "A proibição de inscrever-se em concurso público também é uma interdição de direitos prevista no rol legal."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O juiz, ao sentenciar, deve observar a pena privativa de liberdade aplicada para determinar o regime e a forma de substituição por PRD. Assinale a alternativa **INCORRETA** que trata da obrigatoriedade da substituição, conforme o Art. 44 do CP.",
+    "options": [
+      "A substituição por PRD é um direito subjetivo do réu, não cabendo ao juiz recusá-la se preenchidos os requisitos objetivos e subjetivos.",
+      "Se a pena for de reclusão de 4 anos e o crime tiver sido cometido com grave ameaça, a substituição não é cabível.",
+      "No caso de crime culposo, a pena máxima de 4 anos deve ser observada para que haja substituição.",
+      "O juiz deve analisar a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado para verificar a suficiência da substituição."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "No que concerne à Prestação Pecuniária e à Perda de Bens e Valores, disciplinadas pelo Art. 45 do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "O desconto no salário do condenado para o pagamento da Prestação Pecuniária é limitado a um quarto da remuneração, independentemente de outras dívidas.",
+      "A Prestação Pecuniária pode ser destinada a entidade pública ou privada com destinação social, desde que indicada pelo juiz.",
+      "A Perda de Bens e Valores é limitada ao montante do prejuízo causado ou ao do proveito auferido pelo agente ou por terceiro, em consequência do crime.",
+      "A Prestação Pecuniária consiste no pagamento em dinheiro, enquanto a Perda de Bens e Valores consiste na transferência de patrimônio ao Fundo Penitenciário Nacional."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O Art. 46 do CP trata da Prestação de Serviço à Comunidade ou a Entidades Públicas. Assinale a alternativa **INCORRETA** que versa sobre o cumprimento dessa pena.",
+    "options": [
+      "O serviço será prestado gratuitamente e pelo tempo da condenação, à razão de uma hora de tarefa por dia de condenação.",
+      "O juiz pode determinar a execução da pena de forma concentrada, autorizando o cumprimento em tempo superior ao da pena privativa de liberdade substituída.",
+      "As tarefas a serem atribuídas ao condenado deverão ser compatíveis com suas aptidões e com sua jornada normal de trabalho.",
+      "A prestação de serviço à comunidade é obrigatória na condenação a pena privativa de liberdade superior a seis meses, desde que por crime doloso."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Dentre as Interdições Temporárias de Direitos previstas no Art. 47 do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "A proibição de frequentar determinados lugares é uma interdição que pode ser aplicada, conforme a peculiaridade do crime e as características pessoais do condenado.",
+      "A suspensão de autorização ou de habilitação para dirigir veículo é uma interdição, desde que o crime esteja relacionado ao uso do veículo.",
+      "A interdição de direitos tem prazo máximo de 2 (dois) anos, independentemente da duração da pena privativa de liberdade substituída.",
+      "A interdição que proíbe o exercício de profissão, atividade ou ofício é aplicada quando o crime está relacionado à função exercida."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 44, § 2º, do CP define como deve ocorrer a substituição da pena privativa de liberdade. Assinale a alternativa **INCORRETA** sobre as regras de cumulação das penas restritivas de direitos.",
+    "options": [
+      "Se a pena aplicada for de 1 (um) ano, a substituição pode ser por uma única Pena Restritiva de Direitos, como a Prestação de Serviços à Comunidade.",
+      "Se a pena for superior a 1 (um) ano, a substituição pode ser por duas Penas Restritivas de Direitos, como Prestação Pecuniária e Interdição de Direitos.",
+      "Se a pena for superior a 1 (um) ano, a substituição deve ser necessariamente por duas PRD, sendo vedada a substituição por uma PRD e multa.",
+      "No caso de crime culposo com pena de 2 (dois) anos, a substituição deve ser feita por, no mínimo, duas Penas Restritivas de Direitos ou uma PRD e multa."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a Prestação Pecuniária, prevista no Art. 45, § 1º, do CP, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Se houver vários condenados pelo mesmo crime, cada um responderá pelo pagamento da prestação pecuniária de forma solidária.",
+      "O montante fixado deve ser revertido à vítima ou a seus dependentes, se possível.",
+      "O valor da prestação pecuniária, se houver condenação a reparação do dano, deve ser deduzido do montante total da reparação civil.",
+      "A fixação do valor deve levar em conta a situação econômica do condenado."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A Perda de Bens e Valores possui limites claros no Art. 45, § 3º, do CP. Assinale a alternativa **INCORRETA**.",
+    "options": [
+      "A perda de bens e valores destina-se ao Fundo Penitenciário Nacional.",
+      "O valor da perda não pode ultrapassar o valor do prejuízo causado à vítima ou ao Estado, quando for o caso.",
+      "O juiz pode determinar a perda de bens do condenado, ainda que o valor ultrapasse o proveito auferido com o crime, como forma de punição exemplar.",
+      "A Perda de Bens e Valores transfere bens e valores do condenado, e não bens de terceiros, salvo se comprovado que o terceiro se beneficiou indevidamente."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a Prestação de Serviço à Comunidade ou a Entidades Públicas (Art. 46 do CP), no que se refere ao modo de cumprimento, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "A execução da pena de serviço à comunidade exige a prévia celebração de convênio entre a entidade e o juízo da execução penal.",
+      "As tarefas devem ser cumpridas de maneira a não prejudicar a jornada normal de trabalho ou estudo do condenado.",
+      "O juiz da execução deve escolher as tarefas levando em conta a maior dificuldade para o condenado, como forma de maior punição e repressão.",
+      "A pena é aplicada pelo tempo da condenação, mas sua execução pode ser reduzida até a metade, mediante esforço concentrado do condenado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 47, IV, do CP, prevê a Interdição de Direitos na modalidade de proibição de frequentar determinados lugares. Assinale a alternativa **INCORRETA** sobre essa interdição.",
+    "options": [
+      "A proibição de frequentar determinados lugares pode ser determinada, por exemplo, em casos de crimes sexuais (proibição de frequentar parques infantis).",
+      "Essa interdição deve ter como finalidade afastar o condenado de locais onde possa cometer novas infrações ou ter contato com outros criminosos.",
+      "A proibição deve ser genérica, abrangendo, por exemplo, a vedação de frequência a todos os bares e casas noturnas da cidade.",
+      "A duração dessa interdição será idêntica à da pena privativa de liberdade substituída, conforme a regra geral do Art. 47, parágrafo único."
+    ],
+    "correct": 2
+  }
+] ,
+
+
+
+
+DasPenasCodigoPenal:[
+{
+    "question": "Sobre a **Prestação Pecuniária**, prevista no Art. 45, § 1º, é correto afirmar que o valor pago será deduzido do montante de eventual reparação civil a que for condenado o infrator:",
+    "options": [
+      "Sempre que houver condenação em danos morais, mas não em danos materiais.",
+      "Se coincidentes os beneficiários (vítima ou seus dependentes).",
+      "Independentemente de quem seja o beneficiário, pois a natureza jurídica é sancionatória.",
+      "Apenas se o valor da prestação pecuniária for superior a 100 salários mínimos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 45, § 1º, estabelece limites para a fixação da importância da **Prestação Pecuniária**. Quais são esses limites, em termos de salários mínimos?",
+    "options": [
+      "Não inferior a 1 (um) nem superior a 360 (trezentos e sessenta) salários mínimos.",
+      "Não inferior a 1/30 (um trinta avos) nem superior a 50 (cinquenta) salários mínimos.",
+      "Não inferior a 10 (dez) nem superior a 100 (cem) salários mínimos.",
+      "Não há limite máximo fixado em lei, dependendo apenas da capacidade econômica do réu."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "No que tange à pena de **Perda de Bens e Valores** (Art. 45, § 3º), os valores arrecadados serão destinados a quem? E qual é o teto máximo dessa perda?",
+    "options": [
+      "Destinados à vítima; o teto é o valor total do patrimônio lícito do condenado.",
+      "Destinados ao Fundo Penitenciário Nacional; o teto é o montante do prejuízo causado ou do provento obtido pelo agente, o que for maior.",
+      "Destinados a entidades assistenciais; o teto é o valor da fiança arbitrada.",
+      "Destinados ao Tesouro Nacional; o teto é fixado em 360 dias-multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A **Prestação de Serviços à Comunidade ou a Entidades Públicas** (Art. 46) possui um requisito objetivo temporal para sua aplicação. Ela é aplicável somente às condenações privativas de liberdade:",
+    "options": [
+      "Iguais ou inferiores a 6 (seis) meses.",
+      "Superiores a 6 (seis) meses.",
+      "Superiores a 1 (um) ano.",
+      "Qualquer que seja a pena aplicada, desde que em regime aberto."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 46, § 4º, traz uma faculdade ao condenado quanto ao tempo de cumprimento da prestação de serviços à comunidade. É correto afirmar que:",
+    "options": [
+      "Se a pena substituída for superior a 1 (um) ano, é facultado ao condenado cumprir a pena substitutiva em menor tempo, nunca inferior à metade da pena privativa de liberdade fixada.",
+      "O condenado pode sempre optar por cumprir a pena em metade do tempo, desde que dobre a carga horária diária, independentemente do total da pena.",
+      "Se a pena for inferior a 1 (um) ano, o condenado pode cumpri-la em até 30 dias, mediante trabalho intensivo.",
+      "A antecipação do cumprimento da pena depende exclusivamente de autorização do diretor da entidade assistencial, sem limites mínimos de tempo."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Sobre a **Interdição Temporária de Direitos** (Art. 47), a proibição do exercício de profissão, atividade ou ofício (Inciso I) depende de qual circunstância específica?",
+    "options": [
+      "Que o condenado seja reincidente em crime doloso.",
+      "Que a profissão dependa de habilitação especial, de licença ou autorização do poder público.",
+      "Que o crime cometido seja hediondo ou equiparado.",
+      "Que o juiz determine a cassação permanente do diploma profissional."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Analise as seguintes modalidades de Interdição Temporária de Direitos previstas no Art. 47. Qual das alternativas **NÃO** corresponde a uma modalidade prevista expressamente neste artigo?",
+    "options": [
+      "Proibição de inscrever-se em concurso, avaliação ou exame públicos.",
+      "Suspensão de autorização ou de habilitação para dirigir veículos.",
+      "Proibição de frequentar determinados lugares.",
+      "Proibição do uso de redes sociais e internet."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Conforme o Art. 46, § 3º, como é atribuída a carga horária das tarefas na prestação de serviços à comunidade?",
+    "options": [
+      "À razão de 1 (uma) hora de tarefa por dia de condenação, fixadas de modo a não prejudicar a jornada normal de trabalho.",
+      "À razão de 8 (oito) horas semanais, a serem cumpridas exclusivamente aos sábados.",
+      "À razão de 2 (duas) horas de tarefa por dia de condenação, podendo prejudicar a jornada de trabalho se necessário.",
+      "Conforme a disponibilidade da entidade beneficiada, sem vinculação direta com os dias de condenação."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A **Limitação de Fim de Semana** (Art. 48) tem um viés educativo. Durante as 5 horas diárias de permanência aos sábados e domingos, o que poderá ser ministrado ao condenado?",
+    "options": [
+      "Apenas trabalhos manuais forçados para reparação do dano.",
+      "Cursos e palestras ou atribuição de atividades educativas.",
+      "Sessões de terapia psicológica obrigatória.",
+      "Atividades esportivas de alta intensidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Considerando o Art. 45, § 2º, se houver aceitação do beneficiário, a prestação pecuniária pode ser substituída por:",
+    "options": [
+      "Prestação de serviços à comunidade em dobro.",
+      "Prestação de outra natureza (bens ou serviços).",
+      "Perda de bens em favor da União.",
+      "Pagamento de cesta básica em valor inferior ao estipulado."
+    ],
+    "correct": 1
+  },
+{
+    "question": "De acordo com o Art. 32 do Código Penal, as penas são divididas em três categorias principais. Quais são elas?",
+    "options": [
+      "Privativas de liberdade, restritivas de direitos e multa.",
+      "Privativas de liberdade, restritivas de movimento e pecuniárias.",
+      "Reclusão, detenção e prisão simples.",
+      "Privativas de liberdade, corporais e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Segundo o Art. 33 do Código Penal, qual a distinção principal entre a pena de **reclusão** e a de **detenção** quanto ao regime inicial de cumprimento?",
+    "options": [
+      "A reclusão deve ser cumprida em regime fechado, enquanto a detenção é cumprida apenas em regime aberto.",
+      "A reclusão deve ser cumprida em regime fechado, semiaberto ou aberto; a detenção, em regime semiaberto ou aberto, salvo necessidade de transferência a regime fechado.",
+      "Ambas podem iniciar em regime fechado, mas apenas a detenção permite progressão para o aberto.",
+      "A detenção inicia-se sempre no regime aberto, enquanto a reclusão inicia-se sempre no semiaberto."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Conforme o Art. 33, § 2º, alínea 'a', o condenado a pena privativa de liberdade superior a **8 (oito) anos** deverá começar a cumpri-la em qual regime?",
+    "options": [
+      "Regime semiaberto.",
+      "Regime disciplinar diferenciado.",
+      "Regime fechado.",
+      "Regime aberto, se for réu primário."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre o **Regime Aberto**, descrito no Art. 36 do Código Penal, é correto afirmar que:",
+    "options": [
+      "Baseia-se na autodisciplina e senso de responsabilidade do condenado, que deverá trabalhar, frequentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o repouso noturno e dias de folga.",
+      "O condenado fica sujeito a trabalho em comum durante o período diurno, em colônia agrícola ou industrial.",
+      "É cumprido em estabelecimento de segurança máxima ou média.",
+      "Não admite o trabalho do condenado fora do estabelecimento penal."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O Art. 38 do Código Penal dispõe sobre os direitos do preso. O que o artigo estabelece explicitamente?",
+    "options": [
+      "O preso perde todos os direitos políticos e civis durante o cumprimento da pena.",
+      "O preso conserva todos os direitos não atingidos pela perda da liberdade, impondo-se a todas as autoridades o respeito à sua integridade física e moral.",
+      "O preso mantém apenas o direito à integridade física, perdendo os direitos patrimoniais.",
+      "O preso conserva seus direitos políticos, sendo obrigado a votar nas eleições mesmo em regime fechado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O instituto da **Detração**, previsto no Art. 42 do Código Penal, consiste em:",
+    "options": [
+      "Aumentar a pena final com base no comportamento carcerário inadequado.",
+      "Descontar, na pena privativa de liberdade e na medida de segurança, o tempo de prisão provisória, de prisão administrativa e de internação.",
+      "Substituir a pena privativa de liberdade por restritiva de direitos.",
+      "Suspender a execução da pena de multa quando o réu for insolvente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual das alternativas abaixo **NÃO** é uma pena restritiva de direitos prevista no Art. 43 do Código Penal?",
+    "options": [
+      "Prestação de serviços à comunidade ou a entidades públicas.",
+      "Perda de bens e valores.",
+      "Limitação de fim de semana.",
+      "Banimento do território nacional."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Para a substituição da pena privativa de liberdade por restritiva de direitos em crimes dolosos, o Art. 44, I, exige que a pena aplicada não seja superior a:",
+    "options": [
+      "2 (dois) anos.",
+      "4 (quatro) anos.",
+      "8 (oito) anos.",
+      "1 (um) ano."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ainda sobre a substituição da pena (Art. 44), é requisito cumulativo que:",
+    "options": [
+      "O crime não tenha sido cometido com violência ou grave ameaça à pessoa.",
+      "O réu seja reincidente específico em crime doloso.",
+      "O réu tenha reparado o dano antes do julgamento, independentemente da violência.",
+      "A pena seja superior a 4 anos, desde que o réu seja primário."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A prestação de serviços à comunidade (Art. 46) é aplicável apenas às condenações privativas de liberdade superiores a:",
+    "options": [
+      "1 (um) mês.",
+      "3 (três) meses.",
+      "6 (seis) meses.",
+      "1 (um) ano."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Como são calculadas as tarefas na prestação de serviços à comunidade segundo o Art. 46, § 3º?",
+    "options": [
+      "Uma hora de tarefa por dia de condenação.",
+      "Duas horas de tarefa por dia de condenação.",
+      "Oito horas semanais, independentemente da pena.",
+      "Uma hora de tarefa para cada semana de condenação."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A **Limitação de Fim de Semana** (Art. 48) consiste na obrigação de permanecer, aos sábados e domingos, por 5 horas diárias, em:",
+    "options": [
+      "Delegacia de polícia mais próxima da residência.",
+      "Casa de Albergado ou outro estabelecimento adequado.",
+      "Sua própria residência (prisão domiciliar).",
+      "Instituição de caridade para trabalho forçado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Sobre a pena de **Multa** (Art. 49), o Código Penal estabelece que esta consiste no pagamento ao fundo penitenciário de uma quantia fixada em dias-multa. Quais são os limites mínimo e máximo da quantidade de dias-multa?",
+    "options": [
+      "Mínimo de 5 e máximo de 100 dias-multa.",
+      "Mínimo de 10 e máximo de 360 dias-multa.",
+      "Mínimo de 30 e máximo de 365 dias-multa.",
+      "Mínimo de 1 e máximo de 30 dias-multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual é o valor unitário mínimo e máximo do dia-multa, conforme o Art. 49, § 1º?",
+    "options": [
+      "Mínimo de 1/30 do salário mínimo e máximo de 5 vezes o salário mínimo.",
+      "Mínimo de 1/10 do salário mínimo e máximo de 10 vezes o salário mínimo.",
+      "Mínimo de 1 salário mínimo e máximo de 100 salários mínimos.",
+      "Mínimo de 1/30 do salário mínimo e máximo de 3 vezes o salário mínimo."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "De acordo com o Art. 51 do Código Penal, o que ocorre se a multa não for paga pelo condenado?",
+    "options": [
+      "Será convertida em pena privativa de liberdade.",
+      "Será considerada dívida de valor, aplicando-se as normas da legislação relativa à dívida ativa da Fazenda Pública.",
+      "Será perdoada se o réu comprovar insolvência.",
+      "Será convertida em prestação de serviços à comunidade."
+    ],
+    "correct": 1
+  }
+
+
+],
+
+
+
  RouboCodigoPenal:[
   {
     "question": "Qual é a pena prevista no *caput* do Art. 157 do Código Penal para o crime de **Roubo Simples**?",
