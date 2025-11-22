@@ -1,6 +1,416 @@
 // Banco de questões
 const questions = {  
 
+
+"DIREITOS_HUMANOS": [
+    {
+      "question": "De acordo com a Declaração Universal dos Direitos Humanos, marque a alternativa CORRETA:",
+      "options": [
+        "Todos os seres humanos nascem livres e iguais. São dotados de razão e emoção e devem pensar em relação uns aos outros com espírito de paternidade.",
+        "Homens e mulheres, sem qualquer restrição de idade, raça, nacionalidade ou religião, têm o direito de contrair matrimônio e fundar uma família.",
+        "Todo ser humano tem direito ao lazer e ao repouso semanal aos domingos e feriados, inclusive à limitação semanal de 44 horas de trabalho e férias anuais remuneradas.",
+        "Todo ser humano tem deveres para com a comunidade, em que o livre e pleno desenvolvimento de sua personalidade é possível."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Marque a alternativa que contém uma ou mais características que NÃO correspondem aos Direitos Fundamentais:",
+      "options": [
+        "Historicidade, inalienabilidade, imprescritibilidade, inerência, universalidade, indivisibilidade.",
+        "Historicidade, inalienabilidade, universalidade, indivisibilidade, interdependência.",
+        "Inalienabilidade, imprescritibilidade, universalidade, indivisibilidade, interdependência.",
+        "Imprescritibilidade, renunciabilidade, universalidade, indivisibilidade, interdependência."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Marque a alternativa que todos os direitos constam na Declaração Universal dos Direitos Humanos:",
+      "options": [
+        "direito a ser respeitado perante a lei como pessoa, direito de constituir família direto a nacionalidade, direto a eutanásia.",
+        "garantia de emprego digno, salário justo, propriedade, voto censitário.",
+        "direto a segurança pessoal, lazer, a uma jornada de trabalho justa.",
+        "a vida, liberdade, igualdade, 1/3 de salário quando for gozar de férias."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Acerca dos direitos sociais, marque a alternativa CORRETA:",
+      "options": [
+        "Assistência aos desamparados.",
+        "Previdência privada.",
+        "Voto.",
+        "Proteção a paternidade."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "São considerados direitos sociais, conforme previsto na Constituição Federal de 1988:",
+      "options": [
+        "A licença à gestante, salário família, casamento e educação.",
+        "A segurança, a previdência social, a proteção à maternidade e ao casamento.",
+        "A assistência aos desempregados, o trabalho, sufrágio universal e a saúde.",
+        "A educação, a saúde, o trabalho e o lazer."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "A instrução será orientada no sentido do pleno desenvolvimento da personalidade humana e do fortalecimento do respeito pelos direitos do homem e pelas liberdades fundamentais. Os pais têm prioridade de direito na escolha do gênero de instrução que será ministrada a seus filhos. Assim, é CORRETO afirmar que:",
+      "options": [
+        "O ensino fundamental será acessível a todos, baseado no mérito.",
+        "A instrução superior será gratuita e acessível a todos.",
+        "A instrução técnica e profissional será gratuita e obrigatória.",
+        "A instrução elementar e fundamental será gratuita."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Conforme a Declaração Universal dos Direitos Humanos, o reconhecimento da dignidade inerente a todos os membros da família humana e seus direitos iguais e inalienáveis é o fundamento da:",
+      "options": [
+        "fraternidade, justiça e paz no mundo.",
+        "liberdade, justiça e paz no mundo.",
+        "fraternidade, humanidade e paz no mundo.",
+        "liberdade, humanidade e paz no mundo."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "A expressão da atividade intelectual, artística, científica e de comunicação é:",
+      "options": [
+        "Passível de censura e livre de licença.",
+        "Livre, independentemente de censura ou licença.",
+        "Livre, independente de censura mas dependente de licença.",
+        "Passível tanto de censura quanto de licença."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Conforme direitos e garantias fundamentais estabelecidas na Constituição Federal, é CORRETO afirmar que:",
+      "options": [
+        "haverá prisão civil por dívida, exceto a do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia e a do depositário infiel.",
+        "é plena a liberdade de associação para ilícitos, vedada a de caráter paramilitar.",
+        "conceder-se-á “habeas-corpus” sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+        "conceder-se-á “habeas-data” sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "A lei penal retroagirá quando beneficiar:",
+      "options": [
+        "a vítima.",
+        "o réu.",
+        "a vítima e o réu.",
+        "o Ministério Público."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "A Declaração Universal dos Direitos Humanos prevê que:",
+      "options": [
+        "A pessoa poderá ser arbitrariamente privada de sua nacionalidade assim como poderá ser impedida arbitrariamente de mudar de nacionalidade.",
+        "Toda pessoa tem direito à liberdade de locomoção e residência independente das fronteiras de seu Estado, podendo inclusive entrar e sair de qualquer país sem ser molestado porque possui o direito de ir e vir.",
+        "Toda pessoa tem direito a nacionalidade que melhor lhe convier, possuindo este direito de livre escolha.",
+        "Toda pessoa tem o direito de deixar qualquer país, inclusive o próprio, e a este regressar."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Em relação aos Direitos Humanos, marque V para as alternativas que forem verdadeiras e F para as falsas. Após, assinale a alternativa que apresenta a sequência correta: 1. ( ) Homens e mulheres são iguais em direitos e obrigações. 2. ( ) A prática do racismo constitui crime inafiançável e imprescritível. 3. ( ) É livre a manifestação do pensamento, mesmo no anonimato. 4. ( ) É assegurado aos presos o respeito a integridade física e moral.",
+      "options": [
+        "F, V, F, V.",
+        "V, F, V, F.",
+        "V, V, F, V.",
+        "F, F, V, F."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Marque a alternativa INCORRETA:",
+      "options": [
+        "Ninguém é obrigado a fazer alguma coisa senão em virtude de lei.",
+        "Todos podem reunir-se pacificamente em locais abertos ao público, mediante autorização.",
+        "Homens e mulheres são iguais em direitos e obrigações, nos termos da Constituição Federal do Brasil.",
+        "A manifestação de pensamento é livre."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Conforme previsto na Declaração Universal dos Direitos Humanos, o direito de asilo em outros países:",
+      "options": [
+        "todo o homem, vítima de perseguição, tem o direito de procurar e de gozar asilo em outros países.",
+        "pode ser invocado em casos de perseguição legitimamente motivada por crimes de direito comum.",
+        "todo o homem, vítima de perseguição, tem o direito de procurar e de gozar asilo em outros países, desde que possua passaporte que garanta a ida.",
+        "é assegurado a todo homem, vítima de perseguição legítima."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Conforme previsto na Declaração Universal dos Direitos Humanos, todas as pessoas têm direito a:",
+      "options": [
+        "vida, a propriedade e a integridade física.",
+        "vida, a liberdade e a segurança pessoal.",
+        "liberdade, a igualdade e a fraternidade.",
+        "vida, a propriedade, a liberdade e igualdade."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "A Declaração Universal dos Direitos Humanos foi promulgada:",
+      "options": [
+        "1948.",
+        "1958.",
+        "1848.",
+        "1988."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "De acordo com a Declaração Universal dos Direitos Humanos marque a única alternativa INCORRETA:",
+      "options": [
+        "O lazer é assegurado na Declaração Universal dos Direitos Humanos.",
+        "Toda pessoa tem direito à propriedade, só ou em sociedade com outros.",
+        "Toda pessoa tem direito à instrução que será gratuita pelo menos nos graus elementares e fundamentais.",
+        "A maternidade e a infância geram direito a cuidados e assistências especiais, exceção feita para crianças nascidas fora do matrimônio, que não gozarão de idêntica proteção social."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Conforme Declaração Universal dos Direitos Humanos, é CORRETO afirmar que:",
+      "options": [
+        "Toda pessoa tem direito a repouso e a lazer, inclusive a limitação razoável das horas de trabalho e férias anuais não remuneradas.",
+        "Ninguém será submetido à tortura, salvo nos países onde a legislação local prever tal prática.",
+        "Toda pessoa tem direito à vida, à liberdade e à segurança pessoal.",
+        "Toda pessoa tem direito à vida, à liberdade e à segurança pública."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Conforme Declaração Universal dos Direitos Humanos, preencha a lacuna a seguir. Considerando que o reconhecimento da dignidade inerente a todos os membros da família humana e dos seus direitos iguais e inalienáveis constitui o _______ da liberdade, da justiça e da paz no mundo:",
+      "options": [
+        "Princípio.",
+        "Fundamento.",
+        "Direito.",
+        "Dever."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "O Artigo 18 da Declaração dos Direitos Humanos garante a todo indivíduo a liberdade de pensamento, consciência e religião, exceto:",
+      "options": [
+        "liberdade de manifestar essa religião pelo culto em público ou em particular.",
+        "liberdade de mudar de religião ou crença.",
+        "liberdade de mudar de religião caso seja permitido em estatuto.",
+        "liberdade de mudar de religião caso seja permitido em lei."
+      ],
+      "correct": 2
+    }
+],
+
+
+
+
+"tortura": [
+    {
+      "question": "Conforme previsto na Lei Federal nº 9.455/1997, NÃO é considerada uma causa de aumento de pena para o crime de tortura, se o cometimento do delito for:",
+      "options": [
+        "Contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos de idade.",
+        "Por agente público.",
+        "Contra pessoa presa ou sujeita a medida de segurança, impondo-lhe sofrimento físico ou mental, por intermédio da prática de ato não previsto em lei ou não resultante de medida legal.",
+        "Mediante sequestro."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nos termos da Lei nº 9.455, que define os crimes de tortura, aquele que for condenado por crime de tortura, iniciará o cumprimento da pena em regime fechado em algumas hipóteses, marque a alternativa que NÃO corresponde a uma das hipóteses:",
+      "options": [
+        "Condenado por constranger alguém com emprego de violência ou grave ameaça com o fim de obter informação ou confissão de terceira pessoa.",
+        "O condenado por omissão, quando tinha o dever de evitar ou apurar condutas criminosas.",
+        "Condenado por constranger alguém com emprego de violência ou grave ameaça para provocar ação de natureza criminosa.",
+        "O condenado por constranger alguém com emprego de violência ou grave ameaça em razão de discriminação racial ou religiosa."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sobre o crime de tortura previsto na Lei nº 9.455/97, assinale a afirmativa que está correta.",
+      "options": [
+        "Aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira.",
+        "A condenação acarretará a perda do cargo, função ou emprego público e a interdição definitiva para seu exercício.",
+        "O crime de tortura é afiançável e insuscetível de indulto",
+        "Aumenta-se a pena de um sexto até um terço, se o crime é cometido contra agente público."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "De acordo com a Lei 9.455 de 07 de abril de 1997 que define os crimes de tortura, é correto afirmar que:",
+      "options": [
+        "Será afiançável quando da prisão em situação de flagrante.",
+        "É cometido apenas por agentes de segurança pública.",
+        "Caracteriza o crime de tortura somente o sofrimento físico.",
+        "O constrangimento de alguém com o emprego de grave ameaça, causando-lhe sofrimento mental, em razão e discriminação religiosa constitui crime de tortura."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Em relação ao crime de tortura, é correto afirmar que:",
+      "options": [
+        "o crime praticado contra prima ou primo é causa especial de aumento de pena.",
+        "a tortura-prova, a tortura-meio e a tortura-discriminatória são algumas das formas que caracterizam o referido crime.",
+        "a forma omissiva não se configura como tortura.",
+        "a condenação a uma pena de 04 (quatro) anos de reclusão pelo crime de tortura acarretará, se fundamentado na sentença, a perda do cargo, função ou emprego público e a interdição para o exercício de um novo cargo pelo mesmo período da pena privativa de liberdade aplicada."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "De acordo com a Lei nº 9455, que define os crimes de tortura, marque a alternativa CORRETA.",
+      "options": [
+        "A condenação ao crime de tortura acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.",
+        "O crime de tortura é imprescritível e insuscetível de graça ou anistia.",
+        "Aumenta-se a pena para o crime de tortura de um sexto até um terço se o crime é cometido contra o agente público.",
+        "O condenado por crime de tortura iniciará o cumprimento da pena sempre em regime semiaberto."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Em relação ao previsto na Lei n. 9.455/97, analise as assertivas abaixo: I. O crime de tortura é imprescritível, não podendo ser arbitrado fiança e insuscetível de graça ou anistia. II. A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada. III. Incorre no crime de tortura aquele que se omite em face das condutas previstas na lei, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos. IV. Não constitui crime de tortura submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico, como forma de aplicar castigo de caráter preventivo. São INCORRETAS as assertivas:",
+      "options": [
+        "I, III e IV, apenas.",
+        "I e III, apenas.",
+        "I e IV, apenas.",
+        "Todas estão incorretas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "São causas de aumento de pena nos crimes de tortura:",
+      "options": [
+        "Crime cometido contra portador de deficiência, adolescente e maior de 50 anos.",
+        "Crime cometido contra a gestante; cometido por particular e contra adolescente.",
+        "Crime cometido contra maior de 55 anos; contra criança e contra agente público.",
+        "Crime cometido mediante sequestro; contra portador de deficiência e cometido por agente público."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Conforme a lei Federal nº 9.455/1997, que define os crimes de tortura:",
+      "options": [
+        "A pena prevista para o crime de tortura é aumentada de um sexto até um terço se houver resultado morte.",
+        "Aplica-se a lei dos crimes de tortura mesmo que o delito tenha sido praticado fora do Brasil, desde que a vítima seja brasileira.",
+        "Se da conduta resulta lesão de natureza grave, a pena será de reclusão, de dois a oito anos; se resulta em lesão de natureza gravíssima, a pena será de reclusão de quatro a dez anos.",
+        "O crime de tortura é imprescritível, inafiançável e insuscetível de graça ou anistia."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Com relação às assertivas abaixo, assinale a resposta CORRETA em relação ao crime de tortura:",
+      "options": [
+        "Configura-se o crime de tortura quando o agente provoca, por violência ou grave ameaça, sofrimento físico ou mental, mesmo se inexistentes circunstâncias elementares dos tipos previstos na lei especial.",
+        "O crime de tortura não se consuma com o sofrimento físico ou mental provocado na vítima.",
+        "O elemento subjetivo do crime de tortura, em regra, é a culpa.",
+        "A tortura que ocorre na hipótese legal “para provocar ação ou omissão de natureza criminosa” estará consumada, independente da ocorrência do crime pretendido pelo agente."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "No tocante à Lei Federal nº 9.455/97, que define os crimes de tortura, assinale a alternativa CORRETA:",
+      "options": [
+        "O condenado por crime de tortura sempre iniciará o cumprimento da pena em regime fechado.",
+        "A pena será aplicada em dobro se o crime for cometido por funcionário público.",
+        "A condenação por crime de tortura nem sempre acarretará a perda do cargo, função ou emprego público.",
+        "Se o crime de tortura é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos, a pena é aumentada de um sexto até um terço."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Nos termos da legislação que trata acerca do crime de tortura, marque a alternativa CORRETA:",
+      "options": [
+        "O crime de tortura é suscetível de anistia.",
+        "O crime de tortura é suscetível de graça.",
+        "O condenado pelo crime de tortura iniciará o cumprimento da pena no regime semiaberto, considerando que o crime em questão é afiançável.",
+        "O policial penal que for condenado por crime nela previsto perderá, automaticamente, o cargo público."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Em relação a legislação que define os crimes de tortura, marque a alternativa CORRETA.",
+      "options": [
+        "Constitui crime de tortura, constranger alguém, mediante violência ou grave ameaça, ou depois de lhe haver reduzido, por qualquer meio, a capacidade de resistência, a não fazer o que a lei permite, ou a fazer ou a tolerar que se faça, o que a lei não manda.",
+        "Constitui crime de tortura, ameaçar alguém, por palavras, escrito ou gesto.",
+        "Constitui crime de tortura, matar alguém com o emprego de fogo.",
+        "Constitui crime de tortura, constranger alguém com emprego de violência ou grave ameaça, causando-lhe intenso sofrimento físico ou mental."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Sobre o crime de tortura, marque a alternativa CORRETA.",
+      "options": [
+        "Aumenta-se a pena pelo crime de tortura de um terço até a metade se o crime for cometido por agente público.",
+        "O condenado por crime de tortura, em regra, iniciará o cumprimento da pena em regime fechado.",
+        "A condenação pelo crime de tortura não acarretará, de imediato, a perda do cargo, função ou emprego público.",
+        "O crime de tortura é afiançável, porém insuscetível de graça ou anistia."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Em relação ao crime de tortura é CORRETO afirmar:",
+      "options": [
+        "comete o crime de tortura quem constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico, mental e psicosocial.",
+        "a pena do crime de tortura será aumentada em até um terço se o autor for policial independente da condição da vítima.",
+        "o condenado pelo crime de tortura poderá iniciar o cumprimento da pena em regime aberto.",
+        "o crime de tortura é inafiançável e insuscetível de graça ou anistia."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "A condenação de um policial penal pelo crime de tortura, acarretará:",
+      "options": [
+        "somente a perda de seu cargo.",
+        "somente a interdição para o exercício de cargo público.",
+        "apenas a pena privativa de liberdade.",
+        "perda de seu cargo e a interdição para o seu exercício pelo dobro do prazo da pena."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Sobre o crime de tortura é CORRETO afirmar que:",
+      "options": [
+        "é afiançável e insuscetível de graça ou anistia.",
+        "é inafiançável e suscetível de graça ou anistia.",
+        "é afiançável e suscetível de graça ou anistia.",
+        "é inafiançável e insuscetível de graça ou anistia."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Em relação ao crime de tortura, quando o crime for cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos a pena é aumentada:",
+      "options": [
+        "de um terço até a metade.",
+        "apenas a metade.",
+        "o dobro.",
+        "de um sexto até um terço."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Marque a alternativa INCORRETA quanto às circunstâncias de aumento da pena nos casos de crime de tortura:",
+      "options": [
+        "Crime for cometido por agente público.",
+        "Crime for cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos.",
+        "O crime for cometido contra agente público.",
+        "Crime for cometido mediante sequestro."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "De acordo com a Lei nº 9.455/97, é CORRETA a afirmativa:",
+      "options": [
+        "O disposto na Lei nº 9.455/97 se aplica ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira.",
+        "A condenação pelo crime de tortura acarretará a perda do cargo, função, comissão ou emprego público e a interdição para seu exercício pelo mesmo prazo da pena aplicada.",
+        "A pena a ser aplicada ao agente é a mesma se resultar lesão corporal de natureza grave ou gravíssima, ou morte, hipóteses estas em que o agente iniciará o cumprimento da pena em regime fechado.",
+        "Na mesma pena prevista para o crime de tortura incorre quem submete pessoa presa ou sujeita a medida de segurança a sofrimento físico ou mental, por intermédio da prática de ato previsto em lei ou resultante de medida legal."
+      ],
+      "correct": 0
+    }
+  ],
+
 EstadoDeDefesaESitioConstituiçao: [
   {
     "question": "Qual é um dos pressupostos constitucionais para a decretação do **Estado de Defesa** pelo Presidente da República, conforme o Art. 136 da Constituição Federal?",
@@ -360,6 +770,215 @@ PenasRestritivasDeDireitos:[
     "correct": 2
   }
 ] ,
+
+
+
+"DireitoPenal":[
+	
+	{
+      "question": "De acordo com o Código Penal Brasileiro, o erro sobre elemento constitutivo do tipo legal de crime EXCLUI:",
+      "options": [
+        "a culpabilidade do agente.",
+        "Dolo, entretanto permite a punição por crime culposo, desde que previsto em lei.",
+        "Culpa, entretanto permite a punição por crime doloso, desde que previsto em lei.",
+        "Se inevitável, isenta a pena; se evitável, poderá diminuí-la de um sexto a um terço."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "O Código Penal define que constitui ao policial penal/agente público a atribuição de evitar o ingresso de aparelhos celulares, rádios ou similares nas unidades prisionais. Acerca do tema, é possível AFIRMAR que:",
+      "options": [
+        "O policial penal que facilitar a entrada de aparelho celular na unidade prisional responderá somente a processo disciplinar, enquanto o detento que estiver em posse de tal aparelho responderá somente no âmbito criminal.",
+        "Responde por peculato o policial penal que facilitar a entrada de aparelho celular na unidade prisional.",
+        "O Código Penal prevê como crime a conduta do diretor da penitenciária e/ou agente público que deixe entrar celulares, rádios ou similares nas unidades prisionais.",
+        "O detento que possuir em sua posse aparelho celular está cometendo uma falta disciplinar média."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Marque a alternativa que define a conduta do agente que se encontra em estado de necessidade:",
+      "options": [
+        "Repele injusta agressão, atual ou iminente, a direito seu ou de outrem, usando moderadamente dos meios necessários.",
+        "Comete o fato estando em estrita obediência à ordem não manifestamente ilegal vinda de superior hierárquico.",
+        "Pratica o fato para salvar de perigo iminente, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se.",
+        "Pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "José Encrenca estava caminhando tranquilamente pela rua quando se depara com João Tufão, seu desafeto de longa data. Assim que João Tufão viu seu desafeto, ordenou que seu feroz e adestrado cão atacasse José Encrenca. Considerando o Código Penal, assinale a alternativa CORRETA:",
+      "options": [
+        "José Encrenca caso defenda-se do ataque e venha a matar o cão, agirá em estado de necessidade, excluindo assim, a ilicitude do fato.",
+        "José Encrenca caso defenda-se do ataque e venha a matar o cão, agirá em legítima defesa, excluindo assim, a ilicitude do fato.",
+        "José Encrenca caso defenda-se do ataque e venha a matar o cão, terá praticado uma conduta atípica.",
+        "José Encrenca caso defenda-se do ataque e venha a matar o cão, será condenado por maus tratos."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Conforme o Código Penal, assinale a alternativa que NÃO trata acerca de um excludente de ilicitude:",
+      "options": [
+        "Legítima Defesa.",
+        "Estado de Necessidade.",
+        "Estrito Cumprimento do Dever Legal.",
+        "Exercício Irregular de Direito."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Acerca dos crimes contra a administração pública, assinale a alternativa INCORRETA:",
+      "options": [
+        "Excesso de exação consiste em exigir tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, empregar na cobrança meio vexatório ou gravoso, que a lei não autoriza.",
+        "Prevaricação é patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo -se da qualidade de funcionário.",
+        "Concussão é exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida.",
+        "Peculato consiste em o funcionário público apropriar -se de dinheiro, valor ou qualquer outro bem móvel, de que tem a posse, em razão do cargo."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Considerando o Código Penal, é CORRETO afirmar que:",
+      "options": [
+        "O crime de homicídio será justificado caso tenha sido praticado diante de situação onde houve relevante valor moral ou social.",
+        "Sempre que ocorrer a prática do crime de homicídio doloso contra pessoa do sexo feminino será designado como feminicídio.",
+        "Considera-se qualificadora do crime de homicídio quando esse é cometido contra membro das forças de segurança pública, em razão dessa condição.",
+        "O homicídio doloso que tenha por vítima criança ou adolescente é designado como infanticídio."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Acerca dos crimes contra a administração pública, assinale a alternativa que define o crime de tráfico de influência:",
+      "options": [
+        "Solicitar, exigir, cobrar ou obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função.",
+        "Iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria.",
+        "Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício.",
+        "Solicitar ou receber dinheiro ou qualquer outra utilidade, a pretexto de influir em juiz, jurado, órgão do Ministério Público, funcionário de justiça, perito, tradutor, intérprete ou testemunha."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Acerca dos crimes contra a administração pública, assinale a alternativa que define o crime de condescendência criminosa:",
+      "options": [
+        "Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem.",
+        "Deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente.",
+        "Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida.",
+        "Facilitar, com infração de dever funcional, a prática de contrabando ou descaminho."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Em relação ao crime de lesão corporal, previsto no Código Penal, assinale a alternativa CORRETA:",
+      "options": [
+        "É considerada lesão corporal de natureza gravíssima se resulta debilidade permanente de membro, sentido ou função.",
+        "É considerada lesão corporal de natureza grave se resulta deformidade permanente.",
+        "Se a lesão for praticada contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição, a pena é aumentada de um a dois terços.",
+        "Não se admite a modalidade culposa para o crime de lesão corporal."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Assinale a alternativa que corresponde ao tipo de lesão quando se tratar de uma lesão que resulte em enfermidade incurável:",
+      "options": [
+        "Lesão corporal média.",
+        "Lesão corporal de natureza grave.",
+        "Lesão corporal de natureza gravíssima.",
+        "Lesão corporal leve."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Assinale a alternativa que NÃO se refere a um tipo penal praticado por particular contra a Administração Pública.",
+      "options": [
+        "Concussão.",
+        "Resistência.",
+        "Tráfico de Influência.",
+        "Desobediência."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Assinale a alternativa que NÃO se refere a um tipo penal praticado por funcionário público contra a Administração Pública:",
+      "options": [
+        "Peculato.",
+        "Vantagem indevida.",
+        "Rufianismo.",
+        "Corrupção passiva."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Conforme previsto no Código Penal, configura-se o crime de peculato quando o agente público:",
+      "options": [
+        "Solicita vantagem indevida, prometendo influenciar ato administrativo.",
+        "Se apropria de qualquer bem público ou privado em virtude de interesse pessoal.",
+        "Subtrai bem móvel alheio com o uso de arma, atuando como agente público.",
+        "Se apropria de valor ou bem móvel, público ou particular, de que tem a posse em razão do cargo."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Conforme previsto no Código Penal, configura-se o crime de importunação sexual o ato de:",
+      "options": [
+        "Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso.",
+        "Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.",
+        "Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima.",
+        "Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "As penas previstas no Código Penal são:",
+      "options": [
+        "privativas de direito, restritivas de liberdade e multa.",
+        "privativas de liberdade, restritivas de direito e multa.",
+        "privativas de liberdade, restritivas de direito e prisão.",
+        "privativas de liberdade, restritivas de direito e prestação de serviço comunitário."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Não se configura crime a conduta praticada pelo autor quando:",
+      "options": [
+        "em legítima defesa recíproca e no erro de direito.",
+        "em estrito cumprimento de dever legal e na obediência hierárquica.",
+        "em estrito cumprimento de dever legal e no exercício regular de direito.",
+        "no exercício regular de direito e na coação moral irresistível."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Assinale a alternativa que NÃO trata de uma das excludentes de antijuridicidade prevista no Código Penal:",
+      "options": [
+        "Quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se.",
+        "Quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.",
+        "Realização de ato após coação moral irresistível.",
+        "Exercício regular do Direito."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Matheus, brasileiro residente no exterior, cometeu em território estrangeiro o crime de genocídio contra um grupo de idosas religiosas e, posteriormente retornou para território brasileiro. Diante dessa situação hipotética, Matheus:",
+      "options": [
+        "Poderá ser julgado no Brasil, ainda que absolvido ou condenado no estrangeiro.",
+        "Poderá ser julgado no Brasil, desde que absolvido ou condenado no estrangeiro.",
+        "Não poderá ser julgado no Brasil, ainda que absolvido ou condenado no estrangeiro.",
+        "Não poderá ser julgado no Brasil, desde que absolvido ou condenado no estrangeiro."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Em relação a aplicação a lei penal no tempo, assinale a alternativa CORRETA:",
+      "options": [
+        "A abolitio criminis é causa de extinção de punibilidade, aplicando-se a fatos ocorridos antes de sua vigência.",
+        "A lei penal mais gravosa aplica-se retroativamente aos crimes praticados anteriormente à sua vigência.",
+        "A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, exceto que decididos por sentença condenatória transitada em julgado.",
+        "O princípio da irretroatividade da lei penal impede a aplicação de normas penais mais favoráveis ao réu."
+      ],
+      "correct": 0
+    },
+
+
+],
+
 
 
 
@@ -1196,6 +1815,438 @@ DasPenasCodigoPenal:[
    ],
 	
     LeiExecucaoPenal: [
+
+   {
+      "question": "De acordo com a Lei de Execução Penal, quais das alternativas abaixo apresentam exemplos de penas restritivas de direitos?",
+      "options": [
+        "prisão simples e banimento.",
+        "prestação de serviços à comunidade e limitação de fim de semana.",
+        "reclusão e detenção.",
+        "interdição temporária de direitos e trabalhos forçados.",
+        "pagamento de cesta básica e multa."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Qual das seguintes condutas não é considerada uma falta grave, conforme a Lei de Execução Penal (LEP), quando praticada por um indivíduo que cumpre pena privativa de liberdade?",
+      "options": [
+        "Descumprir, no regime aberto, as condições impostas.",
+        "Fugir.",
+        "Provocar acidente de trabalho.",
+        "Retardar, injustificadamente, o cumprimento da obrigação imposta."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Qual das seguintes condutas não configura falta grave cometida pelo condenado à pena privativa de liberdade?",
+      "options": [
+        "incitar ou participar de movimento para subverter a ordem ou a disciplina.",
+        "provocar acidente de trabalho.",
+        "possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem.",
+        "praticar fato previsto como crime culposo.",
+        "tiver em sua posse, utilizar ou fornecer aparelho telefônico, de rádio ou similar, que permita a comunicação com outros presos ou com o ambiente externo."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Indique a opção que não corresponde a um dos órgãos da execução penal:",
+      "options": [
+        "Os Departamentos Penitenciários.",
+        "O Ministério Público.",
+        "A Ordem dos Advogados do Brasil.",
+        "A Defensoria Pública."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "O trabalho do preso, considerado um dever social e condição de dignidade humana, possui finalidade educativa e produtiva. Nesse contexto, qual das seguintes afirmações sobre o trabalho do preso é correta?",
+      "options": [
+        "O preso condenado à pena privativa de liberdade não está obrigado ao trabalho.",
+        "As tarefas executadas como prestação de serviço à comunidade também serão remuneradas.",
+        "Os doentes ou deficientes físicos não trabalharão em nenhuma hipótese.",
+        "O produto da remuneração pelo trabalho deverá atender, dentre outros objetivos, ao ressarcimento ao Estado das despesas realizadas com a manutenção do condenado.",
+        "O trabalho do preso está sujeito ao regime da Consolidação das Leis do Trabalho."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "O Regime Disciplinar Diferenciado (RDD), implementado na Lei de Execuções Penais a partir de 2003, constitui uma modalidade mais rigorosa do regime fechado. Sobre este tema, qual das seguintes assertivas é correta?",
+      "options": [
+        "Estará sujeito a este regime o preso provisório ou o condenado sob o qual recaiam fundadas suspeitas de envolvimento ou participação em crimes hediondos ou de caráter transnacional.",
+        "É característica desse regime a duração máxima de trezentos e sessenta e cinco dias, sem possibilidade de repetição da sanção.",
+        "A prática de fato previsto como crime doloso constitui falta grave e, quando ocasione subversão da ordem ou disciplina internas, sujeita o preso provisório, ou condenado, a este regime, sem prejuízo da sanção penal.",
+        "O preso terá direito à saída da cela por 1 (uma) hora diária para banho de sol.",
+        "É característica desse regime o recolhimento em cela coletiva com, no máximo, cinco detentos."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Qual é o objetivo da execução penal, conforme estabelecido pela Lei nº 7.210/1984?",
+      "options": [
+        "ordenar o pleno desenvolvimento das funções sociais da comunidade e garantir o bem-estar de seus habitantes.",
+        "prevenir desequilíbrios da concorrência, sem prejuízo da competência de a União, por lei, estabelecer normas de objetivo igual ao de uma condenação.",
+        "viabilizar os resultados de projetos restritos às funções penitenciárias, mediante ato do Poder Executivo, após autorização legislativa prévia.",
+        "separar do meio social os indivíduos inaptos ao convívio em sociedade, selecionados após análise criteriosa baseada nas teorias criminológicas de Lombroso.",
+        "efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Em relação ao uso da monitoração eletrônica na execução penal, qual das seguintes afirmações está correta?",
+      "options": [
+        "é um direito do preso que foi condenado ao regime aberto de cumprimento de pena.",
+        "é dever do condenado receber visitas do servidor responsável pela monitoração eletrônica, responder aos seus contatos e cumprir suas orientações.",
+        "o juiz deverá definir a fiscalização por meio da monitoração eletrônica nos casos de cumprimento de pena restritiva de direitos ou livramento condicional.",
+        "poderá ser revogada se o acusado ou condenado violar os deveres a que estiver sujeito durante a sua vigência ou cometer falta média.",
+        "trata-se de dever do magistrado e direito subjetivo do condenado a sua utilização."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Considerando as recentes mudanças trazidas na LEP a respeito da autorização para saída temporária concedida a condenados em regime semiaberto, qual afirmativa está correta?",
+      "options": [
+        "Será concedida por prazo não superior a 07 (sete) dias, podendo ser renovada por mais 04 (quatro) vezes durante o ano.",
+        "A recuperação do direito à saída temporária dependerá da absolvição no processo civil, do cancelamento da punição disciplinar ou da demonstração do merecimento do condenado.",
+        "Não encontra respaldo na Lei de Execução Penal.",
+        "Não terá direito à saída temporária ou a trabalho externo sem vigilância direta o condenado que cumpre pena por praticar crime hediondo ou com violência ou grave ameaça contra pessoa."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Qual das seguintes alternativas está correta sobre assistência ao condenado, remição de pena, progressão de regime e saída temporária?",
+      "options": [
+        "O condenado que cumpre a pena em regime fechado, semiaberto ou aberto poderá remir, apenas por trabalho, parte do tempo de execução da pena.",
+        "A assistência material e à saúde, ao preso e ao internado, consiste no fornecimento de alimentação e atendimento médico, não abrangendo vestuário, medicamentos e atendimento odontológico.",
+        "A pena privativa de liberdade será executada em forma progressiva com a transferência para regime menos rigoroso, a ser determinado pelo juiz, quando o preso tiver cumprido ao menos metade da pena no regime anterior.",
+        "Os condenados que cumprem pena em regime fechado ou semiaberto poderão obter autorização para saída temporária do estabelecimento, sem vigilância direta.",
+        "Não terá direito à saída temporária a trabalho externo sem vigilância direta o condenado que cumpre pena por praticar crime hediondo ou com violência ou grave ameaça contra pessoa."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Qual é o objetivo da execução penal, conforme estabelecido pela Lei nº 7.210/1984?",
+      "options": [
+        "ordenar o pleno desenvolvimento das funções sociais da comunidade e garantir o bem-estar de seus habitantes.",
+        "prevenir desequilíbrios da concorrência, sem prejuízo da competência de a União, por lei, estabelecer normas de objetivo igual ao de uma condenação.",
+        "viabilizar os resultados de projetos restritos às funções penitenciárias, mediante ato do Poder Executivo, após autorização legislativa prévia.",
+        "separar do meio social os indivíduos inaptos ao convívio em sociedade, selecionados após análise criteriosa baseada nas teorias criminológicas de Lombroso.",
+        "efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "O trabalho do preso deve estar em conformidade com os normativos vigentes. Nesse contexto, a gestão do trabalho prisional deve observar qual das seguintes premissas?",
+      "options": [
+        "as tarefas executadas como prestação de serviço à comunidade serão remuneradas",
+        "o trabalho do preso será remunerado, mediante prévia tabela, não podendo ser superior a 3/4 (três quartos) do salário mínimo",
+        "o produto da remuneração pelo trabalho deverá atender a todas as suas despesas pessoais",
+        "o trabalho do preso não está sujeito ao regime da Consolidação das Leis do Trabalho",
+        "não se exigirá do condenado o ressarcimento ao Estado das despesas realizadas com a sua manutenção"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Em um estabelecimento penal feminino, o trabalho de pessoal do sexo feminino é a regra. Qual é a exceção a essa regra?",
+      "options": [
+        "ocupante do cargo de diretor.",
+        "pessoal técnico especializado.",
+        "portador de diploma de nível superior em Psicologia.",
+        "portador de diploma de nível superior em Direito.",
+        "ocupante do cargo de vistoriador."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Em relação aos estabelecimentos penais, segundo a Lei Federal nº 7.210/84 assinale a afirmativa incorreta:",
+      "options": [
+        "Haverá instalação destinada à Defensoria Pública.",
+        "O preso provisório ficará separado do condenado por sentença transitada em julgado.",
+        "Haverá instalação destinada a estágio de estudantes universitários.",
+        "Serão instaladas salas de aulas destinadas a cursos de ensino básico e profissionalizante.",
+        "O preso primário não cumprirá pena em seção distinta daquela reservada para os reincidentes."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Qual das seguintes alternativas está correta sobre assistência ao condenado, remição de pena, progressão de regime e saída temporária?",
+      "options": [
+        "O condenado que cumpre a pena em regime fechado, semiaberto ou aberto poderá remir, apenas por trabalho, parte do tempo de execução da pena.",
+        "A assistência material e à saúde, ao preso e ao internado, consiste no fornecimento de alimentação e atendimento médico, não abrangendo vestuário, medicamentos e atendimento odontológico.",
+        "A pena privativa de liberdade será executada em forma progressiva com a transferência para regime menos rigoroso, a ser determinado pelo juiz, quando o preso tiver cumprido ao menos metade da pena no regime anterior.",
+        "Os condenados que cumprem pena em regime fechado ou semiaberto poderão obter autorização para saída temporária do estabelecimento, sem vigilância direta.",
+        "Os condenados que cumprem pena em regime semiaberto poderão obter autorização para saída temporária do estabelecimento, sem vigilância direta."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "De acordo com a Lei de Execuções Penais, Lei Federal nº 7.210/84, qual dos seguintes não é considerado um órgão da execução penal?",
+      "options": [
+        "Juízo da Execução.",
+        "Defensoria Pública.",
+        "Conselho Penitenciário.",
+        "Comissão de Constituição e Justiça.",
+        "Conselho da Comunidade."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Analisando as disposições sobre a execução penal na Lei nº 7.210/84, assinale a afirmativa incorreta.",
+      "options": [
+        "Os condenados por qualquer crime, doloso ou culposo, serão submetidos, obrigatoriamente, à identificação do perfil genético, mediante extração de DNA, por técnica adequada e indolor.",
+        "O Estado deverá recorrer à cooperação da comunidade nas atividades de execução da pena e da medida de segurança.",
+        "A execução penal tem por objetivo efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado.",
+        "Ao condenado e ao internado serão assegurados todos os direitos não atingidos pela sentença ou pela lei.",
+        "Os condenados serão classificados, segundo os seus antecedentes e personalidade, para orientar a individualização da execução penal."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Sobre o regime disciplinar diferenciado, conforme o art. 52 da Lei nº 7.210/1984, qual das seguintes afirmações é correta?",
+      "options": [
+        "o regime disciplinar diferenciado tem duração máxima e improrrogável de trezentos e sessenta e cinco dias.",
+        "a prática de crime doloso pelo preso condenado, além de implicar falta grave, automaticamente determina sujeição ao regime disciplinar diferenciado.",
+        "caso a conduta do preso implique sujeição ao regime disciplinar diferenciado, será relevada a caracterização de falta grave, para que não haja dupla punição pelo mesmo fato.",
+        "as visitas durante o RDD ocorerrão quinzenalmente, de 2 (duas) pessoas por vez e serão realizadas em instalações equipadas para impedir o contato físico.",
+        "o preso condenado, caso apresente alto risco para a segurança do estabelecimento penal, poderá ser encaminhado ao regime disciplinar diferenciado, o que não ocorre com o preso provisório."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Qual alternativa apresenta corretamente sanções disciplinares previstas pela Lei nº 7.210/1984?",
+      "options": [
+        "Isolamento na própria cela, ou em local adequado, nos estabelecimentos que possuam alojamento coletivo; repreensão; incomunicabilidade absoluta do preso e advertência verbal.",
+        "Repreensão; incomunicabilidade absoluta do preso; isolamento na própria cela, ou em local adequado, nos estabelecimentos que possuam alojamento coletivo e suspensão ou restrição de direitos.",
+        "Incomunicabilidade absoluta do preso; isolamento na própria cela, ou em local adequado, nos estabelecimentos que possuam alojamento coletivo; advertência verbal e suspensão ou restrição de direitos.",
+        "Advertência verbal; repreensão; suspensão ou restrição de direitos e isolamento na própria cela, ou em local adequado, nos estabelecimentos que possuam alojamento coletivo.",
+        "Advertência verbal; repreensão; suspensão ou restrição de direitos e incomunicabilidade absoluta do preso."
+      ],
+      "correct": 3
+    },
+    {
+      "question": "A quem compete a supervisão dos patronatos e a assistência aos egressos?",
+      "options": [
+        "Departamento Penitenciário Nacional.",
+        "juízo da execução penal.",
+        "Conselho Penitenciário.",
+        "Ministério Público.",
+        "direção do estabelecimento penal."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Consoante a Lei de Execução Penal, o que é correto afirmar sobre a remição?",
+      "options": [
+        "é afetada pela prática de falta grave, hipótese em que o juiz poderá revogar até um terço do tempo remido.",
+        "será declarada pelo juiz da execução independentemente de serem ouvidos Ministério Público e defesa.",
+        "não é computada durante o período em que o preso se recupera de acidente de trabalho.",
+        "não se aplica ao condenado submetido ao regime fechado.",
+        "se dará apenas em virtude do trabalho, mas não do estudo."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Sobre a progressão e regressão de regime prisional, qual afirmação é correta?",
+      "options": [
+        "a regressão de regime pode se dar do regime aberto diretamente para fechado.",
+        "o bom comportamento carcerário deverá ser atestado por uma equipe técnica multidisciplinar.",
+        "a progressão é condicionada unicamente ao cumprimento de parcela da pena.",
+        "é vedada a existência de exame criminológico para a progressão.",
+        "proíbe-se a progressão de regime na condenação por delito classificado como hediondo."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Assinale a alternativa que apresenta corretamente um requisito para a concessão da saída temporária.",
+      "options": [
+        "Manifestação favorável do Ministério Público.",
+        "Cumprimento mínimo de um sexto da pena, ou, em caso de crime hediondo, de dois quintos da sanção penal, ou de três quintos, em caso de reincidência.",
+        "Compatibilidade do benefício com os objetivos da pena.",
+        "Comportamento carcerário avaliado como ótimo.",
+        "Decisão judicial, ainda que imotivada."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Acerca da monitoração eletrônica, assinale a resposta correta.",
+      "options": [
+        "A violação dos deveres impostos ao monitorado implicará obrigatoriamente a regressão de regime prisional.",
+        "O dano culposo causado ao equipamento de monitoração implicará revogação de prisão domiciliar, com retorno do condenado ao sistema prisional.",
+        "Tem por objetivos exclusivos monitorar o preso encaminhado ao regime aberto, ou o preso ao qual se concede prisão domiciliar.",
+        "Entre os deveres do monitorado, não se inclui o de responder contatos do servidor responsável pela monitoração eletrônica.",
+        "A monitoração eletrônica poderá ser revogada quando se tornar desnecessária ou inadequada."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Os estabelecimentos penais se destinam a condenados, indivíduos submetidos a medida de segurança, presos provisórios e egressos. A penitenciária, um tipo de estabelecimento penal, destina-se especificamente ao condenado à pena de reclusão, em qual regime?",
+      "options": [
+        "aberto",
+        "fechado",
+        "semiaberto",
+        "provisório",
+        "pensão alimentícia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "O recolhimento de um beneficiário de regime aberto em residência particular será admitido apenas nas seguintes circunstâncias: I. condenado maior de 70 (setenta) anos; II. condenado acometido de doença grave; III. condenada com filho menor ou deficiente físico ou mental; IV. condenada gestante; V. apresentar, pelos seus antecedentes ou pelo resultado dos exames a que foi submetido, fundados indícios de que irá ajustar-se, com autodisciplina e senso de responsabilidade, ao novo regime. Está CORRETO apenas o que se afirma em:",
+      "options": [
+        "I, III e V",
+        "II, III e IV",
+        "I, II, III e IV",
+        "I, II e IV",
+        "II, IV e V"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Um condenado em regime fechado ou semiaberto tem a possibilidade de remir parte de sua pena por trabalho ou estudo. No que diz respeito à remição pelo trabalho, qual é a proporção de contagem de tempo estabelecida?",
+      "options": [
+        "3 (três) dias de pena a cada 5 (cinco) dias de trabalho.",
+        "2 (dois) dias de pena a cada 4 (quatro) dias de trabalho.",
+        "5 (cinco) dias de pena a cada 7 (sete) dias de trabalho.",
+        "4 (quatro) dias de pena a cada 6 (seis) dias de trabalho.",
+        "1 (um) dia de pena a cada 3 (três) dias de trabalho."
+      ],
+      "correct": 4
+    },
+    {
+      "question": "Além de sua função punitiva, o sistema jurídico brasileiro visa proporcionar ao apenado condições para sua reestruturação, a fim de evitar a reincidência ao retornar ao convívio social. Como é denominada essa prática?",
+      "options": [
+        "ressocialização.",
+        "mediação.",
+        "humanização.",
+        "responsabilização."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Conforme a Lei de Execução Penal, a assistência ao egresso consiste em orientação e apoio para qual finalidade?",
+      "options": [
+        "reintegrá-lo à vida em liberdade.",
+        "promover a sua reeducação.",
+        "inseri-lo no sistema educacional.",
+        "propiciar-lhe atividades religiosas."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "A assistência ao preso e ao internado é uma obrigação do Estado, com o objetivo de prevenir o crime e auxiliar no retorno desses indivíduos à sociedade. De acordo com a Lei de Execução Penal, qual a natureza dessa assistência?",
+      "options": [
+        "previdenciária, orçamentária, jurídica, preventiva, social e familiar.",
+        "material, à saúde, jurídica, educacional, social e religiosa.",
+        "familiar, sexual, médica, previdenciária, educacional e laborativa.",
+        "médica, odontológica, psicológica, sexual, preventiva e curativa."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "A Lei de Execução Penal permite o trabalho externo somente em serviços ou obras públicas (realizadas por órgãos da Administração Direta ou Indireta) ou por entidades privadas, desde que sejam observadas as cautelas contra a fuga e em favor da disciplina. Para qual grupo de presos essa possibilidade é aplicável?",
+      "options": [
+        "para os presos que cumprem a pena em regime fechado.",
+        "independentemente do consentimento ou concordância do preso.",
+        "como medida punitiva por atos indisciplinares.",
+        "exclusivamente para os apenados em regime semiaberto."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Dentre as sanções disciplinares previstas na Lei de Execução Penal, qual delas requer um despacho prévio e fundamentado do juiz competente para ser aplicada?",
+      "options": [
+        "suspensão ou restrição de direitos.",
+        "inclusão no regime disciplinar diferenciado.",
+        "repreensão.",
+        "advertência verbal."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sobre as formas de assistência ao preso, conforme a Lei Federal nº 7.210, de 11 de julho de 1984, qual afirmação descreve corretamente uma de suas funções e características?",
+      "options": [
+        "social não tem por finalidade promover, no estabelecimento, pelos meios disponíveis, a recreação",
+        "à saúde será prestada no estabelecimento penal mesmo quando este não estiver aparelhado para prover a assistência médica necessária, sendo vedada sua prestação em outro local",
+        "jurídica é destinada aos presos e aos internados sem recursos financeiros para constituir advogado",
+        "educacional compreenderá a instrução escolar, o trabalho interno, o treinamento e a formação profissional do preso e do internado",
+        "à saúde do internado consistirá no fornecimento de alimentação, vestuário e instalações higiênicas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "De acordo com a Lei de Execução Penal (Lei Federal nº 7.210/84), para qual categoria de preso o trabalho interno não é obrigatório?",
+      "options": [
+        "em regime de internato",
+        "que exercer atividades complementares",
+        "em regime fechado",
+        "provisório",
+        "que possuir a respectiva capacitação"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Nos termos da Lei de Execuções Penais, Lei Federal nº 7.210, de 11 de julho de 1984, a assistência ao preso terá, dentre outras, a seguinte natureza:",
+      "options": [
+        "religiosa, desde que não contrarie a religião praticada pela diretoria do presídio",
+        "à saúde, que terá caráter somente curativo",
+        "material, que não inclui o direito a vestimentas e alimentação",
+        "educacional, que compreenderá a instrução básica e a formação profissional do preso e do internado",
+        "jurídica, destinada a qualquer preso ou internado que necessitar de advogado"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Para os efeitos da Lei de Execução Penal, por qual prazo o liberado definitivo é considerado egresso, a contar de sua saída do estabelecimento?",
+      "options": [
+        "2 anos.",
+        "6 meses.",
+        "1 ano.",
+        "1 ano e 6 meses.",
+        "3 meses."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Com exceção da hipótese do regime disciplinar diferenciado, qual é o limite máximo de duração para o isolamento, a suspensão e a restrição de direitos?",
+      "options": [
+        "15 dias.",
+        "30 dias.",
+        "60 dias.",
+        "45 dias.",
+        "90 dias."
+      ],
+      "correct": 1
+    },
+    {
+      "question": "As recompensas são concedidas em reconhecimento ao bom comportamento do condenado, sua colaboração com a disciplina e sua dedicação ao trabalho. Qual das opções a seguir representa uma forma de recompensa?",
+      "options": [
+        "o recolhimento em cela individual ou abrigo.",
+        "o direito à saída da cela por 2 horas diárias para banho de sol.",
+        "o elogio e a concessão de regalias.",
+        "as visitas semanais de duas pessoas além de crianças.",
+        "a inclusão no regime disciplinar diferenciado e multidisciplinar."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Considerando as disposições gerais que regulamentam o trabalho do preso, qual alternativa apresenta uma afirmação verdadeira?",
+      "options": [
+        "O trabalho do condenado, como dever social e condição de dignidade humana, terá finalidade educativa e produtiva.",
+        "As tarefas executadas como prestação de serviço à comunidade serão remuneradas.",
+        "Ressalvadas outras aplicações legais, será depositada a parte restante para constituição do pecúlio, em Caderneta de Poupança, que será entregue à família do preso, visando sua subsistência.",
+        "O trabalho do preso está sujeito ao regime da Consolidação das Leis do Trabalho."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "No que se refere às condições de tratamento do preso, qual previsão é encontrada na Constituição Federal?",
+      "options": [
+        "os presos poderão ser privados de água e refeição caso cometam transgressões disciplinares graves.",
+        "não é assegurado aos presos o respeito à integridade física e moral.",
+        "em caso de transgressão disciplinar, o preso poderá ser obrigado a realizar trabalhos forçados.",
+        "às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação.",
+        "a pena será cumprida em estabelecimentos semelhantes entre si, de acordo com a natureza do delito e a quantidade de pena a que o preso foi condenado."
+      ],
+      "correct": 3
+    },
 
     {
     "question": "Qual é o objetivo principal da Lei de Execução Penal (LEP), conforme o Art. 1º?",
