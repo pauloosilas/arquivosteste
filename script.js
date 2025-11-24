@@ -1,6 +1,421 @@
 // Banco de questões
 const questions = {  
+"DaAdministracaoPublica": [
+{
+    "question": "Os princípios são um conjunto de normas ou padrões de conduta a serem seguidos por uma pessoa ou instituição. Sabe-se que a Administração Pública, direta e indireta, submete-se a alguns princípios. Nesse sentido, em relação aos princípios da Administração Pública, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Com base no princípio da legalidade, a Administração Pública não pode, por simples ato administrativo, conceder direitos de qualquer espécie, criar obrigações ou impor vedações aos administrados.",
+      "Um exemplo de aplicação do princípio da impessoalidade é quando se reconhece validade aos atos praticados por funcionário irregularmente investido no cargo ou função, sob fundamento de que os atos são do órgão e não do agente público.",
+      "O princípio da publicidade, inserido no artigo 37 da Constituição Federal, exige a ampla divulgação dos atos praticados pela Administração Pública, ressalvadas as hipóteses de sigilo previstas em lei.",
+      "Sempre que em matéria administrativa se verificar que o comportamento da Administração Pública, embora em consonância com a lei, ofende a moral, estará havendo ofensa ao princípio da moralidade administrativa.",
+      "A eficiência é princípio que se soma aos demais princípios impostos à Administração, podendo sobrepor-se a qualquer um deles, em razão da urgência na prestação do serviço público."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Maria é servidora pública municipal e foi recentemente nomeada pelo Chefe do Executivo para exercer uma função de confiança. De acordo com a Constituição Federal de 1988, é correto afirmar que",
+    "options": [
+      "a nomeação é legal, desde que Maria tenha vínculo de natureza efetiva ou comissionada.",
+      "a nomeação é legal apenas se o vínculo de Maria for de natureza comissionada.",
+      "a nomeação é legal apenas se o vínculo de Maria for de natureza efetiva.",
+      "a nomeação é legal, desde que o vínculo de Maria seja comissionado ou temporário.",
+      "a nomeação é legal apenas se o vínculo de Maria for efetivo, condicionada à aquisição da estabilidade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Acerca dos servidores públicos, de acordo com o texto constitucional, assinale a alternativa correta.",
+    "options": [
+      "Quando o servidor se afastar do cargo para o exercício de mandato eletivo, seu tempo de serviço será contado para todos os efeitos legais, inclusive para fins de promoção por merecimento.",
+      "A fixação dos padrões de vencimento deve desconsiderar os requisitos para a investidura no cargo.",
+      "É condição para a aquisição da estabilidade a realização de avaliação especial de desempenho por comissão instituída para essa finalidade.",
+      "Os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos legais, não se concedendo igual direito aos estrangeiros.",
+      "Ao servidor que não tiver adquirido a estabilidade é vedada a filiação sindical."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O município Alfa realizou campanha publicitária institucional com o objetivo de divulgar a inauguração de um novo hospital. Na campanha constavam nomes, símbolos e imagens do prefeito e de seu partido durante o período eleitoral. Bruno, auditor do Ministério Público de determinado estado, foi designado para emitir um relatório sobre essa situação. Considerando os princípios da administração pública expressos na Constituição Federal, Bruno deve indicar que a postura do município está",
+    "options": [
+      "correta, pois, de acordo com o princípio da publicidade, o município tem a obrigação de operar de forma aberta e clara, permitindo aos cidadãos o acesso a informações sobre as atividades governamentais.",
+      "incorreta, pois, em respeito ao princípio da impessoalidade, é proibido divulgar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos em publicidade de atos dos órgãos públicos.",
+      "incorreta, pois a campanha deveria ser realizada apenas após o período eleitoral, em respeito ao princípio da isonomia.",
+      "correta, porque a inserção de nomes e imagens do prefeito e de seu partido em campanhas institucionais fortalece o princípio da transparência, já que possibilita ao cidadão ficar a par das informações necessárias ao exercício da fiscalização.",
+      "correta, desde que não prejudique ou beneficie pessoas determinadas, uma vez que é sempre o interesse público que tem que nortear o seu comportamento."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Exige que o ato seja praticado sempre com finalidade pública. O administrador não pode buscar outro objetivo ou praticá-lo com interesse próprio ou de terceiros.\nO enunciado refere-se a um dos princípios básicos da Administração Pública, o qual é denominado",
+    "options": [
+      "legalidade.",
+      "moralidade.",
+      "publicidade.",
+      "finalidade.",
+      "eficiência."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Em relação às atribuições de direção, chefia e assessoramento, previstas expressamente na Constituição Federal de 1988, assinale a alternativa correta.",
+    "options": [
+      "Relacionam-se apenas com as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo.",
+      "Relacionam-se apenas com os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei.",
+      "Relacionam-se com as funções de confiança, a serem preenchidas por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, e com os cargos de confiança exercidos exclusivamente por servidores ocupantes de cargo efetivo.",
+      "Relacionam-se com as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Assinale a alternativa que apresenta uma exceção à vedação de acumulação remunerada de cargos públicos, em conformidade com disposições expressas na Constituição Federal de 1988.",
+    "options": [
+      "A de dois cargos técnicos ou científicos.",
+      "A de um cargo de professor e um cargo ou emprego privativo de profissionais de saúde, com profissões regulamentadas.",
+      "A de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.",
+      "A de um cargo ou emprego privativo de profissional de saúde e um cargo técnico ou científico."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Os princípios da Administração Pública norteiam a atuação dos agentes públicos e garantem a legalidade, transparência e eficiência na gestão dos recursos públicos. Além dos princípios explícitos, a doutrina e a jurisprudência também reconhecem princípios implícitos que complementam a atuação administrativa. A respeito dos princípios da Administração Pública, assinale a alternativa **INCORRETA**.",
+    "options": [
+      "O princípio da impessoalidade determina que a Administração Pública deve tratar todos os administrados de forma isonômica, vedando qualquer favorecimento ou discriminação indevida.",
+      "O princípio da publicidade exige que todos os atos administrativos sejam amplamente divulgados, sem exceção, garantindo acesso irrestrito às informações públicas.",
+      "O princípio da moralidade impõe que os atos administrativos devem respeitar padrões éticos e de probidade, considerando não apenas a legalidade formal mas também a adequação moral das decisões.",
+      "O princípio da eficiência busca garantir que a Administração Pública atue com produtividade e qualidade na prestação dos serviços públicos, otimizando recursos e reduzindo desperdícios.",
+      "O princípio da legalidade estabelece que o administrador público só pode atuar conforme a lei, diferentemente dos particulares, que podem fazer tudo o que a lei não proíbe."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Os princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência, segundo disposição expressa na Constituição Federal de 1988, devem ser obedecidos pela",
+    "options": [
+      "administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.",
+      "administração pública direta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.",
+      "administração pública direta e indireta de qualquer dos Poderes da União, dos Estados e do Distrito Federal.",
+      "administração pública direta de qualquer dos Poderes da União, dos Estados e dos Municípios."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Assinale a alternativa que **NÃO** apresenta uma disposição expressa na Constituição Federal de 1988 aplicável à administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.",
+    "options": [
+      "Os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei, assim como aos estrangeiros, na forma da lei.",
+      "A investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo ou emprego, na forma prevista em lei, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração.",
+      "A lei estabelecerá os casos de contratação por tempo indeterminado para atender a necessidade temporária de excepcional interesse público.",
+      "A lei reservará percentual dos cargos e empregos públicos para as pessoas portadoras de deficiência e definirá os critérios de sua admissão."
+    ],
+    "correct": 2
+  }
+  ,{
+    "question": "Segundo o Art. 37 da Constituição Federal, a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá a quais princípios?",
+    "options": [
+      "Legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "Legalidade, impessoalidade, moralidade, publicidade e efetividade.",
+      "Legalidade, legitimidade, moralidade, publicidade e eficiência.",
+      "Legalidade, impessoalidade, razoabilidade, publicidade e eficiência."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual é o prazo de validade do concurso público previsto na Constituição Federal?",
+    "options": [
+      "De até um ano, prorrogável uma vez, por igual período.",
+      "De até dois anos, prorrogável uma vez, por igual período.",
+      "De até dois anos, prorrogável quantas vezes forem necessárias.",
+      "De quatro anos, improrrogável."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Sobre os cargos em comissão, é correto afirmar que:",
+    "options": [
+      "São preenchidos exclusivamente por servidores de carreira.",
+      "Destinam-se apenas às atribuições de chefia e assessoramento, sendo vedados para direção.",
+      "São de livre nomeação e exoneração.",
+      "Exigem prévia aprovação em concurso público de provas ou de provas e títulos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A lei reservará percentual dos cargos e empregos públicos para as pessoas com deficiência e definirá:",
+    "options": [
+      "Os critérios de sua admissão.",
+      "A dispensa de concurso público.",
+      "A exclusividade de vagas em cargos administrativos.",
+      "A remuneração diferenciada."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público ocorrerá:",
+    "options": [
+      "Mediante livre escolha da autoridade competente, sem legislação específica.",
+      "Nos casos estabelecidos em lei.",
+      "Apenas em situações de calamidade pública decretada.",
+      "Exclusivamente para a área da saúde e educação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O direito de greve dos servidores públicos será exercido:",
+    "options": [
+      "Irrestritamente, conforme as regras da iniciativa privada.",
+      "Nos termos e nos limites definidos em lei complementar.",
+      "Nos termos e nos limites definidos em lei específica.",
+      "Apenas mediante autorização judicial."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "É vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários, em qual das seguintes hipóteses?",
+    "options": [
+      "A de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.",
+      "A de dois cargos técnicos ou científicos.",
+      "A de um cargo de professor com outro de analista administrativo.",
+      "A de dois cargos de confiança."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Os atos de improbidade administrativa importarão, sem prejuízo da ação penal cabível, em:",
+    "options": [
+      "Suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário.",
+      "Cassação dos direitos políticos, perda da função pública e multa civil.",
+      "Suspensão dos direitos políticos e demissão a bem do serviço público apenas.",
+      "Perda da função pública e reclusão imediata."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros. Nesse caso, o direito de regresso contra o responsável:",
+    "options": [
+      "É vedado pela Constituição.",
+      "É assegurado apenas nos casos de dolo.",
+      "É assegurado nos casos de dolo ou culpa.",
+      "Independe da comprovação de dolo ou culpa."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A remuneração dos servidores públicos e o subsídio de que trata o § 4º do art. 39 somente poderão ser fixados ou alterados:",
+    "options": [
+      "Por decreto do Chefe do Poder Executivo.",
+      "Por lei específica, observada a iniciativa privativa em cada caso.",
+      "Por resolução interna de cada órgão.",
+      "Por convenção coletiva de trabalho."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Em relação à acumulação de cargos, é permitida a acumulação de:",
+    "options": [
+      "Dois cargos de técnico judiciário.",
+      "Um cargo de professor com outro técnico ou científico.",
+      "Dois cargos de advogado público em qualquer hipótese.",
+      "Três cargos de professor, se houver compatibilidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O teto remuneratório constitucional, aplicável como limite máximo para a remuneração no serviço público, baseia-se no subsídio mensal, em espécie, de qual autoridade?",
+    "options": [
+      "Presidente da República.",
+      "Ministros do Superior Tribunal de Justiça.",
+      "Ministros do Supremo Tribunal Federal.",
+      "Presidente do Congresso Nacional."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Segundo o Art. 37, inciso I, os cargos, empregos e funções públicas são acessíveis:",
+    "options": [
+      "Apenas aos brasileiros natos.",
+      "Aos brasileiros que preencham os requisitos estabelecidos em lei, sendo vedado aos estrangeiros.",
+      "Aos brasileiros que preencham os requisitos estabelecidos em lei, assim como aos estrangeiros, na forma da lei.",
+      "A qualquer pessoa que resida no país há mais de 5 anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A administração fazendária e seus servidores fiscais terão, dentro de suas áreas de competência e jurisdição, precedência sobre os demais setores administrativos, na forma:",
+    "options": [
+      "Do regulamento interno.",
+      "Da lei.",
+      "De decreto presidencial.",
+      "De portaria ministerial."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A proibição de acumular cargos públicos estende-se a:",
+    "options": [
+      "Empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias, e sociedades controladas, direta ou indiretamente, pelo poder público.",
+      "Apenas à administração direta e autárquica.",
+      "Apenas aos cargos efetivos, não abrangendo cargos em comissão.",
+      "Exclusivamente às empresas públicas e sociedades de economia mista."
+    ],
+    "correct": 0
+  }
+]
+,
 
+//////////////////////////////////////////////////////////////////////////
+
+"Direito_Constitucional_144":[
+{
+    "question": "Segundo o Art. 144 da Constituição Federal, a segurança pública é dever do Estado, direito e responsabilidade de quem?",
+    "options": [
+      "Apenas dos órgãos policiais.",
+      "De todos.",
+      "Exclusivamente do Poder Executivo.",
+      "Dos cidadãos brasileiros natos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual dos seguintes órgãos NÃO está expressamente listado nos incisos do *caput* do Art. 144 como órgão de segurança pública?",
+    "options": [
+      "Polícia Federal.",
+      "Polícia Rodoviária Federal.",
+      "Guardas Municipais.",
+      "Polícias Civis."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A quem compete, com exclusividade, o exercício das funções de polícia judiciária da União?",
+    "options": [
+      "À Polícia Civil dos Estados.",
+      "À Polícia Rodoviária Federal.",
+      "À Polícia Federal.",
+      "À Agência Brasileira de Inteligência (ABIN)."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Qual é a competência principal da Polícia Rodoviária Federal, conforme o Art. 144, § 2º?",
+    "options": [
+      "O patrulhamento ostensivo das rodovias federais.",
+      "A investigação de crimes internacionais.",
+      "A guarda de presídios federais.",
+      "O controle de fronteiras marítimas."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "As Polícias Civis, dirigidas por delegados de polícia de carreira, ressalvada a competência da União, exercem quais funções?",
+    "options": [
+      "Polícia ostensiva e preservação da ordem pública.",
+      "Polícia judiciária e apuração de infrações penais, exceto as militares.",
+      "Patrulhamento de ferrovias federais.",
+      "Defesa civil e combate a incêndios."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Às Polícias Militares cabe:",
+    "options": [
+      "A apuração de infrações penais comuns.",
+      "A execução de atividades de defesa civil.",
+      "A polícia ostensiva e a preservação da ordem pública.",
+      "A segurança dos estabelecimentos penais."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Os Corpos de Bombeiros Militares, além de outras atribuições definidas em lei, incumbem-se da execução de:",
+    "options": [
+      "Policiamento de trânsito urbano.",
+      "Atividades de defesa civil.",
+      "Investigação de incêndios criminosos.",
+      "Segurança de dignitários."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Conforme o Art. 144, § 8º, os Municípios poderão constituir Guardas Municipais destinadas a:",
+    "options": [
+      "Exercer a polícia judiciária local.",
+      "Realizar o policiamento ostensivo de trânsito em rodovias estaduais.",
+      "Proteger seus bens, serviços e instalações.",
+      "Comandar as polícias militares em situações de emergência."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "As Polícias Militares e os Corpos de Bombeiros Militares são considerados, em relação ao Exército:",
+    "options": [
+      "Forças auxiliares e reserva.",
+      "Subordinados hierarquicamente em tempo de paz.",
+      "Independentes e autônomos.",
+      "Parte integrante do efetivo regular."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A quem se subordinam as Polícias Militares e os Corpos de Bombeiros Militares, bem como as Polícias Civis?",
+    "options": [
+      "Ao Presidente da República.",
+      "Aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+      "Ao Ministério da Justiça e Segurança Pública.",
+      "Aos Prefeitos Municipais."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A emenda constitucional nº 104/2019 incluiu qual novo órgão no rol do Art. 144?",
+    "options": [
+      "Força Nacional de Segurança Pública.",
+      "Polícias Penais Federal, Estaduais e Distrital.",
+      "Guarda Nacional.",
+      "Polícia Ferroviária Federal."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A quem cabe a segurança dos estabelecimentos penais, conforme a Constituição?",
+    "options": [
+      "À Polícia Militar.",
+      "À Polícia Civil.",
+      "Às Polícias Penais.",
+      "Às Guardas Municipais."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A remuneração dos servidores policiais integrantes dos órgãos do Art. 144 será fixada na forma de:",
+    "options": [
+      "Vencimentos básicos mais gratificações.",
+      "Subsídio, em parcela única.",
+      "Salário mínimo profissional.",
+      "Proventos variáveis conforme produtividade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas, compreende:",
+    "options": [
+      "Apenas a fiscalização de trânsito e aplicação de multas.",
+      "A educação, engenharia e fiscalização de trânsito.",
+      "A construção e manutenção de estradas exclusivamente.",
+      "O patrulhamento ostensivo armado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual órgão é destinado ao patrulhamento ostensivo das ferrovias federais?",
+    "options": [
+      "Polícia Federal.",
+      "Polícia Rodoviária Federal.",
+      "Polícia Ferroviária Federal.",
+      "Polícia Civil."
+    ],
+    "correct": 2
+  }],
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "DIREITOS_HUMANOS": [
     {
