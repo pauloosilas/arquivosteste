@@ -1,5 +1,522 @@
 // Banco de questões
 const questions = {  
+
+"AbustoDeAutoridade":[
+  {
+    "question": "Observado o disposto na Lei nº 13.869/2019 (Lei do Abuso de Autoridade), assinale a alternativa **INCORRETA**.",
+    "options": [
+      "Caracteriza o crime de violência institucional a conduta de submeter a vítima de infração penal ou a testemunha de crimes violentos a procedimentos desnecessários, repetitivos ou invasivos, que a leve a reviver, sem estrita necessidade, a situação de violência ou outras situações potencialmente geradoras de sofrimento ou estigmatização.",
+      "É considerado crime deixar de, injustificadamente, comunicar prisão em flagrante à autoridade judiciária no prazo legal.",
+      "As condutas descritas na Lei do Abuso de Autoridade constituem crime quando praticadas pelo agente com a finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou, ainda, por mero capricho ou satisfação pessoal.",
+      "Os crimes previstos na Lei são de ação penal pública incondicionada, não se admitindo a propositura de ação privada se a ação penal pública não for intentada no prazo legal.",
+      "A divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso de autoridade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Nos termos da Lei nº 13.869/2019, que dispõe sobre os crimes de abuso de autoridade, assinale a alternativa correta.",
+    "options": [
+      "É efeito automático da condenação tornar certa a obrigação de indenizar o dano causado pelo crime.",
+      "Os crimes previstos na lei de abuso de autoridade são de ação penal pública condicionada à representação.",
+      "A perda do cargo, mandato ou função pública não é efeito automático da condenação, podendo ser aplicada quando verificada a existência de maus antecedentes.",
+      "Na condenação por crimes de abuso de autoridade, a lei veda a aplicação cumulativa de penas restritivas de direitos.",
+      "A inabilitação para o exercício de cargo, mandato ou função pública, pelo período de 1 (um) a 6 (seis) anos, é um dos efeitos da condenação, porém não automático, devendo ser motivado na sentença."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Sobre os crimes de abuso de autoridade (Lei nº 13.869/2019), informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n\n( ) É sujeito ativo do crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes da União, dos Estados, do Distrito Federal, dos Municípios e de Território.\n( ) As penas previstas na Lei nº 13.869/2019 serão aplicadas independentemente das sanções de natureza civil ou administrativa cabíveis.\n( ) As responsabilidades civil e administrativa são independentes da criminal, não se podendo mais questionar sobre a existência ou a autoria do fato quando essas questões tenham sido decididas no juízo criminal.\n( ) Configura crime de abuso de autoridade a conduta do agente público de patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário.",
+    "options": [
+      "F – V – V – F.",
+      "F – F – V – V.",
+      "F – V – F – F.",
+      "V – F – F – V.",
+      "V – V – V – F."
+    ],
+    "correct": 4
+  }, 
+{
+    "question": "Conforme a Lei nº 13.869/2019, qual o período de tempo considerado para a reincidência específica em crime de abuso de autoridade, requisito necessário para a aplicação dos efeitos de perda do cargo ou inabilitação?",
+    "options": [
+      "2 (dois) anos.",
+      "4 (quatro) anos.",
+      "5 (cinco) anos.",
+      "6 (seis) anos.",
+      "10 (dez) anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Qual é o prazo para o exercício da ação penal privada subsidiária da pública, contado da data em que se esgotar o prazo para o oferecimento da denúncia pelo Ministério Público?",
+    "options": [
+      "3 (três) meses.",
+      "6 (seis) meses.",
+      "12 (doze) meses.",
+      "2 (dois) anos.",
+      "O prazo é indeterminado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A inabilitação para o exercício de cargo, mandato ou função pública, aplicada como efeito não automático da condenação, será pelo período de:",
+    "options": [
+      "1 (um) a 3 (três) anos.",
+      "2 (dois) a 5 (cinco) anos.",
+      "6 (seis) meses a 2 (dois) anos.",
+      "1 (um) a 6 (seis) anos.",
+      "2 (dois) a 8 (oito) anos."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Conforme o art. 12 da Lei nº 13.869/2019, qual o prazo máximo para que o juiz ou o delegado de polícia relaxe a prisão manifestamente ilegal, sob pena de incorrer em crime de abuso de autoridade?",
+    "options": [
+      "24 (vinte e quatro) horas.",
+      "48 (quarenta e oito) horas.",
+      "72 (setenta e duas) horas.",
+      "5 (cinco) dias.",
+      "Imediatamente, independentemente de prazo legal."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Em relação à ação penal privada subsidiária, em caso de negligência do querelante, o Ministério Público poderá retomar a ação como parte principal:",
+    "options": [
+      "Em até 6 (seis) meses da inércia do querelante.",
+      "Somente na fase recursal.",
+      "Após prévia determinação judicial, no prazo de 30 dias.",
+      "A todo tempo.",
+      "Apenas mediante representação da parte prejudicada."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Qual o prazo legal máximo para o delegado de polícia, sem justa causa, deixar de comunicar imediatamente a prisão em flagrante ao juiz competente?",
+    "options": [
+      "12 (doze) horas.",
+      "24 (vinte e quatro) horas.",
+      "48 (quarenta e oito) horas.",
+      "72 (setenta e duas) horas.",
+      "5 (cinco) dias."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Para que as condutas descritas na Lei de Abuso de Autoridade configurem crime, exige-se qual elemento subjetivo especial?",
+    "options": [
+      "Dolo genérico, bastando a vontade livre e consciente de praticar a conduta.",
+      "Finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou, ainda, por mero capricho ou satisfação pessoal.",
+      "Dolo eventual, aceitando o risco de produzir o resultado danoso.",
+      "Culpa grave, manifestada por negligência ou imprudência do agente.",
+      "Apenas a intenção de praticar o ato, sendo desnecessário o fim especial de agir."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Nos termos da Lei nº 13.869/2019, o que, por expressa disposição legal, não configura crime de abuso de autoridade?",
+    "options": [
+      "A omissão na comunicação de prisão em flagrante ao Ministério Público.",
+      "A obtenção de prova ilícita mediante coação.",
+      "A restrição do direito de contato do preso com a família e o advogado.",
+      "A divergência na interpretação de lei ou na avaliação de fatos e provas.",
+      "O uso de algemas quando manifestamente desnecessário."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Qual dos seguintes é o **único** efeito da condenação por crime de abuso de autoridade que é considerado automático?",
+    "options": [
+      "Tornar certa a obrigação de indenizar o dano causado pelo crime.",
+      "A perda do cargo, do mandato ou da função pública.",
+      "A inabilitação para o exercício de cargo, mandato ou função pública.",
+      "A suspensão do exercício do cargo, função ou mandato.",
+      "O pagamento de custas processuais."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual é a natureza da ação penal para os crimes previstos na Lei de Abuso de Autoridade?",
+    "options": [
+      "Privada, personalíssima.",
+      "Pública condicionada à representação.",
+      "Pública incondicionada, admitida a ação privada subsidiária da pública.",
+      "Pública incondicionada, vedada qualquer outra forma de propositura.",
+      "Pública condicionada à requisição do Ministro da Justiça."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Quem pode ser sujeito ativo dos crimes de abuso de autoridade, conforme o Art. 2º da Lei nº 13.869/2019?",
+    "options": [
+      "Apenas o servidor público titular de cargo efetivo.",
+      "Somente as autoridades judiciárias e membros do Ministério Público.",
+      "O agente público, servidor ou não, da administração direta, indireta ou fundacional, de qualquer dos Poderes da União, dos Estados, do Distrito Federal, dos Municípios e de Território.",
+      "Qualquer pessoa que exerça função pública, desde que com estabilidade.",
+      "Somente os agentes de segurança pública."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Comete crime de abuso de autoridade a conduta de **decretar a condução coercitiva de testemunha ou investigado** para comparecimento em juízo, delegacia ou qualquer outra autoridade, sem que:",
+    "options": [
+      "Haja prévia autorização do Ministério Público.",
+      "Seja oferecida a oportunidade de defesa técnica.",
+      "Tenha havido prévia intimação de comparecimento ao juízo ou à autoridade.",
+      "A condução ocorra em dia útil e horário comercial.",
+      "Haja justa causa para a investigação."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Qual crime é configurado se o agente público, ao prender alguém, se nega a identificar-se ou se atribui falsa identidade?",
+    "options": [
+      "Usurpação de função pública.",
+      "Abuso de autoridade (Art. 16).",
+      "Violação de sigilo funcional.",
+      "Falsidade ideológica.",
+      "Prevaricação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "São penas restritivas de direitos aplicáveis aos crimes de abuso de autoridade, EXCETO:",
+    "options": [
+      "Prestação de serviços à comunidade ou a entidades públicas.",
+      "Suspensão do exercício do cargo, função ou mandato, pelo prazo de 1 (um) a 6 (seis) meses.",
+      "Proibição de exercer funções de natureza militar ou de segurança pública.",
+      "Proibição de exercer cargo, mandato ou função pública, pelo prazo de 1 (um) a 3 (três) anos.",
+      "Todas as opções acima são penas restritivas de direitos aplicáveis."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A respeito da independência das instâncias de responsabilidade (civil, administrativa e penal), qual o efeito de uma sentença penal absolutória que reconhece, categoricamente, a inexistência do fato ou a negativa de autoria?",
+    "options": [
+      "Não produz efeito na instância civil ou administrativa, que são totalmente independentes.",
+      "Apenas suspende a análise da responsabilidade na esfera civil e administrativa.",
+      "Apenas vincula a instância civil, mas não a administrativa.",
+      "Apenas vincula a instância administrativa, mas não a civil.",
+      "Veda, nas instâncias civil e administrativa, o questionamento sobre a existência ou a autoria do fato."
+    ],
+    "correct": 4
+  }
+],
+
+"CrimesContraADM":[
+
+  {
+    "question": "Qual é a pena prevista no Art. 312 do Código Penal para o crime de **Peculato** (apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel...)?",
+    "options": [
+      "Reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+      "Reclusão, de 1 (um) a 8 (oito) anos, e multa.",
+      "Detenção, de 2 (dois) a 6 (seis) anos, e multa.",
+      "Reclusão, de 4 (quatro) a 10 (dez) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Após o Pacote Anticrime (Lei 13.964/2019), qual passou a ser a pena para o crime de **Concussão** (Exigir, para si ou para outrem... vantagem indevida)?",
+    "options": [
+      "Reclusão, de 2 (dois) a 8 (oito) anos, e multa.",
+      "Reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+      "Detenção, de 1 (um) a 4 (quatro) anos, e multa.",
+      "Reclusão, de 3 (três) a 8 (oito) anos, e multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Para o crime de **Corrupção Passiva** (Art. 317), a pena prevista é de reclusão, de 2 a 12 anos, e multa. Contudo, se o funcionário pratica, deixa de praticar ou retarda ato de ofício, com infração de dever funcional, cedendo a pedido ou influência de outrem, a pena é:",
+    "options": [
+      "Detenção, de 3 (três) meses a 1 (um) ano, ou multa.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos.",
+      "Reclusão, de 1 (um) a 4 (quatro) anos.",
+      "A mesma do caput, porém com multa em dobro."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual é a pena prevista para o crime de **Facilitação de Contrabando ou Descaminho** (Art. 318)?",
+    "options": [
+      "Reclusão, de 2 (dois) a 6 (seis) anos, e multa.",
+      "Reclusão, de 3 (três) a 8 (oito) anos, e multa.",
+      "Detenção, de 1 (um) a 4 (quatro) anos, e multa.",
+      "Reclusão, de 4 (quatro) a 12 (doze) anos, e multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No crime de **Prevaricação** (Art. 319), que consiste em retardar ou deixar de praticar, indevidamente, ato de ofício... para satisfazer interesse ou sentimento pessoal, a pena é:",
+    "options": [
+      "Detenção, de 3 (três) meses a 1 (um) ano, e multa.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos, e multa.",
+      "Reclusão, de 1 (um) a 3 (três) anos, e multa.",
+      "Detenção, de 1 (um) a 3 (três) meses, ou multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual é a pena para o crime de **Advocacia Administrativa** (Patrocinar, direta ou indiretamente, interesse privado perante a administração pública...), prevista no Art. 321?",
+    "options": [
+      "Detenção, de 3 (três) meses a 1 (um) ano, e multa.",
+      "Detenção, de 1 (um) a 3 (três) meses, ou multa.",
+      "Reclusão, de 1 (um) a 2 (dois) anos, e multa.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos, e multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O crime de **Condescendência Criminosa** (Art. 320 - Deixar o funcionário, por indulgência, de responsabilizar subordinado...) possui a seguinte pena:",
+    "options": [
+      "Detenção, de 15 (quinze) dias a 1 (um) mês, ou multa.",
+      "Detenção, de 1 (um) a 6 (seis) meses, ou multa.",
+      "Detenção, de 3 (três) meses a 1 (um) ano, e multa.",
+      "Multa, exclusivamente."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A pena para o crime de **Violação de Sigilo Funcional** (Art. 325) é de:",
+    "options": [
+      "Detenção, de 3 (três) meses a 1 (um) ano.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos, ou multa.",
+      "Reclusão, de 1 (um) a 4 (quatro) anos, e multa.",
+      "Detenção, de 1 (um) a 3 (três) anos, e multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No crime de **Abandono de Função** (Art. 323), a pena base (caput) é de detenção, de 15 dias a 1 mês, ou multa. Se do fato resulta **prejuízo público**, a pena passa a ser:",
+    "options": [
+      "Detenção, de 1 (um) a 3 (três) meses, ou multa.",
+      "Detenção, de 3 (três) meses a 1 (um) ano, e multa.",
+      "Reclusão, de 1 (um) a 2 (dois) anos.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 327, § 2º, estabelece uma causa de aumento de pena para os crimes praticados por funcionário público contra a administração. A pena será aumentada da **terça parte** (1/3) quando os autores forem:",
+    "options": [
+      "Ocupantes de cargos efetivos com mais de 10 anos de serviço.",
+      "Ocupantes de cargos em comissão ou de função de direção ou assessoramento de órgão da administração direta, sociedade de economia mista, empresa pública ou fundação.",
+      "Reincidentes específicos em crimes contra a administração pública.",
+      "Funcionários de empresas contratadas ou conveniadas para a execução de atividade típica da Administração Pública."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No crime de **Excesso de Exação** (Art. 316, § 1º), se o funcionário desvia, em proveito próprio ou de outrem, o que recebeu indevidamente para recolher aos cofres públicos, a pena é de:",
+    "options": [
+      "Reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+      "Reclusão, de 3 (três) a 8 (oito) anos, e multa.",
+      "Reclusão, de 2 (dois) a 8 (oito) anos, e multa.",
+      "Detenção, de 1 (um) a 4 (quatro) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual a pena para o crime de **Inserção de dados falsos em sistema de informações** (Art. 313-A)?",
+    "options": [
+      "Reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+      "Reclusão, de 1 (um) a 5 (cinco) anos, e multa.",
+      "Detenção, de 2 (dois) a 6 (seis) anos, e multa.",
+      "Reclusão, de 3 (três) a 8 (oito) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O crime de **Modificação ou alteração não autorizada de sistema de informações** (Art. 313-B) tem como pena:",
+    "options": [
+      "Detenção, de 3 (três) meses a 2 (dois) anos, e multa.",
+      "Reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos, e multa.",
+      "Reclusão, de 1 (um) a 4 (quatro) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "No peculato culposo, a reparação do dano, se precede à sentença irrecorrível:",
+    "options": [
+      "Reduz a pena de um terço a metade.",
+      "Reduz a pena pela metade.",
+      "Extingue a punibilidade.",
+      "Isenta o réu de pena, mas mantém a multa."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Ainda sobre o peculato culposo, se a reparação do dano é **posterior** à sentença irrecorrível, a pena será:",
+    "options": [
+      "Reduzida de metade.",
+      "Extinta.",
+      "Reduzida de um a dois terços.",
+      "Cumprida em regime aberto."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O crime de **Abandono de Função** (Art. 323) tem sua pena qualificada (Reclusão, de 1 a 2 anos) se o fato ocorrer:",
+    "options": [
+      "Em cargo de direção ou chefia.",
+      "Em lugar compreendido na faixa de fronteira.",
+      "Com o intuito de participar de greve ilegal.",
+      "Durante estado de calamidade pública."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No crime de **Corrupção Passiva** (Art. 317, § 1º), a pena é aumentada de um terço se, em consequência da vantagem ou promessa, o funcionário:",
+    "options": [
+      "Apenas aceita a promessa, sem praticar atos.",
+      "Retarda ou deixa de praticar qualquer ato de ofício ou o pratica infringindo dever funcional.",
+      "Utiliza de violência ou grave ameaça.",
+      "Pratica o ato com violação de sigilo funcional."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual dos seguintes crimes NÃO é punido com **Reclusão**?",
+    "options": [
+      "Peculato (Art. 312).",
+      "Concussão (Art. 316).",
+      "Corrupção Passiva (Art. 317).",
+      "Prevaricação (Art. 319)."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Considera-se funcionário público, para os efeitos penais, quem, embora transitoriamente ou sem remuneração:",
+    "options": [
+      "Exerce cargo, emprego ou função pública.",
+      "Presta serviços terceirizados de limpeza em órgão público.",
+      "Trabalha em empresa privada que não possui convênio com o Estado.",
+      "Atua como advogado dativo sem nomeação judicial."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Qual crime comete o funcionário público que **exige** tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza?",
+    "options": [
+      "Concussão.",
+      "Corrupção Passiva.",
+      "Excesso de Exação.",
+      "Violência Arbitrária."
+    ],
+    "correct": 2
+  }
+
+	
+	,{
+    "question": "São crimes cometidos por funcionário público contra a administração em geral, EXCETO",
+    "options": [
+      "peculato.",
+      "concussão.",
+      "facilitação de contrabando ou descaminho.",
+      "tráfico de influência.",
+      "advocacia administrativa."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Durante inquérito policial instaurado contra investigado por crime contra a administração pública, seu advogado, regularmente constituído, requereu acesso aos autos somente no que tange aos elementos de convicção já documentados pela autoridade policial. O delegado responsável indeferiu o pedido, sob a justificativa de que o procedimento ainda estava em fase de diligências e que o acesso poderia comprometer a investigação, sem, contudo, justificar por qual razão o acesso aos elementos de convicção já produzidos foi negado. O indeferimento foi mantido mesmo após provocação por meio de nova petição defensiva, na qual foi alegada a incidência da súmula vinculante 14 e que o investigado havia sido intimado para prestar esclarecimentos por esse mesmo delegado. Sem conseguir acesso aos autos, a defesa requereu a instauração de inquérito policial, narrando os fatos e comprovando que o delegado continuava a negar o acesso defensivo aos elementos de convicção produzidos. Com base nessa situação hipotética, assinale a alternativa correta.",
+    "options": [
+      "O indeferimento é legítimo, pois a autoridade policial tem discricionariedade para restringir o acesso à investigação, conforme exceção prevista na súmula vinculante 14.",
+      "O Ministério Público deve oferecer denúncia por crime de abuso de autoridade, uma vez que a negativa de acesso aos elementos de prova já documentados, sem fundamentação legal idônea, configura crime.",
+      "A negativa de acesso aos autos somente configura abuso de autoridade se houver mandado judicial autorizando expressamente o acesso.",
+      "O delegado cometeu crime de prevaricação, uma vez que a ausência de justificativa para a negativa de acesso demonstra a existência de interesse pessoal sub-reptício.",
+      "O delegado está correto em sua posição de negar acesso aos autos, porquanto a eventual publicidade do feito, ainda que somente aos investigados, poderia configurar o crime de violação de sigilo funcional."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A respeito dos crimes praticáveis por funcionário público contra a Administração em geral, previstos no Código Penal, o crime de peculato consiste em",
+    "options": [
+      "apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio.",
+      "retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal.",
+      "inserir ou facilitar, o funcionário autorizado, a inserção de dados falsos, alterar ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de dados da Administração Pública com o fim de obter vantagem indevida para si ou para outrem ou para causar dano.",
+      "solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem.",
+      "exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Tício, no intuito de obter uma certidão, dirigiu-se a um órgão público municipal e foi atendido pelo servidor público Mévio. Na ocasião, Mévio disse que a certidão estaria disponível no prazo de 48 horas, mas, se lhe fosse repassada determinada quantia, poderia disponibilizar a certidão de imediato. Sabendo que essa solicitação é indevida, é correto afirmar que Mévio praticou o crime de",
+    "options": [
+      "corrupção passiva.",
+      "peculato.",
+      "corrupção ativa.",
+      "concussão.",
+      "prevaricação."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Joaquim era servidor público municipal e foi aprovado em concurso público para ocupar cargo na Defensoria Pública do Estado. Como o Defensor Público Geral era seu amigo, abandonou o cargo público que exercia no Município fora dos casos permitidos em lei e, antes de efetivamente ser nomeado e empossado, entrou em exercício na função pública da Defensoria Pública do Estado. Assim, em tese, é correto afirmar que",
+    "options": [
+      "Joaquim não praticou nenhum crime, considerando que foi aprovado para o cargo na Defensoria Pública do Estado.",
+      "Joaquim praticou o crime previsto no art. 323 do Código Penal, pois abandonou o cargo público fora dos casos permitidos em lei; contudo, não praticou qualquer crime ao entrar em exercício na função pública da Defensoria Pública do Estado, considerando que foi aprovado para o cargo na Defensoria.",
+      "Joaquim praticou os crimes previstos nos arts. 323 (abandono de função) e 324 (exercício funcional ilegalmente antecipado ou prolongado) do Código Penal ao abandonar o cargo público municipal fora dos casos permitidos em lei e entrar em exercício na função pública da Defensoria Pública do Estado.",
+      "Joaquim praticou o crime previsto no art. 324 do Código Penal ao entrar em exercício na função pública da Defensoria Pública do Estado, pois ainda não havia sido nomeado e empossado no cargo; contudo, ao abandonar o cargo público municipal não praticou qualquer crime, pois não há previsão legal tipificando tal conduta como crime.",
+      "Joaquim praticou o crime previsto no art. 319 (prevaricação) do Código Penal ao praticar, indevidamente, ato de ofício, contra disposição expressa em lei, para satisfazer interesse ou sentimento pessoal."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Dada a importância do serviço público, o Código Penal prevê, no seu Título XI, alguns dos crimes contra a administração pública. Referente ao tema, assinale a alternativa correta.",
+    "options": [
+      "No caso do peculato culposo (at. 312, § 2º), a reparação do dano, se precede à sentença irrecorrível, reduz de metade a pena imposta; se lhe é posterior, extingue a punibilidade.",
+      "Deixar o Diretor de Penitenciária de cumprir seu dever de vedar ao preso o acesso a aparelho telefônico, de rádio ou similar, que permita a comunicação com outros presos ou com o ambiente externo, constitui crime de concussão.",
+      "Não há previsão legal para tipificar como crime a modificação ou alteração não autorizada de sistema de informações.",
+      "Embora possa ensejar violação à Lei de Responsabilidade Fiscal e implicar sanções pelo Tribunal de Contas, a conduta de dar às verbas públicas aplicação diversa da estabelecida em lei não é considerada crime no ordenamento jurídico brasileiro.",
+      "Há condescendência criminosa quando o funcionário deixa, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Considerando os crimes de concussão e de excesso de exação, previstos no caput e nos parágrafos do artigo 316 do Código Penal, é correto afirmar:",
+    "options": [
+      "admitem a modalidade culposa.",
+      "são crimes materiais.",
+      "O crime de concussão, previsto no caput, é formal, mas a figura qualificada, do crime de excesso de exação, previsto no parágrafo 2⁠º, é material. Crime material exige um resultado naturalístico para a consumação, como a morte no homicídio. Já o crime formal se consuma com a conduta, independentemente do resultado, como na ameaça, bastando que a vítima tome conhecimento do mal prometido. O crime de Concussão é formal, o que significa dizer que a mera exigência do valor caracteriza crime, ainda que não sobrevenha a materialidade (a vantagem material, como o dinheiro, por exemplo) Já o crime de excesso de exação em sua forma qualificada é essencialmente material, porque o dinheiro já está sob a posse do agnte, ou seja, não é mais um crime formal, mas sim um crime consumado de forma naturalística.",
+      "são crimes formais.",
+      "o crime de excesso de exação prevê a extinção da punibilidade, na hipótese de reparação do dano, até a sentença condenatória irrecorrível."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Henrique, servidor público do Estado Alfa, agindo com dolo, compareceu à sede do estabelecimento comercial de propriedade de Caio, dele exigindo o pagamento de tributo que sabe ser indevido. Efetivado o pagamento por parte do comerciante, Henrique desviou, em proveito próprio, o que recebeu indevidamente para recolher aos cofres públicos.\nNesse cenário, considerando as disposições do Código Penal, é correto afirmar que Henrique responderá pelo crime de:",
+    "options": [
+      "excesso de exação, na modalidade qualificada;",
+      "corrupção passiva, na modalidade qualificada;",
+      "excesso de exação, na modalidade simples;",
+      "corrupção passiva, na modalidade simples;",
+      "concussão, na modalidade simples."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Nos termos do Código Penal, no que diz respeito aos crimes praticados por funcionários públicos, qual crime comete o funcionário que exige tributo ou contribuição social que sabe ou deveria saber indevido?",
+    "options": [
+      "Peculato.",
+      "Corrupção ativa.",
+      "Excesso de exação.",
+      "Exercício funcional ilegalmente antecipado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre os Crimes contra a Administração Pública, e suas caracterizações legais, atente-se aos itens:\nI - Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumila, mas em razão dela, vantagem indevida.\nII - Deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente.\nIII - Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza.\nIV - Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário.\nIndique a alternativa que nomeie, corretamente, as definições:",
+    "options": [
+      "Concussão (I). Condescendência criminosa (II). Excesso de exação (III). Advocacia administrativa (IV).",
+      "Corrupção passiva (I). Prevaricação (II). Excesso de poder (III). Tráfico de influência (IV).",
+      "Excesso de exação (I). Omissão de dever funcional (II). Coação no curso do processo (III). Usurpação de função pública (IV).",
+      "Improbidade administrativa (I). Cumplicidade funcional (II). Exação tributária (III). Patrocínio ilegítimo (IV)."
+    ],
+    "correct": 0
+  }
+	
+],
+
 "DaAdministracaoPublica": [
 {
     "question": "Os princípios são um conjunto de normas ou padrões de conduta a serem seguidos por uma pessoa ou instituição. Sabe-se que a Administração Pública, direta e indireta, submete-se a alguns princípios. Nesse sentido, em relação aos princípios da Administração Pública, assinale a alternativa **INCORRETA**.",
