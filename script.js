@@ -1,6 +1,402 @@
 // Banco de questões
 const questions = {  
 
+"27a30_11434":[
+{
+    "question": "De acordo com o Art. 28, § 6º, da Lei de Drogas, a quem for primário, o prazo máximo de cumprimento das penas de prestação de serviços à comunidade e medida educativa será de:",
+    "options": [
+      "1 (um) ano.",
+      "6 (seis) meses.",
+      "5 (cinco) meses.",
+      "10 (dez) meses."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Conforme o Art. 28, § 6º, da Lei de Drogas, no caso de reincidência (Art. 28, I, II e III), o prazo máximo de cumprimento das penas de prestação de serviços à comunidade e medida educativa será de:",
+    "options": [
+      "2 (dois) anos.",
+      "6 (seis) meses.",
+      "5 (cinco) meses.",
+      "10 (dez) meses."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "De acordo com o Art. 30 da Lei nº 11.343/2006, prescrevem em quanto tempo a imposição e a execução das penas previstas no Art. 28?",
+    "options": [
+      "1 (um) ano.",
+      "2 (dois) anos.",
+      "4 (quatro) anos.",
+      "5 (cinco) anos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual é a primeira pena a ser aplicada pelo juiz ao agente que adquirir, guardar ou trouxer consigo drogas para consumo pessoal (Art. 28)?",
+    "options": [
+      "Prestação de serviços à comunidade.",
+      "Medida educativa de comparecimento a programa ou curso educativo.",
+      "Advertência sobre os efeitos das drogas.",
+      "Aplicação de multa."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 29 da Lei de Drogas trata da aplicação da pena de multa. No caso de reincidente, se o juiz aplicar a multa, esta será fixada entre quantos dias-multa?",
+    "options": [
+      "20 (vinte) a 40 (quarenta) dias-multa.",
+      "40 (quarenta) a 100 (cem) dias-multa.",
+      "60 (sessenta) a 150 (cento e cinquenta) dias-multa.",
+      "30 (trinta) a 90 (noventa) dias-multa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Conforme o Art. 27, antes de proferir sentença, o juiz, ouvida a defesa, poderá, a qualquer tempo, submeter o usuário e o dependente a tratamento. Quem o juiz deve obrigatoriamente ouvir antes de decidir sobre o procedimento?",
+    "options": [
+      "O Ministério Público.",
+      "A Defensoria Pública.",
+      "O Delegado de Polícia.",
+      "A autoridade de saúde pública local."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A Lei nº 11.343/2006 (Art. 30) determina que o procedimento relativo à apuração dos crimes previstos no Art. 28 deverá ser regido pelas regras da Lei nº 9.099/95 (Juizados Especiais Criminais), com as seguintes adaptações:",
+    "options": [
+      "O procedimento é mais rigoroso, vedando a transação penal e a suspensão condicional do processo.",
+      "O procedimento é mais simplificado, sem necessidade de laudo pericial para comprovar a natureza da droga.",
+      "O procedimento será realizado perante a Justiça Federal, independentemente da natureza do delito.",
+      "O juiz poderá valer-se de instrumentos que visem à redução dos riscos e dos danos sociais e à saúde, de acordo com as normas de saúde pública."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Segundo o Art. 28, § 7º, as penas previstas no Art. 28 podem ser impostas isolada ou cumulativamente. O juiz poderá, ainda, a qualquer tempo, considerando a necessidade, aplicar as medidas previstas, mesmo antes da sentença. Essas medidas são:",
+    "options": [
+      "Apenas a multa.",
+      "Prestação de serviços à comunidade e medida educativa.",
+      "Prisão preventiva e fiança.",
+      "Advertência e suspensão da habilitação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 28, § 8º, trata da hipótese de descumprimento injustificado das penas aplicadas. Se o agente descumprir injustificadamente a medida imposta, o juiz poderá:",
+    "options": [
+      "Determinar a prisão em regime fechado, respeitado o limite de 5 meses.",
+      "Aplicar a pena de multa, conforme previsto no Art. 29.",
+      "Determinar a aplicação de prisão simples, de 15 dias a 3 meses.",
+      "Aplicar a pena de reclusão, de 1 a 3 anos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Em relação à aplicação da pena de multa (Art. 29) e a possibilidade de conversão em pena privativa de liberdade, qual a afirmação correta?",
+    "options": [
+      "A pena de multa poderá ser convertida em detenção em caso de não pagamento, respeitado o limite de 10 meses.",
+      "A pena de multa poderá ser convertida em serviços à comunidade, mas não em pena privativa de liberdade, mesmo em caso de descumprimento.",
+      "A pena de multa não poderá ser convertida em detenção.",
+      "A pena de multa, após ser aplicada, será imediatamente substituída pela prestação de serviços à comunidade."
+    ],
+    "correct": 2
+  }
+ ,{
+    "question": "De acordo com o Art. 28 da Lei nº 11.343/2006, quem adquirir, guardar, tiver em depósito, transportar ou trouxer consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar será submetido às seguintes penas, **EXCETO**:",
+    "options": [
+      "Advertência sobre os efeitos das drogas.",
+      "Prestação de serviços à comunidade.",
+      "Medida educativa de comparecimento a programa ou curso educativo.",
+      "Detenção, de 1 (um) a 6 (seis) meses."
+    ],
+    "correct": 3
+  },
+],
+
+"31a47_11434":[
+ 
+  {
+    "question": "Para determinar se a droga destinava-se a consumo pessoal, o juiz atenderá à natureza e à quantidade da substância apreendida, ao local e às condições em que se desenvolveu a ação, às circunstâncias sociais e pessoais, bem como:",
+    "options": [
+      "Aos antecedentes e à confissão do agente, exclusivamente.",
+      "À conduta e aos antecedentes do agente.",
+      "À situação financeira e à profissão do agente.",
+      "Ao grau de escolaridade e à idade do agente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual é a pena prevista no Art. 33, *caput*, da Lei de Drogas para o crime de Tráfico de Drogas (Importar, exportar, remeter, preparar, produzir, fabricar, adquirir, vender, expor à venda...)?",
+    "options": [
+      "Reclusão de 3 (três) a 10 (dez) anos e pagamento de 500 a 1.500 dias-multa.",
+      "Detenção de 5 (cinco) a 15 (quinze) anos e pagamento de 500 a 1.500 dias-multa.",
+      "Reclusão de 5 (cinco) a 15 (quinze) anos e pagamento de 500 a 1.500 dias-multa.",
+      "Reclusão de 8 (oito) a 20 (vinte) anos e pagamento de 700 a 1.200 dias-multa."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Conforme o Art. 33, § 2º, induzir, instigar ou auxiliar alguém ao uso indevido de droga é crime punido com:",
+    "options": [
+      "Detenção, de 1 (um) a 3 (três) anos, e multa.",
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos, e multa.",
+      "Prestação de serviços à comunidade e advertência.",
+      "Reclusão, de 3 (três) a 10 (dez) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O § 3º do Art. 33 tipifica o chamado 'uso compartilhado'. Oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, acarreta pena de:",
+    "options": [
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos.",
+      "Detenção, de 6 (seis) meses a 1 (um) ano, e pagamento de 700 a 1.500 dias-multa.",
+      "Detenção, de 6 (seis) meses a 1 (um) ano, e pagamento de 700 a 1.500 dias-multa, sem prejuízo das penas previstas no art. 28.",
+      "As mesmas penas previstas para o usuário no Art. 28, sem aplicação de pena privativa de liberdade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "No crime de tráfico de drogas, as penas poderão ser reduzidas de um sexto a dois terços (Tráfico Privilegiado - § 4º do Art. 33), desde que o agente:",
+    "options": [
+      "Confesse o crime e delate os comparsas.",
+      "Seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa.",
+      "Tenha menos de 21 anos e seja réu primário.",
+      "Seja usuário dependente e comprove a necessidade de tratamento."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 34 tipifica a conduta de fabricar, adquirir, utilizar, transportar, oferecer, vender, distribuir (...) maquinário, aparelho, instrumento ou qualquer objeto destinado à fabricação, preparação, produção ou transformação de drogas. Qual é a pena prevista?",
+    "options": [
+      "Reclusão, de 3 (três) a 10 (dez) anos, e pagamento de 1.200 a 2.000 dias-multa.",
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos, e pagamento de 500 a 1.500 dias-multa.",
+      "Detenção, de 2 (dois) a 4 (quatro) anos, e multa.",
+      "Reclusão, de 8 (oito) a 20 (vinte) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Associarem-se **duas ou mais pessoas** para o fim de praticar, reiteradamente ou não, qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei, configura o crime de Associação para o Tráfico (Art. 35). A pena é:",
+    "options": [
+      "Reclusão, de 3 (três) a 10 (dez) anos, e pagamento de 700 a 1.200 dias-multa.",
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos, e pagamento de 500 a 1.500 dias-multa.",
+      "Detenção, de 1 (um) a 3 (três) anos, e multa.",
+      "Reclusão, de 4 (quatro) a 8 (oito) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O crime de **Financiamento ou Custeio do Tráfico** (Art. 36 - Financiar ou custear a prática de qualquer dos crimes previstos nos arts. 33 e 34) possui uma pena mais severa que o próprio tráfico. Qual é ela?",
+    "options": [
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos.",
+      "Reclusão, de 10 (dez) a 25 (vinte e cinco) anos.",
+      "Reclusão, de 8 (oito) a 20 (vinte) anos, e pagamento de 1.500 a 4.000 dias-multa.",
+      "Reclusão, de 12 (doze) a 30 (trinta) anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 40 prevê causas de aumento de pena (de um sexto a dois terços) para os crimes de tráfico. Assinale a alternativa que **NÃO** constitui uma causa de aumento de pena:",
+    "options": [
+      "A natureza, a procedência da substância ou do produto apreendido e as circunstâncias do fato evidenciarem a transnacionalidade do delito.",
+      "O agente praticar o crime prevalecendo-se de função pública ou no desempenho de missão de educação, poder familiar, guarda ou vigilância.",
+      "O crime tiver sido praticado nas dependências ou imediações de estabelecimentos prisionais, de ensino ou hospitalares.",
+      "O agente ser reincidente genérico em crimes dolosos contra o patrimônio."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Conforme o Art. 39, conduzir embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem, sujeita o agente à pena de:",
+    "options": [
+      "Reclusão, de 2 (dois) a 5 (cinco) anos.",
+      "Detenção, de 6 (seis) meses a 3 (três) anos, além da apreensão do veículo, cassação da habilitação e multa.",
+      "Detenção, de 1 (um) a 4 (quatro) anos, sem prejuízo das penas administrativas.",
+      "Apenas multa e cassação da habilitação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 37 tipifica a conduta do 'informante' (colaborar, como informante, com grupo, organização ou associação destinados à prática de qualquer dos crimes previstos nos arts. 33 e 34). A pena prevista é:",
+    "options": [
+      "Reclusão, de 2 (dois) a 6 (seis) anos, e pagamento de 300 a 700 dias-multa.",
+      "Detenção, de 1 (um) a 3 (três) anos.",
+      "Reclusão, de 3 (três) a 10 (dez) anos.",
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos."
+    ],
+    "correct": 0
+  }
+],
+
+"4a7_11343":[
+{
+    "question": "O Art. 7º da Lei nº 11.343/2006 define a estrutura organizacional do Sisnad. Com base na redação deste artigo, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A organização do Sisnad assegura a orientação central das atividades realizadas em seu âmbito.",
+      "A organização do Sisnad assegura a execução descentralizada das atividades.",
+      "O Sisnad abrange as esferas federal, distrital, estadual e municipal.",
+      "O artigo determina que a execução das atividades deve ser centralizada exclusivamente na União, cabendo aos Estados apenas a fiscalização."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Ainda sobre o Art. 7º, que trata da organização e funcionamento do Sisnad, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A organização do Sisnad se constitui matéria definida no regulamento da Lei.",
+      "O modelo adotado prevê que a orientação seja central, mas a execução das atividades seja descentralizada.",
+      "A execução descentralizada das atividades limita-se à esfera federal, não se aplicando às esferas estadual e municipal.",
+      "As atividades realizadas no âmbito do Sisnad envolvem a participação da esfera distrital (Distrito Federal)."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 4º da Lei nº 11.343/2006 estabelece os objetivos do Sistema Nacional de Políticas Públicas sobre Drogas (Sisnad). Sobre esses objetivos, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "Contribuir para a inclusão social do cidadão, tornando-o menos vulnerável a assumir comportamentos de risco para o uso indevido de drogas.",
+      "Promover a construção e a socialização do conhecimento sobre drogas no país.",
+      "Priorizar exclusivamente as ações de repressão policial, deixando as questões de saúde pública e reinserção social a cargo apenas da iniciativa privada e ONGs.",
+      "Assegurar as condições para a coordenação, a integração e a articulação das atividades de que trata a lei."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Ainda sobre os objetivos do Sisnad previstos no Art. 4º, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "Promover a integração entre as políticas de prevenção do uso indevido, atenção e reinserção social de usuários e de repressão à produção não autorizada e ao tráfico ilícito de drogas.",
+      "Centralizar todas as ações de prevenção e repressão exclusivamente no Governo Federal, vedando a participação dos Estados e Municípios na execução das políticas públicas.",
+      "Promover a articulação entre as atividades de prevenção do uso indevido, atenção e reinserção social de usuários e dependentes de drogas.",
+      "Contribuir para a inclusão social do cidadão e a redução de sua vulnerabilidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 5º da Lei de Drogas elenca os princípios que devem ser observados pelo Sisnad. Assinale a alternativa que apresenta uma afirmação **INCORRETA** sobre esses princípios:",
+    "options": [
+      "O respeito aos direitos fundamentais da pessoa humana, especialmente quanto à sua autonomia e à sua liberdade.",
+      "O respeito à diversidade e às especificidades populacionais existentes.",
+      "A responsabilidade exclusiva do Estado no enfrentamento à questão das drogas, sendo vedada a participação da família e da sociedade nesse processo.",
+      "A promoção da responsabilidade compartilhada entre Estado e Sociedade, reconhecendo a importância da participação social."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Em relação aos princípios do Sisnad (Art. 5º), assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A adoção de abordagem multidisciplinar que reconheça a interdependência e a natureza complementar das atividades de prevenção, atenção e reinserção social.",
+      "A observância do equilíbrio entre as atividades de prevenção do uso indevido, atenção e reinserção social de usuários e de repressão à produção não autorizada.",
+      "A definição de ações baseadas exclusivamente no senso comum e em crenças pessoais dos gestores, dispensando-se o rigor científico.",
+      "A observância das orientações e normas emanadas do Conselho Nacional de Políticas sobre Drogas - CONAD."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a composição do Sistema Nacional de Políticas Públicas sobre Drogas (Sisnad), descrita no Art. 7º, assinale a alternativa que indica um órgão ou entidade que **NÃO** faz parte expressamente do rol de integrantes do sistema:",
+    "options": [
+      "O Conselho Nacional de Políticas sobre Drogas - CONAD.",
+      "A Secretaria Nacional de Políticas sobre Drogas - SENAD.",
+      "Os Conselhos Estaduais, do Distrito Federal e Municipais de Políticas sobre Drogas.",
+      "O Tribunal Penal Internacional e a Organização dos Estados Americanos (OEA)."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Considerando os princípios do Sisnad (Art. 5º), no que tange à articulação com outros serviços públicos, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "É princípio do Sisnad o fortalecimento da autonomia e da responsabilidade individual em relação ao uso indevido de drogas.",
+      "O sistema deve buscar a articulação com os órgãos do Ministério Público e dos Poderes Legislativo e Judiciário.",
+      "O Sisnad deve operar de forma isolada, sendo proibida a integração com o Sistema Único de Saúde (SUS) e o Sistema Único de Assistência Social (SUAS).",
+      "É princípio do Sisnad a integração das estratégias nacionais e internacionais de prevenção, atenção, reinserção social e repressão."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre os objetivos do Sisnad relacionados à fiscalização e repressão (Art. 4º), assinale a alternativa **INCORRETA**:",
+    "options": [
+      "É objetivo promover a repressão à produção não autorizada e ao tráfico ilícito de drogas.",
+      "É objetivo assegurar as condições para a fiscalização de insumos utilizados na produção de drogas.",
+      "É objetivo garantir que a repressão policial seja a única ferramenta utilizada pelo Estado para lidar com usuários e dependentes, eliminando programas de saúde.",
+      "É objetivo promover a integração entre as políticas de repressão e as políticas de prevenção e reinserção social."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "De acordo com os Artigos 4º e 5º da Lei nº 11.343/2006, assinale a alternativa **INCORRETA** quanto à filosofia de atuação do Sisnad:",
+    "options": [
+      "O sistema reconhece o 'não-uso', o 'retardamento do uso' e a 'redução de riscos' como resultados desejáveis das atividades de natureza preventiva.",
+      "A lei prevê o reconhecimento do multiculturalismo e o respeito às diversidades regionais.",
+      "As políticas sobre drogas devem rejeitar qualquer tipo de embasamento científico, focando apenas em aspectos morais e religiosos para o tratamento da dependência.",
+      "A socialização do conhecimento sobre drogas no país é um dos objetivos fundamentais do sistema."
+    ],
+    "correct": 2
+  }
+],
+
+
+"1a2_11343":[
+  {
+    "question": "Sobre o objeto e as finalidades estabelecidas no Art. 1º da Lei nº 11.343/2006, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A lei institui o Sistema Nacional de Políticas Públicas sobre Drogas (Sisnad).",
+      "A lei prescreve medidas para prevenção do uso indevido, atenção e reinserção social de usuários e dependentes de drogas.",
+      "A lei estabelece normas para a repressão à produção não autorizada e ao tráfico ilícito de drogas.",
+      "A lei define que o Sisnad tem competência exclusiva para tratar da repressão policial, não abrangendo políticas de saúde ou reinserção social."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Considerando a definição legal de 'drogas' prevista no parágrafo único do Art. 1º da Lei nº 11.343/2006, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "Consideram-se drogas as substâncias ou os produtos capazes de causar dependência, assim especificados em lei.",
+      "Para que uma substância seja considerada droga, ela deve estar listada em relações atualizadas periodicamente pelo Poder Legislativo, através de novas Leis Ordinárias, sendo vedada a atualização por portaria do Poder Executivo.",
+      "Consideram-se drogas as substâncias ou os produtos capazes de causar dependência, especificados em listas atualizadas periodicamente pelo Poder Executivo da União.",
+      "A definição de drogas na lei segue um modelo de norma penal em branco, dependendo de complemento administrativo (listas) para sua efetiva aplicação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 2º da Lei nº 11.343/2006 estabelece proibições em todo o território nacional. Sobre este artigo, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A proibição das drogas abrange todo o território nacional.",
+      "A lei proíbe expressamente o plantio, a cultura, a colheita e a exploração de vegetais e substratos dos quais possam ser extraídas ou produzidas drogas.",
+      "A proibição do plantio e cultura prevista no Art. 2º é absoluta, não havendo qualquer previsão legal de exceção ou possibilidade de autorização para fins medicinais ou científicos.",
+      "Ficam proibidas as drogas, bem como o plantio, a cultura, a colheita e a exploração de vegetais e substratos dos quais possam ser extraídas ou produzidas drogas, ressalvada a hipótese de autorização legal ou regulamentar."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "De acordo com o parágrafo único do Art. 2º da Lei de Drogas, a União pode autorizar o plantio e a cultura de vegetais e substratos dos quais possam ser extraídas ou produzidas drogas. Sobre essa exceção, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A autorização pode ser concedida exclusivamente para fins medicinais ou científicos.",
+      "A autorização deve ser concedida em local e prazo predeterminados.",
+      "A atividade autorizada deve ocorrer mediante fiscalização.",
+      "A competência para autorizar o plantio para fins medicinais é concorrente, podendo ser concedida livremente pelos Estados e Municípios, independentemente da União."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Analise as disposições gerais dos artigos 1º e 2º da Lei nº 11.343/2006 e assinale a alternativa **INCORRETA**:",
+    "options": [
+      "O Sisnad é o sistema instituído pela lei para articular as políticas públicas sobre drogas.",
+      "A lei não considera como 'drogas' as substâncias sintéticas, limitando-se apenas aos vegetais e substratos naturais capazes de causar dependência.",
+      "A repressão à produção não autorizada de drogas é um dos pilares normativos estabelecidos logo no artigo 1º da lei.",
+      "A exploração de vegetais dos quais se extraem drogas é proibida em todo o território nacional, salvo autorização legal ou regulamentar."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Acerca das competências e vedações descritas no Título I da Lei nº 11.343/2006, assinale a alternativa **INCORRETA**:",
+    "options": [
+      "A União poderá autorizar o plantio, a cultura e a colheita dos vegetais referidos no Art. 2º, exclusivamente para fins medicinais ou científicos.",
+      "A definição do que é droga está atrelada à capacidade da substância de causar dependência.",
+      "As normas de repressão ao tráfico ilícito de drogas são estabelecidas visando, entre outros objetivos, a proteção da saúde pública.",
+      "O Art. 2º permite que qualquer cidadão realize o plantio de vegetais para extração de drogas em sua residência, desde que comprove que o uso é estritamente recreativo e privado, isentando-o de fiscalização."
+    ],
+    "correct": 3
+  }
+],
+
+///////////////////
+
 "LEPRDD":[
 
 {
@@ -3566,8 +3962,12 @@ DasPenasCodigoPenal:[
     "correct": 2
   }
 
+  ],
 
-    ]
+
+
+
+
 };
 
 // Elementos do DOM
