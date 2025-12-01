@@ -1,6 +1,241 @@
 // Banco de questões
 const questions = {  
 
+"LEPRDD":[
+
+{
+    "question": "Segundo o Art. 52 da Lei de Execução Penal, a prática de fato previsto como crime doloso constitui falta grave e, quando ocasione subversão da ordem ou disciplina internas, sujeita o preso provisório ou condenado ao regime disciplinar diferenciado, que terá a duração máxima de:",
+    "options": [
+      "1 (um) ano, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie.",
+      "2 (dois) anos, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie.",
+      "360 (trezentos e sessenta) dias, prorrogável por igual período.",
+      "3 (três) anos, vedada a repetição da sanção.",
+      "6 (seis) meses, prorrogável uma única vez."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Sobre o direito ao banho de sol no Regime Disciplinar Diferenciado (RDD), a Lei de Execução Penal determina que:",
+    "options": [
+      "Será de 1 (uma) hora diária, individualmente.",
+      "Será de 2 (duas) horas diárias, individualmente, sem contato com qualquer outro preso.",
+      "Será de 2 (duas) horas diárias, em grupos de até 4 (quatro) presos, desde que não haja contato com presos do mesmo grupo criminoso.",
+      "Será de 1 (uma) hora diária, em grupos de até 6 (seis) presos.",
+      "Está suspenso enquanto durar o regime disciplinar."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Em relação às visitas no Regime Disciplinar Diferenciado, o Art. 52 da LEP estabelece que elas serão:",
+    "options": [
+      "Semanais, de duas pessoas por vez, com duração de duas horas.",
+      "Quinzenais, de duas pessoas por vez, a serem realizadas em instalações equipadas para impedir o contato físico e a passagem de objetos.",
+      "Mensais, de até três pessoas por vez, permitindo-se o contato físico apenas com filhos menores.",
+      "Quinzenais, sem restrição de contato físico, desde que monitoradas por agente penitenciário.",
+      "Proibidas, salvo autorização judicial expressa para casos de doença grave na família."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O regime disciplinar diferenciado também será aplicado aos presos provisórios ou condenados, nacionais ou estrangeiros, sob os quais recaiam fundadas suspeitas de envolvimento ou participação, a qualquer título, em organização criminosa, associação criminosa ou milícia privada:",
+    "options": [
+      "Somente se praticarem falta grave consistente em crime doloso.",
+      "Independentemente da prática de falta grave.",
+      "Apenas após o trânsito em julgado da sentença condenatória.",
+      "Apenas se forem líderes da organização criminosa.",
+      "Somente se houver risco de fuga."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No RDD, as entrevistas do preso, em regra, devem ser monitoradas. Contudo, há uma exceção ou especificidade quanto ao defensor. Assinale a alternativa correta:",
+    "options": [
+      "As entrevistas com o defensor são sempre gravadas e enviadas ao juiz.",
+      "As entrevistas com o defensor nunca podem ser monitoradas, sob pena de nulidade.",
+      "As entrevistas são sempre monitoradas, exceto aquelas com seu defensor, salvo expressa autorização judicial em contrário.",
+      "O defensor não tem acesso ao preso que está em RDD.",
+      "O monitoramento das entrevistas com o defensor depende de autorização do diretor do presídio."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Caso existam indícios de que o preso continua apresentando alto risco para a ordem e a segurança do estabelecimento penal ou da sociedade, ou mantém os vínculos com organização criminosa, o período de permanência no RDD poderá ser:",
+    "options": [
+      "Prorrogado, de forma sucessiva, por períodos de 1 (um) ano.",
+      "Prorrogado por apenas mais 6 (seis) meses.",
+      "Prorrogado, de forma sucessiva, por períodos de 2 (dois) anos.",
+      "Convertido em isolamento celular perpétuo.",
+      "Mantido indefinidamente sem necessidade de nova decisão judicial."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A participação do preso submetido ao regime disciplinar diferenciado em audiências judiciais deverá ocorrer, preferencialmente:",
+    "options": [
+      "De forma presencial, com escolta reforçada.",
+      "Por meio de videoconferência.",
+      "Por meio de carta precatória, dispensando-se a presença física ou virtual.",
+      "Apenas na fase de sentença.",
+      "De forma presencial, exceto se o juiz dispensar o interrogatório."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual das alternativas abaixo NÃO é uma característica do Regime Disciplinar Diferenciado prevista no Art. 52 da LEP?",
+    "options": [
+      "Recolhimento em cela individual.",
+      "Visitas quinzenais, de duas pessoas por vez.",
+      "Direito do preso à saída da cela por 2 horas diárias para banho de sol.",
+      "Fiscalização do conteúdo da correspondência.",
+      "Direito a visitas íntimas quinzenais."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "A inclusão de preso no regime disciplinar diferenciado depende de decisão judicial. Sobre esse procedimento, é correto afirmar que:",
+    "options": [
+      "O diretor do presídio pode incluir o preso no RDD e comunicar o juiz em até 24 horas para homologação.",
+      "A decisão judicial prescinde (dispensa) de requerimento circunstanciado da autoridade administrativa.",
+      "A decisão judicial será precedida de manifestação do Ministério Público e da defesa e prolatada no prazo máximo de 15 (quinze) dias.",
+      "O Ministério Público tem poder de veto sobre a inclusão do preso no RDD.",
+      "A defesa deve ser ouvida apenas após a inclusão do preso no regime, em contraditório diferido."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Sobre a fiscalização da correspondência no Regime Disciplinar Diferenciado:",
+    "options": [
+      "É vedada, garantindo-se o sigilo das comunicações.",
+      "É permitida apenas para cartas enviadas a outros presos.",
+      "É uma das características expressas do regime, devendo o conteúdo ser fiscalizado.",
+      "Depende de nova autorização judicial específica para cada carta.",
+      "É permitida apenas se o preso for estrangeiro."
+    ],
+    "correct": 2
+  }
+  ,{
+    "question": "De acordo com a narrativa e considerando as disposições da Lei nº 7.210/1984, analise as afirmativas a seguir.\nI. O regime disciplinar diferenciado também será aplicado aos presos provisórios ou condenados, nacionais ou estrangeiros, sob os quais recaiam fundadas suspeitas de envolvimento ou participação, a qualquer título, em organização criminosa, associação criminosa ou milícia privada, independentemente da prática de falta grave.\nII. A autorização para a inclusão do preso em regime disciplinar dependerá de requerimento circunstanciado elaborado pelo diretor do estabelecimento ou outra autoridade administrativa.\nIII. A decisão judicial sobre inclusão de preso em regime disciplinar será precedida de manifestação do Ministério Público e da defesa e prolatada no prazo máximo de quinze dias.\nNesse cenário, considerando as disposições da Lei nº 7.210/1984, está correto o que se afirma em",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "De acordo com a narrativa e considerando as disposições da Lei nº 7.210/1984, analise as afirmativas a seguir.\nI. O regime disciplinar diferenciado também será aplicado aos presos provisórios ou condenados, nacionais ou estrangeiros, sob os quais recaiam fundadas suspeitas de envolvimento ou participação, a qualquer título, em organização criminosa, associação criminosa ou milícia privada, independentemente da prática de falta grave.\nII. A autorização para a inclusão do preso em regime disciplinar dependerá de requerimento circunstanciado elaborado pela autoridade policial competente.\nIII. A decisão judicial sobre inclusão de preso em regime disciplinar será precedida de manifestação do Ministério Público, devendo ser prolatada no prazo máximo de cinco dias, sendo certo que a defesa exercerá o contraditório diferido.\nNesse cenário, considerando as disposições da Lei nº 7.210/1984, está correto o que se afirma em",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Após determinação por parte do juízo federal competente, Caio, estrangeiro (nacional da Argentina), foi preso preventivamente pela prática de determinado crime hediondo. Registre-se que, durante o acautelamento provisório, Caio cometeu nova infração penal dolosa, caracterizadora de falta grave, ocasionando subversão da ordem interna.\nNesse cenário, considerando as disposições da Lei de Execução Penal, é correto afirmar que:",
+    "options": [
+      "por decisão do juízo competente, Caio poderá ser submetido ao regime disciplinar diferenciado, que terá duração máxima de quatro anos, sem prejuízo de repetição da sanção por nova falta grave da mesma espécie;",
+      "por decisão do diretor do estabelecimento, Caio poderá ser submetido ao regime disciplinar diferenciado, estando sujeito à fiscalização do conteúdo das correspondências;",
+      "por decisão do juízo competente, Caio poderá ser submetido ao regime disciplinar diferenciado, estando sujeito à fiscalização do conteúdo das correspondências;",
+      "por se tratar de preso estrangeiro, Caio não poderá ser submetido ao regime disciplinar diferenciado;",
+      "por se tratar de preso provisório, Caio não poderá ser submetido ao regime disciplinar diferenciado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Júlio foi condenado à pena privativa de liberdade por sentença transitada em julgado. Durante o cumprimento de sua pena privativa de liberdade, cometeu crime doloso, ocasionando subversão da ordem, ficando sujeito ao regime disciplinar diferenciado. Sobre o regime disciplinar diferenciado, previsto na Lei de Execução Penal, assinale a alternativa correta.",
+    "options": [
+      "O regime disciplinar diferenciado terá a duração máxima de até 4 (quatro) anos, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie",
+      "Júlio tem direito à saída da cela por 2 (duas) horas semanais para banho de sol, em grupos de até 6 (seis) presos, desde que não haja contato com presos do mesmo grupo criminoso",
+      "Júlio tem direito a visitas mensais, de 3 (três) pessoas por vez, a serem realizadas em instalações equipadas para impedir o contato físico e a passagem de objetos, por pessoa da família",
+      "O regime disciplinar diferenciado terá a duração máxima de até 2 (dois) anos, não sendo permitida a repetição da sanção por nova falta grave de mesma espécie",
+      "Júlio tem direito a entrevistas sempre monitoradas, exceto aquelas com seu defensor, em instalações equipadas para impedir o contato físico e a passagem de objetos, salvo expressa autorização judicial em contrário"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "De acordo com a Lei Federal nº 7.210/1984 (Lei de Execução Penal), assinale a alternativa correta sobre disciplina.",
+    "options": [
+      "A prática de fato previsto como crime doloso durante o cumprimento de pena constitui falta, cuja classificação depende da gravidade do crime praticado.",
+      "São permitidas sanções disciplinares coletivas.",
+      "Advertência verbal, repreensão, suspensão ou restrição de direitos, isolamento na própria cela, inclusão no regime disciplinar diferenciado e regressão de regime são sanções",
+      "O isolamento na própria cela ou em local adequado pode ser de 15 (quinze) a 45 (quarenta e cinco dias), ressalvada a hipótese do regime disciplinar diferenciado.",
+      "As faltas disciplinares são classificadas em leves, médias e graves, e a natureza, os motivos, as circunstâncias e as consequências do fato, a pessoa do faltoso e seu tempo de prisão devem ser considerados na aplicação das sanções disciplinares."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Considerando as características do regime disciplinar diferenciado, analise as afirmativas a seguir:\nI. Entrevistas sempre monitoradas, inclusive aquelas com a defesa técnica, em instalações equipadas para impedir o contato físico e a passagem de objetos, salvo expressa autorização do diretor do estabelecimento em contrário.\nII. Participação em audiências judiciais preferencialmente de forma presencial, nas dependências do fórum, garantindo-se a participação do defensor no mesmo ambiente do preso.\nIII. Duração máxima de até dois anos, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie.\nIV. Fiscalização do conteúdo da correspondência.\nSegundo as disposições da Lei no 7.210/1984, é característica do regime disciplinar diferenciado o que se afirma em",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "III e IV, apenas."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "São características do Regime Disciplinar Diferenciado (RDD), entre outras, duração máxima de até __________, recolhimento em cela individual e visitas ___________\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+    "options": [
+      "1 ano – quinzenais",
+      "2 anos – semanais",
+      "1 ano – semanais",
+      "2 anos – quinzenais",
+      "360 dias – semanais"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Sobre o Regime Disciplinar Diferenciado, segundo a legislação aplicável, assinale a alternativa correta:",
+    "options": [
+      "Tem duração de 2 anos, prorrogáveis uma única vez, por igual período.",
+      "É cabível para membro de associação criminosa, independentemente de cometimento de falta grave.",
+      "Todas as entrevistas são monitoradas.",
+      "É cumprido sempre em estabelecimento penitenciário federal.",
+      "Não é cabível em caso de prisão cautelar."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Durante a execução da pena que lhe foi imposta, em razão de condenação definitiva pelo delito de homicídio qualificado, Jonas cometeu falta grave consistente na prática de crime doloso que ocasionou desordem no presídio. Por esse motivo, foi submetido, em observância às formalidades legais, ao regime disciplinar diferenciado.\nNesse cenário, considerando as disposições da Lei no 7.210/1984 (Lei de Execução Penal), o regime disciplinar diferenciado está sujeito à seguinte característica:",
+    "options": [
+      "visitas quinzenais, de duas pessoas por vez, a serem realizadas em instalações equipadas para impedir o contato físico e a passagem de objetos por pessoa da família ou, no caso de terceiro, autorizado pelo diretor do estabelecimento prisional, com duração de duas horas;",
+      "entrevistas sempre monitoradas, exceto aquelas com seu defensor, em instalações equipadas para impedir o contato físico e a passagem de objetos, salvo expressa autorização do diretor do estabelecimento prisional em contrário;",
+      "direito do preso à saída da cela por uma hora diária para banho de sol, em grupos de até quatro presos, desde que não haja contato com internos do mesmo grupo criminoso;",
+      "duração máxima de até doze meses, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie;",
+      "fiscalização do conteúdo da correspondência."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "João, integrante da facção criminosa “ABC”, durante o cumprimento de pena pela prática do crime de homicídio qualificado, é informado de que será incluído no regime disciplinar diferenciado (RDD), em observância às formalidades legais. Muito preocupado com as restrições que lhe serão impostas, João pergunta a diversas pessoas sobre as peculiaridades do RDD.\nConsiderando as disposições da Lei nº 7.210/1984, é característica do regime disciplinar diferenciado:",
+    "options": [
+      "as visitas quinzenais, de duas pessoas por vez, a serem realizadas em instalações equipadas para impedir o contato físico e a passagem de objetos, por pessoa da família ou, no caso de terceiro, autorizado judicialmente, com duração de duas horas;",
+      "a vedação ao comparecimento presencial do preso em audiências judiciais, garantindo-se os equipamentos necessários para que o acautelado participe do ato por videoconferência;",
+      "as entrevistas monitoradas, inclusive aquelas com o defensor do preso, em instalações equipadas para impedir o contato físico e a passagem de objetos, salvo expressa autorização judicial em contrário;",
+      "a saída da cela por duas horas diárias para banho de sol, em grupos de até cinco presos, desde que não haja contato com outros acautelados do mesmo grupo criminoso;",
+      "duração máxima de dois anos, admitindo-se uma prorrogação, por igual período, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A Lei nº 13.769/2018 incluiu o § 3º no art. 112 da Lei de Execução Penal (LEP), prevendo progressão de regime especial no caso de mulher gestante, ou mãe, ou responsável por crianças, ou pessoas com deficiência. Essa progressão de regime diferenciada tem como requisitos, entre outros:",
+    "options": [
+      "Ter cumprido ao menos 1/8 da pena no regime anterior e não ter integrado organização criminosa.",
+      "Ter cumprido ao menos 1/8 da pena no regime anterior e não ter integrado associação criminosa.",
+      "Ter cumprido ao menos 1/6 da pena no regime anterior e não ter integrado organização criminosa.",
+      "Ter cumprido ao menos 1/6 da pena no regime anterior e não ter integrado associação criminosa.",
+      "Ter cumprido ao menos 1/8 da pena no regime anterior e ser primária, independentemente do bom comportamento carcerário."
+    ],
+    "correct": 0
+  }
+],
+
 "AbustoDeAutoridade":[
   {
     "question": "Observado o disposto na Lei nº 13.869/2019 (Lei do Abuso de Autoridade), assinale a alternativa **INCORRETA**.",
