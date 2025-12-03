@@ -1,6 +1,1090 @@
 // Banco de questões
 const questions = {  
 
+"PrincipiosConceitosCodigoPenal": [
+  {
+    "question": "(FGV – 2018 – TJ-AL – TÉCNICO JUDICIÁRIO) Julia, primária e de bons antecedentes, verificando a facilidade de acesso a determinados bens de uma banca de jornal, subtrai duas revistas de moda, totalizando o valor inicial do prejuízo em R$15,00 (quinze reais). Após ser presa em flagrante, é denunciada pela prática do crime de furto simples, vindo, porém, a ser absolvida sumariamente em razão do princípio da insignificância. De acordo com a situação narrada, o magistrado, ao reconhecer o princípio da insignificância, optou por absolver Julia em razão da:",
+    "options": [
+      "atipicidade da conduta;",
+      "causa legal de exclusão da ilicitude;",
+      "causa de exclusão da culpabilidade;",
+      "causa supralegal de exclusão da ilicitude;",
+      "extinção da punibilidade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FGV – 2015 – TJ-RO – TÉCNICO JUDICIÁRIO) Henrique, não aceitando o fim do relacionamento, decide matar Paola, sua ex-namorada. Para tanto, aguardou na rua a saída da vítima do trabalho e, após, desferiu-lhe diversas facadas na barriga, sendo estas lesões a causa eficiente de sua morte. Foi identificado por câmeras de segurança, porém, e denunciado pela prática de homicídio consumado. Em relação ao crime de lesão corporal, é correto afirmar que Henrique não foi denunciado com base no princípio da:",
+    "options": [
+      "especialidade;",
+      "subsidiariedade expressa;",
+      "alternatividade;",
+      "subsidiariedade tácita;",
+      "consunção."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FGV – 2015 – DPE-RO – ANALISTA) Carlos, primário e de bons antecedentes, subtraiu, para si, uma mini barra de chocolate avaliada em R$ 2,50 (dois reais e cinquenta centavos). Denunciado pela prática do crime de furto, o defensor público em atuação, em sede de defesa prévia, requereu a absolvição sumária de Carlos com base no princípio da insignificância. De acordo com a jurisprudência dos Tribunais Superiores, o princípio da insignificância:",
+    "options": [
+      "funciona como causa supralegal de exclusão de ilicitude;",
+      "afasta a tipicidade do fato;",
+      "funciona como causa supralegal de exclusão da culpabilidade;",
+      "não pode ser adotado, por não ser previsto em nosso ordenamento jurídico;",
+      "funciona como causa legal de exclusão da culpabilidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2014 – OAB – EXAME DE ORDEM) Pedro Paulo, primário e de bons antecedentes, foi denunciado pelo crime de descaminho (Art. 334, caput, do Código Penal), pelo transporte de mercadorias procedentes do Paraguai e desacompanhadas de documentação comprobatória de sua importação regular, no valor de R$ 3.500,00, conforme atestam o Auto de Infração e o Termo de Apreensão e Guarda Fiscal, bem como o Laudo de Exame Merceológico, elaborado pelo Instituo Nacional de Criminalística. Em defesa de Pedro Paulo, segundo entendimento dos Tribunais Superiores, é possível alegar a aplicação do",
+    "options": [
+      "princípio da proporcionalidade.",
+      "princípio da culpabilidade.",
+      "princípio da adequação social.",
+      "princípio da insignificância ou da bagatela."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2014 – OAB – EXAME DE ORDEM) O Presidente da República, diante da nova onda de protestos, decide, por meio de medida provisória, criar um novo tipo penal para coibir os atos de vandalismo. A medida provisória foi convertida em lei, sem impugnações. Com base nos dados fornecidos, assinale a opção correta.",
+    "options": [
+      "Não há ofensa ao princípio da reserva legal na criação de tipos penais por meio de medida provisória, quando convertida em lei.",
+      "Não há ofensa ao princípio da reserva legal na criação de tipos penais por meio de medida provisória, pois houve avaliação prévia do Congresso Nacional.",
+      "Há ofensa ao princípio da reserva legal, pois não é possível a criação de tipos penais por meio de medida provisória.",
+      "Há ofensa ao princípio da reserva legal, pois não cabe ao Presidente da República a iniciativa de lei em matéria penal."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV -2008 -SENADO -ADVOGADO DO SENADO) Relativamente ao princípio da presunção de inocência, analise as afirmativas a seguir: I. O indiciado em inquérito policial ou acusado em processo criminal deve ser tratado como inocente, salvo quando preso em flagrante por crime hediondo, caso em que será vedada a concessão de liberdade provisória. II. Só é lícito o uso de algemas em caso de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito, sob pena de responsabilidade disciplinar, civil e penal do agente ou da autoridade, e a nulidade da prisão ou do ato processual a que se refere, sem prejuízo da responsabilidade civil do estado. III. Milita em favor do indivíduo o benefício da dúvida no momento da prolação da sentença criminal: in dubio pro réu. IV. A presunção de inocência é incompatível com as prisões cautelares antes de transitada em julgado a sentença penal condenatória. Assinale:",
+    "options": [
+      "se apenas as afirmativas I e II estiverem corretas.",
+      "se apenas as afirmativas II e III estiverem corretas.",
+      "se apenas as afirmativas III e IV estiverem corretas.",
+      "se apenas as afirmativas I, III e IV estiverem corretas.",
+      "se todas as afirmativas estiverem corretas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV -2008 -INSPETOR -INSPETOR DE POLÍCIA) Relativamente aos princípios de direito penal, assinale a afirmativa incorreta.",
+    "options": [
+      "Não há crime sem lei anterior que o defina.",
+      "Não há pena sem prévia cominação legal.",
+      "Crimes hediondos não estão sujeitos ao princípio da anterioridade da lei penal.",
+      "Ninguém pode ser punido por fato que a lei posterior deixa de considerar crime.",
+      "A lei posterior que de qualquer modo favorece o agente aplica-se aos casos anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV -2008 -INSPETOR -INSPETOR DE POLÍCIA) Em matéria de princípios constitucionais de Direito Penal, é correto afirmar que:",
+    "options": [
+      "a lei penal não retroagirá mesmo que seja para beneficiar o réu.",
+      "a prática de racismo não é considerada crime, salvo se a vítima for detentora de função pública.",
+      "os presos têm assegurado o respeito à sua integridade física, mas não à integridade moral.",
+      "a Constituição não autoriza a criação de penas de trabalhos forçados.",
+      "as penas privativas de liberdade poderão ser impostas aos sucessores do condenado."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV -2008 -INSPETOR -INSPETOR DE POLÍCIA) Assinale a alternativa correta.",
+    "options": [
+      "Expirado o prazo de validade da lei temporária, não se poderá impor prisão em flagrante àqueles que pratiquem o crime após a expiração, mas ainda será possível a instauração de processo criminal.",
+      "Todos aqueles que praticaram o crime durante a vigência da lei temporária poderão ser processados, mesmo depois de expirado seu prazo de vigência.",
+      "Cessada a vigência da lei temporária, consideram-se prescritos os crimes praticados durante sua vigência.",
+      "O princípio da ultra atividade da lei penal permite que todos aqueles que pratiquem o crime no intervalo de três anos a partir do fim do prazo de vigência da lei temporária sejam processados criminalmente.",
+      "Terminado o prazo de vigência da lei temporária, ocorrerá a abolitio criminis, libertando-se os que estiverem presos em razão da prática do crime previsto nessa lei."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV -2008 -TCM -PROCURADOR) A respeito do tema da retroatividade da lei penal, assinale a afirmativa correta.",
+    "options": [
+      "A lei penal posterior que de qualquer forma favorecer o agente não se aplica aos fatos praticados durante a vigência de uma lei temporária.",
+      "A lei penal posterior que de qualquer forma favorecer o agente aplica-se aos fatos anteriores, com exceção daqueles que já tiverem sido objeto de sentença condenatória transitada em julgado.",
+      "A lei penal mais gravosa pode retroagir, aplicando-se a fatos praticados anteriormente à sua vigência, desde que trate de crimes hediondos, tortura ou tráfico de drogas, como expressamente ressalvado na Constituição.",
+      "Quando um fato é praticado na vigência de uma determinada lei e ocorre uma mudança que gera uma situação mais gravosa para o agente, ocorrerá a ultratividade da lei penal mais favorável, salvo se houver a edição de uma outra lei ainda mais gravosa, situação em que prevalecerá a lei intermediária.",
+      "A lei penal posterior que de qualquer forma prejudicar o agente não se aplica aos fatos praticados anteriormente, salvo se houver previsão expressa na própria lei nova."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2018 – GABARITO MP PE – TÉCNICO) Não há crime sem lesão efetiva ou ameaça concreta ao bem jurídico tutelado. Tal enunciado refere-se ao princípio da",
+    "options": [
+      "proporcionalidade.",
+      "intervenção mínima.",
+      "ofensividade.",
+      "bagatela imprópria.",
+      "alteridade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2018 – DPE-RS – DEFENSOR PÚBLICO) O afastamento da tipicidade, quando verificada lesão penalmente irrelevante decorrente de conduta formalmente incriminada, dá-se por:",
+    "options": [
+      "princípio da adequação social.",
+      "princípio da intervenção mínima.",
+      "princípio da humanidade das sanções.",
+      "princípio da insignificância.",
+      "ineficácia absoluta do meio ou absoluta impropriedade do objeto (crime impossível)."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2017 – DPE-RS – ANALISTA PROCESSUAL) O que nos parece é que as duas dimensões do bem jurídico-penal ― a valorativa e a pragmática ― apresentam áreas de intensa interpenetração, o que origina a tendencial convergência entre elevada dignidade penal e necessidade de tutela penal, assim como, inversamente, entre reduzida dignidade penal e desnecessidade de tutela penal. (CUNHA, Maria da Conceição Ferreira da. Constituição e crime: uma perspectiva da criminalização e da descriminalização. Porto: Universidade Católica Portuguesa Editora, 1995, p. 424) Nesse tópico, o tema central do raciocínio da jurista portuguesa radica primacialmente no campo da ideia constitucional de",
+    "options": [
+      "individualização.",
+      "dignidade humana.",
+      "irretroatividade.",
+      "proporcionalidade.",
+      "publicidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2017 – DPE-PR – DEFENSOR PÚBLICO) O princípio da intervenção mínima no Direito Penal encontra reflexo",
+    "options": [
+      "no princípio da fragmentariedade e na teoria da imputação objetiva.",
+      "no princípio da subsidiariedade e na teoria da imputação objetiva.",
+      "nos princípios da subsidiariedade e da fragmentariedade.",
+      "no princípio da fragmentariedade e na proposta funcionalista sistêmica.",
+      "na teoria da imputação objetiva e na proposta funcionalista sistêmica"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2015 – TJ-SC – JUIZ SUBSTITUTO) A afirmação de que o Direito Penal não constitui um sistema exaustivo de proteção de bens jurídicos, de sorte a abranger todos os bens que constituem o universo de bens do indivíduo, mas representa um sistema descontínuo de seleção de ilícitos decorrentes da necessidade de criminalizá-los ante a indispensabilidade da proteção jurídico-penal, amolda-se, mais exatamente,",
+    "options": [
+      "ao conceito estrito de reserva legal aplicado ao significado de taxatividade da descrição dos modelos incriminadores.",
+      "à descrição do princípio da fragmentariedade do Direito Penal que é corolário do princípio da intervenção mínima e da reserva legal.",
+      "à descrição do princípio da culpabilidade como fenômeno social.",
+      "ao conteúdo jurídico do princípio de humanidade relacionado ao conceito de Justiça distributiva.",
+      "à descrição do princípio da insignificância em sua relativização na busca de mínima proporcionalidade entre gravidade da conduta e cominação de sanção."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2015 – TCM-GO – PROCURADOR) Pedro subtraiu bem móvel pertencente à Administração pública, valendo-se da facilidade propiciada pela condição de funcionário público. Pedro responderá pelo crime de peculato e não pelo delito de furto em decorrência do princípio da",
+    "options": [
+      "subsidiariedade.",
+      "consunção.",
+      "especialidade.",
+      "progressão criminosa.",
+      "alternatividade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2015 – DPE-MA – DEFENSOR PÚBLICO) A proscrição de penas cruéis e infamantes, a proibição de tortura e maus-tratos nos interrogatórios policiais e a obrigação imposta ao Estado de dotar sua infraestrutura carcerária de meios e recursos que impeçam a degradação e a dessocialização dos condenados são desdobramentos do princípio da",
+    "options": [
+      "proporcionalidade.",
+      "intervenção mínima do Estado.",
+      "fragmentariedade do Direito Penal.",
+      "humanidade.",
+      "adequação social."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2014 – TRF3 – ANALISTA JUDICIÁRIO) Dentre as ideias estruturantes ou princípios abaixo, todos especialmente importantes ao direito penal brasileiro, NÃO tem expressa e literal disposição constitucional o da",
+    "options": [
+      "legalidade.",
+      "proporcionalidade.",
+      "individualização.",
+      "pessoalidade.",
+      "dignidade humana."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2014 – DPE-PB – DEFENSOR PÚBLICO) \"A terrível humilhação por que passam familiares de presos ao visitarem seus parentes encarcerados consiste na obrigação de ficarem nus, de agacharem diante de espelhos e mostrarem seus órgãos genitais para agentes públicos. A maioria que sofre esses procedimentos é de mães, esposas e filhos de presos. Até mesmo idosos, crianças e bebês são submetidos ao vexame. É princípio de direito penal que a pena não ultrapasse a pessoa do condenado\". (DIAS, José Carlos. \"O fim das revistas vexatórias\". In: Folha de São Paulo. São Paulo: 25 de julho de 2014, 1º caderno, seção Tendências e Debates, p. A-3) Além da ideia de dignidade humana, por esse trecho o inconformismo do autor, recentemente publicado na imprensa brasileira, sustenta-se mais diretamente também no postulado constitucional da",
+    "options": [
+      "individualização.",
+      "fragmentariedade.",
+      "pessoalidade.",
+      "presunção de inocência.",
+      "legalidade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2007 – MPU – TÉCNICO ADMINISTRATIVO) Dispõe o artigo 1º do Código Penal: \"Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal\". Tal dispositivo legal consagra o princípio da",
+    "options": [
+      "ampla defesa.",
+      "legalidade.",
+      "presunção de inocência.",
+      "dignidade.",
+      "isonomia."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2008 – TCE/SP – AUDITOR DO TRIBUNAL DE CONTAS) O princípio constitucional da legalidade em matéria penal encontra efetiva realização na exigência, para a configuração do crime, de",
+    "options": [
+      "culpabilidade.",
+      "tipicidade.",
+      "punibilidade.",
+      "ilicitude.",
+      "imputabilidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC - 2013 - MPE-SE - Analista - Direito) A ideia de insignificância penal centra-se no conceito",
+    "options": [
+      "formal de crime.",
+      "material de crime.",
+      "analítico de crime.",
+      "subsidiário de crime.",
+      "aparente de crime."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – OFICIAL ADMINISTRATIVO) Conforme reza a Constituição da República, a competência para o julgamento dos crimes dolosos contra a vida é do(a).",
+    "options": [
+      "juizado especial federal.",
+      "júri.",
+      "Juiz criminal de primeira instância.",
+      "justiça militar.",
+      "Ministério Público."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2011 – TCE/PR – ANALISTA DE CONTROLE) O princípio válido, tratando-se de sucessão de leis penais no tempo, na hipótese de que a norma posterior incrimina fato não previsto na anterior, é o da",
+    "options": [
+      "Abolitio criminis.",
+      "Ultatividade.",
+      "Irretroatividade.",
+      "Retroatividade.",
+      "Lei vigente na época no momento da prática de fato punível: Tempus regit actum."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FUNCAB – 2010 – PM-GO) O Artigo 5º, Inciso XL da Constituição da República prevê que “a lei penal não retroagirá, salvo para beneficiar o réu”. Tal dispositivo constitucional refere-se ao princípio da:",
+    "options": [
+      "individualização da pena.",
+      "legalidade estrita",
+      "retroatividade benéfica da lei penal.",
+      "irretroatividade total da lei penal.",
+      "aplicação imediata da lei processual penal."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2010 – DPE/SP – DEFENSOR PÚBLICO) O postulado da fragmentariedade em matéria penal relativiza",
+    "options": [
+      "a proporcionalidade entre o fato praticado e a consequência jurídica.",
+      "a dignidade humana como limite material à atividade punitiva do Estado.",
+      "o concurso entre causas de aumento e diminuição de penas.",
+      "a função de proteção dos bens jurídicos atribuída à lei penal.",
+      "o caráter estritamente pessoal que decorre da norma penal."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FEPESE – 2010 – UDESC – ADVOGADO) Assinale a alternativa correta.",
+    "options": [
+      "O princípio da humanidade das penas está consagrado na Constituição Federal.",
+      "O princípio da aplicação da lei mais benéfica não é utilizado pelo direito penal.",
+      "O princípio da intervenção mínima não se confunde com o princípio da ultima ratio.",
+      "Por força do princípio da insignificância não são punidos os crimes de menor potencial ofensivo.",
+      "A existência de crimes funcionais ofende o princípio da igualdade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FUNDATEC – 2010 – CREA/PR – PROCURADOR) Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal. O primeiro artigo do Código Penal refere-se a qual dos princípios regentes do Direito Penal?",
+    "options": [
+      "Fragmentariedade.",
+      "Adequação social.",
+      "Consunção.",
+      "Legalidade.",
+      "Especialidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2011 – TCE-SP – PROCURADOR) O princípio constitucional da legalidade em matéria penal",
+    "options": [
+      "não vigora na fase de execução penal.",
+      "impede que se afaste o caráter criminoso do fato em razão de causa supralegal de exclusão da ilicitude.",
+      "não atinge as medidas de segurança.",
+      "obsta que se reconheça a atipicidade de conduta em função de sua adequação social.",
+      "exige a taxatividade da lei incriminadora, admitindo, em certas situações, o emprego da analogia."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2012 – ISS-SP – AUDITOR FISCAL) César, na vigência da Lei no 01, foi condenado à pena de dois meses de detenção, pela prática de determinado delito. A sentença transitou em julgado. Antes do trânsito em julgado, entrou em vigor a Lei no 02, que aumentou a pena desse crime para três meses de detenção. Após o trânsito em julgado, entraram em vigor duas outras leis: a Lei no 03, que reduziu a pena dessa infração penal para um mês de detenção, e a Lei no 04, que aboliu o referido delito. Nesse caso,",
+    "options": [
+      "aplica-se a Lei no 02, por ter entrado em vigor antes do trânsito em julgado da sentença.",
+      "aplica-se a Lei no 03, por ter mantido a incriminação, com redução da pena imposta.",
+      "aplica-se a Lei no 04, que deixou de incriminar fato que anteriormente era considerado ilícito penal.",
+      "aplica-se a pena resultante da média aritmética entre as penas de todas as leis referentes à mesma infração penal.",
+      "não se aplica nenhuma das leis novas, que entraram em vigor após o trânsito em julgado da sentença."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2012 – TRF5 – ANALISTA JUDICIÁRIO) O princípio, segundo o qual se afirma que o Direito Penal não é o único controle social formal dotado de recursos coativos, embora seja o que disponha dos instrumentos mais enérgicos, é reconhecido pela doutrina como princípio da",
+    "options": [
+      "lesividade.",
+      "intervenção mínima.",
+      "fragmentariedade.",
+      "subsidiariedade.",
+      "proporcionalidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2010 – TJ-MS – JUIZ) O princípio de intervenção mínima do Direito Penal encontra expressão",
+    "options": [
+      "nos princípios da fragmentariedade e da subsidiariedade.",
+      "na teoria da imputação objetiva e no princípio da fragmentariedade.",
+      "no princípio da fragmentariedade e na proposta funcionalista.",
+      "na teoria da imputação objetiva e no princípio da subsidiariedade.",
+      "no princípio da subsidiariedade e na proposta funcionalista."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2011 – TJ-SP – JUIZ) Antônio, quando ainda em vigor o inciso VII, do art. 107, do Código Penal, que contemplava como causa extintiva da punibilidade o casamento da ofendida com o agente, posteriormente revogado pela Lei n.º 11.106, publicada no dia 29 de março de 2005, estuprou Maria, com a qual veio a casar em 30 de setembro de 2005. O juiz, ao proferir a sentença, julgou extinta a punibilidade de Antônio, em razão do casamento com Maria, fundamentando tal decisão no dispositivo revogado (art. 107, VII, do Código Penal). Assinale, dentre os princípios adiante mencionados, em qual deles fundamentou-se tal decisão.",
+    "options": [
+      "Princípio da isonomia.",
+      "Princípio da proporcionalidade.",
+      "Princípio da retroatividade da lei penal benéfica.",
+      "Princípio da ultratividade da lei penal benéfica.",
+      "Princípio da legalidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2009 – TJ-MT – JUIZ) De acordo com o que dispõe a Constituição Federal, é crime inafiançável e imprescritível:",
+    "options": [
+      "o estupro.",
+      "a tortura.",
+      "o terrorismo.",
+      "o racismo.",
+      "o crime hediondo."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – OFICIAL ADMINISTRATIVO) No direito brasileiro, é vedada a pena de.",
+    "options": [
+      "suspensão ou interdição de direitos.",
+      "perda de bens.",
+      "trabalhos forçados.",
+      "privação da liberdade.",
+      "restrição da liberdade"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – OFICIAL ADMINISTRATIVO) Segundo a Constituição Federal, para que alguém seja considerado culpado é suficiente.",
+    "options": [
+      "condenação recorrível do Tribunal de Justiça do Estado de São Paulo",
+      "sentença judicial criminal de primeira instância recorrível.",
+      "decisão unânime do tribunal do júri da qual ainda caiba recurso.",
+      "denúncia do Ministério Público recebida pelo Poder Judiciário",
+      "sentença penal condenatória transitada em julgado."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – OFICIAL ADMINISTRATIVO) São penalmente inimputáveis os:",
+    "options": [
+      "maiores de dezesseis anos",
+      "menores de vinte e um anos.",
+      "maiores de vinte e um anos.",
+      "menores de dezoito anos.",
+      "maiores de dezoito anos."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FUNIVERSA– 2013– PM/DF– SOLDADO COMBATENTE) Sentença penal condenatória determinou a aplicação da sanção de pena privativa de liberdade ao réu e a decretação do perdimento de bens que, nos termos da lei, acabaram por afetar seus familiares, exatamente no montante do patrimônio transferido pelo réu. Considerando essa situação hipotética e os princípios constitucionais que regem o Direito Penal, assinale a alternativa correta.",
+    "options": [
+      "A imposição da pena privativa de liberdade ao réu e não a seus familiares, que não praticaram crime, corresponde à aplicação integral do princípio constitucional da individualização da pena.",
+      "A imposição do perdimento de bens aos familiares do condenado acabou por não observar o princípio constitucional da personalidade ou responsabilidade pessoal.",
+      "A extensão dos efeitos da condenação, com a decretação do perdimento de bens, afetando os familiares do condenado não poderia ocorrer, em virtude da necessidade de se observar o princípio constitucional da legalidade estrita.",
+      "O fato de a pena privativa de liberdade ter atingido apenas a pessoa do condenado com extensão, aos familiares, da obrigação de reparar o dano, atende integralmente o que prescreve o princípio constitucional da personalidade ou responsabilidade pessoal.",
+      "O princípio da personalidade ou da responsabilidade pessoal é um princípio implícito na Constituição Federal vigente."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(ESAF – 2007 – PFN – PROCURADOR DA FAZENDA) À luz da aplicação da lei penal no tempo, dos princípios da anterioridade, da irretroatividade, retroatividade e ultratividade da lei penal, julgue as afirmações abaixo relativas ao fato de Mévio ter sido processado pelo delito de adultério em dezembro de 2004, sendo que a Lei n. 11.106, de 28 de março de 2005, aboliu o crime de adultério: I. Caso Mévio já tenha sido condenado antes de março de 2005, permanecerá sujeito à pena prevista na sentença condenatória. II. A lei penal pode retroagir em algumas hipóteses. III. Caso Mévio não tenha sido condenado no primeiro grau de jurisdição, poderá ocorrer a extinção de punibilidade desde que a mesma seja provocada pelo réu. IV. Na hipótese, ocorre o fenômeno da abolitio criminis.",
+    "options": [
+      "Todas estão corretas.",
+      "Somente I está incorreta.",
+      "I e IV estão corretas.",
+      "I e III estão corretas.",
+      "II e IV estão corretas."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FUNCAB – 2014 – PC-MT – INVESTIGADOR) O princípio da fragmentariedade do Direito Penal significa:",
+    "options": [
+      "que, uma vez escolhidos aqueles bens fundamentais, comprovada a lesividade e a inadequação das condutas que os ofendem, esses bens passarão a fazer parte de uma pequena parcela que é protegida pelo Direito Penal.",
+      "que o legislador valora as condutas, cominando-lhes penas que variam de acordo com a importância do bem a ser tutelado.",
+      "que apesar de uma conduta se subsumir ao modelo legal não será considerada típica se for socialmente adequada ou reconhecida, isto é, se estiver de acordo com a ordem social da vida historicamente condicionada.",
+      "que as proibições penais somente se justificam quando se referem a condutas que afetem gravemente direitos de terceiros.",
+      "que a lei é a única fonte do Direito Penal quando se quer proibir ou impor condutas sob a ameaça de sanção."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – DELEGADO) Assinale a alternativa que apresenta o princípio que deve ser atribuído a Claus Roxin, defensor da tese de que a tipicidade penal exige uma ofensa de gravidade aos bens jurídicos protegidos.",
+    "options": [
+      "Insignificância.",
+      "Intervenção mínima.",
+      "Fragmentariedade.",
+      "Adequação social.",
+      "Humanidade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FAURGS – 2012 – TJ-RS – CONCILIADOR CRIMINAL) Em relação ao princípio da legalidade (artigo 1º do Código Penal), assinale a afirmação correta.",
+    "options": [
+      "Estabelece que as condutas consideradas como imorais pelo corpo social podem ser penalmente sancionadas, diante da magnitude da lesão causada à coletividade.",
+      "Permite concluir que ninguém poderá ser punido por conduta praticada que não esteja previamente definida como crime na lei.",
+      "Autoriza o uso de normas penais vagas e imprecisas para permitir ao julgador ampla discricionariedade no momento de optar pela condenação ou pela absolvição dos acusados.",
+      "Conforme a extensão do dano causado, pode ser flexibilizado para viabilizar a condenação de autores de fatos praticados antes da entrada em vigor da lei penal em questão, desde que fundamentada a decisão pelo Juiz.",
+      "Não há crime sem lei anterior que o defina, mas o Juiz poderá determinar a pena sem prévia cominação legal."
+    ],
+    "correct": 1
+  }
+],
+
+"CulpabilidadeErroPenal":[
+  {
+    "question": "(FGV – 2018 – TJ-AL – TÉCNICO JUDICIÁRIO) Gabriel, 25 anos, desferiu, de maneira imotivada, diversos golpes de madeira na cabeça de Fábio, seu irmão mais novo. Após ser denunciado pelo crime de lesão corporal gravíssima, foi realizado exame de insanidade mental, constatando-se que, no momento da agressão, Gabriel, em razão de desenvolvimento mental incompleto, não era inteiramente capaz de entender o caráter ilícito do fato. Diante da conclusão do laudo pericial, deverá ser reconhecida a:",
+    "options": [
+      "inimputabilidade do agente, afastando-se a culpabilidade;",
+      "semi-imputabilidade do agente, afastando-se a culpabilidade;",
+      "inimputabilidade do agente, afastando-se a tipicidade;",
+      "semi-imputabilidade do agente, que poderá funcionar como causa de redução de pena;",
+      "semi-imputabilidade do agente, afastando-se a tipicidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2015 – TCM-SP – AGENTE DE FISCALIZAÇÃO – CIÊNCIAS JURÍDICAS) Dois prefeitos de cidades vizinhas, Ricardo e Bruno, encontram-se em um bar, após uma reunião cansativa de negócios. Ricardo bebia doses de whisky e, mesmo não sendo essa sua intenção, acabou ficando embriagado. Enquanto isso, Bruno bebia apenas refrigerante, mas foi colocado em seu copo um comprimido de substância psicotrópica por um eleitor de sua cidade, que também o deixou completamente embriagado. Após, ainda alterados, cada um volta para a sede de sua prefeitura e apropriam-se de bens públicos para proveito próprio. Considerando o fato narrado, é correto afirmar que:",
+    "options": [
+      "Ricardo e Bruno são isentos de pena, pois a embriaguez de ambos decorreu de força maior;",
+      "Ricardo deverá responder pelo crime praticado, enquanto Bruno é isento de pena;",
+      "Ricardo e Bruno deverão responder pelos crimes praticados, pois a embriaguez nunca exclui a imputabilidade penal;",
+      "Ricardo e Bruno, caso sejam denunciados, responderão criminalmente perante a Câmara de Vereadores;",
+      "Ricardo e Bruno são isentos de pena, pois a embriaguez do primeiro foi culposa e do segundo decorreu de força maior."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2015 – TCE-RJ – AUDITOR) A embriaguez provocada pelo uso do álcool pode excluir a culpabilidade quando:",
+    "options": [
+      "for preordenada;",
+      "decorrer de força maior e diminuir a capacidade de entender a ilicitude do fato;",
+      "for culposa;",
+      "for patológica;",
+      "for habitual."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2015 – ASSEMBLEIA LEGISLATIVA-AL – PROCURADOR) A doutrina majoritária brasileira entende que haverá crime diante de uma conduta típica, ilícita e culpável. Sobre a culpabilidade, assinale a afirmativa correta.",
+    "options": [
+      "O erro de tipo é causa de exclusão da culpabilidade em seu elemento potencial da ilicitude.",
+      "A conduta em coação física irresistível, apesar de típica e ilícita, não enseja punição do agente por ausência de culpabilidade.",
+      "O estrito cumprimento do dever legal é tratado pelo Código Penal como causa excludente de culpabilidade.",
+      "A embriaguez culposa completa não exclui a imputabilidade penal.",
+      "O exercício regular do direito é causa legal de exclusão da culpabilidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2015 – OAB – XVI EXAME DE ORDEM) Patrício e Luiz estavam em um bar, quando o primeiro, mediante ameaça de arma de fogo, obriga o último a beber dois copos de tequila. Luiz ficou inteiramente embriagado. A dupla, então, deixou o local, sendo que Patrício conduzia Luiz, que caminhava com muitas dificuldades. Ao encontrarem Juliana, que caminhava sozinha pela calçada, Patrício e Luiz, se utilizando da arma que era portada pelo primeiro, constrangeram-na a com eles praticar sexo oral, sendo flagrados por populares que passavam ocasionalmente pelo local, ocorrendo a prisão em flagrante. Denunciados pelo crime de estupro, no curso da instrução, mediante perícia, restou constatado que Patrício era possuidor de doença mental grave e que, quando da prática do fato, era inteiramente incapaz de entender o caráter ilícito do seu comportamento, situação, aliás, que permaneceu até o momento do julgamento. Também ficou demonstrado que, no momento do crime, Luiz estava completamente embriagado. O Ministério Público requereu a condenação dos acusados. Não havendo dúvida com relação ao injusto, tecnicamente, a defesa técnica dos acusados deverá requerer, nas alegações finais,",
+    "options": [
+      "a absolvição dos acusados por força da inimputabilidade, aplicando, porém, medida de segurança para ambos.",
+      "a absolvição de Luiz por ausência de culpabilidade em razão da embriaguez culposa e a absolvição Patrício, com aplicação, para este, de medida de segurança.",
+      "a absolvição de Luiz por ausência de culpabilidade em razão da embriaguez completa decorrente de força maior e a absolvição imprópria de Patrício, com aplicação, para este, de medida de segurança.",
+      "a absolvição imprópria de Patrício, com a aplicação de medida de segurança, e a condenação de Luiz na pena mínima, porque a embriaguez nunca exclui a culpabilidade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV – 2015 – OAB – XVII EXAME DE ORDEM) Durante um assalto a uma instituição bancária, Antônio e Francisco, gerentes do estabelecimento, são feitos reféns. Tendo ciência da condição deles de gerentes e da necessidade de que suas digitais fossem inseridas em determinado sistema para abertura do cofre, os criminosos colocam, à força, o dedo de Antônio no local necessário, abrindo, com isso, o cofre e subtraindo determinada quantia em dinheiro. Além disso, sob a ameaça de morte da esposa de Francisco, exigem que este saia do banco, levando a sacola de dinheiro juntamente com eles, enquanto apontam uma arma de fogo para os policiais que tentavam efetuar a prisão dos agentes. Analisando as condutas de Antônio e Francisco, com base no conceito tripartido de crime, é correto afirmar que",
+    "options": [
+      "Antônio não responderá pelo crime por ausência de tipicidade, enquanto Francisco não responderá por ausência de ilicitude em sua conduta.",
+      "Antônio não responderá pelo crime por ausência de ilicitude, enquanto Francisco não responderá por ausência de culpabilidade em sua conduta.",
+      "Antônio não responderá pelo crime por ausência de tipicidade, enquanto Francisco não responderá por ausência de culpabilidade em sua conduta.",
+      "Ambos não responderão pelo crime por ausência de culpabilidade em suas condutas."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV – 2013 – OAB – XI EXAME DE ORDEM) Para aferição da inimputabilidade por doença mental ou desenvolvimento mental incompleto ou retardado, assinale a alternativa que indica o critério adotado pelo Código Penal vigente.",
+    "options": [
+      "Biológico.",
+      "Psicológico.",
+      "Psiquiátrico.",
+      "Biopsicológico."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2012 – OAB – VIII EXAME DE ORDEM) Analise as hipóteses abaixo relacionadas e assinale a alternativa que apresenta somente causas excludentes de culpabilidade.",
+    "options": [
+      "Erro de proibição; embriaguez completa proveniente de caso fortuito ou força maior; coação moral irresistível.",
+      "Embriaguez culposa; erro de tipo permissivo; inimputabilidade por doença mental ou por desenvolvimento mental incompleto ou retardado.",
+      "Inimputabilidade por menoridade; estrito cumprimento do dever legal; embriaguez incompleta.",
+      "Embriaguez incompleta proveniente de caso fortuito ou força maior; erro de proibição; obediência hierárquica."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FGV – IX EXAME UNIFICADO DA OAB) Acerca das causas excludentes de ilicitude e extintivas de punibilidade, assinale a afirmativa incorreta.",
+    "options": [
+      "A coação moral irresistível exclui a culpabilidade, enquanto que a coação física irresistível exclui a própria conduta, de modo que, nesta segunda hipótese, sequer chegamos a analisar a tipicidade, pois não há conduta penalmente relevante.",
+      "Em um bar, Caio, por notar que Tício olhava maliciosamente para sua namorada, desfere contra este um soco no rosto. Aturdido, Tício vai ao chão, levantando-se em seguida, e vai atrás de Caio e o interpela quando este já estava saindo do bar. Ao voltar-se para trás, atendendo ao chamado, Caio é surpreendido com um soco no ventre. Tício praticou conduta típica, mas amparada por uma causa excludente de ilicitude.",
+      "Mévio, atendendo a ordem dada por seu líder religioso e, com o intuito de converter Rufus, permanece na residência deste à sua revelia, ou seja, sem o seu consentimento. Neste caso, Mévio, mesmo cumprindo ordem de seu superior e mesmo sendo tal ordem não manifestamente ilegal, pratica crime de violação de domicílio (Art. 150 do Código Penal), não estando amparado pela obediência hierárquica.",
+      "O consentimento do ofendido não foi previsto pelo nosso ordenamento jurídico-penal como uma causa de exclusão da ilicitude. Todavia, sua natureza justificante é pacificamente aceita, desde que, entre outros requisitos, o ofendido seja capaz de consentir e que tal consentimento recaia sobre bem disponível."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2017 – TRF5 – OFICIAL DE JUSTIÇA) A coação moral irresistível",
+    "options": [
+      "torna o fato atípico.",
+      "é causa excludente de ilicitude.",
+      "é circunstância que sempre atenua a pena.",
+      "tem o mesmo tratamento legal da coação física irresistível.",
+      "é causa de isenção da pena."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2015 – TRE-RR – ANALISTA JUDICIÁRIO) Paulo é estudante de uma determinada faculdade do Estado de Roraima, cursando o primeiro semestre. No início deste ano de 2015 Paulo é submetido a um trote acadêmico violento e, amarrado, é obrigado a consumir à força bebida alcoólica e substância entorpecente. Após o trote, Paulo, completamente embriagado e incapacitado de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento por conta desta embriaguez e do uso de droga, desloca-se até uma Delegacia de Polícia da cidade de Boa Vista, onde tramita um inquérito contra ele por crime de lesão corporal dolosa decorrente de uma briga em uma casa noturna, e oferece R$ 10.000,00 em dinheiro ao Delegado de Polícia para que este não dê prosseguimento às investigações. Paulo acaba preso em flagrante pela Autoridade Policial. No caso hipotético exposto, Paulo",
+    "options": [
+      "praticou crime de corrupção ativa e terá a pena reduzida de um a dois terços no caso de condenação.",
+      "é isento de pena pelo crime cometido nas dependências da Delegacia de Polícia.",
+      "praticou crime de corrupção ativa e não terá a pena reduzida no caso de condenação pela embriaguez.",
+      "praticou crime de concussão e não terá a pena reduzida no caso de condenação.",
+      "praticou crime de concussão e terá a pena reduzida de um a dois terços no caso de condenação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2015 – TRT9 – TÉCNICO JUDICIÁRIO) São causas de inimputabilidade previstas no Código Penal, além de doença mental e desenvolvimento mental incompleto ou retardado:",
+    "options": [
+      "emoção e paixão; embriaguez completa, decorrente de caso fortuito ou força maior; idade inferior a 18 anos.",
+      "idade inferior a 16 anos; embriaguez voluntária; coação irresistível.",
+      "idade inferior a 18 anos; embriaguez completa, decorrente de caso fortuito ou força maior.",
+      "idade inferior a 21 anos; embriaguez completa, decorrente de caso fortuito ou força maior; legítima defesa.",
+      "emoção e paixão; idade inferior a 18 anos; embriaguez preordenada."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2015 – TRE-AP – ANALISTA JUDICIÁRIO) Maria é aprovada no vestibular para uma determinada Universidade Federal. No dia da matrícula, Maria, caloura, é recebida pelos alunos veteranos da universidade e submetida a um trote acadêmico violento. Além de outras coisas que foi obrigada a fazer, Maria foi amarrada em uma cadeira de bar e obrigada a ingerir bebida alcoólica até ficar completamente embriagada e sem qualquer possibilidade de entender o caráter ilícito de um fato ou de determinar-se de acordo com este entendimento. Maria é liberada do trote e sai do bar, dirigindo-se até o seu veículo que estava estacionado em via pública, sem conseguir movimentá-lo. Abordada por policiais, desacatou-os. Neste caso, no que concerne ao crime de desacato,",
+    "options": [
+      "terá a pena reduzida de um a dois terços.",
+      "estará isenta de pena.",
+      "terá a pena reduzida de metade.",
+      "terá a pena reduzida em 1/6.",
+      "terá a pena aumentada de 1/3."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2014 – TRF4 – OFICIAL DE JUSTIÇA) No direito brasileiro legislado, desde que subtraia por completo o entendimento da ilicitude ou a determinação por ela, a embriaguez terá, genericamente, o condão de excluir total ou parcialmente a imputabilidade penal quando for",
+    "options": [
+      "não preordenada.",
+      "oriunda de culpa consciente.",
+      "oriunda de culpa inconsciente.",
+      "oriunda de caso fortuito.",
+      "não premeditada."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2014 – TJ-CE – JUIZ) Na coação moral irresistível, há exclusão da",
+    "options": [
+      "antijuridicidade.",
+      "culpabilidade, por inimputabilidade.",
+      "culpabilidade, por não exigibilidade de conduta diversa.",
+      "tipicidade.",
+      "culpabilidade, por impossibilidade de conhecimento da ilicitude."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2014 – CÂMARA MUNICIPAL-SP – PROCURADOR LEGISLATIVO) Há uma crítica doutrinária bastante conhecida e frequente ao fundamento teórico da punição, no direito brasileiro, dos crimes cometidos em estado de embriaguez. Pode-se sintetizá-la afirmando que essa punição, ao fundar-se na teoria",
+    "options": [
+      "da equivalência dos antecedentes causais, simplesmente equaliza as diversas modalidades de embriaguez, não permitindo uma justa diferenciação de seus variados graus de reprovabilidade.",
+      "objetiva pura alemã, não considera as diversas situações subjetivas desencadeantes da embriaguez, e, por consequência, não propicia a devida diferenciação entre seus variados graus de reprovabilidade.",
+      "da actio libera in causa, não é facilmente extensível aos casos de embriaguez não preordenada ou mesmo meramente culposa, propiciando-se, eventualmente, situações de responsabilização penal estritamente objetiva.",
+      "puramente normativa da culpabilidade (Welzel), esvazia o juízo da consciência da ilicitude que, de efetivo e concreto, se torna puramente exigível e potencial, respondendo o agente indistintamente pelo crime, ainda que compreensivelmente não tivesse condições ou razões reais para não se embriagar nas circunstâncias em que o fato se deu.",
+      "monista temperada, acaba comportando situações graves de impunidade, notadamente nos crimes cometidos com culpa consciente e limítrofes ao dolo eventual."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2013 – TJ-PE – TITULAR NOTARIAL) A inimputabilidade por peculiaridade mental ou etária exclui da conduta a",
+    "options": [
+      "tipicidade.",
+      "tipicidade e a antijuridicidade, respectivamente.",
+      "antijuridicidade.",
+      "antijuridicidade e a culpabilidade, respectivamente.",
+      "culpabilidade."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2012 – TRF5 – ANALISTA JUDICIÁRIO) Em matéria penal, a embriaguez incompleta, resultante de caso fortuito ou de força maior,",
+    "options": [
+      "não suprime a imputabilidade penal, mas diminui a capacidade de entendimento gerando uma causa geral de diminuição de pena.",
+      "não exclui, nem diminui, a imputabilidade penal, não operando qualquer efeito na aplicação da pena.",
+      "é hipótese de elisão da imputabilidade penal porque afeta a capacidade de compreensão, tornando o agente isento de pena.",
+      "não exclui, nem diminui, a imputabilidade penal, servindo como circunstância agravante.",
+      "embora não suprima a imputabilidade penal, é censurável, e serve como circunstância agravante."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2011 – TCE-SP – PROCURADOR) Constitui causa de exclusão da culpabilidade",
+    "options": [
+      "a embriaguez completa, proveniente de caso fortuito ou força maior, em virtude da impossibilidade de o agente conhecer a ilicitude do fato.",
+      "o erro sobre a ilicitude do fato, em decorrência da não imputabilidade do agente.",
+      "a doença mental ou o desenvolvimento mental incompleto ou retardado, em função de não se poder exigir conduta diversa do agente.",
+      "a menoridade, em virtude da impossibilidade de o agente conhecer a ilicitude do fato.",
+      "a coação moral irresistível, em função de não se poder exigir conduta diversa do agente."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2008 – TCE/AL – PROCURADOR) A coação moral irresistível e a obediência hierárquica são causas de exclusão da",
+    "options": [
+      "culpabilidade.",
+      "antijuridicidade.",
+      "ilicitude.",
+      "tipicidade.",
+      "punibilidade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2010 – MPE-SE – ANALISTA – DIREITO) Desenvolvimento mental incompleto ou retardado, embriaguez decorrente de caso fortuito e menoridade constituem, dentre outras, excludentes de",
+    "options": [
+      "tipicidade",
+      "ilicitude",
+      "punibilidade",
+      "antijuridicidade",
+      "culpabilidade"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2011 – TER/AP – ANALISTA JUDICIÁRIO – ÁREA JUDICIÁRIA) Exclui a imputabilidade penal, nos termos preconizados pelo Código Penal,",
+    "options": [
+      "a embriaguez voluntária pelo álcool ou substância de efeitos análogos.",
+      "a emoção e a paixão.",
+      "a embriaguez culposa pelo álcool ou substância de efeitos análogos.",
+      "se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "a embriaguez completa proveniente de caso fortuito ou força maior, se o agente era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2007 – ISS/SP – AUDITOR-FISCAL TRIBUTÁRIO MUNICIPAL) São pressupostos da culpabilidade",
+    "options": [
+      "a falta de cuidado, a previsibilidade do resultado e a exigibilidade de conduta diversa.",
+      "a imputabilidade, a possibilidade de conhecimento da ilicitude e a falta de cuidado.",
+      "a previsibilidade do resultado, a imputabilidade e a falta de cuidado.",
+      "a possibilidade de conhecer a ilicitude, a exigibilidade de conduta diversa e a falta de cuidado.",
+      "a imputabilidade, a possibilidade de conhecer a ilicitude e a exigibilidade de conduta diversa."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2007 – ISS/SP – AUDITOR-FISCAL TRIBUTÁRIO MUNICIPAL) A doença mental, a perturbação de saúde mental e o desenvolvimento mental incompleto ou retardado",
+    "options": [
+      "refletem na culpabilidade, de modo a excluí-la ou a atenuá-la.",
+      "excluem a ilicitude da conduta.",
+      "isentam sempre de pena.",
+      "extinguem a punibilidade.",
+      "excluem a tipicidade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2008 – PGE/SP – PROCURADOR) Exclui a culpabilidade, em decorrência da não-imputabilidade,",
+    "options": [
+      "a emoção.",
+      "a embriaguez não-acidental.",
+      "a coação moral irresistível.",
+      "a menoridade.",
+      "o erro sobre a ilicitude do fato."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2007 – MPU – ANALISTA) Considere: I. Estado de necessidade. II. Estrito cumprimento de dever legal. III. Obediência hierárquica. IV. Exercício regular de um direito. V. Legítima defesa putativa. São excludentes da culpabilidade SOMENTE o que se considera em",
+    "options": [
+      "I e V.",
+      "II e III.",
+      "III e V.",
+      "I, II e IV.",
+      "II, III e IV."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC - 2013 - TJ-PE - Juiz) A coação moral irresistível e a obediência hierárquica excluem a",
+    "options": [
+      "tipicidade e a culpabilidade, respectivamente.",
+      "tipicidade.",
+      "culpabilidade.",
+      "culpabilidade e a tipicidade, respectivamente.",
+      "punibilidade e a ilicitude, respectivamente."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2019 – ISS-GUARULHOS – AUDITOR) Assinale a alternativa correta, no que tange ao tratamento que o CP dá à imputabilidade penal (arts. 26 a 28).",
+    "options": [
+      "Aplicar-se-á exclusivamente medida de segurança se, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado o agente não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "Os menores de 21 (vinte e um) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial.",
+      "A emoção ou a paixão excluem a imputabilidade penal para os delitos que exigem especial fim de agir.",
+      "A embriaguez culposa, pelo álcool ou substância de efeitos análogos, exclui a imputabilidade penal."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2018 – PC-BA - ESCRIVÃO) A respeito da imputabilidade penal, é correto afirmar que tal instituto",
+    "options": [
+      "figura como um dos elementos da culpabilidade.",
+      "cuida da capacidade física do agente de praticar o ilícito.",
+      "figura como um dos requisitos da punibilidade.",
+      "não exclui da aplicação da lei penal fato praticado durante a embriaguez involuntária completa, proveniente de caso fortuito ou força maior.",
+      "não exclui a menoridade (criança e adolescente) da aplicação da lei penal."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2018 – PC-BA - INVESTIGADOR) De acordo com o Estatuto Penal brasileiro, são elementos da culpabilidade a imputabilidade, a potencial consciência da ilicitude e a exigibilidade de conduta diversa. Sobre a imputabilidade, assinale a alternativa correta.",
+    "options": [
+      "O conceito de imputabilidade penal compreende a capacidade mental do indivíduo, considerando-se apenas a sua idade ao tempo do crime.",
+      "Entre as causas de exclusão da imputabilidade, encontra-se a embriaguez completa ou incompleta, mas sempre voluntária.",
+      "A legislação penal brasileira adotou o critério Biopsicológico como aquele de aferição da imputabilidade, independentemente da idade do infrator ao tempo do fato.",
+      "Ao agente que, em virtude da perturbação da saúde mental, não for inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, poderá ser imposta pena como sanção, porém com redução de 1 (um) a 2/3 (dois terços).",
+      "O agente que por embriaguez incompleta e voluntária não for, ao tempo da ação ou da omissão, inteiramente capaz de entender o caráter ilícito do fato será isento de pena."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2017 – DPE-RO – DEFENSOR PÚBLICO) Sendo positivos os elementos que configuram o delito e constatada a semi-imputabilidade do acusado, o juiz pode, atendendo aos demais critérios legais,",
+    "options": [
+      "aplicar-lhe pena reduzida de 1 a 2/3 ou absolvê-lo, pois não há outra previsão legal.",
+      "aplicar-lhe pena reduzida de 1 a 2/3 ou determinar que se submeta a tratamento ambulatorial ou, ainda, determinar sua internação.",
+      "aplicar-lhe pena reduzida de 1 a 2/3 ou determinar que se submeta a tratamento ambulatorial, pois não há outra previsão legal.",
+      "absolver o acusado, por ausência de tipicidade, especialmente por falta de elemento subjetivo do tipo ou suspender o processo, pois não há outra previsão legal.",
+      "declarar extinta a punibilidade do acusado ou absolvê-lo por ausência de tipicidade, especialmente por falta de elemento subjetivo do tipo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2016 – TJ-SP – TITULAR NOTARIAL) Assinale a alternativa correta.",
+    "options": [
+      "A embriaguez culposa, por álcool ou substância de efeitos análogos, exclui a imputabilidade penal.",
+      "O agente que em virtude de perturbação da saúde mental não era, ao tempo da ação, inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com este entendimento, é isento de pena.",
+      "A paixão ou a emoção não excluem a imputabilidade penal.",
+      "Os menores de dezoito anos são semi-imputáveis, pois estão sujeitos às normas do Estatuto da Criança e do Adolescente."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2016 – IPSMI – PROCURADOR) Tício, maior de 18 anos, é portador de doença mental, necessitando de medicação diária. A doença, por si só, não prejudica a capacidade de compreensão. Todavia, a medicação, ingerida em conjunto com bebida alcoólica em quantidade, provoca surtos psicóticos, com exclusão da capacidade de entendimento. Tício sabe dos efeitos do álcool, em excesso, em seu organismo, mas costuma beber, moderadamente, justamente para desfrutar dos efeitos que, segundo ele, “dá barato”. Em uma festa, Tício, sem saber que se tratava de uma garrafa de absinto (bebida de alto teor alcoólico), pensando ser gim, preparou um coquetel de frutas e ingeriu. Ao recobrar a consciência, soube que esfaqueou dois de seus melhores amigos, causando a morte de um e lesão de natureza grave em outro. A respeito da situação, é correto afirmar que",
+    "options": [
+      "Tício, devido à doença mental, é inimputável, sendo isento de pena.",
+      "Tício é inimputável, sendo isento de pena, pois praticou o crime em estado de completa embriaguez, decorrente de caso fortuito.",
+      "Tício é imputável, pois a embriaguez completa decorreu de culpa. Entretanto, faz jus à redução da pena.",
+      "Tício é imputável, sendo punido de forma agravada, em vista da embriaguez pré-ordenada.",
+      "Tício, por ser maior de 18 anos, é imputável, sendo irrelevante a circunstância de ter praticado o crime em estado de completa embriaguez."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2015 – MPE/SP – ANALISTA DE PROMOTORIA) Assinale a alternativa correta a respeito da imputabilidade penal.",
+    "options": [
+      "Comprovada a doença mental ou o desenvolvimento mental incompleto ou retardado, o agente será considerado inimputável para os efeitos legais.",
+      "Aos inimputáveis e aos semi-imputáveis, comprovada essa condição por perícia médica, será substituída a pena por medida de segurança consistente em internação em hospital de custódia e tratamento psiquiátrico.",
+      "A imputabilidade é um dos elementos da culpabilidade, ao lado da potencial consciência sobre a ilicitude do fato e a exigibilidade de conduta diversa.",
+      "A imputabilidade, de acordo com o Código Penal, pode se dar por doença mental, imaturidade natural ou embriaguez do agente.",
+      "A emoção e a paixão, além de não afastarem a imputabilidade penal do agente, podem ser consideradas como circunstâncias agravantes no momento da fixação da pena."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2015 – PC/CE – ESCRIVÃO) No tocante às disposições do Código Penal relativas à culpabilidade e imputabilidade, é correto afirmar que",
+    "options": [
+      "a pena pode ser reduzida de um a dois terços se o agente, por doença mental ou desenvolvimento mental incompleto ou retardado era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "a embriaguez culposa pelo álcool ou substância de efeitos análogos exclui a imputabilidade penal.",
+      "se o fato é cometido sob coação irresistível ou em estrita obediência à ordem, manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem.",
+      "a pena pode ser reduzida de um a dois terços se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "a embriaguez voluntária pelo álcool ou substância de efeitos análogos exclui a imputabilidade penal."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2015 – PC/CE – INSPETOR) No tocante às disposições previstas no Código Penal relativas à culpabilidade, é correto afirmar que",
+    "options": [
+      "se o fato é cometido sob coação irresistível ou em estrita obediência à ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem.",
+      "se o fato é cometido sob coação irresistível ou em estrita obediência à ordem, não manifestamente ilegal, de superior hierárquico, é punível o autor da coação ou da ordem tendo o autor do fato a pena diminuída de um a dois terços.",
+      "o fato cometido sob coação irresistível ou em estrita obediência à ordem, não manifestamente ilegal, de superior hierárquico, não excluiu a culpabilidade do autor do fato.",
+      "se o fato é cometido sob coação irresistível ou em estrita obediência à ordem, mesmo que manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem.",
+      "se o fato é cometido sob coação irresistível ou em estrita obediência à ordem, mesmo que manifestamente ilegal, de superior hierárquico, é punível o autor da coação ou da ordem tendo o autor do fato a pena diminuída de um a dois terços."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2015 – PC/CE – INSPETOR) Nos termos do Código Penal, a imputabilidade penal é excluída pela",
+    "options": [
+      "emoção.",
+      "doença mental ou desenvolvimento mental incompleto ou retardado, que torna o autor, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "embriaguez, proveniente de caso fortuito ou força maior, que privou o autor, ao tempo da ação ou da omissão, da plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "embriaguez completa e culposa que torna o autor, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "paixão."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – DELEGADO DE POLÍCIA) A tese supralegal de inexigibilidade de conduta diversa, se acolhida judicialmente, importa em exclusão",
+    "options": [
+      "da imputabilidade.",
+      "da pena.",
+      "de punibilidade.",
+      "do crime.",
+      "de culpabilidade."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2015 – PC-CE – DELEGADO DE POLÍCIA) Considere que determinado sujeito, portador de desenvolvimento mental incompleto, ao tempo da ação tinha plena capacidade de entender o caráter ilícito do fato, mas era inteiramente incapaz de determinar-se de acordo com esse entendimento – o que fora clinicamente atestado nos autos em perícia oficial. Em consonância com o texto legal do art. 26 do CP, ao proferir sentença deve o juiz reconhecer sua",
+    "options": [
+      "inimputabilidade.",
+      "imputabilidade.",
+      "semi-imputabilidade, absolvendo-lhe e aplicando-lhe medida de segurança.",
+      "semi-imputabilidade, condenando-lhe e aplicando-lhe pena diminuída.",
+      "semi-imputabilidade, condenando-lhe e aplicando-lhe medida de segurança."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP - 2013 - TJ-SP - ADVOGADO) O gerente de uma determinada agência bancária, após longa sessão de tortura psicológica infligida a ele pelos bandidos, fornece a chave para abertura do cofre da agência bancária. Sua conduta encontra guarida na excludente de;",
+    "options": [
+      "ilicitude denominada legítima defesa.",
+      "ilicitude denominada obediência hierárquica.",
+      "culpabilidade denominada actio libera in causa.",
+      "ilicitude denominada coação física irresistível.",
+      "culpabilidade denominada coação moral irresistível."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2009 – TJ-SP – JUIZ) Com relação à coação moral irresistível, é correto afirmar que",
+    "options": [
+      "exclui a culpabilidade.",
+      "exclui a tipicidade.",
+      "exclui a antijuridicidade.",
+      "o coato age sem vontade."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2009 – TJ-SP – JUIZ) O pai que, tendo o filho sequestrado e ameaçado de morte, é coagido por sequestradores armados e forçado a dirigir-se a certa agência bancária para efetuar um roubo a fim de obter a quantia necessária para o pagamento do resgate e livrar o filho do cárcere privado em que se encontra pode, em tese, lograr a absolvição com base na alegação de",
+    "options": [
+      "inexigibilidade de conduta diversa.",
+      "legítima defesa.",
+      "exercício regular de direito.",
+      "estrito cumprimento de dever legal."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2008 – DPE-MS – DEFENSOR PÚBLICO) \"A\" foi condenado por crime de roubo. Todavia, após a prolação da sentença, veio aos autos a prova de que \"A\" é menor de 18 anos de idade. Nesse caso,",
+    "options": [
+      "\"A\" deve ser absolvido por não constituir o fato infração penal.",
+      "\"A\" deve ser absolvido por ser inimputável.",
+      "deve ser anulada ab initio a ação penal, em razão da inimputabilidade do autor do fato.",
+      "\"A\" deve ter declarada extinta a punibilidade."
+    ],
+    "correct": 2
+  }
+]
+
+,
+"extorsao": [
+  {
+    "question": "Conforme o Art. 158 do Código Penal, o crime de Extorsão consiste em constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a:",
+    "options": [
+      "Entregar coisa móvel de valor que detenha a posse.",
+      "Fazer, tolerar que se faça ou deixar de fazer alguma coisa.",
+      "Transferir a posse de imóvel mediante fraude.",
+      "Assinar documento de confissão de dívida inexistente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual é a pena prevista no *caput* do Art. 158 para o crime de Extorsão simples?",
+    "options": [
+      "Reclusão, de 4 (quatro) a 10 (dez) anos, e multa.",
+      "Reclusão, de 2 (dois) a 8 (oito) anos, e multa.",
+      "Detenção, de 1 (um) a 3 (três) anos, e multa.",
+      "Reclusão, de 5 (cinco) a 15 (quinze) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "O § 1º do Art. 158 prevê causa de aumento de pena (de um terço até a metade) se o crime de extorsão for cometido:",
+    "options": [
+      "Contra pessoa idosa ou vulnerável.",
+      "Durante o repouso noturno.",
+      "Por duas ou mais pessoas, ou com emprego de arma.",
+      "Com abuso de confiança ou mediante fraude."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O crime conhecido popularmente como 'Sequestro Relâmpago' está tipificado no Art. 158, § 3º. Qual é a característica fundamental que o diferencia da extorsão comum?",
+    "options": [
+      "A vítima é levada para outro estado ou país.",
+      "O criminoso exige resgate para a libertação da vítima.",
+      "A restrição da liberdade da vítima é condição necessária para a obtenção da vantagem econômica.",
+      "O crime não envolve violência física, apenas grave ameaça."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Qual é a pena prevista para a extorsão qualificada pela restrição da liberdade da vítima ('Sequestro Relâmpago'), quando não resulta em lesão grave ou morte (Art. 158, § 3º)?",
+    "options": [
+      "Reclusão, de 6 (seis) a 12 (doze) anos, e multa.",
+      "Reclusão, de 4 (quatro) a 10 (dez) anos, e multa.",
+      "Reclusão, de 8 (oito) a 15 (quinze) anos, e multa.",
+      "Reclusão, de 12 (doze) a 20 (vinte) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Se do crime de 'Sequestro Relâmpago' (Art. 158, § 3º) resulta morte, aplica-se a pena prevista no Art. 159, § 3º (Extorsão mediante sequestro com morte), que é de:",
+    "options": [
+      "Reclusão, de 12 (doze) a 30 (trinta) anos.",
+      "Reclusão, de 20 (vinte) a 30 (trinta) anos.",
+      "Reclusão, de 24 (vinte e quatro) a 30 (trinta) anos.",
+      "Reclusão, de 15 (quinze) a 30 (trinta) anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 159 tipifica o crime de Extorsão mediante sequestro (sequestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate). A pena base para este crime é:",
+    "options": [
+      "Reclusão, de 6 (seis) a 12 (doze) anos.",
+      "Reclusão, de 8 (oito) a 15 (quinze) anos.",
+      "Reclusão, de 4 (quatro) a 10 (dez) anos.",
+      "Reclusão, de 10 (dez) a 20 (vinte) anos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "No crime de Extorsão mediante sequestro (Art. 159), a pena é qualificada (Reclusão, de 12 a 20 anos) se o sequestro dura mais de:",
+    "options": [
+      "12 (doze) horas.",
+      "24 (vinte e quatro) horas.",
+      "48 (quarenta e oito) horas.",
+      "5 (cinco) dias."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Além da duração do sequestro, qual outra circunstância qualifica o crime de Extorsão mediante sequestro (Art. 159, § 1º), elevando a pena para 12 a 20 anos?",
+    "options": [
+      "Se o crime é cometido por bando ou quadrilha.",
+      "Se o crime é cometido com emprego de arma de fogo de uso restrito.",
+      "Se a vítima é funcionário público.",
+      "Se o crime ocorre em transporte coletivo."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Em relação à idade da vítima, o crime de Extorsão mediante sequestro é qualificado (Art. 159, § 1º) se o sequestrado é:",
+    "options": [
+      "Menor de 14 (catorze) ou maior de 70 (setenta) anos.",
+      "Menor de 16 (dezesseis) ou maior de 65 (sessenta e cinco) anos.",
+      "Menor de 18 (dezoito) ou maior de 60 (sessenta) anos.",
+      "Menor de 12 (doze) ou maior de 60 (sessenta) anos."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Se do fato (Extorsão mediante sequestro) resulta lesão corporal de natureza grave, a pena passa a ser de:",
+    "options": [
+      "Reclusão, de 12 (doze) a 20 (vinte) anos.",
+      "Reclusão, de 16 (dezesseis) a 24 (vinte e quatro) anos.",
+      "Reclusão, de 20 (vinte) a 30 (trinta) anos.",
+      "Reclusão, de 15 (quinze) a 25 (vinte e cinco) anos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "O Art. 159, § 4º, prevê o instituto da 'delação premiada'. Se o crime é cometido em concurso, o concorrente que o denunciar à autoridade, facilitando a libertação do sequestrado, terá sua pena reduzida de:",
+    "options": [
+      "Um sexto a um terço.",
+      "Um terço à metade.",
+      "Um terço a dois terços.",
+      "Metade a dois terços."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "O Art. 160 do Código Penal tipifica a Extorsão Indireta. Este crime consiste em:",
+    "options": [
+      "Exigir cheque caução para atendimento médico de emergência.",
+      "Exigir ou receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima ou terceiro.",
+      "Ameaçar divulgar fotos íntimas caso a vítima não pague determinada quantia.",
+      "Reter documentos de identificação pessoal como forma de coagir ao pagamento de dívida."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Qual é a pena prevista para o crime de Extorsão Indireta (Art. 160)?",
+    "options": [
+      "Reclusão, de 1 (um) a 3 (três) anos, e multa.",
+      "Detenção, de 1 (um) a 3 (três) anos, e multa.",
+      "Reclusão, de 2 (dois) a 5 (cinco) anos, e multa.",
+      "Detenção, de 6 (seis) meses a 2 (dois) anos, e multa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Diferentemente do Roubo (Art. 157), na Extorsão (Art. 158) a participação da vítima é indispensável para a obtenção da vantagem. No entanto, se o agente obtém a vantagem sem a necessidade de colaboração da vítima (ex: retira a carteira do bolso após ameaça), o crime será classificado como:",
+    "options": [
+      "Extorsão simples.",
+      "Apropriação indébita.",
+      "Roubo.",
+      "Furto qualificado."
+    ],
+    "correct": 2
+  }
+],
+
 "27a30_11434":[
 {
     "question": "De acordo com o Art. 28, § 6º, da Lei de Drogas, a quem for primário, o prazo máximo de cumprimento das penas de prestação de serviços à comunidade e medida educativa será de:",
@@ -3981,6 +5065,8 @@ const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 const correctCountSpan = document.getElementById('correct-count');
 const wrongCountSpan = document.getElementById('wrong-count');
+const nQuestoes = document.getElementById('nquestoes');
+
 
 // Estado do quiz
 let currentQuestions = [];
@@ -4032,7 +5118,9 @@ function loadQuestions(subject) {
     }
 
     showQuestion(currentQuestionIndex);
+
     updateNavigation();
+    nQuestoes.innerHTML = `Número de Questoes: ${currentQuestions.length}`;
 }
 
 // Função para exibir uma questão
