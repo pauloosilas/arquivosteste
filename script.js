@@ -1034,7 +1034,7 @@ const questions = {
       "cometido por quem, embora transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública.",
       "cometido por quem for ocupante de cargos em comissão ou de função de direção ou assessoramento de órgão de empresa pública."
     ],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "(VUNESP – 2018 – PC-BA - ESCRIVÃO) A respeito de crimes contra o patrimônio, é correto afirmar que",
