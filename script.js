@@ -1,6 +1,1121 @@
 // Banco de questões
 const questions = {  
 
+"CrimesFurtoRouboEOutros":[
+{
+    "question": "(FCC – 2006 – BCB – TÉCNICO) Incorre na pena prevista para o crime de roubo quem",
+    "options": [
+      "subtrai, para si ou para outrem, coisa alheia móvel, com abuso de confiança, ou mediante fraude, escalada ou destreza.",
+      "subtrai, para si ou para outrem, coisa alheia móvel, com destruição ou rompimento de obstáculo.",
+      "emprega violência contra pessoa ou grave ameaça, logo após subtraída a coisa, a fim de assegurar a impunidade do crime.",
+      "apropria-se de coisa alheia móvel, de que tem a posse ou detenção em razão de ofício, emprego ou profissão.",
+      "recebe, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2006 – BCB – TÉCNICO) João e Pedro são co-herdeiros, na proporção de metade para cada um, de uma herança de R$ 100.000,00 em dinheiro, que estava guardada num armário da residência de Pedro, por ser o inventariante. João, à noite, entrou na casa, abriu o armário e subtraiu para si R$ 50.000,00. A conduta de João",
+    "options": [
+      "não é punível, por tratar-se subtração de coisa comum, cujo valor não excede à quota a que tem direito o agente.",
+      "é punível a título de furto de coisa comum, pois o dinheiro estava sendo legitimamente guardado por Pedro.",
+      "é punível a título de furto de coisa comum, pois o dinheiro ainda não havia sido partilhado entre os dois.",
+      "é punível a título de apropriação indébita, posto que, na condição de herdeiro, tinha posse da herança.",
+      "é punível a título de estelionato, por ter empregado meio fraudulento para ludibriar Pedro."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2006 – BCB – TÉCNICO) É certo que furto qualificado é a",
+    "options": [
+      "aquisição de qualquer objeto alheio por influência de assaltantes.",
+      "subtração de objeto móvel alheio para si ou para outrem através do abuso de confiança, fraude, chave falsa e rompimento de obstáculos.",
+      "aquisição ou recepção de algum objeto de outros, sabendo-se que é oriundo de crime.",
+      "subtração de algum objeto alheio por meio da força física.",
+      "subtração de objeto alheio para si ou para outrem mediante grave ameaça ou violência à pessoa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2006 – BCB – TÉCNICO) Paulo subtraiu um toca-fitas e vendeu o referido aparelho para João. João não sabia que se tratava de produto de furto, interessou-se pelo negócio porque o preço do rádio correspondia a 10% do valor de mercado. Nesse caso, João cometeu crime de",
+    "options": [
+      "estelionato.",
+      "receptação dolosa.",
+      "receptação culposa.",
+      "furto.",
+      "apropriação indébita."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2006 – BCB – ANALISTA/ÁREA 4) No tocante aos crimes contra o patrimônio, é correto afirmar que",
+    "options": [
+      "a subtração de coisa comum não constitui crime.",
+      "é cabível o arrependimento posterior no crime de extorsão.",
+      "o dano culposo constitui infração de menor potencial ofensivo.",
+      "a apropriação indébita admite a figura priveligiada do delito.",
+      "no estelionato praticado em prejuízo de irmão a ação penal é privada."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2010 – SEFIN/RO – AUDITOR FISCAL) Paulo deu início à execução de crime de furto e ingressou na casa de Pedro com o objetivo de subtrair um televisor. Já no interior da moradia, percebeu que a vítima dormia no sofá da sala, onde o aparelho está instalado. Em vista disso, antevendo os riscos que assumiria em prosseguir no seu intento e pressentindo a possibilidade de ser surpreendido, desistiu de prosseguir na execução do delito. Nesse caso, Paulo",
+    "options": [
+      "responderá por tentativa de furto.",
+      "não responderá por nenhum delito, pois houve desistência voluntária.",
+      "não responderá por nenhum delito, pois houve arrependimento eficaz.",
+      "responderá apenas por invasão de domicílio.",
+      "não responderá por nenhum delito, pois houve arrependimento posterior."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2009 – DPE/MA – DEFENSOR PÚBLICO) Há previsão legal de escusa absolutória nos delitos patrimoniais desde que seja cometido contra cônjuge, na constância da sociedade conjugal,",
+    "options": [
+      "ascendente, excluídos os crimes de roubo ou de extorsão, ou, em geral, quando haja emprego de violência ou grave ameaça somente contra a pessoa.",
+      "ascendente, descendente, excluídos os crimes de roubo ou de extorsão, ou, em geral, quando haja emprego de violência ou grave ameaça somente contra a pessoa.",
+      "ascendente, excluídos os crimes de roubo ou de extorsão, ou, em geral, quando haja emprego de violência ou grave ameaça contra a pessoa e ao estranho que participa do crime.",
+      "ascendente, descendente, excluídos os crimes de roubo, extorsão e latrocínio.",
+      "ascendente, descendente, excluídos os crimes de roubo ou de extorsão, ou, em geral, quando haja emprego de violência ou grave ameaça contra a pessoa e ao estranho que participa do crime."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2015 – TJ-AL – JUIZ SUBSTITUTO) NÃO admite a figura privilegiada, com substituição da pena de reclusão pela de detenção, diminuição de um a dois terços ou aplicação somente da pena de multa, o crime de",
+    "options": [
+      "furto.",
+      "duplicata simulada.",
+      "estelionato.",
+      "apropriação indébita.",
+      "receptação."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC - 2013 - MPE-SE - ANALISTA - DIREITO) A subtração de veículo automotor que venha a ser transportado para o exterior, ocorrida mediante concurso de agentes, durante o repouso noturno e com emprego de narcotização da vítima classifica-se precisamente como",
+    "options": [
+      "furto simples.",
+      "furto com causa de aumento.",
+      "furto qualificado.",
+      "roubo impróprio.",
+      "roubo próprio."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2012 – TRF5 – ANALISTA JUDICIÁRIO) O perdão judicial no crime de apropriação indébita previdenciária exige como condição que",
+    "options": [
+      "sendo o réu primário e de bons antecedentes, seja o valor da apropriação igual ou inferior ao mínimo estabelecido administrativamente para execução fiscal.",
+      "sem avaliação de condição pessoal, seja a apropriação inferior ao valor do salário mínimo de contribuição.",
+      "se reincidente, além do pagamento da contribuição devida até a denúncia, também o pagamento de multa administrativamente imposta.",
+      "sendo o réu primário e de bons antecedentes, tenha promovido a qualquer tempo o pagamento da contribuição devida.",
+      "tenha promovido a qualquer tempo o pagamento da contribuição devida e seja o valor da apropriação inferior ao mínimo estabelecido administrativamente para execução fiscal."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2012 – DPE-PR – DEFENSOR PÚBLICO) Epicuro e Tales resolvem subtrair importância em dinheiro de um veículo coletivo de passageiros, com uso de simulacro de arma de fogo, e ameaçam o cobrador do ônibus, tomando-lhe pequena importância em espécie. Na mesma conduta subtraem dinheiro e celulares de dois passageiros e do próprio cobrador. Epicuro e Tales cometeram crime de",
+    "options": [
+      "roubo qualificado pelo uso de arma de fogo.",
+      "roubo qualificado em concurso material de crimes.",
+      "roubo simples em concurso material de crimes.",
+      "furto qualificado em concurso material de crimes.",
+      "roubo majorado em concurso de crimes."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2012 – DPE-PR – DEFENSOR PÚBLICO) Quatro ladrões chegaram de carro em frente a uma residência para a prática de crime de furto. Porém, antes de descerem do veículo, foram obstados pela polícia, que os observava, e levados para a Delegacia onde lavrou-se o auto de prisão em flagrante. Nesse caso, os agentes",
+    "options": [
+      "podem se beneficiar da desistência voluntária na prática do delito, respondendo pelos atos já praticados.",
+      "praticaram tentativa de furto qualificado pelo concurso de pessoas.",
+      "tinham finalidade de praticar o crime de furto qualificado por concurso de agentes, mas não passaram da fase de meros atos preparatórios, impunível.",
+      "iniciaram a prática de crime de roubo que não se consumou por circunstâncias alheias à sua vontade, face à chegada da polícia.",
+      "devem ser devidamente punidos pela tentativa, dada a vontade deliberada de praticarem o delito."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2012 – TRT 4 – JUIZ DO TRABALHO) Dentre os crimes contra o patrimônio, ainda que primário o agente e de pequeno valor a coisa ou o prejuízo, NÃO admite a imposição exclusiva de pena de multa",
+    "options": [
+      "o estelionato.",
+      "o furto.",
+      "a receptação dolosa.",
+      "a apropriação indébita.",
+      "o dano culposo."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2012 – TRT 1 – JUIZ DO TRABALHO) Na apropriação indébita previdenciária, se o valor das contribuições devidas, inclusive acessórios, for igual ou inferior àquele estabelecido pela previdência social, administrativamente, como sendo o mínimo para o ajuizamento de suas execuções fiscais, é facultado ao juiz, na hipótese de o agente ser primário e de bons antecedentes,",
+    "options": [
+      "substituir a pena de reclusão pela de detenção.",
+      "reduzir de metade o valor do dia-multa.",
+      "reduzir a pena privativa de liberdade de 1/3 a 2/3.",
+      "aplicar somente a pena de multa.",
+      "considerar o fato como circunstância atenuante e fixar a pena abaixo do mínimo legal."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2012 – TRF2 – TÉCNICO JUDICIÁRIO) O segurança de um estabelecimento comercial, mediante remuneração de R$ 10.000,00, desligou o alarme durante trinta minutos para que seus comparsas arrombassem a porta, entrassem e subtraíssem todo o dinheiro do cofre. Nesse caso, o segurança responderá pelo crime de",
+    "options": [
+      "furto simples, na condição de co-autor.",
+      "furto qualificado, na condição de partícipe.",
+      "favorecimento real.",
+      "favorecimento pessoal.",
+      "roubo qualificado, na condição co-autor."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2012 – TRE-PR – ANALISTA JUDICIÁRIO) O funcionário público que subtrai o \"CDPlayer automotivo\" de um veículo particular regularmente estacionado na via pública comete crime de",
+    "options": [
+      "roubo.",
+      "peculato.",
+      "furto.",
+      "apropriação indébita.",
+      "roubo impróprio."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2012 – TRT 20 – JUIZ DO TRABALHO) No crime de apropriação indébita previdenciária, a possibilidade de o juiz deixar de aplicar a pena, se presentes determinadas situações expressamente previstas em lei, constitui hipótese de",
+    "options": [
+      "renúncia.",
+      "absolvição imprópria.",
+      "indulto.",
+      "perdão judicial.",
+      "excludente legal da culpabilidade."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2010 – TRT 8 – ANALISTA JUDICIÁRIO) Jeremias aproximou-se de um veículo parado no semáforo e, embora não portasse qualquer arma, mas fazendo gestos de que estaria armado, subtraiu a carteira do motorista, contendo dinheiro e documentos. Jeremias responderá por crime de",
+    "options": [
+      "roubo qualificado pelo emprego de arma.",
+      "furto simples.",
+      "furto qualificado.",
+      "roubo simples.",
+      "apropriação indébita."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2010 – TCE-RO – PROCURADOR) Segundo entendimento sumulado do Superior Tribunal de Justiça, se o agente, para obter vantagem ilícita em prejuízo alheio, falsifica documento público, responderá por",
+    "options": [
+      "estelionato.",
+      "estelionato e falsificação de documento público, em concurso material.",
+      "falsificação de documento público.",
+      "estelionato e falsificação de documento público, em concurso formal.",
+      "estelionato e falsificação de documento público, em continuidade delitiva."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2010 – TJ-PI – ASSESSOR JURÍDICO) Pedro ingressou numa joalheria e afirmou que pretendia adquirir um anel de ouro para sua esposa. A vendedora colocou sobre a mesa diversos anéis. Após examiná-los, Pedro disse que lhe agradou mais uma peça que estava exposta no canto da vitrine e que queria vê-la. A vendedora voltou-lhe as costas, abriu a vitrine e retirou o anel. Valendo-se desse momento de descuido da vendedora, Pedro apanhou um dos anéis que estava sobre a mesa e colocou-o no bolso. Em seguida, examinou o anel que estava na vitrine, disse que era bonito, mas muito caro, agradeceu e foi embora, levando no bolso a joia que havia apanhado. Nesse caso, Pedro responderá por",
+    "options": [
+      "furto simples.",
+      "estelionato.",
+      "furto qualificado pela fraude.",
+      "apropriação indébita.",
+      "roubo."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2010 – BAHIAGÁS – ANALISTA DE PROCESSOS) O ato de receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima, constitui crime de",
+    "options": [
+      "fraude na entrega de coisa.",
+      "estelionato.",
+      "fraude no comércio.",
+      "extorsão indireta.",
+      "furto qualificado pela fraude."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2009 – TRT 3 – ANALISTA JUDICIÁRIO) Quem exige como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima, comete crime de extorsão",
+    "options": [
+      "mediante sequestro.",
+      "consumada, em seu tipo fundamental.",
+      "tentada, em seu tipo fundamental.",
+      "indireta.",
+      "qualificada, na forma tentada."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2009 – TRT 3 – ANALISTA JUDICIÁRIO) Quem utiliza uma tesoura para fazer girar e abrir, sem danificar, a fechadura da porta de um veículo que ato contínuo subtrai para si, comete crime de furto",
+    "options": [
+      "qualificado pela fraude.",
+      "simples.",
+      "qualificado pela destreza.",
+      "qualificado pelo rompimento de obstáculo.",
+      "qualificado pelo emprego de chave falsa."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FCC – 2009 – TRT 3 – ANALISTA JUDICIÁRIO) José ingressou no escritório da empresa Alpha, sendo que o segurança não lhe obstou o acesso porque estava vestido de faxineiro e portando materiais de limpeza. No interior do escritório, arrombou a gaveta e subtraiu R$ 3.000,00 do seu interior. Quando estava saindo do local, o segurança, alertado pelo barulho, tentou detêlo. José, no entanto, o agrediu e o deixou desacordado e ferido no solo, fugindo, em seguida, do local de posse do dinheiro subtraído. Nesse caso, José responderá por",
+    "options": [
+      "furto qualificado pela fraude e pelo arrombamento.",
+      "furto qualificado pela fraude.",
+      "roubo impróprio.",
+      "furto simples.",
+      "estelionato."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2008 – METRÔ-SP – ADVOGADO) Paulo havia trabalhado como cobrador no asilo Alpha e, por isso, conhecia a lista das pessoas que contribuíam através de donativos para aquela entidade beneficente. Após ter deixado o referido emprego, Paulo procurou uma dessas pessoas e, dizendo-se funcionário do asilo Alpha, recebeu donativo de R$ 1.000,00 (um mil reais), que consumiu em proveito próprio. Nesse caso, Paulo responderá por crime de",
+    "options": [
+      "furto simples.",
+      "furto qualificado pela fraude.",
+      "apropriação indébita.",
+      "estelionato.",
+      "extorsão."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2007 – TRE-SE – ANALISTA JUDICIÁRIO) Se duas ou mais pessoas, agindo em conjunto e previamente ajustadas, subtraem, sem emprego de violência ou grave ameaça, uma televisão de terceira pessoa, elas praticam o crime de",
+    "options": [
+      "furto qualificado.",
+      "furto simples.",
+      "estelionato.",
+      "apropriação indébita.",
+      "roubo qualificado."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2014 – TJ-AP – JUIZ) No que se refere ao roubo com emprego de arma, é correto afirmar:",
+    "options": [
+      "Sua natureza mais exata é de circunstância qualificadora, computável sempre na primeira fase do método trifásico de apuração da pena, não constituindo, portanto, causa de aumento que, como tal, se computa na terceira fase respectiva.",
+      "Majoritariamente, hoje o Superior Tribunal de Justiça orienta-se pela configuração dessa circunstância legal no emprego de arma de brinquedo.",
+      "Majoritariamente, hoje a mais consagrada doutrina brasileira considera que a arma de brinquedo não caracteriza essa circunstância legal.",
+      "Seu efeito legal próprio incide nas penas do latrocínio.",
+      "Em princípio, não se comunica aos demais agentes."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2014 – TRT18 – JUIZ) No crime de apropriação indébita,",
+    "options": [
+      "o dolo é antecedente à posse.",
+      "a ação penal é sempre pública incondicionada, independentemente da condição da vítima.",
+      "o Juiz pode reduzir a pena se primário o criminoso e de pequeno valor a coisa apropriada.",
+      "é possível o perdão judicial no caso de apropriação indébita culposa.",
+      "há aumento da pena quando o agente recebe a coisa em razão de emprego, mas não de profissão."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2014 – TRF4 – OFICIAL DE JUSTIÇA) Gerson subtraiu para si energia elétrica alheia de pequeno valor, fazendo-o em concurso com Marcio, sendo ambos absolutamente primários. Com esses dados, à luz da jurisprudência hoje dominante no Superior Tribunal de Justiça, classificam-se os fatos como furto",
+    "options": [
+      "de bagatela.",
+      "privilegiado.",
+      "qualificado.",
+      "privilegiado-qualificado.",
+      "simples."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2015 – TRT 23°REGIÃO – JUIZ) Alfredo, de posse de cheque em branco do empregador, falsifica a assinatura deste no título e o utiliza na compra de determinado bem, obtendo vantagem ilícita em prejuízo do comerciante. Na hipótese, segundo entendimento sumulado do Superior Tribunal de Justiça, Alfredo responde por",
+    "options": [
+      "falsificação de documento público e estelionato, em concurso formal.",
+      "estelionato, apenas.",
+      "falsificação de documento público e estelionato, em concurso material.",
+      "estelionato e falsificação de documento particular, em concurso formal.",
+      "falsificação de documento público, apenas."
+    ],
+    "correct": 1
+  }
+  ,{
+    "question": "(VUNESP – 2015 – TJ-SP – JUIZ) Quanto ao crime de extorsão mediante sequestro, pode-se afirmar que",
+    "options": [
+      "se o crime é cometido em concurso, o concorrente que o denunciar à autoridade, facilitando a libertação do sequestrado, terá sua pena reduzida de 1 (um) a 2/3 (dois terços).",
+      "a vantagem almejada com a extorsão é necessariamente o pagamento do preço do resgate.",
+      "se resultar em morte da vítima, tipifica homicídio.",
+      "a pena é aumentada quando o sequestro superar, no mínimo, 48 horas."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2015 – TJ-MS – JUIZ) A respeito dos crimes contra o patrimônio, assinale a alternativa correta.",
+    "options": [
+      "No crime de furto de uso, se a coisa infungível é subtraída para fim de uso momentâneo, e, a seguir, vem a ser imediatamente restituída ou reposta no lugar onde se achava, responderá o agente por pena de detenção de até seis meses e pagamento de trinta dias-multa.",
+      "Se o agente consuma o homicídio, mas não obtém êxito na subtração de bens da vítima por circunstâncias alheias à sua vontade, responderá por crime de homicídio qualificado consumado.",
+      "O delito de dano, previsto pelo art. 163 do Código Penal, prevê as modalidades dolosa e culposa.",
+      "O crime de extorsão consuma-se independentemente da obtenção da vantagem indevida.",
+      "De acordo com o art. 168, § 1º, do Código Penal, são causas exclusivas de aumento da pena ao delito de apropriação indébita quem receber a coisa em depósito necessário ou em razão de ofício, emprego ou profissão."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2015 – MP-SP – ANALISTA DE PROMOTORIA) Aproveitando-se da porta que estava apenas encostada, Pedro ingressou sozinho e durante o dia na residência de José, sabendo que no local não havia ninguém, subtraindo dali dois relógios de pulso que depois se apurou estarem quebrados. Assinale a alternativa correta a respeito da conduta de Pedro.",
+    "options": [
+      "Praticou o crime de furto qualificado pela destreza, já que se aproveitou de um momento em que a casa estava vazia para ali ingressar (artigo 155, § 4°, inciso II, CP).",
+      "Caso Pedro seja primário, e os relógios, ainda que quebrados, forem de pequeno valor, poderá ser condenado por furto privilegiado (art. 155, § 2°, CP).",
+      "Pedro praticou o crime de furto e, em razão de ter ingressado em residência alheia, não poderá ser beneficiado com a substituição da pena corporal por restritiva de direitos, nos termos do artigo 44, III, CP (a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicam que esta substituição seja suficiente).",
+      "Praticou o crime de invasão de domicílio, previsto no artigo 150, do Código Penal.",
+      "Caso condenado por furto, Pedro poderá ter diminuição da sua pena, desde que fique comprovado que praticou furto famélico (procurava algo que pudesse vender para comprar alimento)."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2015 – MPE-SP – ANALISTA DE PROMOTORIA) Antônia caminhava pela via pública, quando João se aproximou dela e puxou a bolsa que levava nas mãos. Inconformada, a vítima correu atrás de João, exigindo que lhe devolvesse a bolsa, quando então ele desferiu um soco contra o rosto de Antônia, que, em razão disso, caiu ao solo, permitindo a fuga de João. Populares escutaram os gritos de socorro da vítima, perseguiram João, conseguindo detê-lo até a chegada da polícia. A vítima, que teve sua bolsa recuperada, foi socorrida em razão dos ferimentos provocados por João, medicada e em seguida liberada (lesões não graves). Sobre a conduta de João, é correto afirmar que",
+    "options": [
+      "praticou o crime de furto qualificado, considerando que João subtraiu a bolsa das mãos da vítima sem violência ou ameaça.",
+      "praticou o crime de latrocínio, em razão das lesões corporais provocadas na vítima.",
+      "praticou o crime de roubo impróprio.",
+      "praticou o crime de lesão corporal, considerando que a bolsa foi recuperada logo em seguida.",
+      "praticou o crime de roubo próprio."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2015 – MPE-SP – ANALISTA DE PROMOTORIA) Josefa teve acesso a arquivos comprovando infidelidade conjugal por parte de Mário, que vendeu um dos seus computadores sem apagar seus arquivos pessoais. Ciente disso, e sabendo que Mário era casado, Josefa entrou em contato com ele, por telefone, marcando encontro, no qual ele deveria repassar a ela o valor de R$ 10.000,00 para que não mostrasse aqueles arquivos para a mulher dele. No dia do encontro, Mário compareceu com o dinheiro, e a polícia, que foi avisada por ele, tão logo Josefa guardou o dinheiro na bolsa, deu a ela voz de prisão em flagrante. A respeito deste episódio, Josefa",
+    "options": [
+      "cometeu o crime de furto dos arquivos de Mário (art. 155, CP), uma vez que a posse legítima do computador não levou à posse legítima dos arquivos pessoais que estavam nele, em concurso material com extorsão (art. 158, CP).",
+      "cometeu o crime de ameaça, previsto no artigo 147, CP.",
+      "não cometeu qualquer crime, considerando que os arquivos do computador vendido por Mário chegaram em suas mãos por descuido dele, que não os apagou quando vendeu o equipamento.",
+      "cometeu o crime de roubo tentado, considerando que para obter o valor de R$ 10.000,00 usou de ameaça contra Mário (ameaçava mostrar os arquivos para a mulher dele).",
+      "cometeu o crime de extorsão, previsto no artigo 158, CP."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2015 – PC-CE – DELEGADO) Aquele que com prévia intenção de vantagem patrimonial seduz outra pessoa, convidando-a à pratica de ato sexual e, durante o coito, amarra a vítima ao leito, impossibilitando sua reação, a fim de que possa subtrair-lhe os pertences pessoais (dinheiro, telefone celular e automóvel), comete crime de",
+    "options": [
+      "extorsão mediante sequestro.",
+      "extorsão.",
+      "roubo.",
+      "furto.",
+      "estelionato."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2015 – PC-CE – DELEGADO) O filho de João tem grave problema de saúde e precisa realizar custoso procedimento cirúrgico, que a família não tem condição de pagar. Imagine que Pedro empresta R$ 50.000,00 a João, mas como garantia de tal dívida exige que João, de próprio punho e em documento escrito, confesse ter traído a própria esposa, bem como ter fraudado a empresa em que ambos trabalham, desviando recursos em proveito próprio. João cede à exigência a fim de obter o empréstimo. A conduta de Pedro",
+    "options": [
+      "é isenta de pena, por incidir causa supra legal que afasta a culpabilidade, qual seja, o consentimento da vítima.",
+      "configura exercício arbitrário das próprias razões.",
+      "é atípica, por ausência de previsão legal.",
+      "configura constrangimento ilegal",
+      "configura extorsão indireta."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2015 – PC-CE – ESCRIVÃO) No crime de furto, caracteriza-se como causa de aumento de pena, mas não qualificadora do crime",
+    "options": [
+      "a prática do crime mediante concurso de duas ou mais pessoas.",
+      "a prática do crime durante o repouso noturno",
+      "a prática do crime com abuso de confiança, ou mediante fraude, escalada ou destreza.",
+      "a prática do crime com emprego de chave falsa.",
+      "a prática do crime com destruição ou rompimento de obstáculo à subtração da coisa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2015 – PC-CE – INSPETOR) No que diz respeito aos crimes contra o patrimônio, é correto afirmar:",
+    "options": [
+      "Comete o crime de esbulho possessório aquele que invade mediante concurso de mais de duas pessoas, ainda que sem violência ou grave ameaça, terreno ou edifício alheio, para o fim de esbulho possessório.",
+      "Aquele que se apropria de coisa alheia que veio ao seu poder por caso fortuito ou força da natureza não pratica crime previsto no Código Penal.",
+      "Fraudar execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas é crime de ação penal pública incondicionada.",
+      "Adquirir, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, vender, expor à venda, ou de qualquer forma utilizar, em proveito próprio ou alheio, no exercício de atividade comercial ou industrial, coisa que deve saber ser produto de crime tipifica o crime de receptação qualificada, ainda que o comércio seja irregular ou clandestino e desde que não seja exercido em residência.",
+      "É isento de pena aquele que destruir coisa alheia em prejuízo de ascendente ou descendente, salvo se o parentesco for apenas civil."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2014 – PREF. DE SÃO JOSÉ DO RIO PRETO – PROCURADOR) Nos termos do art. 155, § 4.º do CP, o crime de furto é qualificado quando cometido",
+    "options": [
+      "em local ermo.",
+      "durante o repouso noturno.",
+      "em situação de calamidade pública.",
+      "mediante concurso de duas ou mais pessoas.",
+      "contra órgão da Administração Pública direta ou indireta."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP - DESENHISTA) “Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência”. O Código Penal Brasileiro intitula o tipo penal ora transcrito de",
+    "options": [
+      "extorsão.",
+      "furto de coisa comum.",
+      "roubo.",
+      "furto qualificado.",
+      "furto."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2014 – TJ-RJ – JUIZ) Nos estritos termos do CP, aquele que faz ligação clandestina de energia elétrica junto a poste instalado na via pública e a utiliza em proveito próprio",
+    "options": [
+      "comete fato típico equiparado a furto.",
+      "comete fato típico equiparado a apropriação indébita.",
+      "não comete crime algum, por falta de expressa previsão legal.",
+      "comete estelionato."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2014 – PC-SP – ESCRIVÃO) Qualifica o crime de furto, nos termos do art. 155, § 4.º do CP, ser o fato praticado.",
+    "options": [
+      "em local ermo ou de difícil acesso.",
+      "contra ascendente ou descendente.",
+      "durante o repouso noturno.",
+      "com abuso de confiança.",
+      "mediante emprego de arma de fogo."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2013 – PC-SP – AGENTE DE POLÍCIA) Baco, cliente de uma vídeolocadora, aluga 4 filmes e os leva para casa. Passado o período de locação, Baco decide devolver somente 3 filmes e retém um deles com a intenção de ficar definitivamente com o filme de propriedade da locadora. Essa conduta de Baco configura o crime de",
+    "options": [
+      "apropriação indébita.",
+      "furto.",
+      "roubo.",
+      "receptação.",
+      "peculato."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2013 – PC-SP – ESCRIVÃO) A conduta de constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar fazer alguma coisa caracteriza o crime de",
+    "options": [
+      "extorsão.",
+      "abuso de poder.",
+      "exercício arbitrário.",
+      "coação no curso do processo.",
+      "roubo."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2013 – PC-SP – PERITO) O autor do crime de Furto terá sua pena aumentada de um terço se o delito for praticado",
+    "options": [
+      "mediante emprego de chave falsa.",
+      "mediante concurso de duas ou mais pessoas.",
+      "mediante abuso de confiança, fraude, escalada ou destreza.",
+      "mediante destruição ou rompimento de obstáculo à subtração da coisa.",
+      "durante o repouso noturno."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2012 – TJ-MG – JUIZ) Atanásio Aparecido ocultou um veículo de sua propriedade e lavrou um boletim de ocorrência com o relato de que fora furtado, com o objetivo de receber o seguro, o que de fato ocorreu. O delito praticado por Atanásio é definido como",
+    "options": [
+      "estelionato.",
+      "fraude para recebimento de indenização ou valor de seguro.",
+      "simulação para recebimento de valor de seguro.",
+      "estelionato qualificado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2011 – TJ-RJ – JUIZ) Tício, usuário de “maconha”, porém imputável e lúcido naquele momento, subtrai dinheiro que estava sobre a mesa da sala, deixado ali por sua avó, com mais de 60 (sessenta) anos de idade, visando adquirir entorpecente para uso próprio. Assinale, dentre as alternativas mencionadas, qual delas é a correta.",
+    "options": [
+      "Tício é isento de pena, por ter praticado o furto contra ascendente.",
+      "Tício responderá pelo furto, mas a ação penal estará condicionada à representação por parte da avó.",
+      "Tício responderá pelo furto, independentemente de representação por parte da avó, pois, no caso, a ação penal é pública incondicionada.",
+      "Tício não praticou crime, pois agiu em estado de necessidade."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2010 – MPE-SP – ANALISTA DE PROMOTORIA) O crime de furto, do art. 155 do Código Penal, I. tem pena aumentada se praticado por funcionário público; II. tem pena aumentada se praticado durante o repouso noturno; III. é qualificado se praticado mediante o concurso de duas ou mais pessoas. É correto o que se afirma em",
+    "options": [
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP - 2013 - TJ-SP - JUIZ) A e B, agindo em concurso e com unidade de desígnios entre si, mediante grave ameaça, exercida com o emprego de arma de fogo, abordaram C, que reagiu após o anúncio de assalto. Ante a reação, B efetuou um disparo contra C, mas por erro na execução, o projétil atingiu o comparsa, causando-lhe a morte. Em seguida, B pôs-se em fuga, sem realizar a subtração patrimonial visada. Esse fato configura",
+    "options": [
+      "roubo tentado e homicídio consumado, em concurso material.",
+      "latrocínio tentado.",
+      "homicídio consumado.",
+      "latrocínio consumado."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP - 2013 - PC-SP - INVESTIGADOR DE POLÍCIA) No que diz respeito aos crimes contra o patrimônio previstos no Código Penal, é correto afirmar que",
+    "options": [
+      "subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa, e mantendo a vítima em seu poder, restringindo sua liberdade, caracteriza o crime de extorsão mediante sequestro.",
+      "o crime de furto é qualificado se praticado com destruição ou rompimento de obstáculo à subtração da coisa.",
+      "sequestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate, caracterizará o crime de roubo mediante sequestro se este durar menos do que 24 (vinte e quatro) horas.",
+      "o crime de furto é qualificado se praticado durante o repouso noturno.",
+      "quem acha coisa alheia perdida e dela se apropria, deixando de restituí-la ao dono ou legítimo possuidor ou de entregá-la à autoridade competente, dentro do prazo de 15 (quinze) dias, não comete crime se desconhece a identidade do proprietário do objeto."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2013 – PC/SP – PAPILOSCOPISTA) Imagine que João confunda seu aparelho de telefone celular com o de seu colega Pedro e, descuidadamente, leve para sua casa o aparelho de Pedro. Ao perceber o equívoco, João imediatamente comunica-se com Pedro e informa o ocorrido. No dia seguinte, João devolve o aparelho ao colega sem qualquer dano. Analisando a hipótese narrada, é possível afirmar que João",
+    "options": [
+      "cometeu crime de furto, mas não será punido em vista do instituto da desistência voluntária.",
+      "não cometeu crime algum.",
+      "cometeu crime de apropriação indébita, mas não será punido em vista do instituto da desistência voluntária.",
+      "cometeu crime de furto, mas não será punido em vista do instituto do arrependimento eficaz.",
+      "cometeu crime de apropriação indébita, mas não será punido em vista do instituto do arrependimento eficaz."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2013 – PC/SP – PAPILOSCOPISTA) No que concerne ao crime de receptação, analise as seguintes assertivas: I. Não é punível se desconhecido o autor do crime de que proveio a coisa. II. Não é punível se isento de pena o autor do crime de que proveio a coisa. III. A pena para a figura simples dolosa (CP, art. 180, caput) é aplicada em dobro caso se trate de bem da União. As assertivas estão, respectivamente:",
+    "options": [
+      "correta; correta; incorreta.",
+      "incorreta; correta; incorreta.",
+      "correta; correta; correta.",
+      "incorreta; incorreta; incorreta.",
+      "incorreta; incorreta; correta."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2013 – PC/SP – PAPILOSCOPISTA) O crime de fraude no pagamento por meio de cheque (CP, art. 171, § 2.º, VI) tem expressa previsão de aumento de pena, na razão de um terço, se",
+    "options": [
+      "cometido em detrimento de entidade de direito público.",
+      "cometido por funcionário público.",
+      "causa qualquer prejuízo à vítima.",
+      "consumado.",
+      "causa vultoso prejuízo à vítima."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP – 2013 – PC/SP – PAPILOSCOPISTA) Estabelece o art. 155, § 2.º do CP como requisitos necessários para que, no crime de furto, o juiz aplique somente a pena de multa, ser o criminoso",
+    "options": [
+      "confesso e de insignificante valor a coisa subtraída.",
+      "primário e de pequeno valor a coisa furtada.",
+      "não reincidente e portador de condições pessoas favoráveis, como domicílio fixo e ocupação lícita.",
+      "menor de 21 (vinte e um) anos ou maior de 70 (setenta) anos e que proceda à restituição voluntária da coisa subtraída.",
+      "confesso e que proceda à restituição voluntária da coisa subtraída."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2010 – PM/SP – TECNÓLOGO DE ADMINISTRAÇÃO) A subtração de coisa alheia móvel, para utilização momentânea, com sua devolução imediata nas mesmas condições, caracteriza",
+    "options": [
+      "furto comum.",
+      "furto de uso.",
+      "furto simples.",
+      "furto privilegiado.",
+      "furto qualificado."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2014 – PC/SP – INVESTIGADOR) Nos termos do Código Penal, assinale a alternativa que contenha apenas crimes contra o patrimônio.",
+    "options": [
+      "Homicídio; estelionato; extorsão.",
+      "Estelionato; furto; roubo.",
+      "Dano; estupro; homicídio.",
+      "Furto; roubo; lesão corporal.",
+      "Extorsão; lesão corporal; dano."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2019 – AFAP – ANALISTA DE FOMENTO – ADVOGADO - ADAPTADA) Diminui-se a pena de um a dois terços, na apropriação indébita previdenciária, se o agente, voluntariamente, confessa, declara e efetua o pagamento das contribuições e importâncias devidas à previdência social.",
+    "options": [
+      "Correta",
+      "Errada"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2019 – AFAP – ANALISTA DE FOMENTO – ADVOGADO - ADAPTADA) Todas as hipóteses de furto são de ação penal pública, em nenhuma delas procedendo-se mediante representação.",
+    "options": [
+      "Correta",
+      "Errada"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2019 – AFAP – ANALISTA DE FOMENTO – ADVOGADO - ADAPTADA) Se o crime for de extorsão mediante sequestro e for cometido em concurso, o concorrente que o denunciar à autoridade, facilitando a libertação do sequestrado, terá extinta sua punibilidade.",
+    "options": [
+      "Correta",
+      "Errada"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2019 – AFAP – ANALISTA DE FOMENTO – ADVOGADO - ADAPTADA) No crime de furto, se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa.",
+    "options": [
+      "Correta",
+      "Errada"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2018 – MPE-PE – ANALISTA MINISTERIAL - ÁREA JURÍDICA) É causa de aumento da pena no crime de roubo",
+    "options": [
+      "a subtração de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego.",
+      "praticado durante repouso noturno.",
+      "se a subtração for de veículo automotor que venha a ser transportado para outro município.",
+      "ter sido praticado com abuso de confiança, ou mediante fraude, escalada ou destreza.",
+      "ter sido cometido com destruição ou rompimento de obstáculo à subtração da coisa."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2018 – DPE-AM – ANALISTA JURÍDICA DE DEFENSORIA - CIÊNCIAS JURÍDICAS) Sobre os crimes contra o patrimônio:",
+    "options": [
+      "o furto de energia elétrica é atípico por não consistir em coisa móvel.",
+      "se o agente logo depois de subtraída a coisa, emprega violência contra pessoa, a fim de assegurar a impunidade do crime, incorre na mesma pena do roubo.",
+      "a ameaça exercida com simulacro de arma de fogo é incapaz de configurar o crime de roubo.",
+      "se durante a prática do roubo o agente mantém a vítima em seu poder, restringindo sua liberdade, o crime é o de latrocínio.",
+      "por falta de previsão legal, o princípio da insignificância é incabível no crime de furto."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2017 – DPE-RS – ANALISTA PROCESSUAL – ADAPTADA) É correto afirmar que, para a jurisprudência do Superior Tribunal de Justiça, a consumação do roubo reclama a posse pacífica e indisputada da coisa pelo agente.",
+    "options": [
+      "Correta",
+      "Errada"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2017 – PC-AP – AGENTE DE POLÍCIA) Nilson, na companhia de sua namorada, Ana Paula, ambos maiores e capazes, subtraem a quantia de R$ 200,00 da carteira do avô de Nilson que, na data do furto, contava 62 anos de idade. Diante da situação hipotética apresentada,",
+    "options": [
+      "Nilson ficará isento de pena, em razão do crime ter sido praticado contra seu ascendente. Contudo, tal isenção não alcançará Ana Paula.",
+      "haverá isenção da pena para Nilson, circunstância que também alcançará sua namorada Ana Paula.",
+      "Nilson e Ana Paula responderão pelo crime de furto qualificado, não incidindo a isenção de pena para nenhum dos agentes.",
+      "Nilson responderá por furto qualificado, enquanto que Ana Paula responderá por furto simples.",
+      "a responsabilização penal de Nilson e Ana Paula dependerá de queixa-crime."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC – 2017 – PC-AP – OFICIAL DE POLÍCIA CIVIL) Leonardo encontra uma cédula de R$ 50,00 sob a poltrona da sala da casa de seu amigo Fausto, lugar que habitualmente frequenta e, sem que o dono da casa perceba, dela se apodera. Diante do caso hipotético apresentado, Leonardo pratica o crime de",
+    "options": [
+      "apropriação de coisa achada.",
+      "furto qualificado.",
+      "estelionato.",
+      "furto simples.",
+      "apropriação indébita."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2016 – TRF3 – ANALISTA JUDICIÁRIO – ÁREA ADMINISTRATIVA) Peter, pessoa de grande porte físico, agarrou Paulus pelas costas e o imobilizou com uma “gravata”. Com a vítima imobilizada, subtraiu-lhe a carteira, o celular e o relógio. Em seguida, deixou o local e soltou a vítima que não sofreu nenhum ferimento. Peter cometeu crime de",
+    "options": [
+      "extorsão simples.",
+      "furto qualificado pela destreza.",
+      "roubo qualificado.",
+      "roubo simples.",
+      "extorsão qualificada."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FCC – 2016 – TRF3 – TÉCNICO JUDICIÁRIO - INFORMÁTICA) A respeito do crime de furto, considere: I. Peter cavou um túnel e, com grande esforço, conseguiu entrar no interior de uma loja, dali subtraindo produtos eletrônicos. II. Paulus, com o auxílio de uma corda, entrou pela janela em uma residência, de onde subtraiu objetos. III. Plinius escalou uma árvore, galgou o telhado de um supermercado e removeu várias telhas, entrando no local, de onde subtraiu diversos objetos. Ficou caracterizada a qualificadora da escalada",
+    "options": [
+      "nos furtos cometidos por Peter e Paulus, apenas.",
+      "nos furtos cometidos por Peter, Paulus e Plinius.",
+      "nos furtos cometidos por Peter e Plinius, apenas.",
+      "nos furtos cometidos por Paulus e Plinius, apenas.",
+      "no furto cometido por Plinius, apenas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2016 – TRF3 – ANALISTA JUDICIÁRIO - BIBLIOTECONOMIA) Brutus, no interior de uma loja, a pretexto de adquirir roupas, solicitou ao vendedor vários modelos para experimentar, mas, no interior do provador, escondeu uma das peças dentro de suas vestes, devolveu as demais e deixou o local. Brutus cometeu crime de",
+    "options": [
+      "furto qualificado pela fraude.",
+      "apropriação indébita.",
+      "furto simples.",
+      "estelionato.",
+      "furto de coisa comum."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC – 2016 – TRF3 – TÉCNICO JUDICIÁRIO - INFORMÁTICA) NÃO pode ser objeto de furto:",
+    "options": [
+      "bem imóvel.",
+      "energia elétrica.",
+      "aeronave.",
+      "cavalo de raça.",
+      "caixa de refrigerantes."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC - 2011 - TRT - 1ª REGIÃO (RJ) - TÉCNICO JUDICIÁRIO - SEGURANÇA) Cícero entrou no automóvel de Augustus e subtraiu-lhe um computador portátil que estava no banco traseiro. Augustus percebeu a ação delituosa e perseguiu Cícero, com o qual entrou em luta corporal. No entanto, Cícero causou ferimentos leves em Augustus, e conseguiu fugir do local, de posse do aparelho subtraído. Cícero responderá por crime de",
+    "options": [
+      "roubo impróprio.",
+      "furto simples.",
+      "furto qualificado pela destreza.",
+      "furto e de lesões corporais.",
+      "apropriação indébita."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FCC - 2011 - TJ-AP - TITULAR DE SERVIÇOS DE NOTAS E DE REGISTROS) Mara, empregada doméstica, subtraiu joias de sua empregadora Dora, colocando-as numa caixa que enterrou no quintal da residência. No dia seguinte, porém, Dora deu pela falta das joias e chamou a polícia que realizou busca no imóvel e encontrou o esconderijo onde Mara as havia guardado. Nesse caso, Mara responderá por",
+    "options": [
+      "apropriação indébita.",
+      "furto tentado.",
+      "furto consumado.",
+      "roubo.",
+      "estelionato."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC - 2011 - TRE-RN - ANALISTA JUDICIÁRIO - ÁREA ADMINISTRATIVA) Paulo fez uma ligação clandestina no relógio de seu vizinho e subtraiu energia elétrica para a sua residência. Paulo",
+    "options": [
+      "não responderá por crime contra o patrimônio, pois a energia elétrica é bem de uso comum.",
+      "responderá por crime de estelionato.",
+      "responderá por crime de furto.",
+      "responderá por crime de roubo.",
+      "responderá por crime de apropriação indébita."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FCC - 2010 - TRT - 8ª REGIÃO (PA E AP) - ANALISTA JUDICIÁRIO - EXECUÇÃO DE MANDADOS) Paulo postou-se em frente a um restaurante e apresentou- se como manobrista a um freguês que chegou para jantar. Entregou-lhe um papel com um número e recebeu deste as chaves o veículo, do qual se apossou, fugindo do local. Paulo responderá por crime de",
+    "options": [
+      "apropriação indébita.",
+      "estelionato.",
+      "furto qualificado pela fraude.",
+      "furto simples.",
+      "furto com abuso de confiança."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FCC – 2006 – BCB – TÉCNICO) José encontrou um talonário de cheques na rua. Retirou uma das folhas, preencheu e a utilizou para pagar R$ 200,00 de combustível num posto de gasolina. Tal conduta configurou o delito de",
+    "options": [
+      "estelionato.",
+      "furto qualificado mediante fraude.",
+      "venda de coisa alheia como própria.",
+      "receptação.",
+      "extorsão."
+    ],
+    "correct": 0
+  },{
+    "question": "(FGV – 2017 – TRT-SC – ANALISTA JUDICIÁRIO) Vitor, sócio administrador da Sociedade X, em razão da grande quantidade de serviço que desempenha, deixa de repassar no prazo devido, de maneira negligente, à previdência social contribuições previdenciárias recolhidas dos empregados contribuintes. Um dos empregados, porém, descobre o ocorrido e narra para autoridade policial. Considerando as informações narradas, é correto afirmar que a conduta de Vitor configura:",
+    "options": [
+      "indiferente penal;",
+      "apropriação indébita comum majorada;",
+      "apropriação indébita previdenciária;",
+      "apropriação indébita de coisa havida por erro;",
+      "furto qualificado."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV – 2016 – MPE-RJ – ANALISTA PROCESSUAL) Mauro e Fernando, mediante emprego de simulacro de arma de fogo, abordaram o casal Paulo e Lucia, que conversavam na porta de um caixa eletrônico. Após anunciarem o assalto, subtraíram os relógios de cada uma das vítimas, bem como a bolsa de Lucia e a mochila de Paulo. Empreenderam os agentes fuga de imediato, vindo a ser presos 30 minutos após os fatos, tendo em vista que os policiais saíram à procura dos agentes a partir da descrição de suas características pelas vítimas. Diante desse quadro fático, o Ministério Público, atento à jurisprudência atualmente prevalente nos Tribunais Superiores, deverá denunciar Mauro e Fernando pela prática de:",
+    "options": [
+      "um crime de roubo majorado pelo concurso de agentes, consumado;",
+      "dois crimes de roubo majorados pelo concurso de agentes, consumados;",
+      "dois crimes de roubo duplamente majorados pelo concurso de agentes e pelo emprego de arma de fogo, tentados;",
+      "dois crimes de roubo majorados pelo concurso de agentes, tentados;",
+      "dois crimes de roubo duplamente majorados pelo concurso de agentes e pelo emprego de arma de fogo, consumados."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2015 – TJ-RO – OFICIAL DE JUSTIÇA) Tício, oficial de justiça que atua junto ao Tribunal de Justiça, ao final do expediente de trabalho, ingressa em um ônibus para retornar para sua residência. Repara que, ao seu lado, está a testemunha de um processo, de nome Clara, e esta se mostra nervosa, imaginando o oficial que seja em razão do depoimento prestado em audiência. Quando Clara se acalma e fecha os olhos, Tício se aproveita da distração e subtrai o celular que estava em sua bolsa, deixando o coletivo. Ocorre que outro passageiro viu a ação, comunicou o fato à Delegacia e, uma semana após, Tício foi identificado. Considerando apenas as informações narradas, é correto afirmar que Tício responderá pelo crime de:",
+    "options": [
+      "peculato-desvio;",
+      "apropriação indébita;",
+      "peculato-apropriação;",
+      "furto;",
+      "peculato-furto."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2015 – TCM-SP – AGENTE DE FISCALIZAÇÃO) Maurício estava na festa de aniversário de seu pai e sua mãe, que, juntos, comemoravam seus aniversários de 61 anos e 59 anos respectivamente. Com a intenção de comprar bebidas, subtrai R$1.000,00 (mil reais) da carteira de seu pai sem que ninguém veja sua conduta. Já no dia seguinte pela manhã, ingressa no quarto de sua mãe para subtrair dólares, mas depara-se com a genitora trocando de sapatos. Decide, então, ameaçá-la de morte e levar todo o dinheiro que era apenas de sua mãe. Diante dessa situação, é correto afirmar que:",
+    "options": [
+      "Maurício é isento de pena pela prática dos dois crimes, em razão da escusa absolutória pelo fato de as vítimas serem seus genitores;",
+      "Maurício é isento de pena pela prática da conduta engendrada contra o pai, mas não contra a mãe;",
+      "as condutas praticadas por Maurício são atípicas, pois os bens subtraídos também podem ser considerados de sua propriedade;",
+      "Maurício é isento de pena pela prática da conduta engendrada em desfavor de sua mãe, mas não pela conduta praticada contra seu pai;",
+      "Maurício deverá responder pela prática de ambos os crimes, não havendo que se falar em aplicação de escusas absolutórias."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FGV – 2015 – DPE-MT – ADVGOADO) João e José decidem praticar um crime de roubo, que ocorreria com a subtração do veículo automotor de Maria, vizinha de João. A grande dificuldade do plano criminoso estava no local em que seria escondido o veículo antes de ser desmontado para a venda das peças. João e José procuraram Marcus, primo de José e proprietário de uma oficina mecânica, e perguntaram se ele teria interesse em guardar o carro no estabelecimento por uma semana. Marcus concordou, o acordo foi sacramentado e, então, o crime de roubo foi praticado. Considerando apenas os fatos descritos, Marcus responderá criminalmente pelo crime de",
+    "options": [
+      "roubo majorado.",
+      "receptação simples.",
+      "favorecimento real",
+      "receptação qualificada.",
+      "favorecimento pessoal."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2015 – DPE-MT – ADVGOADO) Fernanda, funcionária pública vinculada à Defensoria Pública do Estado do Mato Grosso, no ponto de ônibus em frente ao prédio da administração da Defensoria, após deixar seu trabalho na companhia de uma colega de serviço, aproveitando-se da distração desta, subtraiu sua carteira, que estava dentro da bolsa. Descoberta por meio de câmeras de segurança, Fernanda deverá ser denunciada pela prática do crime de",
+    "options": [
+      "peculato-furto.",
+      "estelionato.",
+      "peculato-desvio.",
+      "furto.",
+      "peculato-apropriação."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2017 – OAB – XXIV EXAME DE ORDEM) Decidido a praticar crime de furto na residência de um vizinho, João procura o chaveiro Pablo e informa do seu desejo, pedindo que fizesse uma chave que possibilitasse o ingresso na residência, no que foi atendido. No dia do fato, considerando que a porta já estava aberta, João ingressa na residência sem utilizar a chave que lhe fora entregue por Pablo, e subtrai uma TV. Chegando em casa, narra o fato para sua esposa, que o convence a devolver o aparelho subtraído. No dia seguinte, João atende à sugestão da esposa e devolve o bem para a vítima, narrando todo o ocorrido ao lesado, que, por sua vez, comparece à delegacia e promove o registro próprio. Considerando o fato narrado, na condição de advogado(a), sob o ponto de vista técnico, deverá ser esclarecido aos familiares de Pablo e João que",
+    "options": [
+      "nenhum deles responderá pelo crime, tendo em vista que houve arrependimento eficaz por parte de João e, como causa de excludente da tipicidade, estende-se a Pablo.",
+      "ambos deverão responder pelo crime de furto qualificado, aplicando-se a redução de pena apenas a João, em razão do arrependimento posterior.",
+      "ambos deverão responder pelo crime de furto qualificado, aplicando-se a redução de pena para os dois, em razão do arrependimento posterior, tendo em vista que se trata de circunstância objetiva.",
+      "João deverá responder pelo crime de furto simples, com causa de diminuição do arrependimento posterior, enquanto Pablo não responderá pelo crime contra o patrimônio."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV - 2016 - OAB - XX EXAME DE ORDEM) Aproveitando-se da ausência do morador, Francisco subtraiu de um sítio diversas ferramentas de valor considerável, conduta não assistida por quem quer que seja. No dia seguinte, o proprietário Antônio verifica a falta das coisas subtraídas, resolvendo se dirigir à delegacia da cidade. Após efetuar o devido registro, quando retornava para o sítio, Antônio avistou Francisco caminhando com diversas ferramentas em um carrinho, constatando que se tratavam dos bens dele subtraídos no dia anterior. Resolve fazer a abordagem, logo dizendo ser o proprietário dos objetos, vindo Francisco, para garantir a impunidade do crime anterior, a desferir um golpe de pá na cabeça de Antônio, causando-lhe as lesões que foram a causa de sua morte. Apesar de tentar fugir em seguida, Francisco foi preso por policiais que passavam pelo local, sendo as coisas recuperadas, ficando constatado o falecimento do lesado. Revoltada, a família de Antônio o procura, demonstrando interesse em sua atuação como assistente de acusação e afirmando a existência de dúvidas sobre a capitulação da conduta do agente. Considerando o caso narrado, o advogado esclarece que a conduta de Francisco configura o(s) crime(s) de",
+    "options": [
+      "latrocínio consumado.",
+      "latrocínio tentado.",
+      "furto tentado e homicídio qualificado.",
+      "furto consumado e homicídio qualificado."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV – 2016 – XXI EXAME DA OAB – PRIMEIRA FASE) Felipe sempre sonhou em ser proprietário de um veículo de renomada marca mundial. Quando soube que uma moradora de sua rua tinha um dos veículos de seu sonho em sua garagem, Felipe combinou com Caio e Bruno de os dois subtraírem o veículo, garantindo que ficaria com o produto do crime e que Caio e Bruno iriam receber determinado valor, o que efetivamente vem a ocorrer. Após receber o carro, Felipe o leva para sua casa de praia, localizada em outra cidade do mesmo Estado em que reside. Os fatos são descobertos e o veículo é apreendido na casa de veraneio de Felipe. Considerando as informações narradas, é correto afirmar que Felipe deverá ser responsabilizado pela prática do crime de",
+    "options": [
+      "furto simples.",
+      "favorecimento real.",
+      "furto qualificado pelo concurso de agentes.",
+      "receptação."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV - 2012 - OAB - VIII EXAME DE ORDEM UNIFICADO) Jaime, conhecido pelos colegas como “Jaiminho mão de seda”, utilizando-se de sua destreza, consegue retirar a carteira do bolso traseiro da calça de Ricardo que, ao perceber a subtração, sai ao encalço do delinquente. Ocorre que, durante a perseguição, Ricardo acaba sendo atropelado, vindo a falecer em decorrência dos ferimentos. Nesse sentido, com base nas informações apresentadas na hipótese, e a jurisprudência predominante dos tribunais superiores, assinale a afirmativa correta.",
+    "options": [
+      "Jaime praticou delito de furto em sua modalidade tentada.",
+      "Jaime consumou a prática do delito de furto simples.",
+      "Jaime consumou a prática do delito de furto qualificado.",
+      "Jaime consumou a prática de latrocínio."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV - 2012 - PC-MA - DELEGADO DE POLÍCIA) Tício ingressa na residência de Mévio e subtrai o cofre que encontra na sala, levando-o para um matagal distante. Não conhecendo o segredo do cofre, utiliza-se de um machado para abri-lo, subtraindo as jóias que estavam em seu interior. Após abandonar o cofre violado, leva as jóias para José, um comerciante local, que efetua a compra sem se importar em apurar a origem das jóias adquiridas. Algum tempo depois o fato é descoberto e o caso é levado à sua consideração para a devida capitulação. Tício e José deverão responder, respectivamente, por",
+    "options": [
+      "furto qualificado pelo rompimento de obstáculo (Art. 155, § 4º, I, do CP) e receptação simples (Art. 180, do CP).",
+      "furto simples (Art. 155, do CP) e receptação qualificada (Art. 180, § 1º, do CP).",
+      "furto qualificado pelo rompimento de obstáculo (Art. 155, § 4º, I, do CP) e receptação qualificada (Art. 180, § 1º, do CP).",
+      "furto simples (Art. 155, do CP) e receptação simples (Art. 180, do CP).",
+      "furto qualificado pelo rompimento de obstáculo (Art. 155, § 4º, I, do CP) e receptação culposa (Art. 180, § 3º, do CP)."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FGV – 2014 – DPE-DF – ANALISTA) Chico furtou duas camisas em determinada loja de departamentos. Ao deixar a loja, o alarme soou e Chico acabou sendo preso, processado e condenado pela prática do crime tipificado no Artigo 155 do Código Penal. O magistrado, ao realizar a dosimetria da pena, fixou a pena base em 2 (dois) anos de reclusão e, considerando que as duas camisas foram furtadas nas mesmas circunstâncias de tempo, lugar e modo de execução, aplicou a regra prevista no Artigo 71 do Código Penal e aumentou a pena em mais 6 (seis) meses, tornando-a definitiva em 2 (dois) anos e 4 (quatro) meses de reclusão. Entre a data do recebimento da denúncia e a da sentença condenatória passaram-se mais de 4 (quatro) anos, e o magistrado acabou por reconhecer, na própria sentença condenatória, a extinção da punibilidade pela prescrição. Sobre a sentença, pode-se afirmar que:",
+    "options": [
+      "está incorreta quanto à continuidade delitiva, porque Chico praticou crime único, mas a prescrição deve ser reconhecida.",
+      "está incorreta, porque Chico praticou dois crimes, em concurso material.",
+      "está correta quanto à continuidade delitiva, mas incorreta quanto ao reconhecimento da prescrição.",
+      "está correta quanto à continuidade delitiva e quanto ao reconhecimento da prescrição.",
+      "está incorreta, porque Chico praticou dois crimes, em concurso formal, mas a prescrição deve ser reconhecida."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(FGV – 2014 – OAB – XV EXAME DE ORDEM) No dia 14 de setembro de 2014, por volta das 20h, José, primário e de bons antecedentes, tentou subtrair para si, mediante escalada de um muro de 1,70 metros de altura, vários pedaços de fios duplos de cobre da rede elétrica avaliados em, aproximadamente, R$ 100,00 (cem reais) á época dos fatos. Sobre o caso apresentado, segundo entendimento sumulado do STJ, assinale a afirmativa correta.",
+    "options": [
+      "É possível o reconhecimento do furto qualificado privilegiado independentemente do preenchimento cumulativo dos requisitos previstos no Art. 155, § 2º, do CP.",
+      "É possível o reconhecimento do privilégio previsto no Art. 155, § 2º, do CP nos casos de crime de furto qualificado se estiverem presentes a primariedade do agente e o pequeno valor da coisa, e se a qualificadora for de ordem objetiva.",
+      "Não é possível o reconhecimento do privilégio previsto no Art. 155, § 2º, do CP nos casos de crime de furto qualificado, mesmo que estejam presentes a primariedade do agente e o pequeno valor da coisa, e se a qualificadora for de ordem objetiva.",
+      "É possível o reconhecimento do privilégio previsto no Art. 155, § 2º, do CP nos casos de crime de furto qualificado se estiverem presentes a primariedade do agente, o pequeno valor da coisa, e se a qualificadora for de ordem subjetiva."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2015 – OAB – XVI EXAME DE ORDEM) Moura, maior de 70 anos, primário e de bons antecedentes, mediante grave ameaça, subtraiu o relógio da vítima Lúcia, avaliado em R$ 550,00 (quinhentos e cinquenta reais). Cerca de 45 minutos após a subtração, Moura foi procurado e localizado pelos policiais que foram avisados do ocorrido, sendo a coisa subtraída recuperada, não sofrendo a vítima qualquer prejuízo patrimonial. O fato foi confessado e Moura foi condenado pela prática do crime de roubo simples, ficando a pena acomodada em 04 anos de reclusão em regime aberto e multa de 10 dias. Procurado pela família do acusado, você, poderá apelar, buscando",
+    "options": [
+      "o reconhecimento da forma tentada do roubo",
+      "a aplicação do sursis da pena",
+      "o reconhecimento da atipicidade comportamental por força da insignificância.",
+      "a redução da pena abaixo do mínimo legal, em razão das atenuantes da confissão espontânea e da senilidade."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2012 – OAB – EXAME DE ORDEM) José subtrai o carro de um jovem que lhe era totalmente desconhecido, chamado João. Tal subtração deu-se mediante o emprego de grave ameaça exercida pela utilização de arma de fogo. João, entretanto, rapaz jovem e de boa saúde, sem qualquer histórico de doença cardiovascular, assusta-se de tal forma com a arma, que vem a óbito em virtude de ataque cardíaco. Com base no cenário acima, assinale a afirmativa correta.",
+    "options": [
+      "José responde por latrocínio.",
+      "José não responde pela morte de João.",
+      "José responde em concurso material pelos crimes de roubo e de homicídio culposo.",
+      "José praticou crime preterdoloso."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(FGV – 2012 – OAB – EXAME DE ORDEM) Ares, objetivando passear com a bicicleta de Ártemis, desfere contra esta um soco. Ártemis cai, Ares pega a bicicleta e a utiliza durante todo o resto do dia, devolvendo-a ao anoitecer. Considerando os dados acima descritos, assinale a alternativa correta.",
+    "options": [
+      "Ares praticou crime de roubo com a causa de diminuição de pena do arrependimento posterior.",
+      "Ares praticou atípico penal.",
+      "Ares praticou constrangimento ilegal.",
+      "Ares praticou constrangimento legal com a causa de diminuição de pena do arrependimento posterior."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV – 2011 – OAB – EXAME DE ORDEM) Marcus, visando roubar Maria, a agride, causando-lhe lesões corporais de natureza leve. Antes, contudo, de subtrair qualquer pertence, Marcus decide abandonar a empreitada criminosa, pedindo desculpas à vítima e se evadindo do local. Maria, então, comparece à delegacia mais próxima e narra os fatos à autoridade policial. No caso acima, o delegado de polícia",
+    "options": [
+      "deverá instaurar inquérito policial para apurar o crime de roubo tentado, uma vez que o resultado pretendido por Marcus não se concretizou.",
+      "nada poderá fazer, uma vez que houve a desistência voluntária por parte de Marcus.",
+      "deverá lavrar termo circunstanciado pelo crime de lesões corporais de natureza leve.",
+      "nada poderá fazer, uma vez que houve arrependimento posterior por parte de Marcus."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV - 2011 - OAB - EXAME DE ORDEM UNIFICADO - PRIMEIRA FASE) Pedro, não observando seu dever objetivo de cuidado na condução de uma bicicleta, choca-se com um telefone público e o destrói totalmente. Nesse caso, é correto afirmar que Pedro",
+    "options": [
+      "deverá ser responsabilizado pelo crime de dano simples, somente.",
+      "deverá ser responsabilizado pelo crime de dano qualificado, somente.",
+      "deverá ser responsabilizado pelo crime de dano qualificado, sem prejuízo da obrigação de reparar o dano causado.",
+      "não será responsabilizado penalmente."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(FGV - 2010 - PC-AP - DELEGADO DE POLÍCIA) Relativamente aos crimes contra o patrimônio, analise as afirmativas a seguir: I. No crime de furto, se o criminoso é primário, e a coisa furtada é de pequeno valor, o juiz pode substituir a pena de reclusão pela de detenção. II. Considera-se qualificado o dano praticado com violência à pessoa ou grave ameaça, com emprego de substância inflamável ou explosiva (se o fato não constitui crime mais grave), contra o patrimônio da União, Estado, Município, empresa concessionária de serviços públicos ou sociedade de economia mista ou ainda por motivo egoístico ou com prejuízo considerável para a vítima. III. É isento de pena quem comete qualquer dos crimes contra o patrimônio em prejuízo do cônjuge, na constância da sociedade conjugal, desde que não haja emprego de grave ameaça ou violência à pessoa ou que a vítima não seja idosa nos termos da Lei 10.741/2003. Assinale:",
+    "options": [
+      "se somente a afirmativa I estiver correta.",
+      "se somente a afirmativa II estiver correta.",
+      "se somente a afirmativa III estiver correta.",
+      "se somente as afirmativas II e III estiverem corretas.",
+      "se todas as afirmativas estiverem corretas."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(FGV – 2015 – OAB – XVII EXAME DE ORDEM) Marcondes, necessitando de dinheiro para comparecer a uma festa no bairro em que residia, decide subtrair R$ 1.000,00 do caixa do açougue de propriedade de seu pai. Para isso, aproveita-se da ausência de seu genitor, que, naquele dia, comemorava seu aniversário de 63 anos, para arrombar a porta do estabelecimento e subtrair a quantia em espécie necessária. Analisando a situação fática, é correto afirmar que",
+    "options": [
+      "Marcondes não será condenado pela prática de crime, pois é isento de pena, em razão da escusa absolutória.",
+      "Marcondes deverá responder pelo crime de furto de coisa comum, por ser herdeiro de seu pai.",
+      "Marcondes deverá responder pelo crime de furto qualificado.",
+      "Marcondes deverá responder pelos crimes de dano e furto simples em concurso formal."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(FGV – 2010 – OAB – EXAME DE ORDEM) Paula Rita convenceu sua mãe adotiva, Maria Aparecida, de 50 anos de idade, a lhe outorgar um instrumento de mandato para movimentar sua conta bancária, ao argumento de que poderia ajudá-la a efetuar pagamento de contas, pequenos saques, pegar talões de cheques etc., evitando assim que a mesma tivesse que se deslocar para o banco no dia a dia. De posse da referida procuração, Paula Rita compareceu à agência bancária onde Maria Aparecida possuía conta e sacou todo o valor que a mesma possuía em aplicações financeiras, no total de R$ 150.000,00 (cento e cinquenta mil reais), apropriando-se do dinheiro antes pertencente a sua mãe. Considerando tal narrativa, assinale a alternativa correta.",
+    "options": [
+      "Paula Rita praticou crime de estelionato em detrimento de Maria Aparecida e, pelo fato de ser sua filha adotiva, é isenta de pena.",
+      "Paula Rita praticou crime de furto mediante fraude em detrimento de Maria Aparecida e, pelo fato de ser sua filha adotiva, é isenta de pena.",
+      "Paula Rita praticou crime de estelionato em detrimento de Maria Aparecida e, apesar de ser sua filha adotiva, não é isenta de pena.",
+      "Paula Rita praticou crime de furto mediante fraude em detrimento de Maria Aparecida e, apesar de ser sua filha adotiva, não é isenta de pena."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "(VUNESP / 2020 / EBSERH / ADVOGADO) O crime de roubo tem pena aumentada (CP, art. 157, § 2° e 2° A) se",
+    "options": [
+      "o bem subtraído é de propriedade de ente público Municipal, Estadual ou Federal.",
+      "a vítima está em serviço de transporte de valores e o agente conhece tal circunstância.",
+      "praticado em transporte público ou coletivo.",
+      "cometido por quem, embora transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública.",
+      "cometido por quem for ocupante de cargos em comissão ou de função de direção ou assessoramento de órgão de empresa pública."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2018 – PC-BA - ESCRIVÃO) A respeito de crimes contra o patrimônio, é correto afirmar que",
+    "options": [
+      "dano simples praticado pelo agente contra seu tio, com quem não coabita, este com cinquenta e um anos de idade, somente se procederá mediante representação.",
+      "apropriação indébita praticado pelo agente contra seu cônjuge, este com cinquenta e nove anos de idade, separado judicialmente, somente se procederá mediante representação.",
+      "estelionato praticado pelo agente contra seu irmão, este com cinquenta e cinco anos de idade, somente se procederá mediante queixa.",
+      "alteração de limites praticado pelo agente contra seu sobrinho, com quem coabita, este com cinquenta anos de idade, será isento de pena.",
+      "extorsão praticado pelo agente contra seu pai, este com cinquenta e oito anos de idade, será isento de pena."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "(VUNESP – 2018 – PC-BA - INVESTIGADOR) Sobre as disposições gerais aplicáveis aos crimes contra o patrimônio, previstas nos artigos 181 a 183 do Código Penal, assinale a alternativa correta.",
+    "options": [
+      "Maria, apesar de divorciada de José, com este mantém amizade, e constantemente se encontram para jantar. Em um desses encontros, Maria furtou o relógio e as abotoaduras de ouro pertencentes a José. Nesse caso, por ter sido casada com José, Maria estará isenta de pena, nos temos do art. 181, I, do Código Penal.",
+      "Se o crime for cometido em prejuízo de irmão, legítimo ou ilegítimo, a ação penal será pública incondicionada.",
+      "Manoel, para sustentar o vício em jogos, furtou R$ 70.000,00 de seu pai, referente a todo o dinheiro economizado durante a vida do genitor, um senhor de 65 anos de idade à época do fato. Por ter praticado crime sem violência contra seu genitor, Manoel ficará isento de pena.",
+      "As causas de isenção de pena previstas nos artigos 181 e 182 também se estendem ao estranho que participa do crime.",
+      "Se o crime for cometido em prejuízo de tio ou sobrinho com quem o agente coabita, a ação penal será pública condicionada à representação."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2017 – DPE-RO – DEFENSOR PÚBLICO) João, de 30 anos, em concurso com a amiga Maria, de 25 anos, cometem apropriação indébita contra o pai de João, de 50 anos. Os três moram na mesma casa. É correto afirmar que João",
+    "options": [
+      "e Maria são isentos de pena.",
+      "é isento de pena e Maria somente será processada mediante representação.",
+      "e Maria somente serão processados mediante representação.",
+      "é isento de pena, mas a Maria não socorre semelhante benefício.",
+      "somente será processado mediante representação e Maria é isenta de pena."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "(VUNESP – 2017 – TJ-SP - JUIZ) Em relação aos crimes contra o patrimônio, é correto afirmar que",
+    "options": [
+      "constitui causa de aumento de pena do furto simples a subtração de semovente domesticável de produção, ainda que abatido ou dividido em partes no local da subtração.",
+      "é isento de pena quem comete furto em prejuízo de ascendente, independentemente da idade da vítima.",
+      "não incide a agravante de crime praticado contra maior de sessenta anos no caso de estelionato contra idoso.",
+      "admitem a figura privilegiada os crimes de furto, dano, apropriação indébita, estelionato e receptação."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2017 – PREF. DE PORTO FERREIRA-SP – PROCURADOR) Em relação aos crimes contra o patrimônio, é correto afirmar que",
+    "options": [
+      "o crime de roubo praticado por agente que é irmão da vítima depende de representação.",
+      "em relação ao crime de dano, seja ele cometido na forma simples, seja ele cometido na forma qualificada, em suas diversas modalidades, somente se procede mediante queixa.",
+      "no crime de esbulho possessório, se a propriedade é particular, e não há emprego de violência, somente se procede mediante queixa.",
+      "em relação ao crime de apropriação indébita previdenciária, não há previsão legal de extinção de punibilidade se o agente, espontaneamente, declara, confessa e efetua o pagamento das contribuições, importâncias ou valores e presta as informações devidas à previdência social, na forma definida em lei ou regulamento, antes do início da ação fiscal.",
+      "em relação ao crime de estelionato há a necessidade de saber o valor do prejuízo acarretado à vítima para saber se trata-se de ação penal pública incondicionada ou condicionada."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "(VUNESP – 2017 – PREF. DE ANDRADINA-SP – ASSISTENTE JURÍDICO) Entre outras possibilidades, o crime de dano do art. 163 do CP é qualificado se cometido",
+    "options": [
+      "por motivo fútil.",
+      "por duas ou mais pessoas.",
+      "durante o repouso noturno.",
+      "em situação de calamidade pública.",
+      "contra o patrimônio da União, Estado ou Município."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "(VUNESP – 2016 – IPSMI – PROCURADOR) Mévio, endividado, sequestra o próprio pai, senhor de 70 anos, objetivando obter como resgate, de seus irmãos, a quantia de R$ 100.000,00 (cem mil reais). Para tanto, conta com a ajuda de Caio. Passadas 13 horas do sequestro, Caio se arrepende e decide comunicar o crime à Polícia que, pouco depois, invade o local do sequestro, libertando a vítima. A respeito da situação retratada, é correto afirmar que",
+    "options": [
+      "Mévio e Caio praticaram extorsão mediante sequestro, na forma qualificada, haja vista que o crime perdurou por período superior a 12 horas.",
+      "por se tratar de crime contra o patrimônio, Mévio é isento de pena, pois cometeu o crime em prejuízo de ascendente.",
+      "por se tratar de crime contra o patrimônio, relativamente a Mévio, que praticou o crime em prejuízo de ascendente, a ação penal é pública condicionada à representação.",
+      "Caio, mesmo tendo denunciado o crime à autoridade policial, não faz jus à redução da pena, por se tratar de crime na forma qualificada.",
+      "Mévio e Caio praticaram extorsão mediante sequestro, na forma qualificada, por se tratar de vítima idosa."
+    ],
+    "correct": 4
+  }
+],
+
+
+
 "PrincipiosConceitosCodigoPenal": [
   {
     "question": "(FGV – 2018 – TJ-AL – TÉCNICO JUDICIÁRIO) Julia, primária e de bons antecedentes, verificando a facilidade de acesso a determinados bens de uma banca de jornal, subtrai duas revistas de moda, totalizando o valor inicial do prejuízo em R$15,00 (quinze reais). Após ser presa em flagrante, é denunciada pela prática do crime de furto simples, vindo, porém, a ser absolvida sumariamente em razão do princípio da insignificância. De acordo com a situação narrada, o magistrado, ao reconhecer o princípio da insignificância, optou por absolver Julia em razão da:",
