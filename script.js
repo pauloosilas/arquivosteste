@@ -1,6 +1,611 @@
 // Banco de questões
 const questions = {  
 
+"MariaDaPenha": [
+  {
+    "question": "Questão 1 (FCC/OFICIAL DE POLÍCIA CIVIL/PC-AP/2017) NÃO constitui medida protetiva de urgência prevista na Lei n. 11.340/2006 − Lei Maria da Penha",
+    "options": [
+      "a prestação de alimentos provisórios.",
+      "a proibição de contato com a ofendida.",
+      "o afastamento dos familiares da ofendida, com fixação de limite mínimo de distância.",
+      "a suspensão de visitas aos dependentes menores.",
+      "o afastamento de cargo ou função pública."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 2 (FCC/PERITO MÉDICO LEGISTA/POLITEC-AP/2017) Nos termos do § 8º do art. 226 da Constituição Federal, da Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres e da Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher, foi aprovada, em 2006, a Lei n. 11.340/2006 (Lei Maria da Penha), que trata de mecanismos para coibir a violência doméstica e familiar contra a mulher. De acordo com a referida lei,",
+    "options": [
+      "as agressões praticadas por irmão contra irmã não se incluem dentre àquelas disciplinadas pela Lei Maria da Penha.",
+      "as agressões praticadas com violência doméstica contra a mulher devem observar o disposto na Lei n. 9.099/1995 (Lei dos Juizados Especiais Civis e Criminais) quando a pena máxima prevista não for superior a 2 anos.",
+      "configura violência doméstica e familiar contra a mulher qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial, independentemente da orientação sexual da ofendida.",
+      "é permitida a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.",
+      "poderá o juiz, quando necessário, sem prejuízo de outras medidas, determinar o afastamento da ofendida do lar, sem prejuízo dos direitos relativos a bens, guarda dos filhos e alimentos, determinando, de ofício, o rompimento legal do vínculo de matrimônio entre os cônjuges."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 3 (FCC/DEFENSOR PÚBLICO SUBSTITUTO/DPE-SC/2017) Em caso de violência doméstica e familiar contra a mulher,",
+    "options": [
+      "é vedada a atuação de assistente de acusação para a vítima, pois a Lei Maria da Penha já prevê a assistência jurídica à vítima em todos os atos do processo.",
+      "é incabível o uso de habeas corpus em face de decisão que concede medida protetiva de urgência em favor da mulher, pois a medida não tem natureza penal contra o acusado.",
+      "a ação penal nos crimes submetidos à Lei Maria da Penha será pública incondicionada.",
+      "a Lei Maria da Penha permite a decretação da prisão preventiva de ofício pelo juiz no curso do inquérito policial.",
+      "conforme a jurisprudência do Superior Tribunal de Justiça, as contravenções penais não se submetem ao Juizado de Violência Doméstica e Familiar contra a Mulher, aplicando-se os institutos da Lei n. 9.099/1995."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 4 (FCC/PROMOTOR DE JUSTIÇA/MPE-PB/2018) Conforme entendimento sumulado pelo Superior Tribunal de Justiça:",
+    "options": [
+      "Para a configuração da violência doméstica e familiar, prevista na Lei Maria da Penha (Lei n. 11.340/2006), não se exige a coabitação entre autor e vítima.",
+      "A suspensão condicional do processo, prevista na Lei n. 9.099/1995, é aplicável na hipótese de delitos sujeitos ao rito da Lei Maria da Penha (Lei n. 11.340/2006).",
+      "É possível a aplicação de prestação de serviços a entidades públicas, bem como a limitação temporária de direitos ao autor de crime, com violência ou grave ameaça no ambiente doméstico, contra a mulher.",
+      "Permanece pública condicionada à representação a ação penal para o crime de lesão corporal leve, praticado contra a mulher no ambiente doméstico.",
+      "A transação penal, prevista na Lei dos Juizados Especiais Criminais, é aplicável na hipótese de delitos sujeitos ao rito da Lei Maria da Penha (Lei n. 11.340/2006)."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 5 (FCC/ANALISTA JURÍDICO/DPE-AM/2018) Sobre as medidas protetivas de urgência em favor da mulher vítima de violência doméstica e familiar,",
+    "options": [
+      "é permitido ao juiz, exclusivamente a requerimento do Ministério Público, rever as medidas já concedidas, se entender necessário à proteção da vítima.",
+      "ou a vítima, ou seu advogado ou Defensor Público, deverão ser informados sobre a saída do agressor da prisão.",
+      "não abrangerá a suspensão da visita do agressor aos dependentes menores, sob nenhuma hipótese, tendo em vista a importância da convivência familiar.",
+      "poderá ensejar a proibição temporária para a celebração de atos e contratos de compra e venda, locação de propriedade em comum, salvo expressa autorização judicial.",
+      "não inclui a possibilidade de o juiz decidir pela separação de corpos."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 6 (FCC/ANALISTA JURÍDICO/DPE-AM/2018) A Lei Maria da Penha considera violência doméstica e familiar contra a mulher qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial,",
+    "options": [
+      "desde que ocorra em situação de coabitação com o agressor.",
+      "desde que ocorra em situação de coabitação e o agressor mantenha relação íntima de afeto com a vítima.",
+      "caso ocorrida no âmbito da família, desde que haja coabitação e exista união por laços naturais.",
+      "desde que ocorra no âmbito familiar, independentemente de coabitação, mas em razão de relação íntima com o homem agressor.",
+      "caso ocorrida no âmbito da unidade doméstica, abrange o agressor esporadicamente agregado ao espaço de convívio permanente entre as pessoas."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 7 (FCC/PROMOTOR DE JUSTIÇA/MPE-PE/2014) Nas ações penais abrangidas pela chamada Lei Maria da Penha, admissível a renúncia à representação da ofendida perante o juiz, em audiência especialmente designada com tal finalidade, antes do recebimento da denúncia e ouvido o Ministério Público,",
+    "options": [
+      "nos crimes cometidos sem violência ou grave ameaça à pessoa.",
+      "em qualquer crime",
+      "apenas no crime de lesão corporal leve",
+      "nos crimes de lesão corporal leve e de ameaça.",
+      "no crime de ameaça."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 8 (FCC/JUIZ SUBSTITUTO/TJ-CE/2014) Se praticado no contexto de violência doméstica, a ação será pública incondicionada no caso de crime de",
+    "options": [
+      "lesão corporal contra a mulher, mas apenas se grave.",
+      "ameaça, independentemente da condição da vítima.",
+      "lesão corporal leve contra pai.",
+      "ameaça contra mulher.",
+      "lesão corporal contra mulher, independentemente da extensão."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 9 (UEG/DELEGADO DE POLÍCIA/PC-GO/2018) Preenchidos os requisitos legais para concessão da benesse, é possível aplicar ao crime de lesão corporal de natureza leve praticado em situação de violência doméstica e familiar contra a mulher a",
+    "options": [
+      "Transação penal;",
+      "Suspensão condicional da pena;",
+      "Suspensão condicional do processo;",
+      "Absolvição, com base no princípio da insignificância;",
+      "Substituição da pena privativa de liberdade por restritiva de direitos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 10 (NUCEPE/DELEGADO DE POLÍCIA/PC-PI/2018) A Lei n. 11.340/2006 cria mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher. São consideradas violência contra a mulher não só a física, mas também, psicológica, moral e sexual. E em todos os casos de violência doméstica e familiar contra a mulher, feito o registro da ocorrência, deverá a autoridade policial adotar, de imediato, os seguintes procedimentos, sem prejuízo daqueles previstos no Código de Processo Penal, EXCETO:",
+    "options": [
+      "colher nome e idade dos dependentes e encaminhá-los a uma Casa de Abrigo;",
+      "ouvir a ofendida, lavrar o boletim de ocorrência e tomar a representação a termo, se apresentada;",
+      "colher todas as provas que servirem para o esclarecimento do fato e de suas circunstâncias;",
+      "remeter, no prazo de 48 (quarenta e oito) horas, expediente apartado ao juiz com o pedido da ofendida, para a concessão de medidas protetivas de urgência;",
+      "determinar que se proceda ao exame de corpo de delito da ofendida e requisitar outros exames periciais necessários, ouvir o agressor e as testemunhas."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 11 (NUCEPE/AGENTE DE POLÍCIA CIVIL/PC-PI/2018) A lei denominada Maria da Penha cria mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher. Com base na referida lei, marque a alternativa CORRETA.",
+    "options": [
+      "Constatada a prática de violência doméstica e familiar contra a mulher, nos termos da Lei, o juiz poderá aplicar, de imediato, ao agressor: o afastamento do lar, domicílio ou local de convivência com a ofendida; não podendo proibir, no entanto, o afastamento do agressor dos familiares da vítima.",
+      "Para garantir a efetividade das medidas protetivas de urgência, poderá o juiz requisitar, desde que o agressor se negue a prestar depoimento, em um prazo de 48h (quarenta e oito horas), auxílio da força policial.",
+      "Mesmo quando não for parte, o Ministério Público intervirá nas causas cíveis e criminais decorrentes da violência doméstica e familiar contra a mulher.",
+      "O juiz criminal competente para julgar a violência doméstica, quando observar que o agressor subtraiu indevidamente os bens da mulher, determinará o desmembramento do processo, e encaminhará ao juiz da Vara de Família, para que este juiz restitua os bens indevidamente subtraídos pelo agressor à ofendida.",
+      "Os Juizados de Violência Doméstica e Familiar contra a Mulher que vierem a ser criados deverão contar apenas com profissionais da área jurídica."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 12 (VUNESP/INVESTIGADOR/PC-BA/2018) Quanto à Lei Maria da Penha, Lei n. 11.340/2006, assinale a alternativa correta.",
+    "options": [
+      "Prevê como critério de interpretação da lei os fins sociais a que se destina, especialmente as condições peculiares das mulheres em situação de violência doméstica e familiar.",
+      "Considera violência doméstica e familiar contra a mulher qualquer ação ou omissão que lhe cause morte, sofrimento físico, sexual e psicológico.",
+      "Define como violência moral contra a mulher qualquer conduta que lhe cause dano emocional ou diminuição da autoestima.",
+      "Não se aplica quando o agressor também é mulher.",
+      "Prevê como medidas protetivas de urgência à ofendida o cancelamento de procurações por ela conferidas ao agressor e a proibição temporária para celebração de atos e contratos de compra e venda."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 13 (CESPE/ANALISTA JUDICIÁRIO/STJ/2018) Em se tratando de crimes de violência doméstica e familiar contra a mulher, se a condenação for privativa de liberdade por até um ano, poderá o juiz substituí-la por pena de prestação pecuniária ou pagamento isolado de multa.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 14 (CESPE/AUDITOR DO ESTADO/SEFAZ-RS/2018) Assinale a opção que apresenta medida protetiva de urgência a ser aplicada ao agressor no caso de constatação da prática de violência doméstica contra a mulher, conforme o disposto na Lei Maria da Penha — Lei n. 11.340/2006",
+    "options": [
+      "Transferência para outra comarca",
+      "Prestação de serviços em creches e asilos",
+      "Proibição de aproximação ou contato com familiares da ofendida",
+      "Pagamento de multa",
+      "Pagamento de cestas básicas"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 15 (VUNESP/DELEGADO DE POLÍCIA/PC-SP/2018) Nos termos da Lei n. 11.340/2006 (Lei Maria da Penha):",
+    "options": [
+      "a mulher vítima será inquirida sempre com intermediação de profissional do sexo feminino especializado em violência doméstica e familiar designado pela autoridade judiciária ou policial.",
+      "é direito da mulher em situação de violência doméstica e familiar o atendimento pericial especializado, ininterrupto e prestado por servidores exclusivamente do sexo feminino.",
+      "é direito da mulher em situação de violência doméstica e familiar o atendimento policial e pericial especializado, ininterrupto e prestado por servidores, preferencialmente do sexo feminino e previamente capacitados",
+      "é direito da mulher em situação de violência doméstica e familiar o atendimento policial especializado, ininterrupto e prestado por servidores exclusivamente do sexo feminino.",
+      "a mulher vítima será inquirida sempre com intermediação de profissional especializado em violência doméstica e familiar designado pela autoridade judiciária ou policial."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 16 (VUNESP/PROCURADOR JURÍDICO/CÂMARA DE CAMPO LIMPO PAULISTA/2018) Acerca dos mecanismos para coibir a violência doméstica e familiar contra a mulher, trazidos nos exatos termos da Lei n. 11.340/2006, é correto afirmar que",
+    "options": [
+      "a assistência à mulher em situação de violência doméstica e familiar compreenderá o acesso aos benefícios decorrentes do desenvolvimento científico e tecnológico, excluindo-se, porém, os serviços de contracepção de emergência, a profilaxia das Doenças Sexualmente Transmissíveis (DST) e da Síndrome da Imunodeficiência Adquirida (AIDS).",
+      "na hipótese da iminência ou da prática de violência doméstica e familiar contra a mulher, a autoridade policial que tomar conhecimento da ocorrência dependerá de autorização judicial para adoção das providências legais cabíveis.",
+      "nas ações penais públicas condicionadas à representação da ofendida de que trata a lei em comento só será admitida a renúncia à representação perante o juiz, em audiência especialmente designada com tal finalidade, após o recebimento da denúncia e ouvido o Ministério Público.",
+      "a violência doméstica e familiar contra a mulher constitui uma das formas de violação dos direitos humanos.",
+      "a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa, é medida autorizada pela norma sob análise."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 17 (VUNESP/ESCRIVÃO DE POLÍCIA/PC-SP/2018) Nos termos da Lei n. 11.340/2006 (Lei Maria da Penha), é correto afirmar que",
+    "options": [
+      "é vedada a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.",
+      "em qualquer fase do inquérito policial ou da instrução criminal, caberá a prisão temporária do agressor, decretada pelo juiz, de ofício, a requerimento do Ministério Público ou mediante representação da autoridade policial.",
+      "a ofendida deverá ser notificada dos atos processuais relativos ao agressor, especialmente dos pertinentes ao ingresso e à saída da prisão, sendo desnecessária a intimação do advogado constituído ou do defensor público",
+      "é direito da mulher em situação de violência doméstica e familiar o atendimento policial e pericial especializado, ininterrupto e prestado por servidores – exclusivamente do sexo feminino.",
+      "as medidas protetivas de urgência somente poderão ser concedidas pelo juiz, após representação do Delegado de Polícia ou a requerimento do Ministério Público, desde que com anuência da ofendida."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 18 (VUNESP/DELEGADO DE POLÍCIA/PC-BA/2018) Tendo em vista a Lei n. 11.340/2006 (Lei Maria da Penha), assinale a alternativa correta.",
+    "options": [
+      "Âmbito familiar, de acordo com essa Lei, é a comunidade formada apenas por indivíduos que são aparentados, unidos por laços naturais.",
+      "A violência patrimonial contra a mulher, ainda que ocorrida no âmbito doméstico ou familiar, não está prevista nessa Lei, sendo contempladas apenas as violências física, psicológica, sexual e moral.",
+      "A violência patrimonial contra a mulher, ainda que ocorrida no âmbito doméstico ou familiar, não está prevista nessa Lei, sendo contempladas apenas as violências física, psicológica, sexual e moral.",
+      "As medidas protetivas à mulher poderão ser concedidas pela Autoridade Policial, em caso de urgência.",
+      "É garantido à mulher, vítima de violência doméstica e familiar, quando necessário, o afastamento do local do trabalho, para preservação da integridade física e psicológica, a manutenção do vínculo trabalhista, por até seis meses."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 19 (VUNESP/PROCURADOR JURÍDICO/CÂMARA DE SUMARÉ/2017) Considerando-se servidora pública em situação de violência doméstica, para preservar sua integridade física e psicológica, o juiz assegurará a ela:",
+    "options": [
+      "manutenção do vínculo como servidora por seis meses, afastando-a do local de trabalho",
+      "encaminhamento prioritário a grupo de apoio psicológico e social fornecido por ente público.",
+      "nomeação de defensor público para atendimento no âmbito administrativo e judicial.",
+      "acesso prioritário à remoção quando integrante da Administração direta ou indireta.",
+      "atendimento especializado pela autoridade policial competente, no cumprimento de medida protetiva."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 20 (VUNESP/INSPETOR DE POLÍCIA/PC-CE/2015) A Lei n. 11.340/2006, conhecida como “Lei Maria da Penha”, estabelece que",
+    "options": [
+      "em qualquer fase do inquérito policial ou da ação penal cabe prisão preventiva contra o agressor.",
+      "em nenhuma hipótese o sujeito ativo dos crimes previstos nessa Lei poderá ser uma mulher.",
+      "para efeito dessa Lei são formas de violência a física e a sexual.",
+      "na ocorrência de uma briga (com agressão física) entre vizinhos, desde que envolvendo um homem e uma mulher e com residências próximas, aplicam-se as disposições da Lei Maria da Penha.",
+      "se o agressor comprovar que é o proprietário da residência conjugal, não poderá ser determinado o seu afastamento do lar."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 21 (VUNESP/DEFENSOR PÚBLICO/DPE-RO/2017) No que se refere à violência doméstica e familiar contra a mulher (Lei n. 11.340/2006), assinale a alternativa correta",
+    "options": [
+      "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública condicionada.",
+      "Há previsão legal de ajuizamento de ação penal privada na Lei n. 11.340/2006 (Lei Maria da Penha), dependendo do interesse jurídico discutido.",
+      "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada.",
+      "Ao processo, ao julgamento e à execução das causas cíveis e criminais decorrentes da prática de violência doméstica e familiar contra a mulher não se aplicam as normas do Código de Processo Penal.",
+      "O Ministério Público poderá em todos os atos processuais, cíveis e criminais acompanhar a mulher em situação de violência doméstica e familiar atuando como seu curador."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 22 (VUNESP/JUIZ SUBSTITUTO/TJ-MS/2015) DULCE mantém relacionamento afetivo com ANA por cerca de dez anos, sendo diariamente ofendida, por meio de palavras e gestos. Deprimida, DULCE perdeu o emprego e assinou procuração à companheira ANA, que vem dilapidando o patrimônio comum do casal e bens particulares da companheira, sem prestação de contas ou partilha. DULCE se dirigiu à Delegacia de Defesa da Mulher, onde:",
+    "options": [
+      "foi lavrado Termo Circunstanciado pela possível prática de delito de menor potencial ofensivo, regido pela Lei dos Juizados Especiais Criminais (Lei n. 9.099/1999).",
+      "foi lavrado Boletim de Ocorrência, após notícia dos fatos, porque DULCE foi vítima de violência patrimonial e psicológica, por condição de gênero feminino.",
+      "não foi lavrado Boletim de Ocorrência, após notícia dos fatos, porque ANA, autora dos fatos, é mulher, e, portanto, DULCE não está em situação de vulnerabilidade.",
+      "não foi lavrado Boletim de Ocorrência, após notícia dos fatos, porque a violência patrimonial implica ilícito civil, não contemplado pela Lei Maria da Penha (Lei n. 11.340/2006).",
+      "recebeu notificação para entrega à companheira ANA comparecer, na condição de averiguada, perante a Autoridade Policial, para prestar esclarecimentos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 23 (VUNESP/DESENHISTA TÉCNICO-PERICIAL/PC-SP/2014) À luz da Lei n. 11.340/2006 – Lei Maria da Penha, é correto afirmar que",
+    "options": [
+      "a violência doméstica e familiar contra a mulher constitui uma das formas de violação dos direitos humanos.",
+      "tal norma não é aplicável aos crimes praticados com violência doméstica e familiar contra crianças e adolescentes de sexo feminino.",
+      "não caracteriza violência moral a conduta que configure calúnia, difamação ou injúria contra a mulher.",
+      "é permitida a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.",
+      "aplica-se a Lei n. 9.099/1995 – Juizados Especiais Cíveis e Criminais – aos crimes praticados com violência doméstica e familiar contra a mulher."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 24 (VUNESP/INVESTIGADOR DE POLÍCIA/PC-SP/2014) Conforme a Lei Maria da Penha (Lei n. 11.340/2006), no atendimento à mulher em situação de violência doméstica e familiar, a autoridade policial deverá, entre outras providências,",
+    "options": [
+      "expedir ordem policial contra o ofensor para a imediata desocupação do imóvel, a fim de que a ofendida a entregue ao ofensor",
+      "fornecer transporte para a ofendida e seus dependentes para abrigo ou local seguro, quando houver risco de vida.",
+      "verificar se algum dos funcionários da Delegacia de Polícia poderia abrigar, temporariamente, a ofendida e seus dependentes.",
+      "abrigar a ofendida e seus dependentes no Distrito Policial se houver risco de vida para alguém da família",
+      "solicitar, em 24 horas, a presença do ofensor no Distrito Policial, para uma tentativa de conciliação entre este e a ofendida"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 25 (IESES/PERITO CRIMINAL/IGP-SP/2017) De acordo com a Lei n. 11.340/2006 – Lei Maria da Penha – são formas de violência doméstica e familiar contra a mulher, dentre outras:",
+    "options": [
+      "A violência moral, entendida como qualquer conduta que lhe cause dano emocional e diminuição da autoestima ou que lhe prejudique e perturbe o pleno desenvolvimento ou que vise degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, vigilância constante, perseguição contumaz, insulto, chantagem, ridicularização, exploração e limitação do direito de ir e vir ou qualquer outro meio que lhe cause prejuízo à saúde psicológica e à autodeterminação.",
+      "A violência psicológica, entendida como qualquer conduta que ofenda sua integridade ou saúde corporal ou psíquica, que configure calúnia, difamação ou injúria.",
+      "A violência física, entendida como qualquer conduta que a constranja a presenciar, a manter ou a participar de relação sexual não desejada, mediante intimidação, ameaça, coação ou uso da força; que a induza a comercializar ou a utilizar, de qualquer modo, a sua sexualidade, que a impeça de usar qualquer método contraceptivo ou que a force ao matrimônio, à gravidez, ao aborto ou à prostituição, mediante coação, chantagem, suborno ou manipulação; ou que limite ou anule o exercício de seus direitos sexuais.",
+      "A violência patrimonial, entendida como qualquer conduta que configure retenção, subtração, destruição parcial ou total de seus objetos, instrumentos de trabalho, documentos pessoais, bens, valores e direitos ou recursos econômicos, incluindo os destinados a satisfazer suas necessidades."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 26 (PUC-PR/TÉCNICO DE NÍVEL SUPERIOR/TJ-MS/2017) “A Lei Maria da Penha (Lei n. 11.340), sancionada no dia 7 de agosto de 2006, completa 11 anos de vigência em 2017. Ferramenta essencial para o enfrentamento da violência de gênero, a norma tem sido aplicada de forma progressiva. Apesar de os índices de violência ainda serem alarmantes, é possível perceber que as mulheres estão, cada dia mais, abrindo a porta de suas casas para a entrada da Justiça. De acordo com levantamento do Instituto de Pesquisa Econômica Aplicada (Ipea), divulgado em março de 2015, a Lei Maria da Penha fez diminuir em cerca de 10% a taxa de homicídios contra as mulheres dentro das residências. A norma disciplinou diversas questões, como medidas de prevenção, medidas protetivas de urgência, assistência judiciária e até mesmo atendimento multidisciplinar.” Texto adaptado (Fonte:STJ-http://www.stj.jus.br/sites/STJ/default/pt_BR/Comunica%C3%A7%C3%A3º/noticias/Not%C3%ADcias/Ajurisprud%C3%AAncia-do-STJ-nos-11-anos-da-Lei-Maria-da-Penha) Sobre o tema, assinale a alternativa CORRETA.",
+    "options": [
+      "Para os efeitos dessa Lei, configura violência doméstica e familiar contra a mulher qualquer ação ou omissão baseada no gênero que lhe cause lesão, sofrimento físico sexual ou psicológico em qualquer relação íntima de afeto, na qual o agressor conviva ou tenha convivido com a ofendida, independentemente de coabitação.",
+      "O alvo da Lei Maria da Penha se limita à violência praticada por maridos contra esposas ou companheiros contra companheiras e as pessoas envolvidas têm de morar sob o mesmo teto. A vítima, contudo, precisa, necessariamente, ser mulher.",
+      "De acordo com a Lei Maria da Penha, constatada a prática de violência doméstica e familiar contra a mulher, o juiz poderá aplicar, de imediato, ao agressor, em conjunto ou separadamente, medidas protetivas de urgência, como o afastamento do lar e a proibição de manter contato com a vítima, não podendo determinar de imediato a prestação de alimentos provisórios.",
+      "As medidas protetivas de urgência serão aplicadas isolada ou cumulativamente, e poderão ser substituídas a qualquer tempo por outras de maior eficácia, sempre que os direitos da vítima forem ameaçados ou violados. Não poderá o juiz, a pedido da ofendida, conceder novas medidas protetivas de urgência ou rever aquelas já concedidas, sendo indispensável que o requerimento seja feito pelo Ministério Público.",
+      "Não poderá o juiz determinar o afastamento da ofendida do lar, a fim de assegurar direitos relativos a bens, guarda dos filhos e alimentos, cabendo ao agressor afastar-se do lar, domicílio ou local de convivência com a ofendida."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 27 (CESPE/DEFENSOR PÚBLICO/DPE-AL/2017) Considerando a Lei Maria da Penha e o entendimento dos tribunais superiores acerca de crimes contra a mulher, assinale a opção correta.",
+    "options": [
+      "A Lei Maria da Penha não estabelece medidas próprias para o descumprimento de medidas protetivas, devendo-se, nesse caso, responsabilizar o agente pelo crime de desobediência.",
+      "Em caso de violência contra mulher, para que se aplique a Lei Maria da Penha, deverá ser demonstrada a situação de vulnerabilidade ou hipossuficiência da vítima, sob a perspectiva de gênero.",
+      "As medidas protetivas de urgência têm natureza cautelar e temporária, sendo vinculadas à existência, presente ou potencial, de processo-crime ou ação principal contra o agressor.",
+      "A agravante relativa à violência contra a mulher prevista no Código Penal (CP) não se aplica de modo conjunto com outras disposições da Lei Maria da Penha, sob pena de acarretar o bis in idem.",
+      "Ato de violência física contra mulher, em ambiente doméstico, acarreta pena de prisão simples ou de multa, admitindo-se que o magistrado fixe apenas a pena pecuniária."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 28 (FMP CONCURSOS/PROMOTOR DE JUSTIÇA SUBSTITUTO/MPE-RO) Em relação à Lei n. 11.340/2006 (Lei Maria da Penha), assinale a alternativa CORRETA.",
+    "options": [
+      "Os crimes de ameaça e de lesões corporais leves praticados no contexto de violência doméstica e familiar são de ação penal pública incondicionada.",
+      "A mulher pode ser sujeito ativo de crime praticado no contexto de violência doméstica e familiar.",
+      "A ação penal no crime de lesões corporais leves é pública condicionada, segundo a jurisprudência do Supremo Tribunal Federal.",
+      "Admite-se a aplicação da suspensão condicional do processo aos autores de crimes praticados no contexto de violência doméstica e familiar.",
+      "As medidas protetivas de urgência vigem durante o prazo decadencial da representação da vítima, ou seja, 6 (seis) meses."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 29 (IBFC/ENGENHEIRO/EMBASA/2017) Assinale a alternativa correta sobre as previsões expressas da Lei Federal n. 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+    "options": [
+      "O Ministério Público atuará apenas quando for parte nas causas cíveis e criminais decorrentes da violência doméstica e familiar contra a mulher",
+      "Em todos os atos processuais, cíveis e criminais, a mulher em situação de violência doméstica e familiar deverá estar acompanhada de advogado",
+      "Os Juizados de Violência Doméstica e Familiar contra a Mulher que vierem a ser criados poderão contar com uma equipe de atendimento multidisciplinar, a ser integrada por profissionais especializados nas áreas psicossocial, jurídica e de saúde",
+      "A instituição dos Juizados de Violência Doméstica e Familiar contra a Mulher deverá ser acompanhada pela implantação das curadorias necessárias e do serviço de assistência judiciária"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 30 (FUNDATEC/TÉCNICO EM PERÍCIAS/IGP-RS/2017) De acordo com a Lei Maria da Penha (Lei n. 11.340/2006), assinale a alternativa correta.",
+    "options": [
+      "Aos crimes praticados com violência doméstica e familiar contra a mulher, independentemente da pena prevista, aplica-se a Lei n. 9.099/1995.",
+      "Para a proteção patrimonial dos bens da sociedade conjugal ou daqueles de propriedade particular da mulher, a restituição de bens indevidamente subtraídos pelo agressor à ofendida não é uma das medidas que o juiz poderá, liminarmente, determinar.",
+      "É possível a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.",
+      "Ainda que para garantir a efetividade das medidas protetivas de urgência, não pode o juiz requisitar auxílio da força policial.",
+      "Dentre as medidas protetivas de urgência à ofendida, poderá o juiz, quando necessário, sem prejuízo de outras medidas, determinar a separação de corpos."
+    ],
+    "correct": 4
+  },
+{
+    "question": "Questão 31 (PUC-PR/ANALISTA JUDICIÁRIO/TJ-PR/2017) Conhecida como Lei Maria da Penha, a Lei n. 11.340/2006 criou mecanismos para coibir a violência doméstica e familiar contra a mulher. Sobre o tema, assinale a alternativa CORRETA.",
+    "options": [
+      "Para evitar represálias, em casos de violência doméstica e familiar contra a mulher, feito o registro da ocorrência, a autoridade policial está expressamente proibida de ouvir o agressor e as testemunhas.",
+      "A violência doméstica prevista na Lei Maria da Penha é unicamente a violência física, na qual o homem faz uso da força para subjugar a esposa.",
+      "Para preservar a integridade física e psicológica da mulher em situação de violência doméstica, o juiz poderá assegurar, quando necessário, o afastamento da mulher do local de trabalho, por até seis meses.",
+      "As relações pessoais que podem configurar atos de violência doméstica são necessariamente aquelas derivadas da relação entre homem e mulher, não se podendo aplicá-las a eventuais relações homoafetivas entre duas mulheres.",
+      "A configuração de atos de violência doméstica depende necessariamente de haver coabitação entre cônjuges."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 32 (CESPE/PROMOTOR DE JUSTIÇA SUBSTITUTO/MPE-RR/2017) Tendo em vista que a violência doméstica contra a mulher ainda é um problema social grave no Brasil, apesar da sua redução com o advento da Lei Maria da Penha, assinale a opção correta com relação aos crimes advindos da prática de violência contra a mulher no âmbito doméstico e familiar.",
+    "options": [
+      "O feminicídio, homicídio praticado contra a mulher em razão do seu sexo, consiste na violência doméstica e familiar ou no menospreço ou discriminação à condição de mulher, com hipóteses de aumento de pena por circunstâncias fáticas específicas.",
+      "O processamento de crimes praticados em situação de violência doméstica se dá por meio de ação penal de iniciativa pública incondicionada, segundo entendimento do STF.",
+      "O crime de estupro é processado por meio de ação penal de iniciativa pública condicionada à representação, da qual a vítima pode retratar-se mesmo após o oferecimento da denúncia",
+      "Os crimes de violência doméstica e familiar contra a mulher estão taxativamente elencados na Lei Maria da Penha."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 33 (IBADE/AGENTE DE POLÍCIA CIVIL/PC-AC/2017) Configura violência doméstica e familiar contra a mulher, atraindo, portanto, a competência do juízo especializado na matéria, qualquer ação ou omissão que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial, quando:",
+    "options": [
+      "baseada no gênero, salvo nas relações homoafetivas.",
+      "baseada no gênero, em qualquer relação íntima de afeto, na qual o agressor conviva ou tenha convivido com a ofendida, independentemente de coabitação ou da orientação sexual.",
+      "ocorra no âmbito da família, como. por exemplo o caso do filho agride o pai.",
+      "baseada no sexo, salvo nas relações homoafetivas.",
+      "a ocorrência se dê no âmbito da unidade doméstica envolvendo qualquer familiar independente do sexo da vítima."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 34 (IBADE/DELEGADO DE POLÍCIA CIVIL/PC-AC/2017) Em todos os casos de violência doméstica e familiar contra a mulher, feito o registro da ocorrência, deverá a autoridade policial adotar, de imediato, os seguintes procedimentos, sem prejuízo de outros previstos no Código de Processo Penal: I – ouvir a ofendida, lavrar o boletim de ocorrência e tomar a representação a termo, se apresentada. II – determinar que se proceda ao exame de corpo de delito da ofendida e requisitar outros exames periciais necessários. III – remeter, no prazo de 72 (setenta e duas) horas, expediente apartado ao juiz com o pedido da ofendida, para a concessão de medidas protetivas de urgência. IV – ouvir o agressor e as testemunhas. Caso entenda desnecessária a oitiva do agressor, poderá o Delegado dispensá-lo ouvindo apenas a vítima e as testemunhas. (  ) Uma das medidas protetivas e de urgência que obrigam o agressor, segundo a legislação em comento, é a prestação de alimentos provisionais, provisórios ou definitivos à vítima. (  ) O Ministério Público intervirá, exclusivamente, quando for parte, nas causas cíveis e criminais decorrentes da violência doméstica e familiar contra a mulher. (  ) O juiz poderá relaxar a prisão em flagrante se, no curso do processo, verificar a falta de motivo para que subsista, bem como de novo decretá-la, se sobrevierem razões que a justifiquem. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "options": [
+      "V-F-V-F-V",
+      "F-F-F-V-V",
+      "F-F-F-F-F",
+      "V-V-V-V-V",
+      "V-V-V-V-V"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 37 (NUCEPE/AGENTE PENITENCIÁRIO/SEJUS-PI/2017) Em relação à legislação especial é forma de violência doméstica e familiar contra a mulher:",
+    "options": [
+      "A violência moral e física, entendida como qualquer conduta que lhe cause dano emocional e diminuição da autoestima ou que lhe prejudique e perturbe o pleno desenvolvimento ou que vise degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, vigilância constante, perseguição contumaz, insulto, chantagem, ridicularização, exploração e limitação do direito de ir e vir ou qualquer outro meio que lhe cause prejuízo à saúde psicológica e à autodeterminação.",
+      "A violência psicológica entendida como qualquer conduta que a constranja a presenciar, a manter ou a participar de relação sexual não desejada, mediante intimidação, ameaça, coação ou uso da força.",
+      "A violência física, entendida como qualquer conduta que ofenda sua integridade ou saúde corporal.",
+      "A violência moral, entendida como qualquer conduta que configure retenção, subtração, destruição parcial ou total de seus objetos, instrumentos de trabalho, documentos pessoais, bens, valores e direitos ou recursos econômicos, incluindo os destinados a satisfazer suas necessidades.",
+      "A violência moral, entendida como qualquer conduta que configure apropriação indébita."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 38 (UFPA/ASSISTENTE SOCIAL/UFPA/2017) A Lei n. 11.340/2006, conhecida por Lei Maria da Penha, visa a coibir e prevenir a violência doméstica e familiar contra a mulher. Acerca do tema e com base na referida lei, é CORRETO afirmar o seguinte:",
+    "options": [
+      "nas ações penais públicas condicionadas à representação da ofendida por violência doméstica, será admitida a renúncia à representação perante o juiz, em audiência designada com tal finalidade, somente após o recebimento da denúncia, desde que ouvido o Ministério Público.",
+      "a autoridade policial, no atendimento de mulher em situação de violência doméstica e familiar, deverá fornecer transporte para a ofendida e seus dependentes para abrigo ou local seguro, quando houver risco de vida, bem como informar à ofendida os serviços disponíveis.",
+      "poderá o Ministério Público, a requerimento da ofendida, conceder novas medidas protetivas de urgência ou rever aquelas já concedidas, se entender necessário a proteção da ofendida, de seus familiares e de seu patrimônio, ouvida a equipe multidisciplinar.",
+      "é vedada a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa, salvo, no último caso, se houver consentimento da ofendida.",
+      "para a proteção patrimonial dos bens conjugais ou daqueles de propriedade particular da mulher, o juiz poderá determinar, liminarmente, a proibição temporária para a celebração de atos e contratos de compra, venda e locação do bem em comum, salvo expressa autorização da ofendida."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 39 (FCM/ASSISTENTE SOCIAL/IF-RJ/2017) Segundo a Lei n. 11.340, conhecida como Lei Maria da Penha, “a política pública que visa a coibir a violência doméstica e familiar contra a mulher far-se-á por meio de um conjunto articulado de ações da União, dos Estados, do Distrito Federal e dos Municípios e de ações não governamentais”. As instituições educacionais podem contribuir de maneira mais direta com a seguinte diretriz dessa política pública:",
+    "options": [
+      "A implementação de atendimento policial especializado para as mulheres, em particular nas Delegacias de Atendimento à Mulher.",
+      "A integração operacional do Poder Judiciário, do Ministério Público e da Defensoria Pública com as áreas de segurança pública, assistência social, saúde, educação, trabalho e habitação.",
+      "A divulgação interna e externa dos casos de violência doméstica, ocorridos com alunas da instituição educacional, de modo a auxiliar o trabalho dos órgãos de justiça na apuração do fato.",
+      "A promoção de estudos, pesquisas, estatísticas e outras informações relevantes, com a perspectiva de gênero e de raça ou etnia, concernentes ao fenômeno da violência doméstica e familiar contra a mulher.",
+      "A implementação de um currículo escolar que evite discutir conteúdos relativos ao problema da violência doméstica e familiar contra a mulher para não fomentar a ocorrência de novos casos nas famílias dos estudantes e dentro da escola."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 40 (IBADE/ASSISTENTE SOCIAL/SEJUDH-MT/2017) Visando preservar a integridade física e psicológica da mulher vítima de violência doméstica, o juiz pode assegurar, em consonância com a Lei Maria da Penha, Lei n. 11.340/2006, a manutenção do vínculo trabalhista, quando necessário o afastamento da vítima de seu local de trabalho, por até:",
+    "options": [
+      "3 meses",
+      "30 dias",
+      "45 dias",
+      "1 ano",
+      "6 meses"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Questão 41 (IBADE/ASSISTENTE SOCIAL/SEJUDH-MT/2017) As medidas protetivas de urgência à mulher vítima de violência doméstica, de acordo com a Lei Maria da Penha, poderão ser concedidas:",
+    "options": [
+      "de imediato",
+      "só com a manifestação do Ministério Público",
+      "após autorizado pelo Ministério Público",
+      "em 48 horas",
+      "dependendo da audiência das partes"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 42 (IBFC/TÉCNICO EM REGULAÇÃO/AGERBA/2017) Assinale a alternativa correta sobre a espécie de violência que a Lei Federal n. 11.340, de 7 de agosto de 2006 (Lei Maria da Penha) indica, em termos expressos e precisos, como qualquer conduta contra a mulher que lhe cause dano emocional e diminuição da autoestima, que lhe prejudique e perturbe o pleno desenvolvimento, que vise degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça.",
+    "options": [
+      "Violência psicológica",
+      "Violência moral",
+      "Violência imaterial",
+      "Violência uxória",
+      "Violência extracorporal"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 43 (IBFC/TÉCNICO EM REGULAÇÃO/AGERBA/2017) Assinale a alternativa INCORRETA considerando as disposições da Lei Federal n. 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), sobre a assistência à mulher em situação de violência doméstica e familiar.",
+    "options": [
+      "A assistência à mulher em situação de violência doméstica e familiar será prestada de forma articulada e conforme os princípios e as diretrizes previstos na Lei Orgânica da Assistência Social, no Sistema Único de Saúde, no Sistema Único de Segurança Pública, entre outras normas e políticas públicas de proteção, e emergencialmente quando for o caso",
+      "O juiz determinará, por prazo incerto, a inclusão da mulher em situação de violência doméstica e familiar no cadastro de programas assistenciais do governo federal, estadual e municipal",
+      "O juiz assegurará à mulher em situação de violência doméstica e familiar, para preservar sua integridade física e psicológica, acesso prioritário à remoção quando servidora pública, integrante da administração direta ou indireta",
+      "O juiz assegurará à mulher em situação de violência doméstica e familiar, para preservar sua integridade física e psicológica manutenção do vínculo trabalhista, quando necessário o afastamento do local de trabalho, por até seis meses",
+      "A assistência à mulher em situação de violência doméstica e familiar compreenderá o acesso aos benefícios decorrentes do desenvolvimento científico e tecnológico, incluindo os serviços de contracepção de emergência, a profilaxia das Doenças Sexualmente Transmissíveis (DST) e da Síndrome da Imunodeficiência Adquirida (AIDS) e outros procedimentos médicos necessários e cabíveis nos casos de violência sexual"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 44 (CESPE/DELEGADO DE POLÍCIA/PC-GO/2017) À luz do posicionamento jurisprudencial e doutrinário dominantes acerca das disposições da Lei n. 11.340/2006 (Lei Maria da Penha), assinale a opção correta.",
+    "options": [
+      "Caracteriza o crime de desobediência o reiterado descumprimento, pelo agressor, de medida protetiva decretada no âmbito das disposições da Lei Maria da Penha.",
+      "Em se tratando dos crimes de lesão corporal leve e ameaça, pode o Ministério Público dar início a ação penal sem necessidade de representação da vítima de violência doméstica.",
+      "No caso de condenação à pena de detenção em regime aberto pela prática do crime de ameaça no âmbito doméstico e familiar, é possível a substituição da pena pelo pagamento isolado de multa.",
+      "No âmbito de aplicação da referida lei, as medidas protetivas de urgência poderão ser concedidas independentemente de audiência das partes e de manifestação do Ministério Público, o qual deverá ser prontamente comunicado.",
+      "Afasta-se a incidência da Lei Maria da Penha na violência havida em relações homoafetivas se o sujeito ativo é uma mulher."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 45 (CESPE/DELEGADO DE POLÍCIA/PC-GO/2017) Júlio, durante discussão familiar com sua mulher no local onde ambos residem, sem justo motivo, agrediu-a, causando-lhe lesão corporal leve. Nessa situação hipotética, conforme a Lei n.º 11.340/2006 e o entendimento do STJ,",
+    "options": [
+      "a ofendida poderá renunciar à representação, desde que o faça perante o juiz.",
+      "a ação penal proposta pelo Ministério Público será pública incondicionada.",
+      "a autoridade policial, independentemente de haver necessidade, deverá acompanhar a vítima para assegurar a retirada de seus pertences do domicílio familiar.",
+      "Júlio poderá ser beneficiado com a suspensão condicional do processo, se presentes todos os requisitos que autorizam o referido ato.",
+      "Júlio poderá receber proposta de transação penal do Ministério Público, se houver anuência da vítima."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 46 (IESES/TÉCNICO DE PROCESSOS TECNOLÓGICOS/BAHIAGÁS/ 2016) A Lei Federal n. 1340/2006 cria mecanismos para coibir a violência doméstica e familiar contra a mulher, nos termos do § 8º do art. 226 da Constituição Federal. Nos termos da lei assinale a resposta certa.",
+    "options": [
+      "A mulher ofendida, deverá contratar advogado que acompanhe todos os atos processuais, desde a denúncia.",
+      "A lei Maria da Penha somente se aplica a agressões perpetradas por parentes, contra mulheres, no ambiente familiar.",
+      "A assistência à mulher em situação de violência doméstica e familiar será prestada de forma articulada e conforme os princípios e as diretrizes previstos na Lei Orgânica da Assistência Social, no Sistema Único de Saúde, no Sistema Único de Segurança Pública, entre outras normas e políticas públicas de proteção, e emergencialmente quando for o caso.",
+      "Agressão contra a mulher, praticada por outra mulher, em que não haja relação afetiva ou fora do âmbito familiar não configura situação protegida pela Lei Maria da Penha.",
+      "Qualquer agressão ocorrida no âmbito familiar em que a mulher seja a vítima é albergada pela Lei Maria da Penha."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Questão 47 (FUNCAB/DELEGADO DE POLÍCIA CIVIL/PC-PA/2016) Analise as afirmativas a seguir. I – Em razão da decisão do STF a ação penal no crime de lesão corporal, ainda que leve, no âmbito da violência doméstica contra a mulher, é pública incondicionada, não sendo possível a retratação em sede policial. Não obstante, nos demais crimes de ação penal pública condicionada, como a ameaça no âmbito da violência doméstica, é admissível a renúncia ou retratação da representação pela mulher perante a autoridade policial. II – No atendimento à mulher em situação de violência doméstica a autoridade policial deverá garantir à vítima proteção policial quando necessário, bem como fornecer transporte para a ofendida para abrigo ou local seguro. III – Por força da inviolabilidade constitucional do domicílio e dos demais princípios que asseguram um processo penal garantista, a autoridade policial não poderá acompanhar a ofendida para assegurar a retirada de seus pertences do domicílio familiar.",
+    "options": [
+      "II e III",
+      "II",
+      "I",
+      "III",
+      "I e II"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 48 (FUNCAB/DELEGADO DE POLÍCIA CIVIL/PC-PA/2016) Adamastor, em ação baseada no gênero, praticou vias de fato contra sua sogra Carmelita, com quem coabitava, razão pela qual foram deferidas pelo juízo competente medidas protetivas que obrigaram o agressor a afastar-se do lar e a manter certa distância em relação à ofendida. Adamastor, no entanto, manifestou sua irresignação judicialmente, pleiteando a revogação das medidas com esteio nos seguintes argumentos: (I) a Lei n. 11.340 não se aplicaria às relações de parentesco por afinidade; (II) igualmente, o diploma não teria incidência sobre as contravenções penais, por força de seu art. 41; e (III) a Lei n. 11.340 seria inconstitucional, por criar situação de desigualdade entre os gêneros masculino e feminino. Assim, com esteio na jurisprudência dominante nos tribunais superiores, a irresignação de Adamastor:",
+    "options": [
+      "não merece prosperar.",
+      "merece prosperar, com esteio no terceiro argumento.",
+      "merece prosperar com esteio nos dois primeiros argumentos.",
+      "merece prosperar, com esteio no primeiro argumento.",
+      "merece prosperar com esteio no segundo argumento."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 49 (MS CONCURSOS/FARMACÊUTICO/CASSEMS-MS/2016) À luz da Lei n. 11.340/2006 (Lei Maria da Penha), analise as alternativas e marque a incorreta.",
+    "options": [
+      "A política pública que visa coibir a violência doméstica e familiar contra a mulher far-se-á por meio de um conjunto articulado de ações da União, dos Estados, do Distrito Federal e dos Municípios e de ações não-governamentais.",
+      "São formas de violência doméstica e familiar contra a mulher, entre outras, a violência física, entendida como qualquer conduta que configure calúnia, difamação ou injúria.",
+      "É competente, por opção da ofendida, para os processos cíveis regidos por esta Lei, o Juizado: do seu domicílio ou de sua residência, do lugar do fato em que se baseou a demanda e do domicílio do agressor.",
+      "Nas ações penais públicas condicionadas à representação da ofendida de que trata esta Lei, só será admitida a renúncia à representação perante o juiz, em audiência especialmente designada com tal finalidade, antes do recebimento da denúncia e ouvido o Ministério Público."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 50 (FMP CONCURSOS/REMOÇÃO/TJ-MT/2014) Ismália sofreu agressão física e, amparada pela lei que visa coibir a violência doméstica contra mulher, socorreu-se no conselho tutelar. O conselho tutelar deu entrada em termo circunstanciado para ver processado o agressor, momento em que solicitou medida protetiva de urgência. Em relação a esse pedido, observe as assertivas abaixo: I – Poderá a medida ser concedida de imediato independentemente de audiência das partes e de manifestação do Ministério Público. II – Uma vez decretada a medida protetiva, fica impedida a decretação de prisão preventiva do agressor até que a medida seja revogada. III – Recebido o pedido da ofendida, caberá ao juiz conhecer do ofendido e decidir no prazo máximo de 24 horas. IV – A determinação da medida solicitada não impede a concessão de novas medidas, desde que sejam solicitadas pelo Ministério Público. V – A ofendida não poderá entregar intimação ou notificação ao agressor.",
+    "options": [
+      "Apenas I e V",
+      "Apenas II, IV e V",
+      "Apenas I, IV e V",
+      "Apenas II, III e IV",
+      "Apenas I e II"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Questão 51 (CESPE/ANALISTA JUDICIÁRIO/STJ/2018) Em se tratando de crimes de violência doméstica e familiar contra a mulher, se a condenação for privativa de liberdade por até um ano, poderá o juiz substituí-la por pena de prestação pecuniária ou pagamento isolado de multa.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 52 (CESPE/ASSISTENTE SOCIAL/DPU/2016) A violência doméstica e familiar contra a mulher é caracterizada pela ação ou omissão que ocasione morte, lesão, sofrimento físico, sexual ou psicológico, além de dano moral ou patrimonial, ocorrido em espaço de convívio permanente ou esporádico de pessoas, com ou sem vínculo familiar.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 53 (CESPE/ANALISTA JUDICIÁRIO/TJ-DFT/2015) Devido à previsão legal de outras sanções para a hipótese, segundo o entendimento do STJ, não pratica o crime de desobediência o indivíduo que livre e conscientemente, descumprindo medida protetiva de urgência deferida em favor de sua ex-companheira, aproxima-se dela e com ela mantém contato.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 54 (CESPE/ASSISTENTE SOCIAL/SUFRAMA/2014) De acordo com a Lei Maria da Penha, configura-se violência doméstica e familiar contra a mulher qualquer ação ou omissão baseada no gênero que lhe cause dano moral ou patrimonial, e pode ocorrer em qualquer relação íntima de afeto, na qual o agressor conviva ou tenha convivido com a ofendida, independentemente de coabitação.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 55 (CESPE/ASSISTENTE SOCIAL/SUFRAMA/2014) Nos casos de comprovada prática de violência psicológica contra a mulher, a Lei Maria da Penha permite a aplicação de penas por meio de pagamento de cesta básica ou de pagamento de multa, desde que o agressor se comprometa a submeter-se a tratamento em serviço que ofereça atendimento psicológico às vítimas de violência.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 56 (CESPE/ANALISTA LEGISLATIVO/CÂMARA DOS DEPUTADOS/2014) O STF firmou o entendimento de que a ratificação da representação criminal perante o juiz de lesão corporal leve, desde que culposa, praticada no âmbito doméstico e contra a mulher é necessária para o processamento do referido crime.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 57 (CESPE/ANALISTA LEGISLATIVO/CÂMARA DOS DEPUTADOS/2014) Conforme a Lei Maria da Penha, ao condenado por crime praticado contra a mulher é vedada a aplicação de prestação pecuniária como sanção isolada.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 58 (CESPE/ANALISTA LEGISLATIVO/CÂMARA DOS DEPUTADOS/2014) Cabe a aplicação das sanções previstas na lei dos juizados especiais criminais para os casos de violência doméstica contra a mulher, desde que comprovada a culpa, e não o dolo, na conduta do autor do fato.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Questão 59 (CESPE/AGENTE DE POLÍCIA/PC-DF/2013) Nos termos da Lei n. 11.340/2006 — Lei Maria da Penha —, a empregada doméstica poderá ser sujeito passivo de violência praticada por seus empregadores.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Questão 60 (CESPE/ESCRIVÃO DE POLÍCIA/PC-DF/2013) Se duas mulheres mantiverem uma relação homoafetiva há mais de dois anos, e uma delas praticar violência moral e psicológica contra a outra, tal conduta estará sujeita à incidência da Lei Maria da Penha, ainda que elas residam em lares diferentes.",
+    "options": [
+      "Certo",
+      "Errado"
+    ],
+    "correct": 0
+  }
+],
+
+
 "CrimesFurtoRouboEOutros":[
 {
     "question": "(FCC – 2006 – BCB – TÉCNICO) Incorre na pena prevista para o crime de roubo quem",
