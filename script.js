@@ -1,6 +1,2463 @@
 // Banco de questões
 const questions = {  
 
+
+
+
+"RemediosConsitucionais": [
+  {
+    "question": "Questão 1. (FUNDATEC / IMESF – 2019) Por determinação constitucional, são gratuitas as ações de:",
+    "options": [
+      "Mandado de segurança e habeas corpus.",
+      "Mandado de segurança e habeas data.",
+      "Habeas corpus e habeas data.",
+      "Mandado de segurança individual e coletivo.",
+      "Habeas data e mandado de segurança coletivo."
+    ],
+    "correct": 2,
+  
+  },
+  {
+    "question": "Questão 2. (FUNDATEC / Câmara de Ituporanga – 2019) A ação popular pode ser ajuizada objetivando discutir:",
+    "options": [
+      "Atos tipicamente legislativos.",
+      "Atos tipicamente jurisdicionais.",
+      "O mérito dos atos administrativos.",
+      "Ato lesivo à moralidade administrativa.",
+      "Questões interna corporis do Poder Legislativo."
+    ],
+    "correct": 3,
+    },
+  {
+    "question": "Questão 3. (INCAB / Prefeitura de Valença-RJ – 2018) Suponha-se que determinada autoridade administrativa nega-se a fornecer certidão requerida por particular, que dela necessita para defender um direito seu. Nesse caso, o remédio constitucional cabível é:",
+    "options": [
+      "Mandado de segurança.",
+      "Mandado de injunção.",
+      "Habeas Data.",
+      "Ação civil pública.",
+      "Ação popular."
+    ],
+    "correct": 0,
+     },
+  {
+    "question": "Questão 4. (FUNDATEC / PC-RS – 2018) Considerando a Constituição da República Federativa do Brasil de 1988, assinale a alternativa que NÃO representa um remédio constitucional.",
+    "options": [
+      "Direito de petição.",
+      "Mandado de injunção.",
+      "Ação popular.",
+      "Princípio da dignidade da pessoa humana.",
+      "Direito à certidão."
+    ],
+    "correct": 3,
+   },
+  {
+    "question": "Questão 5. (FUNDATEC / IGP-RS – 2017) A Constituição da República Federativa do Brasil de 1988 disponibiliza uma ação sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania. Essa ação denomina-se:",
+    "options": [
+      "Ação civil pública.",
+      "Ação popular.",
+      "Mandado de injunção.",
+      "Mandado de segurança.",
+      "Habeas data."
+    ],
+    "correct": 2,
+    },
+  {
+    "question": "Questão 6. (FEPESE / PC-SC – 2017) Com base na Constituição Federal de 1998, sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder, conceder-se-á:",
+    "options": [
+      "habeas data.",
+      "habeas corpus.",
+      "mandado de segurança.",
+      "ação popular.",
+      "reclamação."
+    ],
+    "correct": 1,
+  },
+  {
+    "question": "Questão 7. (FEPESE / CIASC - Advogado – 2017) O mandado de segurança coletivo poderá ser impetrado por:",
+    "options": [
+      "organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados, ou por partido político com representação no Congresso Nacional.",
+      "organização sindical, entidade de classe ou associação com representação nacional, legalmente constituída e expressamente autorizada, em defesa dos interesses de próprios.",
+      "partido político com representação nacional, sindicato, entidade de classe ou associação, legalmente autorizada por seus representados, para a defesa dos interesses de seus membros ou associados.",
+      "partido político com representação nacional, por organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses próprios, de seus filiados, membros ou associados.",
+      "partido político, confederação sindical, entidade de classe de âmbito nacional ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses próprios, de seus membros ou associados."
+    ],
+    "correct": 0,
+  },
+  {
+    "question": "Questão 8. (FUNCAB / Prefeitura de Nova Venécia-ES – 2016) Tem legitimidade inicial para a propositura de ação popular, segundo a Constituição Federal em vigor:",
+    "options": [
+      "qualquer pessoa, física ou jurídica.",
+      "partido político com representação no Congresso Nacional.",
+      "organização sindical em defesa dos interesses de seus associados.",
+      "pessoa natural no gozo de seus direitos políticos.",
+      "entidade de classe legalmente constituída em funcionamento há pelo menos um ano."
+    ],
+    "correct": 3,
+    },
+  {
+    "question": "Questão 9. (FADESP / Prefeitura Mojuí dos Campos-PA – 2016) Qualquer cidadão é parte legítima para propor __________ que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando seu autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.\nA expressão que completa corretamente o texto acima é",
+    "options": [
+      "Mandado de Segurança.",
+      "Mandado de Injunção.",
+      "Habeas Data.",
+      "Ação Popular."
+    ],
+    "correct": 3,
+   },
+  {
+    "question": "Questão 10. (FEPESE / Prefeitura de Lages – 2016) De acordo com a Constituição da República Federativa do Brasil de 1988, qual a ação cabível para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo?",
+    "options": [
+      "habeas data",
+      "habeas corpus",
+      "mandado de injunção",
+      "mandado de segurança",
+      "exceção de incompetência"
+    ],
+    "correct": 0,
+  },
+  {
+    "question": "Questão 11. (FEPESE / Prefeitura de Balneário Camboriú – 2015) É correto afirmar sobre o habeas data.",
+    "options": [
+      "Será concedido para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.",
+      "Os partidos políticos com representação no Congresso Nacional detêm legitimidade passiva para ingressar com habeas data.",
+      "A ameaça de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder poderá ser afastada por meio do habeas data.",
+      "É o remédio constitucional que visa coibir a prisão civil por dívida, em decorrência do inadimplemento voluntário e inescusável de obrigação alimentícia e a do depositário infiel.",
+      "Por meio do habeas data será possível a defesa de direito líquido e certo quando a violação for praticada por autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público."
+    ],
+    "correct": 0,
+  },
+  {
+    "question": "Questão 12. (FUNDATEC / PGE-RS – 2015) No que se refere ao mandado de injunção, previsto no artigo 5º, inciso LXXI, da Constituição Federal de 1988, é correto afirmar que a jurisprudência do STF:",
+    "options": [
+      "Sempre adotou a corrente não concretista, equiparando sua finalidade à da ação de inconstitucionalidade por omissão.",
+      "Inicialmente adotou a corrente não concretista, equiparando sua finalidade à da ação de inconstitucionalidade por omissão, transitando em 2007 para a corrente concretista com efeitos gerais.",
+      "Inicialmente adotou a corrente concretista com efeitos gerais, equiparando sua finalidade à da ação de inconstitucionalidade por omissão, transitando em 2007 para a corrente não concretista.",
+      "Inicialmente adotou a corrente concretista particular, transitando em 2007 para a corrente não concretista, equiparando sua finalidade à da ação de inconstitucionalidade por omissão.",
+      "Sempre adotou a corrente concretista, no sentido de tornar viável o exercício de direitos e liberdades inviabilizados por faltar norma regulamentadora."
+    ],
+    "correct": 1,
+   },
+  {
+    "question": "Questão 13. (FUNCAB / SEDS-TO – 2014) Remédio jurídico constitucional que será concedido sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder é denominado:",
+    "options": [
+      "mandado de segurança.",
+      "habeas data.",
+      "habeas corpus.",
+      "ação popular."
+    ],
+    "correct": 2,
+   },
+  {
+    "question": "Questão 14. (FUNCAB / SEDS-TO – 2014) O que será concedido sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania?",
+    "options": [
+      "Habeas corpus",
+      "Ação popular",
+      "Habeas data",
+      "Mandado de injunção"
+    ],
+    "correct": 3,
+   },
+  {
+    "question": "Questão 15. (FUNCAB / EMDAGRO-SE – 2014) Sobre o Mandado de Segurança, assinale a alternativa que reflete posição consolidada do Supremo Tribunal Federal.",
+    "options": [
+      "Controvérsia sobre matéria de direito impede concessão de mandado de segurança.",
+      "Pedido de reconsideração na via administrativa interrompe o prazo para o mandado de segurança.",
+      "Compete ao Supremo Tribunal Federal conhecer originariamente de mandado de segurança contra atos de outros Tribunais.",
+      "A impetração de mandado de segurança coletivo por entidade de classe em favor dos associados depende da autorização destes.",
+      "É constitucional lei que fixa prazo de decadência para impetração de mandado de segurança."
+    ],
+    "correct": 4,
+    },
+  {
+    "question": "Questão 16. (FUNCAB / SEMAD – 2013) Sobre o Mandado de Segurança, assinale a opção correta.",
+    "options": [
+      "É cabível para a cobrança de parcelas vencidas, desde que haja o respeito ao sistema de precatório.",
+      "Admitirá a dilação probatória, nos casos de recusa da Administração em prestar as informações sobre os fatos.",
+      "O prazo para o seu cabimento é de 120 dias e tem natureza decadencial, e não prescricional.",
+      "É cabível contra ato de presidente de associação de bairro."
+    ],
+    "correct": 2,
+    },
+  {
+    "question": "Questão 17. (FUNCAB / PC-ES – 2013) Pode-se afirmar sobre as garantias constitucionais:",
+    "options": [
+      "Mandado de injunção é o remédio constitucional que tem por objeto proteger a esfera íntima dos indivíduos contra usos abusivos de registros de dados pessoais coletados por meios fraudulentos, desleais ou ilícitos ou introdução nesses registros de dados sensíveis (raça, opinião política, filosófica, religiosa, filiação partidária, sindical, orientação sexual etc.).",
+      "Habeas corpus é o instrumento constitucional de garantia, quando alguém sofrer ou se achar na iminência de sofrer violência ou coação ilegal do direito ambulatorial.",
+      "Habeas data é a ação de que se pode utilizar pessoa física, jurídica privada, jurídica pública (nacional ou estrangeira) ou qualquer entidade que tenha capacidade processual para a proteção de direito líquido, certo e incontestável.",
+      "Direito de petição é o remédio constitucional pelo qual qualquer cidadão pode pleitear a invalidação de atos lesivos ao patrimônio público, ao meio ambiente, à moralidade administrativa ou ao patrimônio histórico e cultural, bem como a condenação por perdas e danos dos responsáveis pela lesão.",
+      "Mandado de segurança é o meio constitucional posto à disposição de quem se considerar prejudicado pela falta de norma regulamentadora que torne inviável o exercício dos direitos e liberdades e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania."
+    ],
+    "correct": 1,
+ },
+  {
+    "question": "Questão 18. (FUNCAB / PC-ES – 2013) Quanto ao Mandado de Segurança Individual, marque a resposta correta.",
+    "options": [
+      "É ação de rito ordinário de que se pode utilizar pessoa física, jurídica privada, jurídica pública (nacional ou estrangeira) ou qualquer entidade que tenha capacidade processual para a proteção de direito líquido, certo e incontestável, amparado por habeas corpus ou habeas data, ameaçado ou violado por ato ou fato oriundo de autoridade responsável pela ilegalidade ou abuso de poder.",
+      "É admitido como adequado para pleitear prestações indeterminadas, genéricas, fungíveis ou alternativas.",
+      "É substitutivo de ação de cobrança.",
+      "A existência de recurso administrativo com efeito suspensivo não impede o uso de Mandado de Segurança contra omissão de autoridade.",
+      "O pedido de reconsideração na via administrativa interrompe o prazo para o Mandado de Segurança."
+    ],
+    "correct": 3,
+     },
+  {
+    "question": "Questão 19. (FUNCAB / PC-ES – 2013) Dos atos lesivos ao meio ambiente, cabe:",
+    "options": [
+      "Habeas corpus",
+      "Habeas data",
+      "Mandado de Injunção.",
+      "Mandado de Segurança Individual.",
+      "Ação Popular."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está **CORRETA**. A **Ação Popular** (Art. 5º, **LXXIII**) visa a anular ato lesivo, entre outros, ao **meio ambiente**."
+  },
+  {
+    "question": "Questão 20. (FUNCAB / ANS – 2013) Quanto às chamadas “ações constitucionais”, é correto afirmar que:",
+    "options": [
+      "o Mandado de Segurança poderá ser concedido para proteger direito líquido e certo, mesmo amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.",
+      "o habeas data somente é concedido para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.",
+      "associação legalmente constituída e em funcionamento há menos de um ano, poderá impetrar Mandado de Segurança coletivo, em defesa dos interesses de seus associados.",
+      "o Mandado de Injunção será concedido sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+      "somente o Ministério Público é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. É a transcrição literal do Art. 5º, **LXXI**, que define o **Mandado de Injunção**."
+  },
+  {
+    "question": "Questão 21. (FUNCAB / PC-RJ – 2012) Com base nas orientações do Supremo Tribunal Federal, no que se refere às ações constitucionais, é correto afirmar:",
+    "options": [
+      "É cabível a impetração do mandado de injunção mesmo que já exista norma regulamentadora de direito previsto na Constituição Federal, desde que essa norma seja flagrantemente inconstitucional.",
+      "A entidade de classe tem legitimação para o mandado de segurança ainda quando a pretensão veiculada interesse apenas a uma parte da respectiva categoria.",
+      "É incabível o mandado de injunção coletivo, por ausência de previsão constitucional.",
+      "Os tribunais do Poder Judiciário não têm competência originária para julgamento de ação popular, mesmo que proposta contra atos de autoridades que dispõem de foro por prerrogativa de função, exceto no caso do Presidente da República em que a competência originária é do Supremo Tribunal Federal.",
+      "É cabível o mandado de injunção se a Constituição Federal outorga mera faculdade ao legislador para regulamentar direito previsto em algum de seus dispositivos."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. A Súmula **629 do STF** estabelece que a entidade de classe tem legitimidade para o Mandado de Segurança Coletivo em favor da totalidade ou de **parte** dos seus associados."
+  },
+  {
+    "question": "Questão 22. (FUNCAB / PC-RJ – 2012) A jurisprudência do Supremo Tribunal Federal fixou entendimentos sobre o mandado de segurança. Com base nessas orientações, é correto afirmar:",
+    "options": [
+      "É constitucional a lei que fixa prazo prescricional para impetração de mandado de segurança.",
+      "Controvérsia sobre matéria de direito impede concessão de mandado de segurança.",
+      "A concessão de mandado de segurança produz efeitos patrimoniais em relação a período pretérito, os quais somente devem ser reclamados pela via judicial própria.",
+      "Praticado o ato por autoridade, no exercício de competência delegada, contra ela cabe o mandado de segurança ou a medida judicial.",
+      "É cabível mandado de segurança contra decisão judicial com trânsito em julgado."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Art. 6º, § 3º, da Lei nº 12.016/09, estabelece que se considera autoridade coatora 'aquela que tenha praticado o ato impugnado ou da qual emane a ordem para a sua prática'. Se o ato é praticado por delegação, o MS deve ser impetrado contra a autoridade delegada que praticou o ato, e não contra a delegante."
+  },
+  {
+    "question": "Questão 23. (FUNCAB / PC-RJ – 2012) Acerca do mandado de segurança, é correto afirmar:",
+    "options": [
+      "Consiste em procedimento especial de uso exclusivo de acusados no processo penal.",
+      "Não admite contraditório se impetrado contra ato judicial.",
+      "É cabível contra decisão judicial da qual não caiba recurso com efeito suspensivo.",
+      "Não é admissível na forma individual quando o direito violado couber a várias pessoas.",
+      "Serve de sucedâneo de ação de cobrança de verbas atrasadas devidas aos servidores."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**. A Súmula **267 do STF** ('Não cabe mandado de segurança contra ato judicial passível de recurso ou correição') leva à conclusão de que o MS é cabível contra ato judicial irrecorrível ou da qual não caiba recurso com efeito suspensivo. As opções D e E estão incorretas (D: é cabível, com litisconsórcio ativo; E: Súmula 269 STF: MS não é sucedâneo de ação de cobrança)."
+  },
+  {
+    "question": "Questão 24. (FUNCAB / MPE-RO – 2012) O mandado de injunção é instrumento processual, previsto pela Constituição Federal, para a hipótese de:",
+    "options": [
+      "sigilo ilegal de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.",
+      "ameaça ou sofrimento de violência ou coação à liberdade de locomoção.",
+      "ofensa a direito líquido e certo, não amparado por habeas corpus, ou habeas-data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.",
+      "a falta de norma regulamentadora tornar viável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+      "dano ao patrimônio público, ao meio ambiente, ao patrimônio histórico e cultural ou ofensa à moralidade administrativa."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Mandado de Injunção (Art. 5º, **LXXI**) é cabível na hipótese de falta de norma regulamentadora que torne **inviável** o exercício dos direitos e liberdades (a opção utiliza 'viável', o que é um erro de digitação, mas o contexto da lacuna aponta para a finalidade do MI)."
+  },
+  {
+    "question": "Questão 25. (FUNDATEC / SEFAZ-RS – 2014) Com relação aos direitos e garantias fundamentais, de acordo com o que dispõe a Constituição Federal, analise as seguintes assertivas:\nI. A todos é assegurado o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, independentemente do pagamento de taxas.\nII. Qualquer pessoa é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má- fé, isento de custas judiciais e do ônus da sucumbência.\nIII. Conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à cidadania, à nacionalidade e à soberania.\nQuais estão corretas?",
+    "options": [
+      "Apenas III.",
+      "Apenas I e II.",
+      "Apenas I e III",
+      "Apenas II e III.",
+      "I, II e III."
+    ],
+    "correct": 2,
+    "explanation": "As afirmativas **I** e **III** estão **CORRETAS**:\n- **I** (Art. 5º, **XXXIV, 'a'** - Direito de Petição).\n- **II** está **INCORRETA** porque a Ação Popular é proposta por **cidadão**, não por 'qualquer pessoa' (Art. 5º, LXXIII).\n- **III** (Art. 5º, **LXXI** - Mandado de Injunção)."
+  },
+  {
+    "question": "Questão 26. (FEPESE / TCE-SC– 2014) De acordo com o disposto no art. 5o da Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "Conceder-se-á “habeas-data” para a retificação de dados.",
+      "São gratuitos a todos, na forma da lei: a) o registro civil de nascimento e adoção; b) o registro de casamento; c) a certidão de óbito.",
+      "São admissíveis, no processo, as provas obtidas por meios ilícitos que comprovem a verdade real.",
+      "O mandado de segurança coletivo pode ser impetrado por: a) partido político com representação no Congresso Nacional; b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos dois anos, em defesa dos interesses de seus membros ou associados;",
+      "Qualquer pessoa é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor isento de custas judiciais e do ônus da sucumbência."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. É a previsão do Art. 5º, **LXXII, 'b'**, sobre uma das finalidades do Habeas Data."
+  },
+  {
+    "question": "Questão 27. (FUNDATEC / Prefeitura de Campo Bom – 2013) A Constituição da República Federativa do Brasil, de 1988, dispõe, no seu artigo 5º, no que tange aos direitos e deveres individuais e coletivos, especificamente no inciso LXIX, que se concederá _____________________ para proteger direito líquido e certo, não amparado por \"habeas corpus\" ou \"habeas-data\", quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.\nMarque a alternativa que completa corretamente a lacuna do trecho acima.",
+    "options": [
+      "decisão abonatória",
+      "mandado de segurança",
+      "ordem de procedimento imediato",
+      "decreto inquisitorial",
+      "parecer circunstanciado da situação"
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. O texto é a definição de **Mandado de Segurança** (Art. 5º, **LXIX**)."
+  },
+  {
+    "question": "Questão 28. (FADESP / Pref. Castanhal-PA – 2012) Sobre direitos e garantias fundamentais, assinale a alternativa correta.",
+    "options": [
+      "Conceder-se-á \"habeas-data\" sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+      "Conceder-se-á \"mandado de injunção\" sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+      "Conceder-se-á \"mandado de segurança\" sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+      "Conceder-se-á \"habeas-corpus\" sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. É a definição de **Habeas Corpus** (Art. 5º, **LXVIII**)."
+  },
+  {
+    "question": "Questão 29. (FADESP / MPE-PA – 2006) São remédios constitucionais no direito brasileiro:\nI. O mandado de injunção, em caso de não observância da aplicabilidade imediata das normas constitucionais definidoras de direitos e garantias fundamentais.\nII. O habeas data, para assegurar o conhecimento e a retificação de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.\nIII. O mandado de segurança coletivo, ajuizado por qualquer partido político, organização sindical, entidade de classe ou associação, desde que legalmente constituídos e em funcionamento há pelo menos um ano.",
+    "options": [
+      "I e II estão corretas.",
+      "I e III estão corretas.",
+      "II e III estão corretas.",
+      "Somente II está correta.",
+      "Somente III está correta."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**, pois **somente a II está correta**:\n- **I** está **INCORRETA** (MI é para falta de norma regulamentadora, não para 'não observância da aplicabilidade imediata').\n- **II** está **CORRETA** (Art. 5º, **LXXII** - Habeas Data).\n- **III** está **INCORRETA** (O requisito de 'pelo menos um ano' aplica-se apenas à associação, não ao partido político ou à organização sindical – Art. 5º, LXX)."
+  },
+  {
+    "question": "Questão 30. (FUNDATEC / SEFAZ-RS – 2009) Em relação ao Mandado de Segurança, é correto afirmar que:",
+    "options": [
+      "Conceder-se-á Mandado de Segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade for agente de pessoa jurídica no exercício de atribuições do poder público.",
+      "O Mandado de Segurança não constitui ação adequada para a declaração do direito á compensação tributária.",
+      "Qualquer partido político tem legitimidade para impetrar Mandado de Segurança coletivo.",
+      "Tanto Mandado de Segurança individual, quanto o Mandado de Segurança Coletivo visão à proteção de direito líquido e certo e podem ser impetrados por pessoa física.",
+      "Cabe Mandado de Segurança contra atos de gestão comercial praticados por administradores de empresas públicas, de sociedade de economia mista e de concessionária de serviço público."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. É a transcrição literal do Art. 5º, **LXIX**, que define o cabimento do MS."
+  },
+  {
+    "question": "Questão 31. (FUNIVERSA / ADASA – 2009) Todo brasileiro pode usar a ação popular.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A Ação Popular (Art. 5º, **LXXIII**) pode ser proposta por **cidadão**, ou seja, o brasileiro que esteja no gozo dos direitos políticos. Um brasileiro que não seja cidadão (ex: menor de idade, ou com direitos políticos suspensos) não tem legitimidade."
+  },
+  {
+    "question": "Questão 32. (FUNIVERSA / ADASA – 2009) O mandado de segurança coletivo somente pode ser interposto por associação civil constituída há pelo menos um ano, na defesa de interesses de seus membros.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. O Mandado de Segurança Coletivo (Art. 5º, **LXX**) também pode ser impetrado por **partido político com representação no Congresso Nacional** e por **organização sindical ou entidade de classe**."
+  },
+  {
+    "question": "Questão 33. (FUNIVERSA / PM-DF – 2013) Visando a proteger os direitos individuais líquidos e certos, não amparados por habeas corpus e habeas data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público, a Constituição Federal previu a concessão do mandado de segurança. Ante as características da ação constitucional mencionadas, a Carta Magna não admitiu o mandado de segurança coletivo.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A Constituição Federal **admitiu** o Mandado de Segurança Coletivo (Art. 5º, **LXX**)."
+  },
+  {
+    "question": "Questão 34. (Instituto AOCP / Prefeitura de Novo Hamburgo – 2020) Em observância ao que dispõe a Constituição Federal de 1988, referente ao direito à obtenção de certidões, assinale a alternativa correta.",
+    "options": [
+      "O remédio constitucional que protege o direito de certidão é o mandado de segurança.",
+      "O direito de obter certidão tem como finalidade a defesa de direitos e a defesa contra ilegalidade ou abuso de poder.",
+      "O direito à obtenção de certidões tem como finalidades a defesa de direitos e o esclarecimento de situações de interesse de terceiros.",
+      "O direito à obtenção de certidões em repartições públicas depende do pagamento de taxas, pois trata-se de prerrogativa de todas as pessoas.",
+      "O remédio constitucional destinado a proteger o direito de certidão é o habeas data."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. O Mandado de Segurança (Art. 5º, **LXIX**) é o remédio residual cabível para proteger o direito líquido e certo à obtenção de certidões (Art. 5º, XXXIV, 'b') quando este é violado por ato ilegal ou abusivo de autoridade."
+  },
+  {
+    "question": "Questão 35. (AOCP / EBSERH – 2016) Um advogado é procurado por um cliente que objetiva a retificação de dados cadastrais junto à Justiça Eleitoral, sendo que o cliente não prefere fazê-lo por processo sigiloso, judicial ou administrativo. Nesse caso, qual é a medida mais adequada para garantir os direitos desse cliente?",
+    "options": [
+      "Mandado de Segurança.",
+      "Habeas Data.",
+      "Habeas Corpus.",
+      "Mandado de Injunção.",
+      "Ação Popular."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. A finalidade de **retificação de dados** é expressamente tutelada pelo **Habeas Data** (Art. 5º, **LXXII, 'b'**)."
+  },
+  {
+    "question": "Questão 36. (AOCP / UFS – 2014) Analise as assertivas e assinale a alternativa que aponta as corretas. De acordo com a Constituição Federal, conceder-se-á “habeas-data\":\nI. para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.\nII. para proteger direito líquido e certo, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.\nIII. sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.\nIV. para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.",
+    "options": [
+      "Apenas I e III",
+      "Apenas III e IV.",
+      "Apenas II e III.",
+      "Apenas I e IV",
+      "I, II, III e IV"
+    ],
+    "correct": 3,
+    "explanation": "As afirmativas **I** e **IV** estão **CORRETAS**. Elas descrevem, respectivamente, as duas finalidades do **Habeas Data**, previstas no Art. 5º, **LXXII, 'a' e 'b'**. A II descreve o Mandado de Segurança e a III o Habeas Corpus."
+  },
+  {
+    "question": "Questão 37. (AOCP / Pref. Vitória da Conquista-BA – 2013) De acordo com a Constituição Federal, sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder,",
+    "options": [
+      "conceder-se-á “habeas-corpus”.",
+      "conceder-se-á mandado de injunção.",
+      "conceder-se-á mandado de segurança.",
+      "conceder-se-á “habeas-data”.",
+      "conceder-se-á salvo-conduto."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. É a definição de **Habeas Corpus** (Art. 5º, **LXVIII**)."
+  },
+  {
+    "question": "Questão 38. (AOCP / DESO-SE – 2013) De acordo com a Constituição Federal, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. O mandado de segurança coletivo pode ser impetrado por: partido político com representação no Congresso Nacional e por organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados.\nII. Conceder-se-á “habeas-data” sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.\nIII. Conceder-se-á mandado de injunção para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público e para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.\nIV. Qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.",
+    "options": [
+      "Apenas II, III e IV.",
+      "Apenas I e IV.",
+      "Apenas I, II e III.",
+      "Apenas II e III.",
+      "I, II, III e IV."
+    ],
+    "correct": 1,
+    "explanation": "As afirmativas **I** e **IV** estão **CORRETAS**:\n- **I** (Art. 5º, **LXX** - Legitimidade do MS Coletivo).\n- **II** está **INCORRETA** (Descreve o MI, não o HD).\n- **III** está **INCORRETA** (Descreve o HD, não o MI).\n- **IV** (Art. 5º, **LXXIII** - Ação Popular)."
+  },
+  {
+    "question": "Questão 39. (CONSULPLAN / TJ-MG – 2018) Em relação aos instrumentos constitucionais para a proteção dos direitos fundamentais, assinale a alternativa correta.",
+    "options": [
+      "Pessoa jurídica não tem legitimidade para propor ação popular.",
+      "O mandado de segurança pode ser usado como sucedâneo de ação popular.",
+      "O habeas corpus é o meio adequado para impugnação de pronunciamento em processo administrativo que haja implicado a perda de cargo público.",
+      "É cabível habeas corpus contra decisão condenatória a pena de multa, ou relativo a processo em curso por infração penal a que a pena pecuniária seja a única cominada."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. A Ação Popular (Art. 5º, **LXXIII**) só pode ser proposta por **cidadão**, que é a pessoa física no gozo de seus direitos políticos. Pessoa jurídica não se enquadra no conceito de cidadão."
+  },
+  {
+    "question": "Questão 40. (CONSULPLAN / TJ-MG – 2016) São isentos do pagamento de custas e taxas judiciais, EXCETO:",
+    "options": [
+      "O Habeas Data.",
+      "O Habeas Corpus.",
+      "A Ação Popular.",
+      "O Mandado de Segurança."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Art. 5º, **LXXVII**, lista o Habeas Corpus e o Habeas Data como ações gratuitas. A Ação Popular é gratuita, salvo comprovada má-fé (Art. 5º, LXXIII). O **Mandado de Segurança** (Art. 5º, LXIX) **não** tem previsão constitucional de gratuidade, embora a lei preveja a gratuidade para quem provar insuficiência de recursos."
+  },
+  {
+    "question": "Questão 41. (CONSULPLAN / TJ-MG – 2016) Assinale a alternativa correta em relação às Ações Constitucionais:",
+    "options": [
+      "A ação popular, ajuizada por pessoas físicas ou jurídicas, tem por objeto anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico cultural.",
+      "O mandado de segurança coletivo poderá ser impetrado por partido político com representação no Congresso Nacional, organização sindical, entidade de classe ou associação legalmente constituída há pelo menos três anos, em defesa de seus membros ou associados.",
+      "O mandado de injunção visa suprir a carência de normas regulamentadoras do exercício dos direitos e garantias constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+      "O habeas data pode ser manejado para assegurar o conhecimento de informações relativas ao impetrante, constantes de registros de entidades de públicas e privadas."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**. É a definição de **Mandado de Injunção** (Art. 5º, **LXXI**)."
+  },
+  {
+    "question": "Questão 42. (CONSULPLAN / CODERN – 2014) Assinale a alternativa que indica o remédio constitucional adequado a assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.",
+    "options": [
+      "Habeas data.",
+      "Ação popular.",
+      "Habeas corpus.",
+      "Mandado de injunção.",
+      "Mandado de segurança."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. É a primeira finalidade do **Habeas Data**, prevista no Art. 5º, **LXXII, 'a'**."
+  },
+  {
+    "question": "Questão 43. (CONSULPLAN / TRE-MG – 2015) “Carlos é presidente de uma associação civil sem fins lucrativos cujo objeto estatutário é buscar a proteção de determinados direitos afetos à comunidade onde reside e também exerce sua atividade profissional. Ciente de determinado ato governamental que atinge comunidades estabelecidas em municípios vizinhos, mas que poderia ser ampliada para atingir a sua comunidade, embora não constasse qualquer dado objetivo nesse sentido, decide apresentar Mandado de Segurança coletivo.” Nos termos da Constituição Federal, o Mandado de Segurança coletivo é:",
+    "options": [
+      "restrito aos partidos políticos.",
+      "próprio dos sindicatos de empregados privados.",
+      "legitimado a pessoas físicas com interesse determinado.",
+      "passível de impetração por associação civil no interesse dos associados."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. A associação, desde que legalmente constituída e em funcionamento há pelo menos um ano, tem legitimidade para impetrar **Mandado de Segurança Coletivo** (Art. 5º, **LXX, 'b'**), em defesa dos interesses de seus associados."
+  }
+],
+
+
+
+
+
+
+
+ConstituicaoArt5:[
+
+{
+    "question": "Questão 1. (INCAB / Prefeitura de Valença-RJ – 2018) A Constituição Federal brasileira de 1988, no seu art. 5°, trata dos chamados direitos e garantias fundamentais. O legislador previu uma série de princípios cuja importância é reconhecida por toda a doutrina. Assinale a seguir o nome do princípio constitucional que é expressamente previsto no dispositivo legal acima mencionado.",
+    "options": [
+      "Razoável duração do processo",
+      "Identidade física do juiz",
+      "Concentração dos atos processuais",
+      "Comunhão das provas",
+      "Duplo grau obrigatório de jurisdição"
+    ],
+    "correct": 0,
+    "explanation": "O princípio da **razoável duração do processo** e os meios que garantam a celeridade de sua tramitação são expressamente previstos no art. 5º, **LXXVIII**, da CF/88."
+  },
+  {
+    "question": "Questão 2. (FUNDATEC / Prefeitura de Santa Rosa – 2018) No Brasil, em casos específicos e além de outras formas, poderá ser adotada a pena:",
+    "options": [
+      "Cruel.",
+      "De banimento.",
+      "De caráter perpétuo.",
+      "De morte.",
+      "De trabalhos forçados."
+    ],
+    "correct": 3,
+    "explanation": "O Art. 5º, **XLVII, 'a'**, veda a pena de morte, **salvo em caso de guerra declarada** (que é o caso específico em que poderá ser adotada). As demais penas são categoricamente vedadas (Art. 5º, XLVII, 'b' a 'e')."
+  },
+  {
+    "question": "Questão 3. (FUNDATEC / DPE-SC – 2018) São garantias constitucionais aplicáveis ao processo penal:\nI. Ninguém será privado da liberdade ou de seus bens sem o devido processo legal.\nII. Aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes.\nIII. Constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático.\nIV. Ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória.\nQuais estão corretas?",
+    "options": [
+      "Apenas I e IV.",
+      "Apenas II e III.",
+      "Apenas I, II e III.",
+      "Apenas I, II e IV.",
+      "I, II, III e IV."
+    ],
+    "correct": 4,
+    "explanation": "Todas as assertivas estão corretas:\n- **I** (Art. 5º, **LIV** - Devido Processo Legal)\n- **II** (Art. 5º, **LV** - Contraditório e Ampla Defesa)\n- **III** (Art. 5º, **XLIV** - Crimes contra o Estado Democrático)\n- **IV** (Art. 5º, **LVII** - Presunção de Inocência)"
+  },
+  {
+    "question": "Questão 4. (FUNDATEC / SPGG-RS – 2018) No que diz respeito aos direitos e garantias fundamentais previstos na Constituição Federal, analise as seguintes afirmações:\nI. A propriedade atenderá a sua função social, admitindo-se a desapropriação por necessidade ou utilidade pública, ou por interesse social, mediante justa e prévia indenização em dinheiro, ressalvados os casos previstos em lei.\nII. A lei assegurará aos autores de inventos industriais privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País.\nIII. O Estado promoverá, na forma definida em Lei Complementar, a defesa do consumidor.\nQuais estão corretas?",
+    "options": [
+      "Apenas II.",
+      "Apenas I e II.",
+      "Apenas I e III.",
+      "Apenas II e III.",
+      "I, II e III."
+    ],
+    "correct": 0,
+    "explanation": "Apenas a assertiva **II** está correta, reproduzindo o Art. 5º, **XXIX** (Propriedade Industrial).\n- **I** está incorreta: as ressalvas são 'os casos previstos **nesta Constituição**' (Art. 5º, **XXIV**), e não 'em lei' genericamente.\n- **III** está incorreta: a defesa do consumidor será promovida 'na forma da **lei**' (Art. 5º, **XXXII**), não exigindo Lei Complementar."
+  },
+  {
+    "question": "Questão 5. (FEPESE / PC-SC – 2017) Assinale a alternativa correta a respeito dos direitos e deveres individuais e coletivos previstos no texto constitucional.",
+    "options": [
+      "Não se admite ação privada nos crimes de ação pública, ainda que esta não seja intentada no prazo legal.",
+      "São admissíveis, no processo, as provas obtidas por meios ilícitos.",
+      "A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de detenção, nos termos da lei.",
+      "A lei penal não retroagirá, salvo para beneficiar o réu.",
+      "O preso não possui direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está CORRETA. É o princípio da retroatividade da lei penal mais benéfica (Art. 5º, **XL**)."
+  },
+  {
+    "question": "Questão 6. (FEPESE / PC-SC - Agente – 2017) Assinale a alternativa correta acerca dos princípios constitucionais do direito penal.",
+    "options": [
+      "É vedada a aplicação de pena que suspenda o exercício de direitos.",
+      "As penas restritivas de liberdade somente poderão ser aplicadas para crimes consumados.",
+      "A pena de morte poderá ser decretada nos casos de reincidência de crimes hediondos.",
+      "Ao individualizar o crime, o magistrado é livre para escolher a espécie de penalidade que entender mais adequada para o caso.",
+      "Ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA, representando o princípio da **presunção de inocência** (Art. 5º, **LVII**)."
+  },
+  {
+    "question": "Questão 7. (FEPESE / PC-SC - Escrivão - 2017) De acordo com a Constituição Federal, conceder-se-á habeas data para:",
+    "options": [
+      "garantir o relaxamento de prisão.",
+      "anular ato lesivo ao patrimônio público.",
+      "sustar violência contra a liberdade de locomoção.",
+      "assegurar o conhecimento de informações constantes de registros ou bancos de dados públicos.",
+      "exigir a edição de norma regulamentadora que viabiliza o exercício de direito inerente à cidadania."
+    ],
+    "correct": 3,
+    "explanation": "O Habeas Data (Art. 5º, **LXXII, 'a'**) é concedido para assegurar o conhecimento (e a retificação) de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público."
+  },
+  {
+    "question": "Questão 8. (FUMARC / CBTU – 2016) A respeito dos direitos e das garantias fundamentais previstos na Constituição de 1988, é CORRETO afirmar:",
+    "options": [
+      "A sucessão de bens de estrangeiros situados no País será sempre regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros.",
+      "Depende de regulamentação a liberdade de associação para fins lícitos, vedada, em qualquer hipótese, a de caráter paramilitar.",
+      "É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença.",
+      "É livre a locomoção no território nacional em tempo de paz, não sendo permitido, contudo, que qualquer pessoa entra, permaneça ou dele saia com seus bens."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está CORRETA, conforme o Art. 5º, **IX** (Liberdade de Expressão). A CF veda a censura de natureza política, ideológica e artística."
+  },
+  {
+    "question": "Questão 9. (FUNCAB / SUPEL-RO – 2016) Acerca do tema “Direitos e Garantias Fundamentais\", assinale a alternativa correta.",
+    "options": [
+      "Conceder-se-á extradição de estrangeiro por crime político ou de opinião.",
+      "A lei poderá, em caso de dolo, admitir a pena de trabalhos forçados para os crimes hediondos.",
+      "É compulsória a adesão à associação profissional ou a sindicato profissional.",
+      "Não haverá juízo ou tribunal de exceção, salvo em tempo de guerra.",
+      "A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA, reproduzindo o Art. 5º, **XLII**, da CF/88 (Crime de Racismo)."
+  },
+  {
+    "question": "Questão 10. (FEPESE / Prefeitura de Lages – 2016) Assinale a alternativa correta sobre o direito de petição.",
+    "options": [
+      "Exceto para os reconhecidamente pobres, o direito de petição é remunerado mediante taxa.",
+      "O direito de petição se relaciona apenas com a expedição de certidões pelas repartições administrativas, excluída tal possibilidade para os processos judiciais.",
+      "É indispensável a representação por meio de advogado para o exercício do direito de petição.",
+      "O direito de petição é absoluto, não havendo necessidade de o interessado justificar o seu pedido ou demonstrar a sua legitimação para tal.",
+      "O direito de petição é considerado um direito e uma garantia individual, não podendo ser suprimido por meio de emenda constitucional."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA. Os direitos e garantias individuais (Art. 5º) são considerados **cláusulas pétreas** (Art. 60, § 4º, IV), não podendo ser abolidos por Emenda Constitucional."
+  },
+  {
+    "question": "Questão 11. (FEPESE / SJC – 2016) De acordo com a Constituição Federal, não haverá penas:\n1. cruéis\n2. restritivas de direito\n3. de caráter perpétuo\nAssinale a alternativa que indica todas as afirmativas corretas.",
+    "options": [
+      "É correta apenas a afirmativa 3.",
+      "São corretas apenas as afirmativas 1 e 2.",
+      "São corretas apenas as afirmativas 1 e 3.",
+      "São corretas apenas as afirmativas 2 e 3.",
+      "São corretas as afirmativas 1, 2 e 3."
+    ],
+    "correct": 2,
+    "explanation": "O Art. 5º, **XLVII**, veda as penas: de morte (salvo guerra declarada), de caráter **perpétuo** (**3**), de trabalhos forçados, de banimento e **cruéis** (**1**). A pena restritiva de direitos (**2**) é permitida (Art. 5º, XLVI, 'c')."
+  },
+  {
+    "question": "Questão 12. (FEPESE / SJC – 2016) De acordo com a Constituição Federal, o tribunal do júri é competente para julgar os crimes:",
+    "options": [
+      "dolosos ou culposos contra a administração da justiça.",
+      "dolosos contra a saúde pública.",
+      "dolosos contra a economia pública.",
+      "dolosos contra a vida.",
+      "dolosos praticados com violência contra a pessoa."
+    ],
+    "correct": 3,
+    "explanation": "O Tribunal do Júri tem competência para o julgamento dos **crimes dolosos contra a vida** (Art. 5º, **XXXVIII, 'd'**)."
+  },
+  {
+    "question": "Questão 13. (FEPESE / SJC – 2016) Assinale a alternativa que indica corretamente o crime que, de acordo com a Constituição Federal, é considerado imprescritível e inafiançável.",
+    "options": [
+      "crime contra a ordem tributária",
+      "crime de tráfico de drogas",
+      "crime de racismo",
+      "crime de estupro",
+      "crime de extorsão mediante sequestro"
+    ],
+    "correct": 2,
+    "explanation": "A CF/88 prevê apenas dois crimes (ou grupos de crimes) inafiançáveis **e** imprescritíveis (Art. 5º):\n1. **Racismo** (Art. 5º, **XLII**);\n2. Ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático (Art. 5º, **XLIV**)."
+  },
+  {
+    "question": "Questão 14. (FEPESE / SJC – 2016) Assinale a alternativa correta sobre os direitos e as garantias fundamentais.",
+    "options": [
+      "É vedada a prisão civil por dívida.",
+      "Nos juízos ou tribunais de exceção é garantido o direito à plenitude de defesa.",
+      "A nova lei penal, mesmo que prejudicial ao réu, deverá ser aplicada de forma retroativa.",
+      "Ninguém será privado da liberdade ou de seus bens sem o devido processo legal.",
+      "Aos presos provisórios serão asseguradas as condições necessárias para que possam permanecer com seus filhos durante o período de amamentação."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está CORRETA, conforme o Art. 5º, **LIV** (Devido Processo Legal)."
+  },
+  {
+    "question": "Questão 15. (FUNDATEC / Prefeitura de Liberato Salzano – 2016) Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes, EXCETO:",
+    "options": [
+      "Ninguém será submetido a tortura nem a tratamento desumano ou degradante.",
+      "É assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva.",
+      "É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença, exceto a atividade musical, como composições musicais de teor pejorativo.",
+      "É livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.",
+      "É assegurado aos presos o respeito à integridade física e moral."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está INCORRETA. O Art. 5º, **IX**, garante a livre expressão da atividade intelectual, artística, científica e de comunicação, **independentemente de censura ou licença**. A parte final do enunciado da alternativa insere uma restrição não prevista na CF/88."
+  },
+  {
+    "question": "Questão 16. (FEPESE / Prefeitura de Balneário Camboriú – 2015) Assinale a alternativa correta em relação aos direitos e às garantias fundamentais previstos na Constituição Federal de 1988.",
+    "options": [
+      "A prática de crime de racismo sujeitará o autor a pena de caráter perpétuo.",
+      "O devido processo legal é de aplicação exclusiva ao processo judicial.",
+      "o mandado de segurança coletivo pode ser impetrado por partido político com representação no Congresso Nacional.",
+      "As provas obtidas por meio ilícito são admissíveis, quando não houver outro meio para obtê-las.",
+      "O conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, ocorrerá por meio de “habeas-corpus\". "
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está CORRETA, conforme o Art. 5º, **LXX, 'c'**, da CF/88."
+  },
+  {
+    "question": "Questão 17. (FUMARC / PC-MG – 2013) Considerando o art. 5º da Constituição Federal de 1988, NÃO é correto o que se afirma em:",
+    "options": [
+      "A instituição do júri é reconhecida, com a organização que lhe der a lei",
+      "Não haverá pena de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX.",
+      "Nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado a **qualquer tempo**, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem o consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está INCORRETA. O Art. 5º, **LI**, prevê a extradição do naturalizado em caso de crime comum praticado **antes da naturalização**, ou de comprovado envolvimento em tráfico ilícito de drogas **a qualquer tempo**."
+  },
+  {
+    "question": "Questão 18. (FUMARC / PC-MG – 2013) O art. 5º, caput, da Constituição Federal de 1988, garante a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. Na esfera dos direitos e deveres individuais e coletivos, NÃO se pode afirmar:",
+    "options": [
+      "É livre a manifestação do pensamento, permitido o anonimato, nos termos da lei.",
+      "A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei.",
+      "É livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.",
+      "Constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado democrático."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está INCORRETA. O Art. 5º, **IV**, dispõe que é livre a manifestação do pensamento, **sendo vedado o anonimato**."
+  },
+  {
+    "question": "Questão 19. (FUNCAB / SEDS-TO – 2014) Sobre direitos e garantias fundamentais, assinale a alternativa correta.",
+    "options": [
+      "Mandado de segurança pode substituir ação de cobrança.",
+      "A lei poderá, em caso de dolo, admitir a pena de trabalhos forçados para os crimes hediondos.",
+      "Não haverá juízo ou tribunal de exceção, salvo em tempo de guerra.",
+      "A lei penal não pode retroagir, salvo para beneficiar o réu."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está CORRETA. É o princípio da retroatividade da lei penal mais benéfica (Art. 5º, **XL**)."
+  },
+  {
+    "question": "Questão 20. (FUNCAB / SEDS-TO – 2014) Segundo a Constituição Federal vigente, a pena deve ser cumprida em estabelecimentos distintos, de acordo com a:",
+    "options": [
+      "origem social do apenado, idade e o grau de periculosidade.",
+      "religião, natureza do delito e o grau de instrução do apenado.",
+      "natureza do delito, a idade e o sexo do apenado.",
+      "religião, o sexo e a origem social do apenado."
+    ],
+    "correct": 2,
+    "explanation": "O Art. 5º, **XLVIII**, estabelece que a pena será cumprida em estabelecimentos distintos, de acordo com a **natureza do delito, a idade e o sexo do apenado**."
+  },
+  {
+    "question": "Questão 21. (FUNCAB / SEDS-TO – 2014) Na aplicação das penas, de acordo com a Constituição Federal brasileira, o trabalho forçado:",
+    "options": [
+      "é permitido nas colônias agrícolas.",
+      "só se aplica ao sexo masculino.",
+      "pode ser aplicado, dependendo da natureza do delito cometido.",
+      "é vedado categoricamente."
+    ],
+    "correct": 3,
+    "explanation": "A pena de **trabalhos forçados** é expressamente **vedada** no Brasil (Art. 5º, **XLVII, 'c'**)."
+  },
+  {
+    "question": "Questão 22. (FUNCAB / IPEM-RO – 2013) Assinale a alternativa que NÃO corresponde a um direito ou garantia fundamental na Constituição Federal:",
+    "options": [
+      "retroatividade da lei.",
+      "devido processo legal.",
+      "inviolabilidade da vida privada.",
+      "a propriedade.",
+      "a defesa do consumidor."
+    ],
+    "correct": 0,
+    "explanation": "Embora a CF trate da retroatividade da lei penal benéfica (Art. 5º, XL), o princípio da irretroatividade da lei (Art. 5º, XXXVI) é o que é listado como garantia. A mera expressão 'retroatividade da lei' não é um direito ou garantia fundamental autônomo. Os demais itens são expressamente previstos como direitos/garantias no Art. 5º."
+  },
+  {
+    "question": "Questão 23. (FUNCAB / IF-RR – 2013) O princípio da Segurança Jurídica, consagrado na Constituição Federal de 1988, preceitua que a lei não prejudicará:",
+    "options": [
+      "a coisa julgada, o direito adquirido e a pena aplicada.",
+      "o direito adquirido, o ato jurídico perfeito e a coisa julgada.",
+      "o ato jurídico perfeito, a pena aplicada e o mandado de segurança.",
+      "o direito adquirido, o ato jurídico perfeito e a composição do júri popular.",
+      "a coisa julgada, a composição do júri popular e o mandado de segurança."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está CORRETA. O Art. 5º, **XXXVI**, determina que 'a lei não prejudicará o **direito adquirido**, o **ato jurídico perfeito** e a **coisa julgada**'."
+  },
+  {
+    "question": "Questão 24. (FUNCAB / ANS – 2013) Acerca dos direitos individuais e coletivos, é correto afirmar que:",
+    "options": [
+      "o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder é assegurado a todos, independentemente do pagamento de taxas.",
+      "a lei poderá excluir da apreciação do Poder Judiciário lesão ou ameaça a direito.",
+      "aos litigantes em processo administrativo não é assegurado o contraditório, apenas a ampla defesa.",
+      "as normas definidoras dos direitos e garantias individuais, enunciadas na Constituição Federal, não tem como um dos destinatários do seu âmbito de proteção as pessoas jurídicas.",
+      "todos têm o direito a receber dos órgãos públicos somente informações de seu interesse particular, que serão prestadas no prazo da lei, sob pena de responsabilidade, ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está CORRETA, conforme o Art. 5º, **XXXIV, 'a'** (Direito de Petição)."
+  },
+  {
+    "question": "Questão 25. (FUNCAB / PC-RJ – 2012) Acerca dos direitos individuais e coletivos, é correto afirmar o seguinte:",
+    "options": [
+      "A propriedade particular não poderá ser usada por autoridade competente, mesmo no caso de iminente perigo público.",
+      "A prática do racismo constitui crime inafiançável, imprescritível, sujeito à pena de detenção, nos termos da lei.",
+      "O brasileiro naturalizado não poderá ser extraditado pela prática de crime comum antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
+      "O sigilo da fonte será resguardado, quando necessário ao exercício profissional e assegurado a todos o acesso à informação.",
+      "O sigilo das informações imprescindíveis à segurança da sociedade e do Estado não excepciona o direito do indivíduo de receber dos órgãos públicos informações de interesse particular, ou de interesse coletivo ou geral, devendo ser prestadas no prazo da lei, sob pena de responsabilidade."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está CORRETA, conforme o Art. 5º, **XIV**, da CF/88 (Acesso à Informação e Sigilo da Fonte)."
+  },
+  {
+    "question": "Questão 26. (FUNCAB / Pref. Várzea Grande – 2012) Nos termos da Constituição Federal, a apreciação, pelo Poder Judiciário, de lesão ou ameaça a direito:",
+    "options": [
+      "poderá ser excluída por lei, por decreto, ou a critério da autoridade policial.",
+      "poderá ser excluída apenas por previsão legal expressa.",
+      "não poderá ser excluída por lei.",
+      "poderá ser excluída por lei, salvo em se tratando de direito penal.",
+      "poderá ser excluída por lei ou por Decreto Administrativo devidamente fundamentado."
+    ],
+    "correct": 2,
+    "explanation": "O Art. 5º, **XXXV**, consagra o princípio da **inafastabilidade da jurisdição**, determinando que 'a lei **não excluirá** da apreciação do Poder Judiciário lesão ou ameaça a direito'."
+  },
+  {
+    "question": "Questão 27. (FUNCAB / Pref. Várzea Grande – 2012) Nos termos da Constituição Federal, é correto afirmar:",
+    "options": [
+      "Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.",
+      "A todos é assegurado, mediante o pagamento da respectiva taxa, o direito de petição aos Poderes Públicos, em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "Somente a lei poderá excluir do Poder Judiciário a apreciação de lesão ou ameaça a direito.",
+      "É reconhecida a instituição do júri, com a competência para o julgamento dos crimes culposos ou dolosos contra a vida.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem o consentimento do morador, salvo se determinado pela autoridade policial."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está CORRETA, reproduzindo o princípio da **legalidade penal** (Art. 5º, **XXXIX**)."
+  },
+  {
+    "question": "Questão 28. (FUNCAB / Procurador DER-RO – 2012) Sobre os Direitos e Garantias Fundamentais, assinale a alternativa correta.",
+    "options": [
+      "O princípio da inviolabilidade domiciliar abrange não só o domicílio, mas também os escritórios, a oficina, a garagem e até mesmo os quartos de hotéis, desde que ocupados.",
+      "As discriminações, mesmo as positivas, são expressamente vedadas pela Constituição Federal de 1988.",
+      "O direito de petição, com previsão constitucional, não configura necessariamente o direito a receber qualquer pronunciamento do Poder Público.",
+      "O direito de reunião pode ser exercido em locais abertos, sem armas e de forma pacífica, independentemente de prévio aviso às autoridades competentes, desde que não frustre outra reunião anteriormente convocada.",
+      "O direito de propriedade é intangível e absoluto, ressalvadas apenas as situações de necessidade pública em que será possível a desapropriação com indenização prévia, justa e em dinheiro."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está CORRETA. O conceito de 'casa' para fins de inviolabilidade (Art. 5º, **XI**) é amplo, abrangendo qualquer compartimento habitado, como escritórios, consultórios e quartos de hotel ocupados (domicílio profissional ou temporário) – entendimento consolidado na doutrina e jurisprudência."
+  },
+  {
+    "question": "Questão 29. (FUNCAB / Pref. Porto Velho – 2009) Sobre os Direitos e Garantias Fundamentais previstos na Constituição da República, assinale a alternativa correta.",
+    "options": [
+      "A casa é asilo inviolável do indivíduo, salvo, durante o dia e à noite, nos casos de flagrante delito, de desastre e de ordem judicial fundamentada.",
+      "É possível a quebra do sigilo de correspondência e das comunicações telefônicas por ordem judicial, para fins de investigação criminal e instrução processual penal.",
+      "O princípio da retroatividade benéfica da lei penal é garantia fundamental prevista na Constituição da República.",
+      "O princípio da função social da propriedade, apesar de previsto pelo Código Civil, não é assegurado como garantia fundamental pela Constituição da República.",
+      "A lei estabelecerá o procedimento para desapropriação por necessidade ou utilidade publica, mediante justa e prévia indenização em dinheiro ou em títulos da dívida pública."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está CORRETA, conforme o Art. 5º, **XL** ('A lei penal não retroagirá, salvo para beneficiar o réu')."
+  },
+  {
+    "question": "Questão 30. (FUNCAB / ANS – 2013) Em relação aos direitos e garantias fundamentais e aos direitos sociais previstos na Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "O direito à propriedade é garantido constitucionalmente, devendo, no entanto, atender à sua função social.",
+      "O direito à saúde não possui aplicação imediata, sendo necessária a aprovação de lei complementar para que tenha eficácia.",
+      "É direito da gestante a obtenção de licença, não inferior a sessenta dias, sem prejuízo do emprego e do salário.",
+      "Os direitos e garantias fundamentais estendem-se a cidadãos estrangeiros, independente de onde residam.",
+      "É assegurado pela Constituição o acesso à informação por meio da rede mundial de computadores (internet)."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está CORRETA. O Art. 5º, **XXII** e **XXIII**, garante a propriedade, mas a condiciona à **função social**."
+  },
+  {
+    "question": "Questão 31. (FUNCAB / SESACRE – 2013) De acordo com a Constituição Federal de 1988, NÃO haverá pena de:",
+    "options": [
+      "multa.",
+      "banimento.",
+      "perda de bens.",
+      "prestação social alternativa.",
+      "privação ou restrição da liberdade."
+    ],
+    "correct": 1,
+    "explanation": "A pena de **banimento** é expressamente **vedada** (Art. 5º, **XLVII, 'd'**)."
+  },
+  {
+    "question": "Questão 32. (FUNCAB / SEMAD – 2013) No que concerne aos direitos e garantias fundamentais tratados pela CRFB/1988, é correto afirmar:",
+    "options": [
+      "Os direitos são vantagens conferidas às pessoas e que limitam o Estado na sua atuação, já as garantias fundamentais são instrumentos, mecanismos que asseguram ou mesmo sanam os direitos em questão, quando não estiverem sendo respeitados.",
+      "Os direitos compreendem um conjunto de normas processuais que viabilizam a aplicação das garantias fundamentais.",
+      "O Habeas Corpus é uma espécie do gênero Direitos Fundamentais.",
+      "Os Direitos são normas de natureza processual que visam promover a aplicabilidade ou a efetividade das normas de direito material de que tratam as garantias fundamentais."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está CORRETA, refletindo a distinção doutrinária majoritária entre **direitos** (normas declaratórias, bens jurídicos tutelados) e **garantias** (normas assecuratórias, instrumentos de proteção)."
+  },
+  {
+    "question": "Questão 33. (FUNCAB / SC-CE – 2013) Nos termos da Constituição Federal, assegura-se a todos, independentemente do pagamento de taxas:",
+    "options": [
+      "a obtenção de certidões emitidas pelos órgãos públicos e de interesse individual ou coletivo, seja qual for a finalidade a que se prestem.",
+      "o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "o direito de ação, manifestado pelo Mandado de Segurança, contra ato ilegal praticado por autoridade pública.",
+      "a obtenção de certidões de nascimento e de óbito.",
+      "o direito de petição, manifestado pela Ação Civil Pública, para defesa de direitos coletivos."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está CORRETA, conforme o Art. 5º, **XXXIV, 'a'** (Direito de Petição)."
+  },
+  {
+    "question": "Questão 34. (FUNCAB / SC-CE – 2013) A norma da presunção de inocência, prevista pela Constituição Federal, dispõe que ninguém será considerado culpado até:",
+    "options": [
+      "o regular indiciamento pela autoridade policial competente.",
+      "a apresentação da denúncia pelo Ministério Público.",
+      "o recebimento da denúncia do Ministério Público pelo juiz competente.",
+      "a publicação do acórdão de condenação por tribunal de segunda instância.",
+      "o trânsito em julgado da sentença penal condenatória."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA, conforme o Art. 5º, **LVII**, da CF/88 (Presunção de Inocência)."
+  },
+  {
+    "question": "Questão 35. (FUNCAB / Pref. Vassouras – 2013) Sobre o direito de petição aos Poderes Públicos e de obtenção de certidões em repartições públicas, assinale a alternativa que se encontra de acordo com a Constituição Federal.",
+    "options": [
+      "Não podem ser tidos, salvo por expressa previsão legal, como fato gerador de taxas.",
+      "O direito de petição aos Poderes Públicos é assegurado contra ilegalidade ou abuso de poder, mas, para a defesa de outros direitos, deve o administrado recorrer diretamente ao Poder Judiciário.",
+      "A obtenção de certidões em repartições públicas para esclarecimento de situações de interesse pessoal está sujeita ao pagamento de taxas, ao contrário do que ocorre se o objetivo for a defesa de direitos.",
+      "O direito de petição aos Poderes Públicos é assegurado independentemente do pagamento de taxas, ao passo que a obtenção de certidões pode ser taxada com amparo em expressa previsão legal.",
+      "A obtenção de certidões em repartições públicas, tanto para defesa de direitos, quanto para o esclarecimento de situações de interesse pessoal, é garantida independentemente do pagamento de taxas."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA, conforme o Art. 5º, **XXXIV, 'a' e 'b'**: o direito de petição e a obtenção de certidões para a defesa de direitos ou esclarecimento de situações de interesse pessoal são **independentes de pagamento de taxas**."
+  },
+  {
+    "question": "Questão 36. (FUNCAB / ANS – 2013) Assinale a alternativa correta sobre os direitos e garantias fundamentais, tal como previstos pela Constituição Federal.",
+    "options": [
+      "O rol constitucional de direitos e garantias fundamentais é taxativo.",
+      "As normas definidoras dos direitos e garantias fundamentais têm aplicação imediata.",
+      "Os tratados e convenções internacionais sobre direitos humanos possuem hierarquia jurídica equivalente à das emendas constitucionais, mesmo que não votados pelo Congresso Nacional.",
+      "As normas definidoras de direitos fundamentais são meramente programáticas.",
+      "A eficácia das normas definidoras de direitos fundamentais depende de regulamentação legal."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está CORRETA. O Art. 5º, **§ 1º**, da CF/88 estabelece que 'As normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**'."
+  },
+  {
+    "question": "Questão 37. (FUNCAB / PC-RJ – 2012) Tomando por base as decisões recentes do Supremo Tribunal Federal, é INCORRETO afirmar:",
+    "options": [
+      "Só é lícito o uso de algemas em caso de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito, sob pena de responsabilidade disciplinar, civil e penal do agente ou da autoridade e de nulidade da prisão ou do ato processual a que se refere, sem prejuízo da responsabilidade civil do Estado.",
+      "É ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade de depósito.",
+      "É direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa.",
+      "Não cabe habeas corpus quando já extinta a pena privativa de liberdade.",
+      "A prisão do depositário judicial pode ser decretada no próprio processo em que se constitui o encargo, independentemente da propositura de ação de depósito."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está INCORRETA, pois contraria a jurisprudência do STF. A prisão civil do depositário judicial exige o ajuizamento de uma **ação de depósito** (Art. 901 do CPC/73, aplicado analogicamente), não podendo ser decretada no bojo do próprio processo de execução ou inventário."
+  },
+  {
+    "question": "Questão 38. (FUNCAB / PC-RJ – 2012) O art. 5º, LVI da Constituição Federal de 1988 trata da vedação da prova ilícita. Tomando por base as decisões do Supremo Tribunal Federal, é INCORRETO afirmar:",
+    "options": [
+      "É lícita a prova obtida por meio de gravação de conversa própria, feita por um dos interlocutores, se quem está gravando está sendo vítima de proposta criminosa do outro.",
+      "Exige-se a comprovação da legitimidade das interceptações telefônicas, com a fiel observância de todos os requisitos legais, não entendendo, porém, que exista ofensa ao direito ao silêncio e ao direito a não autoincriminação nas gravações obtidas mediante os requisitos constitucionais e legais para a realização de interceptação telefônica.",
+      "É incabível a utilização de prova emprestada obtida mediante interceptação telefônica, judicialmente autorizada, para fins de subsidiar apurações de cunho disciplinar.",
+      "A prova ilícita originária contamina todas as demais provas obtidas a partir dela; é a denominada teoria dos frutos da árvore envenenada.",
+      "A confissão sob prisão ilegal é prova ilícita e, portanto, invalida a condenação nela fundada."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está INCORRETA. A jurisprudência do STF (e do STJ) admite o **empréstimo da prova lícita** (como a interceptação telefônica autorizada judicialmente) para outros processos, inclusive disciplinares, desde que observados o contraditório e a ampla defesa."
+  },
+  {
+    "question": "Questão 39. (FUNCAB / MPE-RO – 2012) A respeito dos direitos e garantias fundamentais previstos na Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "Devem ser interpretados restritivamente.",
+      "Possuem aplicação mediata, isto é, dependem de regulamentação legal.",
+      "Somente podem ser revogados por Lei Complementar.",
+      "Somente podem ser revogados por Emenda Constitucional.",
+      "Não excluem direitos decorrentes dos tratados internacionais em que o Brasil seja parte."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está CORRETA. O Art. 5º, **§ 2º**, estabelece o princípio da **não exclusividade** (ou abertura material): 'Os direitos e garantias expressos nesta Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte'."
+  },
+  ,{
+    "question": "Questão 40. (FUNCAB / Pref. Porto Velho – 2009) Acerca da tutela constitucional das liberdades é correto afirmar:",
+    "options": [
+      "A retificação de informações constantes de registros ou banco de dados de instituições privadas somente pode ser realizada através da ação de habeas data.",
+      "O mandado de segurança coletivo pode ser impetrado por associação constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus associados.",
+      "Conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, ainda que necessária ampla dilação probatória.",
+      "A ação de habeas data pode ser gratuita, desde que demonstrada a hipossuficiência econômica da parte interessada.",
+      "A ação popular somente pode ser proposta por cidadão que demonstre interesse fático e jurídico na anulação de ato lesivo ao patrimônio público e ao meio ambiente."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. Conforme o Art. 5º, **LXX, 'b'**, o Mandado de Segurança Coletivo pode ser impetrado por 'associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus associados ou parte deles'."
+  },
+  {
+    "question": "Questão 41. (FUNDATEC / CREMERS – 2014) Considerando a garantia de razoável duração do processo e os meios que garantam a celeridade de sua tramitação, prevista no artigo 5º, inciso LXXVIII, da Constituição Federal, analise as assertivas que seguem.\nI. Trata-se de garantia prevista tanto para o âmbito judicial quanto para o administrativo.\nII. Trata-se de garantia prevista somente para a prestação jurisdicional.\nIII. É garantia aplicável aos brasileiros natos e naturalizados, pessoas físicas e jurídicas, estrangeiros residentes ou não no país.\nQuais estão corretas?",
+    "options": [
+      "Apenas I.",
+      "Apenas II.",
+      "Apenas I e II.",
+      "Apenas I e III.",
+      "Apenas II e III."
+    ],
+    "correct": 3,
+    "explanation": "As afirmativas **I** e **III** estão **CORRETAS**. A garantia da razoável duração do processo (Art. 5º, **LXXVIII**) abrange tanto o processo **judicial quanto o administrativo** (I). Embora o Art. 5º mencione brasileiros e estrangeiros residentes, os direitos fundamentais, em geral, aplicam-se a todas as pessoas, físicas ou jurídicas, residentes ou não, no território nacional (III). A afirmativa II está incorreta."
+  },
+  {
+    "question": "Questão 42. (FUNDATEC / CAGE-RS – 2014) As normas definidoras de direitos e garantias fundamentais",
+    "options": [
+      "dependem, para sua aplicação, da edição da respectiva lei complementar.",
+      "têm aplicação imediata.",
+      "terão aplicação imediata quando o texto constitucional assim dispuser expressamente em relação a cada direito desta espécie.",
+      "poderão ter aplicação imediata ou condicionada à edição de lei regulamentadora, de acordo com a natureza do direito.",
+      "são de natureza programática."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. Conforme o Art. 5º, **§ 1º**, da CF/88, 'As normas definidoras dos direitos e garantias fundamentais **têm aplicação imediata**'."
+  },
+  {
+    "question": "Questão 43. (FUNDATEC / SUSEPE-RS – 2014) Analise as assertivas abaixo segundo a Constituição da República Federativa do Brasil, em especial o Art. 5º, que dispõe sobre os direitos e deveres individuais e coletivos.\nI. No caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano.\nII. Às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação.\nIII. O preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial.\nQuais estão corretas?",
+    "options": [
+      "Apenas I.",
+      "Apenas I e II.",
+      "Apenas I e III.",
+      "Apenas II e III.",
+      "I, II e III."
+    ]
+    ,
+    "correct": 4,
+    "explanation": "Todas as afirmativas estão **CORRETAS**:\n- **I** (Art. 5º, **XXV** - Requisição Administrativa).\n- **II** (Art. 5º, **L** - Direitos das Presidiárias).\n- **III** (Art. 5º, **LXIII** - Direitos do Preso)."
+  },
+  {
+    "question": "Questão 44. (FEPESE / TCE-SC – 2014) De acordo com o disposto no art. 5º da Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "Não será concedida extradição de estrangeiro por crime político, de opinião, ou de corrupção passiva.",
+      "Não haverá penas: de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX; de caráter perpétuo; de banimento; cruéis.",
+      "Constitui crime inafiançável e imprescritível a ação de grupos armados, desde que militares, contra a ordem constitucional e o Estado Democrático.",
+      "São invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas capazes, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador ou da autoridade policial, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. É a transcrição literal do Art. 5º, **XLVII**, que lista as penas vedadas, ressalvando a pena de morte em caso de guerra declarada (referência constitucional do Art. 84, XIX, que trata da declaração de guerra)."
+  },
+  {
+    "question": "Questão 45. (FEPESE / TCE-SC – 2014) Quanto aos Direitos e às garantias fundamentais estabelecidos na Constituição da República Federativa do Brasil de 1988, assinale a alternativa correta.",
+    "options": [
+      "Ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei.",
+      "Aos autores pertence o direito exclusivo de utilização, publicação ou reprodução de suas obras, transmissível aos herdeiros em linha reta ascendente ou descendente, pelo tempo que a lei determinar.",
+      "As associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão administrativa ou judicial, assegurando-se o contraditório e a ampla defesa.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou por determinação judicial.",
+      "A pequena propriedade rural, assim definida em lei, não será objeto de penhora para pagamento de débito decorrente de sua atividade produtiva."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**, sendo a previsão constitucional da **escusa de consciência** (Art. 5º, **VIII**)."
+  },
+  {
+    "question": "Questão 46. (FADESP / CDP – 2012) A respeito de direitos e garantias fundamentais, é correto afirmar que",
+    "options": [
+      "mediante o pagamento de taxa única, é assegurado direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "mediante o pagamento de módica taxa, é assegurada a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal.",
+      "independentemente do pagamento de taxas, é assegurado direito de petição aos Poderes Públicos, em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "são gratuitas as ações de mandado de segurança."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**. O direito de petição é garantido a todos, **independentemente do pagamento de taxas** (Art. 5º, **XXXIV, 'a'**)."
+  },
+  {
+    "question": "Questão 47. (FADESP / CDP – 2012) É gratuito o fornecimento de registro",
+    "options": [
+      "de casamento.",
+      "civil.",
+      "de óbito.",
+      "civil, para os reconhecidamente pobres, na forma da lei."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. Conforme o Art. 5º, **LXXVI**, são gratuitos o **registro civil de nascimento** e a **certidão de óbito** para os **reconhecidamente pobres**, na forma da lei."
+  },
+  {
+    "question": "Questão 48. (FUNDATEC / SEFAZ–RS – 2009) Em relação aos direitos fundamentais previstos na Constituição Federal de 1988, é correto afirmar que:",
+    "options": [
+      "A falta de defesa técnica por advogado no processo administrativo disciplinar ofende a Constituição, porque viola o princípio da ampla defesa.",
+      "A Constituição Federal de 1988 não assegura o direito do defensor, no interesse do representado, a ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa.",
+      "Não viola a garantia constitucional de acesso à jurisdição a taxa judiciária calculada sem limite sobre o valor da causa.",
+      "Os direitos e garantias expressos na Constituição Federal brasileira não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte.",
+      "A garantia da impenhorabilidade de bem de família não abrange o imóvel pertencente a pessoas solteiras."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. É o princípio da **não exclusividade** (ou abertura material), previsto no Art. 5º, **§ 2º**, da CF/88."
+  },
+  {
+    "question": "Questão 49. (FUNIVERSA / SAPeJUS-GO – 2015) Caracteriza(m)-se pela imprescritibilidade e pela inafiançabilidade:",
+    "options": [
+      "a prática de tortura.",
+      "a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado democrático.",
+      "os crimes hediondos.",
+      "o tráfico ilícito de entorpecentes e drogas afins.",
+      "os crimes contra a dignidade sexual que importem em violência ou grave ameaça."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. A CF/88 prevê apenas dois crimes (ou grupos de crimes) com as duas características (imprescritibilidade e inafiançabilidade): a prática do **Racismo** (Art. 5º, XLII) e a **Ação de grupos armados** (Art. 5º, **XLIV**)."
+  },
+  {
+    "question": "Questão 50. (FUNIVERSA / PM-DF – 2013) Consoante estabelece a Constituição Federal, no tocante aos direitos e garantias fundamentais, assinale a alternativa correta.",
+    "options": [
+      "Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigida prévia autorização à autoridade competente.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
+      "As associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se, em ambos os casos, o trânsito em julgado.",
+      "A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de detenção, nos termos da lei.",
+      "Não haverá penas de morte em quaisquer hipóteses."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**, sendo a regra da **inviolabilidade do domicílio** (Art. 5º, **XI**)."
+  },
+  {
+    "question": "Questão 51. (FUNIVERSA / SECTEC-GO – 2015) De acordo com a Constituição Federal, o civilmente identificado",
+    "options": [
+      "em hipótese nenhuma será submetido à identificação criminal.",
+      "não será submetido à identificação criminal, salvo nas hipóteses previstas em lei.",
+      "será submetido à identificação criminal se houver praticado crime hediondo.",
+      "será submetido à identificação criminal quando solicitado pelo Ministério Público.",
+      "será submetido à identificação criminal somente com autorização judicial."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. Conforme o Art. 5º, **LVIII**, 'o civilmente identificado **não será submetido a identificação criminal**, salvo nas hipóteses previstas em lei'."
+  },
+  {
+    "question": "Questão 52. (FUNIVERSA / SEJU-DF – 2008) A prática de racismo constitui crime afiançável e imprescritível, sujeito a pena de reclusão.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. O crime de racismo é **inafiançável** e imprescritível (Art. 5º, **XLII**)."
+  },
+  {
+    "question": "Questão 53. (FUNIVERSA / PC-DF – 2009) O antissemitismo pode ser considerado como crime de racismo.",
+    "correct": 0,
+    "explanation": "A assertiva está **CORRETA**. O Supremo Tribunal Federal (STF) já pacificou o entendimento de que a prática do antissemitismo (preconceito contra os judeus) está abrangida pelo Art. 20 da Lei nº 7.716/89 (Lei do Racismo) e é considerada crime de **racismo** para fins constitucionais."
+  },
+  {
+    "question": "Questão 54. (FUNIVERSA / PM-DF – 2013) Não haverá penas de morte em quaisquer hipóteses.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A pena de morte é permitida em caso de **guerra declarada** (Art. 5º, **XLVII, 'a'**)."
+  },
+  {
+    "question": "Questão 55. (FUNIVERSA / PM-DF – 2013) Com o intuito de preservar a segurança jurídica, a Constituição Federal prescreve que a lei penal nunca retroagirá.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A lei penal **não retroagirá, salvo para beneficiar o réu** (Art. 5º, **XL** - Princípio da Retroatividade Benéfica)."
+  },
+  {
+    "question": "Questão 56. (FUNIVERSA / CEB – 2010) A lei considerará crimes inafiançáveis e insuscetíveis de graça ou indulto a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins, o terrorismo e os definidos como crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem.",
+    "correct": 0,
+    "explanation": "A assertiva está **CORRETA**. O texto reproduz fielmente o Art. 5º, **XLIII**, da CF/88, que trata dos crimes inafiançáveis e insuscetíveis de graça ou indulto (TTT H - Tortura, Tráfico, Terrorismo e Hediondos)."
+  },
+  {
+    "question": "Questão 57. (FUNIVERSA / SEJUS-DF – 2008) Nenhum brasileiro pode ser extraditado.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. O brasileiro **nato** não será extraditado. O brasileiro **naturalizado** poderá ser extraditado em caso de crime comum praticado **antes** da naturalização, ou de comprovado envolvimento em tráfico ilícito de drogas **a qualquer tempo** (Art. 5º, **LI**)."
+  },
+  {
+    "question": "Questão 58. (FUNIVERSA / SEJUS-DF – 2008) Não será concedido extradição de estrangeiro por crime político ou comum.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. Não será concedida extradição de estrangeiro por crime **político ou de opinião** (Art. 5º, **LII**). É possível a extradição por crime comum."
+  },
+  {
+    "question": "Questão 59. (FUNIVERSA / SEJUS-DF – 2008) O indivíduo civilmente identificado jamais será submetido à identificação criminal.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. O civilmente identificado **não será submetido a identificação criminal, salvo nas hipóteses previstas em lei** (Art. 5º, **LVIII**)."
+  },
+  {
+    "question": "Questão 60. (FUNIVERSA / Apex Brasil – 2006) A lei só poderá restringir a publicidade dos atos processuais quando a defesa da intimidade o exigir.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A lei poderá restringir a publicidade quando a defesa da intimidade **ou o interesse social** o exigir (Art. 5º, **LX**)."
+  },
+  {
+    "question": "Questão 61. (FUNIVERSA / SEPLAG-DF – 2011) Decorrente da amplitude do direito fundamental à necessária licitude nos processos, judiciais ou administrativos, a simples existência de qualquer prova ilícita nos autos é suficiente para anular o procedimento.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. A prova ilícita é inadmissível (Art. 5º, **LVI**). Contudo, a simples existência de uma prova ilícita não anula **todo** o procedimento. Além disso, a jurisprudência (teoria dos frutos da árvore envenenada) admite exceções que podem salvar provas derivadas, como a fonte independente."
+  },
+  {
+    "question": "Questão 62. (FUNIVERSA / ADASA – 2009) A concessão de habeas corpus somente ocorrerá quando alguém sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. O Habeas Corpus é concedido sempre que alguém **sofrer ou se achar ameaçado de sofrer** violência ou coação (Art. 5º, **LXVIII**). A omissão da hipótese de 'ameaça de sofrer' torna a assertiva incompleta e, portanto, incorreta."
+  },
+  {
+    "question": "Questão 63. (FUNIVERSA / PM-DF – 2013) A Emenda Constitucional n.º 45/2004 inseriu uma garantia constitucional segundo a qual serão assegurados a todos, no âmbito judicial e administrativo, a razoável duração do processo e os meios que garantam a celeridade de sua tramitação, estabelecendo prazo para que a prestação jurisdicional seja efetivamente entregue.",
+    "correct": 0,
+    "explanation": "A assertiva está **INCORRETA**. Embora a EC 45/2004 tenha inserido o Art. 5º, **LXXVIII**, com a garantia da razoável duração do processo, ela **não estabeleceu prazo** para a entrega da prestação jurisdicional."
+  },
+  {
+    "question": "Questão 64. (FUNRIO / IFPA – 2016) A Constituição Federal de 1988 diz que todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, dispondo também que",
+    "options": [
+      "será concedida extradição de estrangeiro por crime político ou de opinião.",
+      "é assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional.",
+      "é plena a liberdade de associação para fins lícitos, permitida a de caráter paramilitar.",
+      "a lei não prejudicará o direito adquirido e o ato jurídico perfeito, mas a coisa julgada sim.",
+      "a lei não punirá a discriminação atentatória dos direitos e liberdades fundamentais."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. É a previsão do Art. 5º, **XIV** (Direito à Informação e Sigilo da Fonte)."
+  },
+  {
+    "question": "Questão 65. (FUNRIO / IFPA – 2016) De acordo com o artigo 5º da Constituição da República Federativa do Brasil de 1988, não haverá penas:\nI - de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX;\nII - de caráter perpétuo;\nIII - de trabalhos forçados;\nIV - privação ou restrição da liberdade;\nV - de banimento;\nVI - cruéis.\nMarque a alternativa correta",
+    "options": [
+      "I, III, IV, V e VI.",
+      "I, II, III, V e VI.",
+      "II, III, IV, V e VI.",
+      "I, II, III, IV e VI.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. As penas que 'não haverá' no Brasil são as listadas no Art. 5º, **XLVII**, que são: I (morte, salvo exceção), II (perpétuo), III (trabalhos forçados), V (banimento) e VI (cruéis). A pena de privação ou restrição da liberdade (**IV**) é uma das espécies de pena que a lei adotará (Art. 5º, XLVI, 'a')."
+  },
+  {
+    "question": "Questão 66. (FUNRIO / Prefeitura de Itupeva-SP – 2016) Nos termos da jurisprudência sumulada do Supremo Tribunal Federal o processo administrativo disciplinar não requer necessária a presença de:",
+    "options": [
+      "advogado",
+      "informação",
+      "defesa",
+      "testemunhas",
+      "contraditório"
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. De acordo com a **Súmula Vinculante nº 5 do STF**, 'A falta de defesa técnica por **advogado** no processo administrativo disciplinar não ofende a Constituição'."
+  },
+  {
+    "question": "Questão 67. (FUNRIO / IFBA – 2015) A Constituição Federal de 1988 estabelece que a lei regulará a individualização da pena e adotará, entre outras, as seguintes:",
+    "options": [
+      "privação da liberdade e trabalhos forçados.",
+      "interdição de direitos e banimento.",
+      "prestação social alternativa e caráter perpétuo.",
+      "restrição da liberdade e perda de bens.",
+      "trabalhos forçados e banimento."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Art. 5º, **XLVI**, lista as espécies de pena permitidas (privação ou **restrição da liberdade**, **perda de bens**, multa, prestação social alternativa, suspensão ou interdição de direitos). Trabalhos forçados, banimento e caráter perpétuo são penas **vedadas** (Art. 5º, XLVII)."
+  },
+  {
+    "question": "Questão 68. (FUNRIO / MPOG – 2013) No tocante à possibilidade de patenteabilidade de inventos, a Constituição Brasileira vigente estabelece regra geral, que define determinados requisitos. Com relação a estes requisitos é correto afirmar que a lei assegurará",
+    "options": [
+      "aos requerentes de inventos industriais privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas brasileiras e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País.",
+      "aos autores de inventos industriais privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País.",
+      "aos requerentes de inventos industriais e descobertas privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País.",
+      "aos autores de inventos industriais e descobertas privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País.",
+      "aos autores de inventos industriais privilégio temporário para sua utilização, bem como proteção às criações industriais, à propriedade das marcas, aos nomes de empresas exclusivamente brasileiras e a outros signos distintivos, tendo em vista o interesse social e o desenvolvimento tecnológico e econômico do País."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. É a transcrição do Art. 5º, **XXIX**, da CF/88. As alternativas incorretas inserem termos como 'requerentes', 'descobertas' ou 'exclusivamente brasileiras', não previstos no texto constitucional."
+  },
+  {
+    "question": "Questão 69. (Instituto AOCP / PC-ES – 2019) Segundo a Constituição Federal, todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:",
+    "options": [
+      "não será concedida extradição de estrangeiro por crime político ou de opinião.",
+      "as entidades associativas, mesmo sem autorização expressa, têm legitimidade para representar seus filiados judicial ou extrajudicialmente.",
+      "às presidiárias, serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação, desde que apresentem bom comportamento.",
+      "as normas definidoras dos direitos e garantias fundamentais têm aplicação contida.",
+      "os direitos e garantias expressos nesta Constituição excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**, conforme o Art. 5º, **LII**, da CF/88."
+  },
+  {
+    "question": "Questão 70. (Instituto AOCP / PC-ES – 2019) Assinale a alternativa correta de acordo com o que disciplina a Constituição Federal acerca dos direitos e garantias fundamentais.",
+    "options": [
+      "É assegurado a todos o acesso à informação, sendo garantida a publicidade da fonte.",
+      "Qualquer cidadão é parte legítima para propor ação popular que vise anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má fé, isento de custas judiciais e do ônus da sucumbência.",
+      "É plena a liberdade de associação para fins lícitos, inclusive a de caráter paramilitar.",
+      "A retificação de dados perante os órgãos públicos, quando não se prefira fazer por processo sigiloso, judicial ou administrativo, poderá ser feita através de mandado de injunção.",
+      "Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às Leis Complementares."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B está **CORRETA**. É a previsão da **Ação Popular** (Art. 5º, **LXXIII**)."
+  },
+  {
+    "question": "Questão 71. (Instituto AOCP / UFPB – 2019) Com base na temática direitos e garantias fundamentais, assinale a alternativa correta.",
+    "options": [
+      "A lei penal não retroagirá, mesmo que para beneficiar o réu.",
+      "A prática do racismo constitui crime afiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei.",
+      "São a todos assegurados, dependendo do pagamento de taxas, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "Conceder-se-á habeas data: para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.",
+      "Será concedida extradição de estrangeiro por crime político ou de opinião."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. É a primeira finalidade do **Habeas Data** (Art. 5º, **LXXII, 'a'**)."
+  },
+  {
+    "question": "Questão 72. (Instituto AOCP / UFPB – 2019) A Constituição da República Federativa do Brasil de 1988 prescreve uma série de direitos e garantias fundamentais ao indivíduo. Dentre eles, assinale a alternativa que apresenta aqueles que se enquadram no texto constitucional referido.",
+    "options": [
+      "É livre a manifestação do pensamento, sendo o anonimato regulado em lei própria.",
+      "As associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, independentemente do trânsito em julgado da sentença.",
+      "A todos é assegurada, mediante prévio recolhimento de taxas, a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal.",
+      "A criação de associações e, na forma da lei, a de cooperativas independem de autorização, sendo vedada a interferência estatal em seu funcionamento."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Art. 5º, **XVIII**, estabelece que 'A criação de associações e, na forma da lei, a de cooperativas independem de autorização, sendo vedada a interferência estatal em seu funcionamento'."
+  },
+  {
+    "question": "Questão 73. (Instituto AOCP / UFPB – 2019) Dentre os direitos e garantias fundamentais relacionados à liberdade de locomoção do indivíduo, assinale a alternativa equivalente ao texto constitucional.",
+    "options": [
+      "É reconhecida a instituição do júri, com a organização que lhe der a lei, assegurados a plenitude de defesa, o sigilo das votações, a soberania dos veredictos e a competência para o julgamento dos crimes dolosos contra a vida.",
+      "A lei penal retroagirá, salvo para beneficiar o réu.",
+      "Ninguém será privado da liberdade ou de seus bens sem o devido processo legal, exceto por medida cautelar determinada pela autoridade policial.",
+      "São inadmissíveis, no processo, as provas obtidas por meios ilícitos, salvo as que forem indiretamente obtidas de boa-fé."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. O texto se refere ao Art. 5º, **XXXVIII**, da CF/88 (Tribunal do Júri)."
+  },
+  {
+    "question": "Questão 74. (Instituto AOCP / UFPB – 2019) Segundo o artigo 5º da Constituição Federal, todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. Considerando o artigo mencionado da Constituição Federal brasileira, é correto afirmar que",
+    "options": [
+      "ainda que em caso de iminente perigo público, a autoridade competente não poderá usar de propriedade particular sem autorização judicial.",
+      "as associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão do Poder Executivo.",
+      "nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
+      "a sucessão de bens de estrangeiros situados no País será regulada pela lei estrangeira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes seja mais favorável a lei brasileira."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**. É a previsão constitucional sobre a **extradição de brasileiro** (Art. 5º, **LI**)."
+  },
+  {
+    "question": "Questão 75. (Instituto AOCP / ITEP-RN – 2018) O artigo 5º da Constituição Federal enumera alguns direitos individuais que devem ser preservados tanto pelo Estado como por particulares.\nAssinale a alternativa que apresenta um direito constitucionalmente previsto no referido artigo.",
+    "options": [
+      "É livre a manifestação do pensamento, permitido o anonimato.",
+      "É plena a liberdade de associação para fins lícitos, inclusive a de caráter paramilitar.",
+      "É livre o exercício de qualquer trabalho, ofício ou profissão, independentemente das qualificações profissionais que a lei estabelecer.",
+      "Haverá juízo ou tribunal de exceção.",
+      "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está **CORRETA**. É a regra da **inviolabilidade do domicílio** (Art. 5º, **XI**)."
+  },
+  {
+    "question": "Questão 76. (AOCP / Agepen-CE – 2017) Referente aos direitos e às garantias fundamentais previstos na Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "A autoridade pública somente pode penetrar em um domicílio com ordem judicial e desde que durante o dia.",
+      "É plena a liberdade de associação para quaisquer fins, inclusive a de caráter paramilitar.",
+      "Constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático.",
+      "Nenhum brasileiro, nato ou naturalizado, será extraditado."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**, conforme o Art. 5º, **XLIV**."
+  },
+  {
+    "question": "Questão 77. (AOCP / Prefeitura de Juazeiro-BA – 2016) Segundo a constituição federal, no Brasil não haverá penas de morte, salvo em caso de",
+    "options": [
+      "guerra declarada, nos termos do artigo 84, inciso XlX, de caráter não perpétuo e cruéis.",
+      "guerra, de caráter perpétuo, de trabalho desigual.",
+      "guerra, de caráter perpétuo e caça.",
+      "guerra declarada, nos termos do artigo 84, inciso XlX, de caráter perpétuo, de trabalho forçado, de banimento e cruéis.",
+      "guerra, trabalho forçado e ineficiência, de banimento e cruéis."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **CORRETA**. O Art. 5º, **XLVII**, veda as penas de: morte (**salvo em caso de guerra declarada, nos termos do art. 84, XIX**), de **caráter perpétuo**, de **trabalhos forçados**, de **banimento** e **cruéis**. A alternativa D engloba o caput e a exceção do Art. 5º, XLVII, 'a', 'b', 'c', 'd' e 'e'."
+  },
+  {
+    "question": "Questão 78. (AOCP / EBSERH – 2015) A Constituição Federal de 1988 estipula uma série de direitos e garantias fundamentais. Em relação ao assunto, é correto afirmar que",
+    "options": [
+      "é a todos assegurado, mediante pagamento de taxa, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "não há previsão de nenhuma forma de pena de morte.",
+      "o mandado de segurança coletivo pode ser impetrado por associações legalmente constituídas em defesa dos interesses de seus associados ou de outrem.",
+      "o brasileiro naturalizado poderá ser banido em caso de condenação por tráfico ilícito de entorpecentes.",
+      "são inafiançáveis os crimes definidos como hediondos, respondendo os executores e os que, podendo evitá-los, se omitirem."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está **CORRETA**. O Art. 5º, **XLIII**, trata dos crimes hediondos, que são inafiançáveis e insuscetíveis de graça ou indulto, responsabilizando mandantes, executores e omissos."
+  },
+  {
+    "question": "Questão 79. (AOCP / UFC – 2015) No tocante aos Direitos e garantias fundamentais, é INCORRETO afirmar que:",
+    "options": [
+      "o Brasil se submete à jurisdição de Tribunal Penal Internacional.",
+      "as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata.",
+      "os direitos e garantias expressos nesta Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte.",
+      "a todos, são assegurados a razoável duração do processo judicial, com exceção do administrativo, e os meios que garantam a celeridade de sua tramitação.",
+      "os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D está **INCORRETA**. A razoável duração do processo (Art. 5º, **LXXVIII**) é assegurada nos âmbitos **judicial e administrativo**."
+  },
+  {
+    "question": "Questão 80. (AOCP / UFG – 2015) A Constituição Federal de 1988 estipula uma série de direitos e garantias fundamentais.\nEm relação ao assunto, é correto afirmar que",
+    "options": [
+      "é a todos assegurado, mediante pagamento de taxa, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "não há previsão de nenhuma forma de pena de morte.",
+      "o mandado de segurança coletivo pode ser impetrado por associações legalmente constituídas em defesa dos interesses de seus associados ou de outrem.",
+      "o brasileiro naturalizado poderá ser banido em caso de condenação por tráfico ilícito de entorpecentes.",
+      "são inafiançáveis os crimes definidos como hediondos, respondendo os executores e os que, podendo evitá-los, se omitirem."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E está **CORRETA**. O Art. 5º, **XLIII**, trata dos crimes hediondos, que são inafiançáveis e insuscetíveis de graça ou indulto, responsabilizando mandantes, executores e omissos."
+  },
+  {
+    "question": "Questão 81. (AOCP / UFSM – 2014) Analise as assertivas e assinale a alternativa que aponta as corretas, de acordo com a Legislação Brasileira.\nI. Ninguém será privado da liberdade ou de seus bens sem o devido processo legal.\nII. Aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes.\nIII. A lei só poderá restringir a publicidade dos atos processuais quando a defesa da intimidade ou o interesse social o exigirem.\nIV. Ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei.",
+    "options": [
+      "Apenas I e III.",
+      "Apenas III e IV.",
+      "Apenas II e III.",
+      "Apenas I e IV.",
+      "I, II, III e IV."
+    ],
+    "correct": 4,
+    "explanation": "Todas as afirmativas estão **CORRETAS**:\n- **I** (Art. 5º, **LIV** - Devido Processo Legal)\n- **II** (Art. 5º, **LV** - Contraditório e Ampla Defesa)\n- **III** (Art. 5º, **LX** - Publicidade dos Atos Processuais)\n- **IV** (Art. 5º, **LXI** - Hipóteses de Prisão)"
+  },
+  {
+    "question": "Questão 82. (AOCP / UFMT – 2014) De acordo com a Constituição Federal, a lei regulará a individualização da pena e adotará, EXCETO",
+    "options": [
+      "privação ou restrição da liberdade",
+      "perda de bens",
+      "pena de caráter perpétuo",
+      "prestação social alternativa",
+      "suspensão ou interdição de direitos."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C está **CORRETA**. A pena de **caráter perpétuo** é uma das penas **vedadas** pela Constituição (Art. 5º, **XLVII, 'b'**). Portanto, não pode ser adotada na individualização da pena. As demais opções (A, B, D, E) são espécies de pena permitidas (Art. 5º, XLVI)."
+  },
+  {
+    "question": "Questão 83. (CONSULPLAN / TRF 2ª Região – 2017) Determinada associação privada faz requerimento administrativo formal à Administração Pública, buscando informações acerca do contrato administrativo que suspeitam ter irregularidades.\nAcerca do princípio da publicidade das informações na Administração Pública, assinale a alternativa correta.",
+    "options": [
+      "É possível a restrição de informações caso haja risco à intimidade de alguma das partes envolvidas no ato ou processo administrativo, bem como haja risco à segurança do Estado.",
+      "As informações administrativas buscadas somente podem ser prestadas aos diretamente envolvidos, demonstrado o legítimo interesse, por meio de habeas data.",
+      "É possível que haja restrição de informações pela Administração Pública, mas somente decorrente de decisão judicial, em que expostos os motivos do sigilo.",
+      "Todas as informações administrativas buscadas devem ser prestadas, tendo em vista o princípio da publicidade, materializado no direito constitucional de petição."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. O Art. 5º, **XXXIII**, garante o direito de receber informações dos órgãos públicos, **ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado** e as que digam respeito à **intimidade** (interesse particular)."
+  },
+  {
+    "question": "Questão 84. (CONSULPLAN / TJ-MG – 2016) A Constituição da República brasileira reconheceu a instituição do Tribunal do Júri como competente para julgar os crimes dolosos contra a vida, com a organização que lhe der a legislação, assegurando-lhe, explicitamente, tradicionais valores, EXCETO:",
+    "options": [
+      "O princípio do contraditório.",
+      "O sigilo das votações.",
+      "A soberania dos vereditos.",
+      "A plenitude de defesa."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A está **CORRETA**. O Tribunal do Júri tem assegurados (Art. 5º, **XXXVIII**): a **plenitude de defesa** ('a'), o **sigilo das votações** ('b'), a **soberania dos vereditos** ('c') e a competência para o julgamento dos crimes dolosos contra a vida ('d'). O **contraditório** (Art. 5º, LV) é uma garantia fundamental geral, mas não está **explicitamente** listado no rol do art. 5º, XXXVIII, como um dos princípios específicos da instituição do Júri."
+  }
+],
+
+
+
+
+
+"ConstituicaoDireitosSociais":[
+
+{
+    "question": "Questão 1. (IBFC / Prefeitura de Divinópolis – 2018) Apresenta-se como direito dos trabalhadores urbanos e rurais, constitucionalmente assegurado:",
+    "options": [
+      "ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho",
+      "participação nos lucros, ou resultados, desvinculada da remuneração, vedada a participação na gestão da empresa",
+      "relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei ordinária, que deve prever ressarcimento e reintegração, dentre outros direitos",
+      "seguro-desemprego, em caso de desemprego voluntário"
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. De acordo com o Art. 7º, **XXIX**, da CF/88, é direito dos trabalhadores a 'ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho'."
+  },
+  {
+    "question": "Questão 2. (IADES / CAU-RO – 2018) O Superior Tribunal de Justiça (STJ), ao analisar o tema 982 dos recursos repetitivos, entendeu que, quando comprovada a necessidade de assistência permanente de terceiro, é devido o acréscimo de 25%, previsto no artigo 45 da Lei nº 8.213/1991, a todas as modalidades de aposentadoria pagas pelo Instituto Nacional de Seguro Social (INSS) (STJ – 1ª Seção, REsp: 1.720.805-RJ e 1648305-RS, Rel. para acórdão: Min. Regina Helena Costa, julgados em 23/8/2018). A referida decisão aborda, de forma aplicada, a previdência social. A esse respeito, nos termos constitucionais, a previdência social é um",
+    "options": [
+      "direito social.",
+      "dos fundamentos da República Federativa do Brasil.",
+      "dos objetivos fundamentais da República Federativa do Brasil.",
+      "remédio constitucional.",
+      "direito de nacionalidade."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. A **Previdência Social** é expressamente listada no Art. 6º da CF/88 como um **Direito Social**."
+  },
+  {
+    "question": "Questão 3. (IADES / Correios – 2017) O artigo 7° da Constituição da República Federativa do Brasil prevê que são direitos dos trabalhadores urbanos e rurais a (o)",
+    "options": [
+      "distinção entre trabalho manual, técnico e intelectual.",
+      "irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo.",
+      "seguro-desemprego, em caso de demissão voluntária.",
+      "repouso semanal remunerado, obrigatoriamente aos sábados e aos domingos.",
+      "remuneração do trabalho noturno equivalente à do diurno."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o direito à **irredutibilidade do salário**, previsto no Art. 7º, **VI**, da CF/88, com a ressalva de convenção ou acordo coletivo."
+  },
+  {
+    "question": "Questão 4. (IADES / PM-DF – 2017) A Constituição Federal prevê, como direitos sociais,",
+    "options": [
+      "educação, transporte e lazer.",
+      "água, saúde e trabalho.",
+      "energia elétrica, segurança e previdência social.",
+      "assistência aos desamparados e proteção à maternidade e à juventude.",
+      "proteção à paternidade e à infância."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. O Art. 6º da CF/88 inclui expressamente a **educação** e o **lazer**. O **transporte** foi incluído como direito social pela Emenda Constitucional nº 90/2015. Outras opções contêm termos não expressamente previstos no Art. 6º ('água', 'energia elétrica', 'juventude')."
+  },
+  {
+    "question": "Questão 5. (IBFC / Polícia Científica-PR – 2017) Considerando as normas da Constituição Federal, assinale a alternativa correta sobre o prazo nela prevista para a licença gestante.",
+    "options": [
+      "150 dias para todas as trabalhadoras",
+      "180 dias para todas as trabalhadoras",
+      "120 dias para todas as trabalhadoras",
+      "120 dias apenas para trabalhadoras do setor privado",
+      "180 dias apenas para trabalhadoras do setor público"
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. O Art. 7º, **XVIII**, da CF/88, prevê a **licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e vinte dias**."
+  },
+  {
+    "question": "Questão 6. (IBFC / Polícia Científica-PR – 2017) Considerando as normas da Constituição Federal, assinale a alternativa correta sobre a liberdade de associação profissional ou sindical.",
+    "options": [
+      "É obrigatória a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um estado ou território",
+      "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município",
+      "Ao sindicato cabe a defesa dos direitos e interesses coletivos da categoria, exclusivamente em questões judiciais",
+      "Ao sindicato cabe a defesa dos direitos e interesses individuais da categoria, exclusivamente em questões administrativas",
+      "Todo trabalhador será obrigado a filiar-se a sindicato"
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. O Art. 8º, **II**, da CF/88, estabelece o **princípio da unicidade sindical**, vedando a criação de mais de uma organização sindical na mesma base territorial, que não poderá ser inferior à área de um Município."
+  },
+  {
+    "question": "Questão 7. (IBFC / EBSERH – 2017) Considere as disposições da Constituição Federal de 1988 sobre os Direitos e Garantias Fundamentais e Direitos Sociais e assinale a alternativa INCORRETA.",
+    "options": [
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos.",
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, piso salarial proporcional à extensão e à complexidade do trabalho.",
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, proteção do salário na forma da lei, constituindo crime sua retenção dolosa.",
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho.",
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, vedada qualquer disposição em contrário."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** é a **INCORRETA**. O Art. 7º, **XIV**, da CF/88, prevê a jornada de seis horas para turnos ininterruptos de revezamento, mas faz a ressalva 'salvo negociação coletiva', ou seja, **não é vedada** 'qualquer disposição em contrário' (a negociação coletiva pode flexibilizar a jornada)."
+  },
+  {
+    "question": "Questão 8. (IBFC / EBSERH – 2017) A Constituição Federal estabelece que é livre a associação profissional ou sindical, observadas certas regras. Com base nisso, assinale a alternativa correta.",
+    "options": [
+      "A lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, garantida ao Poder Público a interferência na organização sindical.",
+      "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Estado.",
+      "Ao sindicato cabe a defesa dos direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais e vedada no âmbito administrativo.",
+      "A assembleia geral fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva em equiparação de valores da contribuição prevista em lei;",
+      "É vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. É a previsão de estabilidade provisória do dirigente sindical, conforme o Art. 8º, **VIII**, da CF/88: 'é vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei'."
+  },
+  {
+    "question": "Questão 9. (IBFC / TJ-PE – 2017) Assinale a alternativa que não indica Direitos Sociais dispostos no texto constitucional.",
+    "options": [
+      "Repouso semanal remunerado, preferencialmente aos domingos",
+      "Relação de emprego protegida contra despedida arbitrária ou sem justa causa",
+      "Irredutibilidade do salário, mesmo na existência de convenção ou acordo coletivo",
+      "Licença-paternidade",
+      "Participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** é a que **NÃO** indica um direito social disposto no texto constitucional da forma como está descrita. O direito social é a **irredutibilidade do salário**, mas o Art. 7º, **VI**, da CF/88, expressamente permite exceção: 'salvo o disposto em convenção ou acordo coletivo'."
+  },
+  {
+    "question": "Questão 10. (IESES / ALGÁS – 2017) Sobre os direitos sociais dispostos na Constituição Federal de 1988, podemos afirmar:",
+    "options": [
+      "É permitida a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei.",
+      "É facultativa a participação dos sindicatos nas negociações coletivas de trabalho.",
+      "Não é obrigatória e nem assegurada a participação dos trabalhadores e empregadores nos colegiados dos órgãos públicos em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.",
+      "É livre a associação profissional ou sindical, observado que a lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. É a combinação do Art. 8º, **caput** ('é livre a associação profissional ou sindical'), com seu **inciso I** ('a lei não poderá exigir autorização... ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical')."
+  },
+  {
+    "question": "Questão 11. (IESES / CRMV-SC – 2017) São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, previstos na Constituição Federal:",
+    "options": [
+      "A jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, não podendo ser aceito quaisquer negociações para sua majoração.",
+      "Duração do trabalho normal não superior a oito horas diárias e quarenta semanais, facultada a compensação de horários e o aumento da jornada, mediante somente tratado em dissídio coletivo de trabalho.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até 7 (sete) anos de idade em creches e pré-escolas.",
+      "Relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos e o seguro-desemprego, em caso de desemprego involuntário."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. É a combinação do Art. 7º, **I** (proteção contra despedida arbitrária, nos termos de **lei complementar**) e Art. 7º, **II** (seguro-desemprego em caso de desemprego **involuntário**)."
+  },
+  {
+    "question": "Questão 12. (IESES / TJ-PA -2016) Quanto aos direitos dos trabalhadores urbanos e rurais é correto afirmar que a:",
+    "options": [
+      "Remuneração do trabalho diurno superior à do noturno.",
+      "Remuneração do serviço extraordinário superior, no mínimo, em cinquenta por cento à do normal.",
+      "Gozo de férias anuais remuneradas com, pelo menos, um quarto a mais do que o salário normal.",
+      "Jornada de oito horas para o trabalho realizado em turnos ininterruptos de revezamento."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. O Art. 7º, **XVI**, da CF/88, estabelece a 'remuneração do serviço extraordinário superior, no mínimo, em **cinquenta por cento** à do normal'. As demais estão incorretas (A: a noturna é superior; C: é com **um terço** a mais; D: a jornada para turnos ininterruptos de revezamento é de **seis horas**)."
+  },
+  {
+    "question": "Questão 13. (IBEG / Prefeitura Teixeira de Freitas/BA – 2016) Os direitos sociais são aqueles que têm por objetivo garantir aos indivíduos condições materiais tidas como imprescindíveis para o pleno gozo dos seus direitos, por isso tendem a exigir do Estado uma intervenção na ordem social que assegure os critérios de justiça distributiva. Assim, diferentemente dos direitos a liberdade, os direitos sociais se realizam por meio de atuação estatal com a finalidade de diminuir as desigualdades sociais, por isso tendem a possuir um custo excessivamente alto e a se realizar em longo prazo. São direitos sociais previstos expressamente como tais na Constituição Federal:",
+    "options": [
+      "A educação, a saúde, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "A educação, a saúde, o trabalho, a liberdade, a segurança, a previdência social, a proteção à maternidade e à infância.",
+      "A educação, a saúde, o trabalho, a inviolabilidade do direito à vida e à liberdade e a proteção à maternidade e à infância.",
+      "A inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade privada.",
+      "A educação, a saúde, o trabalho, a moradia, o lazer, a inviolabilidade do direito à vida e à liberdade e a proteção à maternidade e à infância."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. É a transcrição literal e completa dos direitos sociais listados no Art. 6º da CF/88 (após a inclusão da moradia, alimentação e transporte)."
+  },
+  {
+    "question": "Questão 14. (IBFC / SAEB-BA – 2015) Assinale a alternativa INCORRETA com base nas regras da Constituição Federal brasileira de 1988 sobre os direitos sociais.",
+    "options": [
+      "A lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical.",
+      "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Estado da federação.",
+      "Ao sindicato cabe a defesa dos direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas.",
+      "Ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato e o aposentado filiado tem direito a votar e ser votado nas organizações sindicais.",
+      "É vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** é a **INCORRETA**. O Art. 8º, **II**, da CF/88, estabelece que a base territorial **não pode ser inferior à área de um Município**, e não de um Estado da federação."
+  },
+  {
+    "question": "Questão 15. (IADES / CRC-MG – 2015) A Constituição Federal dispõe acerca dos direitos dos trabalhadores urbanos e rurais, como o direito social. A esse respeito, assinale a alternativa que indica um direito social.",
+    "options": [
+      "Aviso prévio proporcional ao tempo de serviço, sendo no mínimo de 33 dias.",
+      "Licença à gestante, sem prejuízo do emprego e do salário, com a duração de 180 dias.",
+      "Participação nos lucros, ou resultados, vinculada à remuneração.",
+      "Repouso semanal remunerado, preferencialmente aos sábados.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até cinco anos de idade em creches e pré-escolas."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. É o direito previsto no Art. 7º, **XXV**, da CF/88: 'assistência gratuita aos filhos e dependentes desde o nascimento até **5 (cinco) anos** de idade em creches e pré-escolas'. As demais estão incorretas (A: o mínimo é 30 dias; B: a licença é de **120 dias**; C: a participação nos lucros é **desvinculada** da remuneração; D: o repouso é preferencialmente aos **domingos**)."
+  },
+  {
+    "question": "Questão 16. (IBFC / SAEB-BA – 2015) Considere as regras da Constituição Federal brasileira de 1988 sobre os direitos sociais e assinale a alternativa correta.",
+    "options": [
+      "O trabalhador tem proteção do salário na forma da lei, constituindo ilícito civil sua retenção intencional.",
+      "O trabalhador tem direito e proteção da duração do trabalho normal não superior a oito horas diárias e quarenta e oito semanais, facultada a compensação de horários e a redução da jornada, apenas mediante acordo individual de trabalho.",
+      "O trabalhador tem direito a aviso prévio proporcional ao tempo de serviço até o máximo de trinta dias.",
+      "É prevista a proibição de trabalho noturno, perigoso ou insalubre a menores de dezesseis e de qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz, a partir de doze anos.",
+      "O trabalhador tem direito a jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. É o direito previsto no Art. 7º, **XIV**, da CF/88: 'jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, **salvo negociação coletiva**'."
+  },
+  {
+    "question": "Questão 17. (IESES / TRE-MA – 2015) Nos termos da Constituição da República Federativa do Brasil de 1988, são direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social:\nI. Fundo de garantia do tempo de serviço; salário mínimo, fixado em lei, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim; e piso salarial proporcional à extensão e à complexidade do trabalho e irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo.\nII. Décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria; remuneração do trabalho noturno superior à do diurno; proteção do salário na forma da lei, constituindo crime sua retenção dolosa; e participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei.\nIII. Duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho; repouso semanal remunerado, preferencialmente aos domingos; gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal; e licença-paternidade, nos termos fixados em lei.\nIV. Duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho; repouso semanal remunerado, preferencialmente aos domingos; gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal; licença-paternidade, nos termos fixados em lei; segurodesemprego, em caso de desemprego voluntário.\nV. Piso salarial proporcional à extensão, duração e à complexidade do trabalho.\nEstão corretas apenas as afirmações:",
+    "options": [
+      "Todas as afirmativas estão corretas.",
+      "II, III e IV estão corretas.",
+      "I, II e III estão corretas.",
+      "I, III, IV e V estão corretas."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. As afirmativas **I**, **II** e **III** estão corretas, pois refletem o Art. 7º, incisos I a XXIII. A afirmativa **IV** está incorreta, pois o seguro-desemprego é em caso de desemprego **involuntário** (Art. 7º, II). A afirmativa **V** está incorreta/incompleta, pois é redundante com o item I e a Constituição não usa o termo 'duração' (V: Art. 7º, V - piso salarial proporcional à extensão e à complexidade do trabalho). Portanto, somente I, II e III estão corretas."
+  },
+  {
+    "question": "Questão 18. (IESES / TRT 14ª Região – 2014) No tocante à associação sindical, considere:\nI – A lei poderá exigir autorização do Estado para a fundação de sindicato, vedadas ao Poder Público a interferência e a intervenção na organização sindical.\nII – É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município.\nIII – O aposentado filiado tem direito a votar e ser votado nas organizações sindicais.\nIV – Para empresas com cento e cinquenta empregados, é assegurada a eleição de um representante destes com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores.\nDe acordo com a Constituição Federal, está correto o que se afirma APENAS em:",
+    "options": [
+      "I, II e IV.",
+      "I e III.",
+      "II, III e IV.",
+      "II e III.",
+      "I, III e IV."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**, pois apenas as afirmativas II e III estão corretas:\n- **I - INCORRETA:** A lei **NÃO** poderá exigir autorização (Art. 8º, I).\n- **II - CORRETA:** Princípio da Unicidade Sindical (Art. 8º, II).\n- **III - CORRETA:** Direito do aposentado filiado (Art. 8º, VII).\n- **IV - INCORRETA:** A eleição do representante é assegurada para empresas com **mais de duzentos** empregados (Art. 11)."
+  },
+  {
+    "question": "Questão 19. (IBFC / SEDS-MG – 2014) NÃO é direito social expressamente previsto na Constituição Federal:",
+    "options": [
+      "Saúde.",
+      "Previdência social.",
+      "Moradia.",
+      "Proteção à juventude."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. O Art. 6º da CF/88 prevê a 'proteção à maternidade e à **infância**'. Embora a juventude seja protegida pela CF (Art. 227), o termo 'Proteção à juventude' **não** está expressamente listado no *caput* do Art. 6º como direito social fundamental, ao contrário de Saúde, Previdência Social e Moradia."
+  },
+  {
+    "question": "Questão 20. (IBFC / SEDS-MG – 2014) No que se refere aos direitos sociais, indique a alternativa CORRETA:",
+    "options": [
+      "Somente através de lei alguém poderá ser obrigado a filiar-se ou a manter-se filiado a sindicato.",
+      "É facultativa a participação dos sindicatos nas negociações coletivas de trabalho.",
+      "O aposentado filiado tem direito a votar e ser votado nas organizações sindicais.",
+      "É vedada a dispensa do empregado sindicalizado a partir da posse no cargo de direção ou representação sindical e, ainda que suplente, até seis meses após o final do mandato, salvo se cometer falta grave nos termos da lei."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. O Art. 8º, **VII**, da CF/88, assegura que 'o aposentado filiado tem direito a votar e ser votado nas organizações sindicais'. As demais estão incorretas (A: Ninguém será obrigado a filiar-se - Art. 8º, V; B: A participação é **obrigatória** - Art. 8º, VI; D: A estabilidade vai **até um ano** após o final do mandato - Art. 8º, VIII)."
+  },
+  {
+    "question": "Questão 21. (IADES /EBSERH – 2014) No que se refere à efetividade na aplicação dos direitos sociais, conforme previsão do art. 6o da Constituição Federal, assinale a alternativa correta.",
+    "options": [
+      "É assegurado ao trabalhador o gozo de férias anuais remuneradas com, no mínimo, um terço a mais do que o salário normal.",
+      "A localização dos direitos sociais no título constitucional destinado aos direitos e às garantias fundamentais não acarreta, por consequência, a subordinação à regra da autoaplicabilidade das normas definidoras dos direitos e das garantias fundamentais.",
+      "O mandado de segurança coletivo pode ser impetrado por partido político recém criado, organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados.",
+      "A Constituição Federal estabelece como direito dos trabalhadores urbanos e rurais o repouso semanal, remunerado aos domingos.",
+      "É um direito do trabalhador urbano e rural a remuneração do serviço extraordinário superior à do normal, no mínimo, em 70%."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. É o direito previsto no Art. 7º, **XVII**, da CF/88: 'gozo de férias anuais remuneradas com, pelo menos, **um terço** a mais do que o salário normal'."
+  },
+  {
+    "question": "Questão 22. (IADES / CONAB – 2014) Entre os direitos sociais elencados na Constituição Federal, consta o da eleição de um representante dos empregados com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores. Esse direito social é previsto expressamente na Constituição Federal para o âmbito das empresas com mais de",
+    "options": [
+      "30 empregados.",
+      "50 empregados.",
+      "100 empregados.",
+      "200 empregados.",
+      "500 empregados."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. O Art. 11 da CF/88 estabelece que o direito de eleição de representante é assegurado 'nas empresas com mais de **duzentos** empregados'."
+  },
+  {
+    "question": "Questão 23. (FEPESE / Prefeitura de Rio das Antas – 2018) São direitos sociais expressamente previstos na Constituição Federal de 1988:",
+    "options": [
+      "o trabalho, a assistência social e a proteção ao idoso.",
+      "o transporte, o lazer e a ressocialização do apenado.",
+      "a educação, a saúde e a previdência social.",
+      "a segurança, a assistência aos desamparados e o direito de petição.",
+      "a proteção à maternidade e à infância, a moradia e a presunção de inocência."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. O Art. 6º da CF/88 lista a **educação**, a **saúde** e a **previdência social** como direitos sociais. Embora outros elementos (como moradia, lazer, transporte, assistência aos desamparados) também sejam, esta opção agrupa elementos corretos."
+  },
+  {
+    "question": "Questão 24. (FUNRIO / AL-RR – 2018) NÃO se trata de um direito social, consagrado constitucionalmente, a/o",
+    "options": [
+      "alimentação.",
+      "lazer.",
+      "propriedade.",
+      "proteção à maternidade e à infância."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. A **Propriedade** é um **Direito Fundamental Individual** (Art. 5º, XXII). Os demais (Alimentação, Lazer, Proteção à Maternidade e à Infância) são Direitos Sociais (Art. 6º)."
+  },
+  {
+    "question": "Questão 25. (FUNRIO / CGE-RO – 2018) São inúmeros os projetos pertinentes à mudança dos direitos sociais quer utilizando a lei ordinária ou valendo-se da emenda constitucional. Dentre os direitos sociais previstos na Constituição encontra-se o:",
+    "options": [
+      "fundo de desemprego.",
+      "fundo de propagação social.",
+      "fundo de preservação social.",
+      "fundo de trabalhadores.",
+      "fundo de garantia do tempo de serviço."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. O **Fundo de Garantia do Tempo de Serviço (FGTS)** é um direito social dos trabalhadores previsto no Art. 7º, **III**, da CF/88."
+  },
+  {
+    "question": "Questão 26. (FAFIPA / Fundação Araucária-PR – 2017) De acordo com o disposto expressamente no artigo 7º da Constituição Federal, são direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social:",
+    "options": [
+      "Relação de emprego protegida contra despedida por justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos.",
+      "Seguro-desemprego, em caso de desemprego voluntário.",
+      "Garantia de salário, podendo ser inferior ao mínimo, para os que percebem remuneração variável.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré- escolas."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. É o direito previsto no Art. 7º, **XXV**, da CF/88: 'assistência gratuita aos filhos e dependentes desde o nascimento até **5 (cinco) anos** de idade em creches e pré-escolas'."
+  },
+  {
+    "question": "Questão 27. (FUNDATEC / Prefeitura de Viamão – 2016) Fábio trabalha na iniciativa privada como vendedor em uma loja de automóveis e recebe sua remuneração mensal somente com base nas vendas que realiza. No entanto, em decorrência da crise que também atingiu o setor automobilístico, Fábio tem recebido como remuneração, em média, o valor correspondente a quinhentos reais por mês. De acordo com a Constituição Federal, são direitos dos trabalhadores urbanos e rurais:\nI. Piso salarial proporcional à extensão e à complexidade do trabalho.\nII. Garantia de salário nunca inferior ao mínimo para os que percebem remuneração variável.\nIII. Redução do salário nos casos em que ficar comprovado a incapacidade da empresa em manter a média salarial dos efetivos, em decorrência de crises econômicas generalizadas.\nQuais estão INCORRETOS?",
+    "options": [
+      "Apenas I.",
+      "Apenas II.",
+      "Apenas III.",
+      "Apenas I e II.",
+      "I, II e III."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. A afirmativa **III** está **INCORRETA**. Embora a CF/88 permita a redução salarial mediante convenção ou acordo coletivo (Art. 7º, VI), ela não permite a redução unilateral por parte da empresa, nem usa o conceito de 'média salarial dos efetivos' como critério. A afirmativa II está CORRETA (Art. 7º, VII - salário mínimo). As afirmativas I e II estão CORRETAS (I: Art. 7º, V; II: Art. 7º, VII)."
+  },
+  {
+    "question": "Questão 28. (FEPESE / SJC-SC – 2016) Assinale a alternativa correta sobre os direitos sociais previstos na Constituição Federal.",
+    "options": [
+      "É proibida a prática de qualquer espécie de trabalho a menores de dezoito anos.",
+      "É vedada a diferença de salários, de exercício de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil.",
+      "A distinção entre trabalho manual, técnico e intelectual ou entre os profissionais respectivos deverá ser aferida por meio de critérios objetivos e previamente estabelecidos.",
+      "O prêmio do seguro contra acidentes do trabalho contratado pelo empregador exclui a sua responsabilidade civil, mesmo quando incorrer em dolo ou culpa.",
+      "O empregador poderá descontar até o limite de dez por cento da remuneração do trabalhador em razão da restrição decorrente de sua deficiência, física ou motora."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o direito previsto no Art. 7º, **XXX**, da CF/88: 'proibição de diferença de salários, de exercício de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil'."
+  },
+  {
+    "question": "Questão 29. (FUNCAB / PC-PA - 2016) Acerca dos direitos sociais, previstos na Constituição Federal, é correto afirmar:",
+    "options": [
+      "É vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até o final do mandato.",
+      "É vedada à categoria dos trabalhadores domésticos o direito à remuneração do trabalho noturno superior à do diurno.",
+      "O limite de idade para a inscrição em concurso público só se legitima em face da vedação constitucional de diferença de critério de admissão por motivo de idade, quando possa ser justificado pela natureza das atribuições do cargo a ser preenchido.",
+      "Admite-se a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um município.",
+      "A lei poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. Reflete o entendimento pacificado pelo STF (**Súmula 683**) sobre a compatibilização da vedação à discriminação por idade (Art. 7º, XXX) com a necessidade de adequação às atribuições do cargo."
+  },
+  {
+    "question": "Questão 30. (FUNRIO / IFPA – 2016) Constituem direitos sociais conforme Constituição Federal de 1988, dentre outros, os seguintes:",
+    "options": [
+      "a religião, o lazer e a segurança.",
+      "o voto, a cultura e a integração nacional.",
+      "o trabalho, a moradia e a segurança.",
+      "a igualdade tributária, a cultura e a segurança.",
+      "a cultura, a religião e o transporte."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. O Art. 6º da CF/88 lista expressamente o **trabalho**, a **moradia** e a **segurança** (além de outros, como lazer e educação)."
+  },
+  {
+    "question": "Questão 31. (FUNDATEC / Prefeitura de Nova Bassano – 2015) São direitos assegurados aos trabalhadores urbanos e rurais, de acordo com o Art. 7º, da Constituição Federal, EXCETO:",
+    "options": [
+      "Licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e vinte dias.",
+      "Irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até 6 (seis) anos de idade em creches e pré-escolas.",
+      "Remuneração do trabalho noturno superior à do diurno.",
+      "Gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** é a **EXCETO** (incorreta). O Art. 7º, **XXV**, da CF/88, estabelece a assistência gratuita aos filhos e dependentes desde o nascimento até **5 (cinco) anos** de idade (e não 6 anos)."
+  },
+  {
+    "question": "Questão 32. (FUNCAB / MPOG – 2015) Entre as alternativas a seguir, assinale aquela que corresponde a um direito social constitucionalmente previsto.",
+    "options": [
+      "Aviso prévio proporcional ao tempo de serviço, sendo no mínimo de quarenta e cinco dias, nos termos da lei.",
+      "Igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso.",
+      "Proibição de qualquer trabalho a menores de dezoito anos, salvo na condição de aprendiz, a partir dos doze anos.",
+      "Irredutibilidade de salário, mesmo em face de convenção ou acordo coletivo.",
+      "Seguro-desemprego, em caso de desemprego voluntário ou involuntário."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o direito previsto no Art. 7º, **XXXIV**, da CF/88: 'igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso'."
+  },
+  {
+    "question": "Questão 33. (FUNCAB / PC-AC – 2015) A alternativa que enumera corretamente quatro direitos sociais previstos expressamente na Constituição Federal vigente é:",
+    "options": [
+      "vida, felicidade, educação e segurança.",
+      "paz, alimentação, propriedade e lazer.",
+      "alimentação, trabalho, moradia e lazer.",
+      "educação, saúde, seguridade social e felicidade.",
+      "alimentação, trabalho, moradia e propriedade."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. A **alimentação**, o **trabalho**, a **moradia** e o **lazer** são todos listados como direitos sociais no Art. 6º da CF/88."
+  },
+  {
+    "question": "Questão 34. (FEPESE / Prefeitura de Balneário Camboriú – 2015) Assinale a alternativa que indica corretamente um dos instrumentos por meio do qual é exercida a soberania popular.",
+    "options": [
+      "aprovação",
+      "referendo",
+      "ratificação",
+      "medida provisória",
+      "decreto autônomo"
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. O Art. 14 da CF/88 estabelece que a soberania popular será exercida, nos termos da lei, mediante: plebiscito, **referendo** e iniciativa popular."
+  },
+  {
+    "question": "Questão 35. (FUNRIO / IFBA – 2015) Constitui direito dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social,",
+    "options": [
+      "o seguro desemprego, em caso de desemprego voluntário.",
+      "a garantia de salário, podendo ser inferior ao mínimo, para os que percebem remuneração variável.",
+      "o décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria.",
+      "a remuneração do trabalho noturno igual à do diurno.",
+      "a remuneração do serviço extraordinário superior, no mínimo, em trinta por cento à do normal."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 7º, **VIII**, da CF/88: 'décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria'."
+  },
+  {
+    "question": "Questão 36. (FUNRIO / IFBA – 2015) Quanto aos sindicatos e à associação sindical, a Constituição Federal de 1988 estabelece que",
+    "options": [
+      "a lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente.",
+      "a participação dos sindicatos nas negociações coletivas de trabalho é facultativa.",
+      "todo trabalhador é obrigado a filiar-se ou a manter-se filiado a sindicato.",
+      "ao sindicato cabe a defesa dos direitos e interesses coletivos da categoria, exceto em questões judiciais.",
+      "o aposentado filiado tem direito a votar, mas não pode ser votado nas organizações sindicais."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. É o direito à livre associação profissional ou sindical (Art. 8º, **I**, da CF/88), vedando a exigência de autorização estatal, ressalvado o registro."
+  },
+  {
+    "question": "Questão 37. (FUNRIO / UFRB – 2015) Com relação aos direitos dos trabalhadores urbanos e rurais, nos termos da Constituição Federal de 1988, assinale a opção correta.",
+    "options": [
+      "Aviso prévio proporcional ao tempo de serviço, sendo no mínimo de quarenta dias, nos termos da lei.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até 6 (seis) anos de idade em creches e pré-escolas.",
+      "Participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa.",
+      "Ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos para os trabalhadores urbanos e rurais, até o limite de três anos após a extinção do contrato de trabalho.",
+      "Proibição de trabalho noturno, perigoso ou insalubre a menores de dezoito e de qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz, a partir de doze anos."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 7º, **XI**, da CF/88: 'participação nos lucros, ou resultados, **desvinculada da remuneração**, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei'."
+  }
+
+,{
+    "question": "Questão 38. (FUNRIO / UFRB – 2015) É livre a associação profissional ou sindical, nos termos da Constituição Federal, sendo correto afirmar que\nI) a lei não poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical;\nII) é vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município;\nIII) ao sindicato cabe a defesa dos direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas;\nIV) a assembleia geral fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva, independentemente da contribuição prevista em lei;\nV) ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato.",
+    "options": [
+      "todas as opções estão corretas.",
+      "somente as opções I, II e III estão corretas.",
+      "somente as opções III, IV e V estão corretas.",
+      "somente as opções II, III e IV estão corretas.",
+      "somente as opções I, III e V estão corretas."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**, pois todas as afirmações reproduzem fielmente os dispositivos do Art. 8º da CF/88:\n* **I:** Art. 8º, I (Liberdade e não intervenção).\n* **II:** Art. 8º, II (Unicidade sindical e base mínima municipal).\n* **III:** Art. 8º, III (Substituição processual).\n* **IV:** Art. 8º, IV (Contribuição confederativa).\n* **V:** Art. 8º, V (Liberdade de filiação)."
+  },
+  {
+    "question": "Questão 39. (FUNRIO / IFBA – 2014) Considerando o que prevê a Constituição Federal, um dos direitos dos trabalhadores urbanos e rurais está indicado na seguinte alternativa:",
+    "options": [
+      "o aviso prévio, com antecedência de no mínimo de trinta dias, proporcional ao tempo de serviço, nos termos da lei.",
+      "a assistência gratuita aos filhos e dependentes, desde o nascimento até os sete anos de idade, em creches e pré-escolas.",
+      "a jornada de sete horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva.",
+      "a irredutibilidade do salário, salvo o disposto em contrato de trabalho.",
+      "o repouso semanal remunerado, aos domingos."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. O Art. 7º, **XXI**, da CF/88, prevê o 'aviso prévio proporcional ao tempo de serviço, sendo **no mínimo de trinta dias**, nos termos da lei'."
+  },
+  {
+    "question": "Questão 40. (FEPESE / MPE-SC – 2014) Assinale a alternativa correta.",
+    "options": [
+      "São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.",
+      "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, participação nos lucros, ou resultados, vinculada à remuneração percebida na empresa e repouso semanal remunerado aos domingos.",
+      "Todas as gestantes têm direito à licença remunerada, sem prejuízo do emprego e do salário, com a duração de cento e oitenta dias.",
+      "É proibido o trabalho noturno, perigoso ou insalubre, a menores de dezoito e de qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz, a partir dos 12 anos.",
+      "É livre a associação profissional ou sindical, observando-se que a lei poderá exigir autorização do Estado para a fundação de sindicato, vedadas ao Poder Público, porém, a interferência e a intervenção na organização sindical."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. É a lista completa dos direitos sociais conforme o Art. 6º da CF/88, incluindo as emendas constitucionais que adicionaram Moradia, Alimentação e Transporte (o transporte não está listado na opção, mas a opção está correta em relação ao que lista)."
+  },
+  {
+    "question": "Questão 41. (FEPESE / TCE-SC – 2014) Analise as afirmativas abaixo acerca dos direitos e das garantias fundamentais dos trabalhadores urbanos e rurais.\n1. É vedada a distinção entre trabalho manual, técnico e intelectual ou entre os profissionais respectivos.\n2. É assegurado o pagamento de seguro-desemprego, em caso de despedida por justa causa.\n3. É assegurado o direito a ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de dois anos para os trabalhadores urbanos e rurais, até o limite de cinco anos após a extinção do contrato de trabalho.\n4. O repouso semanal remunerado deverá ocorrer preferencialmente aos sábados e domingos.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+    "options": [
+      "É correta apenas a afirmativa 1.",
+      "São corretas apenas as afirmativas 1 e 3.",
+      "São corretas apenas as afirmativas 1 e 4.",
+      "São corretas apenas as afirmativas 2 e 4.",
+      "São corretas as afirmativas 1, 2, 3 e 4."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**, pois apenas a afirmativa 1 está de acordo com a CF/88:\n* **1. Correta:** Art. 7º, **XXXII** (É vedada a distinção entre trabalho manual, técnico e intelectual).\n* **2. Incorreta:** Seguro-desemprego é em caso de desemprego **involuntário** (Art. 7º, II).\n* **3. Incorreta:** O prazo prescricional é de **cinco anos**, até o limite de **dois anos** após a extinção do contrato (Art. 7º, XXIX).\n* **4. Incorreta:** Repouso semanal remunerado é **preferencialmente aos domingos** (Art. 7º, XV)."
+  },
+  {
+    "question": "Questão 42. (FUNDATEC / Prefeitura de Vacaria – 2014) De acordo com Art. 6º da Constituição Federal de 1988, são direitos sociais, EXCETO:",
+    "options": [
+      "Educação.",
+      "Saúde.",
+      "Alimentação.",
+      "Inviolabilidade da vida privada.",
+      "Moradia."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** é a **EXCETO** (incorreta). A **Inviolabilidade da vida privada** é um **Direito Individual** (Art. 5º, X). As demais são Direitos Sociais (Art. 6º)."
+  },
+  {
+    "question": "Questão 43. (FUNCAB / SEDS-TO – 2014) Entre os direitos dos trabalhadores urbanos e rurais garantidos expressamente no artigo 7° da Constituição Federal de 1988 estão:",
+    "options": [
+      "o fundo de garantia do tempo de serviço e a licença-paternidade.",
+      "o décimo terceiro salário e a igualdade na remuneração dos trabalhos noturno e diurno.",
+      "o seguro-desemprego, em caso de desemprego voluntário, e o aviso-prévio proporcional ao tempo de serviço, sendo no mínimo de trinta dias.",
+      "a garantia do salário mínimo, exceto para os que recebem remuneração variável, e a aposentadoria."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. Ambos são direitos previstos no Art. 7º da CF/88: **Fundo de Garantia do Tempo de Serviço** (III) e **Licença-Paternidade** (XIX)."
+  },
+  {
+    "question": "Questão 44. (FUNCAB / PC-ES – 2013 - Adaptada) São direitos sociais preceituados na Constituição de 1988:",
+    "options": [
+      "a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "a educação, a saúde, o trabalho, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "a educação, a saúde, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "o direito de herança, a intimidade, a privacidade, a informação dos órgãos públicos.",
+      "a livre locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer, ou dele sair com seus bens."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. O Art. 6º da CF/88 lista todos esses direitos (Educação, Saúde, Alimentação, Trabalho, Moradia, Transporte, Lazer, Segurança, Previdência Social, Proteção à Maternidade e à Infância, e Assistência aos Desamparados)."
+  },
+  {
+    "question": "Questão 45. (FUNCAB / ANS – 2013) Acerca dos direitos sociais, é correto afirmar que:",
+    "options": [
+      "a localização dos direitos sociais no título constitucional destinado aos direitos e garantias fundamentais não acarreta, por consequência, a subordinação à regra da autoaplicabilidade das normas definidoras dos direitos e garantias fundamentais.",
+      "não cabe o ajuizamento do Mandado de Injunção, quando houver a omissão do Poder Público na regulamentação de alguma norma que preveja um direito social e, consequentemente, inviabilize seu exercício.",
+      "a Constituição Federal proclama serem direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "os róis dos direitos sociais enumerados taxativamente no capítulo II do título II do texto constitucional esgotam os direitos constitucionais dos trabalhadores.",
+      "o direito de greve dos servidores públicos civis entra em vigor imediatamente, não dependendo seu exercício de lei ordinária específica."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É a lista completa e expressa dos Direitos Sociais contidos no Art. 6º da CF/88 (após as emendas constitucionais)."
+  },
+  {
+    "question": "Questão 46. (FUMARC/ PC-MG – 2013) A Constituição Federal de 1988 traz previsão expressa no sentido de que são direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados. Logo depois, relaciona como direitos dos trabalhadores urbanos e rurais, EXCETO:",
+    "options": [
+      "Piso salarial proporcional à extensão e à complexidade do trabalho.",
+      "Repouso semanal remunerado, preferencialmente aos sábados e domingos.",
+      "Décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria.",
+      "Licença paternidade, nos termos fixados em lei."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** é a **EXCETO** (incorreta). O Art. 7º, **XV**, da CF/88, prevê o 'repouso semanal remunerado, **preferencialmente aos domingos**', não citando 'sábados e domingos' como preferência."
+  },
+  {
+    "question": "Questão 47. (FADESP / MPE-PA – 2012) São direitos dos trabalhadores urbanos e rurais:",
+    "options": [
+      "a relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, sem previsão de indenização compensatória.",
+      "a duração do trabalho normal não superior a oito horas diárias e quarenta semanas.",
+      "a proteção em face da automação, na forma da lei.",
+      "o repouso semanal remunerado, exclusivamente aos domingos."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 7º, **XXVII**, da CF/88: 'proteção em face da **automação**, na forma da lei'."
+  },
+  {
+    "question": "Questão 48. (FUNDATEC / CEEERS – 2010) Assinale a alternativa que não está de acordo com os Direitos Sociais.",
+    "options": [
+      "Seguro contra acidentes de trabalho, a cargo do empregador, sem excluir a indenização a que este está obrigado, quando incorrer em dolo ou culpa.",
+      "Assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré-escolas.",
+      "Proibição de trabalho noturno, perigoso ou insalubre a menores de dezesseis anos, e de qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz.",
+      "Licença à gestante, sem prejuízo do emprego e do salário.",
+      "Salário-família pago em razão do dependente do trabalhador de baixa renda nos termos da lei."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** é a que **NÃO** está de acordo. O Art. 7º, **XXXIII**, da CF/88, proíbe trabalho noturno, perigoso ou insalubre a menores de **dezoito anos** (e não dezesseis) e qualquer trabalho a menores de **dezesseis anos**, salvo na condição de aprendiz, a partir de **quatorze anos**."
+  },
+  {
+    "question": "Questão 49. (FEPESE / Prefeitura Balneário Camboriú – 2010) Com base nas disposições constitucionais, constitui direito dos trabalhadores urbanos e rurais:",
+    "options": [
+      "Irredutibilidade do salário, sem ressalva.",
+      "Seguro contra os acidentes de trabalho, a cargo do empregador, sem excluir a indenização a que este está obrigado, quando incorrer em dolo ou culpa.",
+      "Relação de emprego protegida contra a despedida, com ou sem justa causa, mediante previsão de indenização compensatória.",
+      "Licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e oitenta dias.",
+      "Proibição de trabalho noturno, perigoso ou insalubre a menores de dezoito e de qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o direito previsto no Art. 7º, **XXVIII**, da CF/88."
+  },
+  {
+    "question": "Questão 50. (FADESP / Pref. Castanhal-PA – 2012) A respeito de associação profissional ou sindical, assinale a resposta correta.",
+    "options": [
+      "É vedada a criação de mais de duas organizações sindicais, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um distrito Municipal.",
+      "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município.",
+      "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Estado.",
+      "É vedada a criação de mais de duas organizações sindicais, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o princípio da unicidade sindical (Art. 8º, **II**), que veda mais de uma organização sindical na mesma base territorial, que não pode ser inferior à área de um **Município**."
+  },
+  {
+    "question": "Questão 51. (FUNDATEC / Câmara de Porto Alegre – 2012) Considerando as regras da Constituição da República Federativa do Brasil sobre os Direitos Sociais, analise as seguintes afirmativas:\nI. É vedada a redução de salário, salvo o disposto em convenção ou acordo coletivo.\nII. A duração do trabalho normal não deverá ser superior a oito horas diárias e quarenta horas semanais.\nIII. As férias serão remuneradas com pelo menos um terço a mais que o salário normal.\nQuais estão corretas?",
+    "options": [
+      "Apenas I.",
+      "Apenas II.",
+      "Apenas III.",
+      "Apenas I e III.",
+      "Apenas II e III."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**:\n* **I. Correta:** Art. 7º, **VI** (Irredutibilidade salarial com ressalva).\n* **II. Incorreta:** A jornada normal é de quarenta e **quatro** semanais (Art. 7º, XIII).\n* **III. Correta:** Art. 7º, **XVII** (Gozo de férias anuais remuneradas com, pelo menos, um terço a mais)."
+  },
+  {
+    "question": "Questão 52. (FUNDATEC / Advogado Pref. Sapucaia do Sul – 2012) – As chamadas ‘ações afirmativas’ ou ‘discriminações positivas’ são colocadas no Direito Constitucional como relacionadas ao princípio da:",
+    "options": [
+      "legalidade.",
+      "igualdade ou isonomia.",
+      "proporcionalidade.",
+      "liberdade de expressão e de pensamento.",
+      "liberdade de iniciativa econômica."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. As ações afirmativas visam concretizar a **igualdade material** (isonomia), tratando desigualmente os desiguais para compensar desvantagens históricas ou sociais."
+  },
+  {
+    "question": "Questão 53. (FUNDATEC / PROCERGS – 2012) Com a Constituição da República de 1988, o serviço extraordinário passou a ser remunerado com adicional de, no mínimo,",
+    "options": [
+      "30% (trinta por cento).",
+      "35% (trinta e cinco por cento).",
+      "40% (quarenta por cento).",
+      "45% (quarenta e cinco por cento).",
+      "50% (cinquenta por cento)."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. O Art. 7º, **XVI**, da CF/88, prevê a 'remuneração do serviço extraordinário superior, no mínimo, em **cinquenta por cento** à do normal'."
+  },
+  {
+    "question": "Questão 54. (FUNIVERSA / Seplag DF – 2010) É considerado direito social previsto na Constituição Federal de 1988:",
+    "options": [
+      "a liberdade de associação e de religião.",
+      "a proteção do meio ambiente.",
+      "a proteção da saúde e da educação.",
+      "a proteção da paz mundial.",
+      "o mandado de segurança."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. A **saúde** e a **educação** estão expressamente listadas no Art. 6º da CF/88 como Direitos Sociais."
+  },
+  {
+    "question": "Questão 55. (FUNIVERSA / PC-GO – 2010 - Adaptada) Caracterizam-se os direitos e as garantias fundamentais como uma árdua conquista dos cidadãos no decorrer dos tempos, mas que, nem pelo fato de sua previsão, têm garantida sua efetividade no âmbito social, sendo este o maior problema vigente no que diz respeito à matéria posta. Acerca desse tema, assinale a alternativa correta.",
+    "options": [
+      "Constam, exaustivamente, como direitos sociais expressos do texto constitucional vigente a educação, a saúde, o trabalho, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.",
+      "O salário-família é concedido aos dependentes de todos os trabalhadores, públicos ou privados, desde que estes tenham vínculo formal de emprego.",
+      "É pleno o exercício do direito de greve dos servidores públicos.",
+      "É proibido o trabalho noturno, perigoso ou insalubre a menores de dezoito e de qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está **CORRETA**. É a redação do Art. 7º, **XXXIII**, da CF/88. A proibição para NPI é para menores de 18 anos, e a proibição de qualquer trabalho é para menores de 16, com a exceção do aprendiz a partir de 14 anos."
+  },
+  {
+    "question": "Questão 56. (Instituto AOCP / UFPB – 2019) Considerando os direitos sociais expressamente previstos na Constituição Federal vigente, assinale a alternativa correta.",
+    "options": [
+      "O aposentado filiado não tem direito a votar e ser votado nas organizações sindicais.",
+      "São proibidos o trabalho noturno, perigoso ou insalubre a menores de dezesseis anos e qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz.",
+      "É direito do trabalhador a proteção do salário na forma da lei, constituindo crime sua retenção dolosa.",
+      "É direito do trabalhador o repouso semanal remunerado, sem qualquer preferência quanto ao dia da sua concessão.",
+      "É livre a associação profissional ou sindical, cabendo ao sindicato a defesa dos direitos e interesses coletivos ou individuais da categoria, exclusivamente em questões administrativas."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 7º, **X**, da CF/88."
+  },
+  {
+    "question": "Questão 57. (Instituto AOCP / PC-ES – 2019) Em relação aos Sindicatos, observada a legislação nacional a respeito da matéria, é correto afirmar que",
+    "options": [
+      "é possível a criação de mais de um sindicato da mesma categoria em uma mesma base territorial.",
+      "os sindicatos não devem participar das negociações coletivas de trabalho da categoria que representam.",
+      "não há vedação à sindicalização dos militares.",
+      "é vedada, ao servidor público civil, a associação sindical.",
+      "segundo a Constituição da República Federativa do Brasil, é livre a associação profissional ou sindical, observados os termos constitucionais."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. É a disposição do Art. 8º, **caput**, da CF/88."
+  },
+  {
+    "question": "Questão 58. (Instituto AOCP / PC-ES – 2019) A Constituição Federal determina que é livre a associação profissional ou sindical, observado o seguinte:",
+    "options": [
+      "a lei poderá exigir autorização do Estado para a fundação de sindicato, sendo admitidas, ao Poder Público, a interferência e a intervenção na organização sindical nos casos previstos em lei.",
+      "é facultativa a participação dos sindicatos nas negociações coletivas de trabalho.",
+      "o aposentado filiado tem direito a votar e ser votado nas organizações sindicais.",
+      "é vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até dois anos após o final do mandato, salvo se cometer falta grave nos termos da lei.",
+      "a assembleia geral fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva, caso em que será dispensada a contribuição prevista em lei."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 8º, **VII**, da CF/88."
+  },
+  {
+    "question": "Questão 59. (Instituto AOCP / IPM-SP – 2018) Em concordância com a Constituição Federal, além de outros que visem à melhoria de sua condição social, é direito do trabalhador urbano e rural",
+    "options": [
+      "jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, ainda que haja negociação coletiva em sentido diverso.",
+      "ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de dois anos para os trabalhadores urbanos e rurais, até o limite de cinco anos após a extinção do contrato de trabalho.",
+      "igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso.",
+      "assistência gratuita aos filhos e dependentes desde o nascimento até 6 (seis) anos de idade em creches e pré-escolas.",
+      "seguro contra acidentes de trabalho, a cargo do empregador, sem excluir a indenização a que este está obrigado, quando incorrer somente com dolo."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É o direito previsto no Art. 7º, **XXXIV**, da CF/88."
+  },
+  {
+    "question": "Questão 60. (Instituto AOCP / TRT 1ª Região – 2018) Tício, Analista Judiciário – Área Administrativa no TRT, trabalha no setor de recursos humanos do tribunal e conhece as previsões constitucionais acerca dos direitos sociais. Sobre esse assunto, assinale a alternativa correta.",
+    "options": [
+      "É permitido no texto constitucional, ainda que excepcionalmente, o trabalho para menores de dezesseis anos.",
+      "Em que pese ser proibida a diferença de critério de admissão por motivo de sexo, cor ou estado civil, é possível, na forma da lei, a diferença de critério de admissão por idade.",
+      "A Constituição Federal, apesar de prever a licença-maternidade como direito social, não garante, de forma expressa, o mesmo direito aos trabalhadores do sexo masculino.",
+      "É garantido o direito ao aviso prévio proporcional ao tempo de serviço, sendo de, no mínimo, oito dias, se o pagamento for efetuado por semana ou tempo inferior.",
+      "A Constituição Federal garante o direito à indenização por acidente de trabalho, a ser paga pelo empregador que incorrer em dolo ou culpa, salvo se este arcar com o seguro contra acidentes de trabalho."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. O Art. 7º, **XXXIII**, proíbe qualquer trabalho a menores de dezesseis anos, **salvo na condição de aprendiz, a partir de quatorze anos**."
+  },
+  {
+    "question": "Questão 61. (AOCP / CODEM-PA – 2017) Considerados essenciais para a efetivação dos direitos mínimos de existência, os direitos sociais são elevados a nível constitucional, de forma a auxiliar na garantia da efetivação da dignidade da pessoa humana. Considerando os direitos sociais expressos na Constituição Federal de 1988, assinale a alternativa correta sobre o direito dos trabalhadores urbanos e rurais.",
+    "options": [
+      "Os trabalhadores têm direito à remuneração superior quando do serviço extraordinário, bem como a possibilidade de participação nos lucros, ou resultados da empregadora, sendo esta desvinculada da remuneração.",
+      "O piso salarial deve ser proporcional à extensão e à complexidade do trabalho. Além disso, a remuneração do trabalho diurno deve ser superior à do noturno.",
+      "Os trabalhadores têm direito ao repouso semanal remunerado, dando-se preferência aos sábados e domingos, bem como a proteção contra a despedida por justa causa, à qual implicará indenização compensatória.",
+      "Os trabalhadores têm direito ao seguro contra acidentes de trabalho, cujo recolhimento fica a cargo do empregado, mas não afasta a responsabilização por dolo ou culpa, a qual recai sobre o empregador.",
+      "É proibido o trabalho noturno, perigoso ou insalubre a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos, desde que sejam realizados atos que reduzam os riscos inerentes à atividade desenvolvida, por meio de normas de saúde, higiene e segurança."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. Combina o Art. 7º, **XVI** (remuneração superior do serviço extraordinário), com o Art. 7º, **XI** (participação nos lucros desvinculada da remuneração)."
+  },
+  {
+    "question": "Questão 62. (AOCP / Agepen-CE – 2017) É/são direito(s) dos trabalhadores urbanos e rurais, previsto(s) expressamente na Constituição Federal:",
+    "options": [
+      "salário mínimo, fixado em lei complementar, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes semestrais que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim.",
+      "proteção em face da automação, na forma da lei.",
+      "salário mínimo, fixado em norma infralegal, regionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes anuais que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim.",
+      "licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e oitenta dias."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. É o direito previsto no Art. 7º, **XXVII**, da CF/88: 'proteção em face da **automação**, na forma da lei'."
+  },
+  {
+    "question": "Questão 63. (AOCP / Prefeitura de Juazeiro – 2016) De acordo com a Constituição Federal de 1988, são exemplos de direitos sociais:",
+    "options": [
+      "a educação, o trabalho, a greve.",
+      "o transporte, a segurança e o ir e vir.",
+      "a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.",
+      "a moradia, a família, a alimentação.",
+      "a educação, a segurança, a reunião."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. Todos são direitos sociais listados no Art. 6º da CF/88."
+  },
+  {
+    "question": "Questão 64. (AOCP / EBSERH – 2016) São direitos dos trabalhadores urbanos e rurais, previstos expressamente na Constituição Federal, EXCETO",
+    "options": [
+      "fundo de garantia do tempo de serviço.",
+      "remuneração do trabalho noturno superior à do diurno.",
+      "aposentadoria.",
+      "remuneração do serviço extraordinário superior, no mínimo, em vinte por cento à do normal.",
+      "proteção em face da automação, na forma da lei."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** é a **EXCETO** (incorreta). A remuneração do serviço extraordinário é superior, no mínimo, em **cinquenta por cento** à do normal (Art. 7º, **XVI**)."
+  },
+  {
+    "question": "Questão 65. (AOCP / IF-BA – 2016) Assinale a alternativa que apresenta um Direito Social garantido pela Constituição Federal.",
+    "options": [
+      "Proteção em face da automação, na forma da lei.",
+      "Licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e oitenta dias.",
+      "Gozo de férias anuais remuneradas com, pelo menos, dois terços a mais do que o salário normal.",
+      "Participação nos lucros, ou resultados, vinculada à remuneração e participação na gestão da empresa.",
+      "Seguro-desemprego, em caso de desemprego voluntário."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. É o direito previsto no Art. 7º, **XXVII**, da CF/88."
+  },
+  {
+    "question": "Questão 66. (AOCP / IF-BA – 2016) É Direito Social previsto na Constituição Federal",
+    "options": [
+      "a remuneração do serviço extraordinário em valor equivalente à remuneração do serviço em horário normal.",
+      "a licença-paternidade sem prejuízo do emprego e do salário, com a duração de cento e vinte dias.",
+      "o seguro contra acidentes de trabalho, a cargo do empregado, o qual excluirá a indenização a que este está obrigado, quando incorrer em dolo ou culpa.",
+      "o repouso semanal não remunerado, preferencialmente aos sábados.",
+      "a redução dos riscos inerentes ao trabalho, por meio de normas de saúde, higiene e segurança"
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. É o direito previsto no Art. 7º, **XXII**, da CF/88."
+  },
+  {
+    "question": "Questão 67. (AOCP / Pref. Vitória da Conquista/BA – 2013) De acordo com o que descreve a Constituição Federal, é proibido qualquer trabalho",
+    "options": [
+      "a menores de dezoito anos.",
+      "a menores de dezoito anos, salvo na condição de aprendiz, a partir dos dezesseis anos.",
+      "a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos.",
+      "a menores de quatorze anos, salvo na condição de aprendiz, a partir de doze anos.",
+      "a menores de quinze anos, salvo na condição de aprendiz, a partir dos dez anos."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É a regra geral do Art. 7º, **XXXIII**, da CF/88: 'proibição de qualquer trabalho a menores de **dezesseis anos**, salvo na condição de aprendiz, a partir de **quatorze anos**'."
+  },
+  {
+    "question": "Questão 68. (AOCP / BRDE – 2012) Constituem-se direitos sociais previstos pela atual Constituição Federal:",
+    "options": [
+      "educação e proteção quanto à demissão arbitrária.",
+      "proteção à maternidade e irredutibilidade salarial.",
+      "remuneração não inferior ao salário mínimo e saúde.",
+      "trabalho e respeito à integridade física e moral.",
+      "previdência social e moradia."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. A **Previdência Social** e a **Moradia** são expressamente listadas no Art. 6º da CF/88."
+  },
+  {
+    "question": "Questão 69. (AOCP / TCE-PA – 2012) Analise as assertivas e assinale a alternativa que aponta as corretas. De acordo com a Constituição Federal, a soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante:\nI. Plebiscito.\nII. Referendo.\nIII. Iniciativa Popular.\nIV. Audiência Pública.",
+    "options": [
+      "Apenas I, II e III.",
+      "Apenas II e III.",
+      "Apenas I e II.",
+      "Apenas II, III e IV.",
+      "I, II, III e IV."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está **CORRETA**. O Art. 14 da CF/88 lista o **plebiscito**, o **referendo** e a **iniciativa popular** como instrumentos de exercício da soberania popular. Audiência Pública não é um desses instrumentos."
+  },
+  {
+    "question": "Questão 70. (CONSULPLAN / Câmara Municipal de Belo Horizonte – 2018) De acordo com a Constituição Federal de 1988 no Título II, Capítulo II, são direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, EXCETO:",
+    "options": [
+      "Fundo de garantia do tempo de serviço.",
+      "Seguro-desemprego, em caso de desemprego involuntário.",
+      "Relação de emprego protegida contra despedida arbitrária, exceto sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos.",
+      "Salário mínimo, fixado em lei, nacionalmente unificado, capaz de atender a suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** é a **EXCETO** (incorreta). A proteção do emprego é justamente contra a despedida arbitrária **ou sem justa causa** (Art. 7º, **I**)."
+  },
+  {
+    "question": "Questão 71. (CONSULPLAN / TRE-RJ – 2017) Considere que Clécio, empregado de uma fábrica de automóveis, candidatou-se ao cargo de representante sindical de sua categoria profissional, vindo a ser eleito ao final do pleito.” No que se refere às garantias sociais constitucionais, é correto afirmar que Clécio",
+    "options": [
+      "pode ser dispensado até a divulgação oficial de sua eleição, adquirindo a estabilidade no emprego a partir daquela data, até um ano após o retorno ao trabalho.",
+      "pode gozar da estabilidade sindical, instituto que se assemelha com a estabilidade dos servidores públicos, já que se adquire após três anos de efetivo exercício do cargo ou emprego.",
+      "tem direito de não ser dispensado do emprego, desde o registro da candidatura até um ano após encerrado o mandato de representante sindical, a não ser que cometa falta grave.",
+      "tem direito à estabilidade sindical porque trabalha em fábrica de automóveis, já que o direito restringe-se ao trabalho urbano e não abrange, por exemplo, a atividade junto a um sindicato de colônia de pescadores."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está **CORRETA**. É a regra da estabilidade provisória do dirigente sindical, conforme o Art. 8º, **VIII**, da CF/88: 'vedada a dispensa do empregado sindicalizado a partir do **registro da candidatura** a cargo de direção ou representação sindical e, se eleito, ainda que suplente, **até um ano após o final do mandato**, salvo se cometer **falta grave** nos termos da lei'."
+  },
+  {
+    "question": "Questão 72. (CONSULPLAN / Prefeitura de Cascavel – 2016) No que tange aos direitos sociais na Constituição Federal de 1988, são considerados direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, EXCETO:",
+    "options": [
+      "Não redução do salário em hipótese alguma.",
+      "Remuneração superior do trabalho noturno em relação ao diurno.",
+      "Proteção do salário na forma da lei, sendo considerado crime sua retenção dolosa.",
+      "Duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais.",
+      "Aviso prévio proporcional ao tempo de serviço, sendo, no mínimo, de trinta dias de acordo com a lei."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** é a **EXCETO** (incorreta). O Art. 7º, **VI**, da CF/88, permite a redução do salário: 'irredutibilidade do salário, **salvo o disposto em convenção ou acordo coletivo**'."
+  },
+  {
+    "question": "Questão 73. (CONSULPLAN / CODERN – 2014) Segundo José Afonso da Silva, os direitos sociais “disciplinam situações subjetivas pessoais ou grupais de caráter concreto”. Sobre tais direitos, assinale a alternativa INCORRETA.",
+    "options": [
+      "Estão consagrados como fundamentos da República Federativa do Brasil.",
+      "Os direitos sociais são considerados direitos humanos de terceira geração.",
+      "São exemplos de direitos sociais, a educação, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.",
+      "Têm aplicação imediata e podem ser implementados, no caso de omissão legislativa, pelas técnicas de controle, quais sejam: o mandado de injunção ou a ação direta de inconstitucionalidade por omissão.",
+      "Apresentam-se como prestações positivas a serem implementadas pelo Estado (Social de Direito) e tendem a concretizar a perspectiva de uma isonomia substancial e social na busca de melhores e adequadas condições de vida."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** é a **INCORRETA** de acordo com a classificação doutrinária majoritária. Os Direitos Sociais são tradicionalmente classificados como Direitos Fundamentais de **Segunda Geração** (direitos de igualdade/crédito), enquanto os de Terceira Geração são os direitos de fraternidade/solidariedade (como meio ambiente e paz)."
+  },
+  {
+    "question": "Questão 74. (CONSULPLAN / TRT 13ª Região – 2013) Luzia, empregada doméstica, procura na Constituição Federal seus direitos. Assinale a alternativa que apresenta direito a que Luzia faz jus, conforme a CF/88.",
+    "options": [
+      "Luzia será obrigada a aposentar-se aos 70 anos.",
+      "Luzia terá todos os direitos derivados de convenções de trabalho.",
+      "Luzia terá direito a 14º salário.",
+      "Luzia, desejando rescindir seu contrato de trabalho, terá que cumprir sempre 30 dias de aviso prévio.",
+      "A cada ano trabalhado, Luzia terá direito a férias remuneradas."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está **CORRETA**. O direito a férias anuais remuneradas (Art. 7º, **XVII**, combinado com seu parágrafo único) é um dos direitos dos trabalhadores urbanos e rurais estendido aos empregados domésticos."
+  },
+  {
+    "question": "Questão 75. (CONSULPLAN / TRT 13ª Região – 2013) Anderson, empregado de uma empresa particular de alimentos que possui 600 empregados, resolve criar um sindicato para representar esses trabalhadores. Diante do exposto, é correto afirmar que",
+    "options": [
+      "para que Anderson funde o sindicato será necessário que haja lei autorizando sua constituição.",
+      "o sindicato formado por Anderson e demais companheiros poderá defender os interesses coletivos e individuais da categoria.",
+      "a negociação coletiva de trabalho entre empregador e os empregados da empresa de alimentos não necessitará da intervenção do sindicato constituído.",
+      "o empregado aposentado e filiado ao sindicato fundado por Anderson não pode ser votado para síndico nas eleições sindicais.",
+      "mesmo Anderson sendo síndico, poderá ser dispensado pela empresa a qualquer momento sem justa causa."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está **CORRETA**. O Art. 8º, **III**, da CF/88, estabelece que 'ao sindicato cabe a defesa dos direitos e interesses **coletivos ou individuais** da categoria, inclusive em questões judiciais ou administrativas'."
+  }
+  ,{
+    "question": "Questão 76. (CONSULPLAN / TRT 13ª Região – 2013) Descreve o Art. 7º da CF/88 que “são direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição”. Sobre tais direitos, assinale a alternativa correta.",
+    "options": [
+      "É direito do trabalhador urbano e rural o seguro-desemprego, em caso de desemprego voluntário.",
+      "É direito do trabalhador urbano e rural proteção do salário na forma da lei, constituindo contravenção penal sua retenção dolosa.",
+      "É direito do trabalhador urbano e rural o salário-família pago em razão do dependente do trabalhador de baixa renda nos termos da lei.",
+      "É direito do trabalhador urbano e rural a licença à gestante, sem prejuízo do emprego e do salário, com a duração de noventa dias.",
+      "Nem a todos os trabalhadores urbanos e rurais é garantido o direito de aposentadoria."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está correta. O Art. 7º, **XII**, da CF/88, estabelece o salário-família pago em razão do dependente do trabalhador de **baixa renda**, nos termos da lei. As demais estão incorretas: A) Seguro-desemprego é em caso de desemprego **involuntário** (Art. 7º, II). B) A retenção dolosa do salário constitui **crime**, não contravenção penal (Art. 7º, X). D) A licença à gestante é de **cento e vinte dias** (Art. 7º, XVIII)."
+  },
+  {
+    "question": "Questão 77. (UPENET / IAUPE-UPE – 2019) São direitos sociais dos trabalhadores urbanos e rurais, EXCETO",
+    "options": [
+      "salário mínimo regionalizado, capaz de atender a suas necessidades vitais básicas e às de sua família, como moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhes preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim.",
+      "piso salarial proporcional à extensão e à complexidade do trabalho.",
+      "irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo.",
+      "garantia de salário, nunca inferior ao mínimo, para os que percebem remuneração variável.",
+      "remuneração do trabalho noturno superior à do diurno."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** é a **EXCETO** (incorreta). O Art. 7º, **IV**, da CF/88, prevê o salário mínimo **nacionalmente unificado**, não regionalizado."
+  },
+  {
+    "question": "Questão 78. (UERR / SETRABES – 2018) É assegurada a eleção de um representante dos empregados com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores, nas empresas que possuam:",
+    "options": [
+      "mais de duzentos empregados.",
+      "mais de cinquenta empregados.",
+      "mais de cem empregados.",
+      "ao menos dez mulheres e cem homens, empregados.",
+      "empregados laborando no exterior."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está correta. Conforme o Art. 11 da CF/88, a eleição do representante dos empregados é assegurada nas empresas com **mais de duzentos empregados**."
+  },
+  {
+    "question": "Questão 79. (NC-UFPR / UFPR – 2017) Assinale a alternativa que indica apenas direitos sociais na Constituição Federal.",
+    "options": [
+      "Educação, lazer e previdência social.",
+      "Trabalho, propriedade e inviolabilidade de domicílio.",
+      "Educação, moradia e acesso à jurisdição.",
+      "Trabalho, liberdade de expressão e lazer.",
+      "Acesso à jurisdição, propriedade e saúde."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa **A** está correta. **Educação, Lazer e Previdência Social** são todos Direitos Sociais listados no Art. 6º da CF/88. As demais alternativas misturam direitos sociais com Direitos Individuais (Art. 5º), como propriedade, inviolabilidade de domicílio, acesso à jurisdição e liberdade de expressão."
+  },
+  {
+    "question": "Questão 80. (UFG / TJ-GO - 2017) Nos termos do artigo 6º da Constituição da República Federativa do Brasil de 1988, são direitos sociais:",
+    "options": [
+      "a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, o meio ambiente, a previdência social, a proteção a maternidade e à infância e a assistência aos desamparados.",
+      "a educação, a saúde, o meio ambiente, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.",
+      "a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer e o meio ambiente e os direitos humanos.",
+      "a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social e os direitos humanos.",
+      "a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está correta. Reproduz integralmente a lista completa dos Direitos Sociais expressos no Art. 6º da CF/88, incluindo as adições por emenda constitucional (como transporte, alimentação e moradia)."
+  },
+  {
+    "question": "Questão 81. (UFG / TJ-GO - 2017) O artigo 7º da Constituição da República Federativa do Brasil de 1988 prescreve a melhoria dos direitos sociais dos trabalhadores. Dessa forma, de acordo com o mencionado artigo, são direitos dos trabalhadores urbanos e rurais:",
+    "options": [
+      "participação nos lucros ou resultados, vinculada à remuneração e, excepcionalmente, participação na gestão da empresa.",
+      "piso salarial proporcional à extensão e à complexidade do trabalho, além, da remuneração do trabalho diurno superior à do noturno.",
+      "duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, proibida a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho.",
+      "jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva.",
+      "assistência gratuita em creches e pré-escolas aos filhos e dependentes desde seu nascimento até os 6 (seis) anos de idade."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está correta. É o direito previsto no Art. 7º, **XIV**, da CF/88, que estabelece a jornada de seis horas para turnos ininterruptos de revezamento, ressalvada a negociação coletiva. As demais estão incorretas."
+  },
+  {
+    "question": "Questão 82. (COMPERVE-UFRN / Câmara de Natal – 2016) Os direitos sociais fundamentais, também apelidados pelos juristas como direitos de segunda dimensão ou de segunda geração, têm, em sua ontologia, a intenção de reduzir desigualdades para fins de concretização da igualdade material, substancial ou isonômica. Uma das ideias que os permeia é a de tratar igualmente os iguais e desigualmente os desiguais na proporção de suas desigualdades. O constituinte brasileiro, visualizando a importância desses direitos, tratou de expressamente tutelá-los. Nesse sentido, a Constituição Federal prevê direitos dos trabalhadores urbanos e rurais, tais como",
+    "options": [
+      "a ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de sete anos.",
+      "o reconhecimento das convenções e acordos coletivos de trabalho e a proteção em face da automação, na forma da lei.",
+      "o gozo de férias anuais remuneradas com, pelo menos, dois terços a mais que o salário normal.",
+      "a remuneração do serviço extraordinário superior, no mínimo, em quarenta por cento relativamente à do normal."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está correta. O Art. 7º prevê o **reconhecimento das convenções e acordos coletivos de trabalho** (**XXVI**) e a **proteção em face da automação, na forma da lei** (**XXVII**). As demais estão incorretas: A) Prazo prescricional de 5 anos até 2 anos após extinção (XXIX). C) Férias remuneradas com pelo menos **um terço** a mais (XVII). D) Serviço extraordinário superior em, no mínimo, **cinquenta por cento** (XVI)."
+  },
+  {
+    "question": "Questão 83. (COMPERVE-UFRN / Câmara de Natal – 2016) A liberdade do indivíduo, direito fundamental tradicionalmente caracterizado como de primeira dimensão ou geração, possui desdobramentos e se expressa em variadas espécies no âmbito do atual Estado Constitucional Democrático, sendo possível falar em liberdade de ir e vir, liberdade religiosa, liberdade profissional, dentre outras. No que diz respeito especificamente à liberdade de associação sindical, de acordo com as diretrizes constitucionais, é possível observar que no Brasil é livre a associação sindical, cabendo aos sindicatos a defesa dos",
+    "options": [
+      "direitos individuais da categoria em questões judiciais, excluídas as questões administrativas e de ordem internacional.",
+      "interesses individuais da categoria, excluídos os coletivos, inclusive em questões judiciais ou administrativas.",
+      "direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas.",
+      "interesses coletivos da categoria em questões judiciais, excluídos os interesses individuais e as questões administrativas e incluídas as questões internacionais."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está correta. O Art. 8º, **III**, da CF/88, dispõe que 'ao sindicato cabe a defesa dos **direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas**'."
+  },
+  {
+    "question": "Questão 84. (UPENET / PM-PE – 2016) Acerca dos direitos sociais previstos na Constituição Federal de 1988, analise as seguintes afirmativas:\nI. O direito à irredutibilidade do salário do trabalhador não é absoluto, podendo ocorrer a redução salarial, desde que ela seja aprovada em convenção ou acordo coletivo.\nII. A assistência aos desamparados não integra os direitos sociais previstos na CF/88.\nIII. É assegurado o direito a piso salarial proporcional à extensão e complexidade do trabalho.\nIV. É obrigatória a autorização estatal para a fundação de sindicato.\nEstão CORRETAS somente",
+    "options": [
+      "I e IV.",
+      "II e IV.",
+      "I, II e III.",
+      "III e IV.",
+      "I e III."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa **E** está correta. Apenas as afirmativas **I** (Art. 7º, VI) e **III** (Art. 7º, V) estão de acordo com a CF/88. A II está incorreta (assistência aos desamparados é direito social – Art. 6º) e a IV está incorreta (não se exige autorização estatal para fundar sindicato – Art. 8º, I)."
+  },
+  {
+    "question": "Questão 85. (UPENET / PM-PE – 2016) Considerando os Direitos Sociais expressamente assegurados na Constituição Federal de 1988, analise as afirmativas abaixo:\nI. A remuneração do serviço extraordinário deve ser superior em, no mínimo, cem por cento da remuneração normal.\nII. É assegurada a igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso.\nIII. É assegurado o direito de repouso semanal remunerado, preferencialmente aos sábados e domingos.\nIV. Constitui-se como um dos direitos sociais previstos na CF/88 a proteção à maternidade e à infância.\nEstão CORRETAS",
+    "options": [
+      "I e II, somente.",
+      "I e III, somente.",
+      "II e IV, somente.",
+      "III e IV, somente.",
+      "I, II, III e IV."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está correta. Apenas as afirmativas **II** (Art. 7º, XXXIV) e **IV** (Art. 6º) estão de acordo com a CF/88. A I está incorreta (o adicional é de **50%**, Art. 7º, XVI). A III está incorreta (a preferência é **aos domingos**, Art. 7º, XV)."
+  },
+  {
+    "question": "Questão 86. (UPENET / PM-PE – 2016) Ainda sobre os direitos sociais, assinale a alternativa CORRETA.",
+    "options": [
+      "A filiação ao sindicato é obrigatória, conforme a respectiva categoria profissional.",
+      "Não é obrigatória a participação dos sindicatos nas negociações coletivas de trabalho.",
+      "A aposentadoria não extingue o direito à filiação das organizações sindicais.",
+      "O sindicato não pode defender interesse coletivo da categoria em questões administrativas.",
+      "O sindicato não pode defender interesse individual da categoria em questões judiciais."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa **C** está correta. O Art. 8º, **VII**, da CF/88, garante que 'o aposentado filiado tem direito a votar e ser votado nas organizações sindicais', ou seja, a filiação é mantida. As demais estão incorretas: A) A filiação é livre (Art. 8º, V). B) A participação em negociações coletivas é **obrigatória** (Art. 8º, VI). D) e E) O sindicato defende interesses coletivos ou individuais em questões judiciais ou **administrativas** (Art. 8º, III)."
+  },
+  {
+    "question": "Questão 87. (UFMT / TJ-MT – 2016) Considerando o disposto na Constituição da República Federativa do Brasil de 1988, em relação aos direitos dos trabalhadores urbanos e rurais, marque V para os itens verdadeiros e F para os falsos.\n( ) Piso salarial proporcional à extensão e à complexidade do trabalho.\n( ) Remuneração do trabalho noturno igual à do diurno.\n( ) Proteção em face da automação.\n( ) Permissão de distinção entre trabalho manual, técnico e intelectual.\nAssinale a sequência correta.",
+    "options": [
+      "F, V, F, V",
+      "V, F, F, V",
+      "F, V, V, F",
+      "V, F, V, F"
+    ],
+    "correct": 3,
+    "explanation": "A alternativa **D** está correta. A sequência é **V, F, V, F**:\n* (V) Art. 7º, **V** (Piso salarial proporcional).\n* (F) Art. 7º, **IX** (Remuneração do trabalho noturno é **superior** à do diurno).\n* (V) Art. 7º, **XXVII** (Proteção em face da automação).\n* (F) Art. 7º, **XXXII** (**Vedada** a distinção entre trabalho manual, técnico e intelectual)."
+  },
+  {
+    "question": "Questão 88. (UFMT / UFMT – 2014) Para o cidadão, o Projeto Esporte e Lazer da Cidade (PELC), de acordo com a Constituição Federal brasileira de 1988, é:",
+    "options": [
+      "Dever Social.",
+      "Direito Social.",
+      "Direito Político.",
+      "Dever Político."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa **B** está correta. O **Lazer** está listado no Art. 6º da CF/88 como um **Direito Social**."
+  },
+  {
+    "question": "Questão 89. (UFPR / Progepe – 2014) Sobre os direitos e garantias fundamentais na Constituição Federal, considere as seguintes afirmativas:\n1. Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.\n2. As normas definidoras dos direitos e garantias fundamentais não têm aplicação imediata, sendo necessária a edição de leis regulamentadoras.\n3. São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados.\nAssinale a alternativa correta.",
+    "options": [
+      "Somente a afirmativa 1 é verdadeira.",
+      "Somente as afirmativas 1 e 2 são verdadeiras.",
+      "Somente as afirmativas 1 e 3 são verdadeiras.",
+      "Somente as afirmativas 2 e 3 são verdadeiras.",
+      "As afirmativas 1, 2 e 3 são verdadeiras."
+    ],
+    "correct": 0,
+    }
+],
+
+
+
+
+
+
+
+
 "LeiPenalTempo":[
   ,{
     "question": "Questão 1. (FGV – 2018 – TJ-AL – ANALISTA JUDICIÁRIO – ÁREA JUDICIÁRIA) No dia 02.01.2018, Jéssica, nascida em 03.01.2000, realiza disparos de arma de fogo contra Ana, sua inimiga, em Santa Luzia do Norte, mas terceiros que presenciaram os fatos socorrem Ana e a levam para o hospital em Maceió. Após três dias internada, Ana vem a falecer, ainda no hospital, em virtude exclusivamente das lesões causadas pelos disparos de Jéssica. Com base na situação narrada, é correto afirmar que Jéssica:",
