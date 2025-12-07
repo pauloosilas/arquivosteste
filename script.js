@@ -11147,7 +11147,7 @@ DasPenasCodigoPenal:[
         "1 ano e 6 meses.",
         "3 meses."
       ],
-      "correct": 0
+      "correct": 2
     },
     {
       "question": "Com exceção da hipótese do regime disciplinar diferenciado, qual é o limite máximo de duração para o isolamento, a suspensão e a restrição de direitos?",
