@@ -663,6 +663,297 @@ const questions = {
     "explanation": "Verbos de movimento (chegar, ir, vir) regem adjuntos adverbiais de lugar. Verbos transitivos indiretos (precisar) regem objetos indiretos."
   }
   
+],
+"OracoesSubordinadas":[
+  {
+    "question": "Na frase 'É necessário <b>que todos participem da reunião</b>', a oração destacada classifica-se como:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 1,
+    "explanation": "A oração exerce a função de sujeito do verbo 'é'. Quando a oração principal começa com verbo de ligação + predicativo (É necessário, é bom, é urgente), a subordinada é subjetiva."
+  },
+  {
+    "question": "Em 'Os homens <b>que são honestos</b> vivem felizes', a oração subordinada é:",
+    "options": [
+      "Adjetiva Explicativa",
+      "Adjetiva Restritiva",
+      "Substantiva Predicativa",
+      "Adverbial Causal"
+    ],
+    "correct": 1,
+    "explanation": "A oração restringe o sentido do substantivo 'homens' (não são todos os homens, apenas os honestos) e não está separada por vírgulas, sendo, portanto, restritiva."
+  },
+  {
+    "question": "Qual a classificação da oração destacada em: '<b>Como estava chovendo muito</b>, não fomos ao parque'?",
+    "options": [
+      "Adverbial Conformativa",
+      "Adverbial Comparativa",
+      "Adverbial Causal",
+      "Adverbial Consecutiva"
+    ],
+    "correct": 2,
+    "explanation": "A conjunção 'como' no início da frase introduz o motivo, a causa de não terem ido ao parque."
+  },
+  {
+    "question": "Na oração 'Desejo <b>que você seja muito feliz</b>', o termo destacado exerce função de:",
+    "options": [
+      "Sujeito",
+      "Objeto Indireto",
+      "Objeto Direto",
+      "Aposto"
+    ],
+    "correct": 2,
+    "explanation": "Quem deseja, deseja algo. A oração completa o sentido do verbo transitivo direto 'desejo', sendo uma substantiva objetiva direta."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta uma oração subordinada adverbial concessiva:",
+    "options": [
+      "Se você estudar, passará.",
+      "<b>Embora estivesse cansado</b>, continuou trabalhando.",
+      "Estudou tanto que adormeceu.",
+      "Fiz a tarefa como o professor pediu."
+    ],
+    "correct": 1,
+    "explanation": "A conjunção 'embora' introduz uma ideia de oposição ou ressalva que não impede a ação principal, característica da concessiva."
+  },
+  {
+    "question": "Em 'Meu maior desejo é <b>que todos alcancem seus objetivos</b>', a oração classifica-se como:",
+    "options": [
+      "Substantiva Predicativa",
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 0,
+    "explanation": "A oração vem após um verbo de ligação ('é') e funciona como predicativo do sujeito 'meu maior desejo'."
+  },
+  {
+    "question": "Na frase 'O aluno, <b>que era muito dedicado</b>, tirou nota dez', a oração adjetiva é explicativa porque:",
+    "options": [
+      "Generaliza uma característica própria do antecedente e vem entre vírgulas.",
+      "Restringe o grupo de alunos que tiraram nota dez.",
+      "Completa o sentido de um substantivo abstrato.",
+      "Indica a causa de o aluno ter tirado nota dez."
+    ],
+    "correct": 0,
+    "explanation": "As orações adjetivas explicativas apenas acrescentam uma nota esclarecedora sobre o antecedente e são obrigatoriamente isoladas por pontuação."
+  },
+  {
+    "question": "A oração em destaque em 'Tenho medo <b>de que você me esqueça</b>' é:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Predicativa",
+      "Adverbial Causal"
+    ],
+    "correct": 1,
+    "explanation": "A oração completa o sentido do substantivo 'medo' (um nome). Quando a oração completa um nome com preposição, é completiva nominal."
+  },
+  {
+    "question": "Em 'Choveu tanto <b>que as ruas ficaram alagadas</b>', a oração indica:",
+    "options": [
+      "Causa",
+      "Consequência",
+      "Condição",
+      "Finalidade"
+    ],
+    "correct": 1,
+    "explanation": "A estrutura 'tanto... que' indica uma oração subordinada adverbial consecutiva (consequência do que foi dito antes)."
+  },
+  {
+    "question": "Qual a classificação da oração: 'Fizemos tudo <b>para que eles ficassem confortáveis</b>'?",
+    "options": [
+      "Adverbial Causal",
+      "Adverbial Proporcional",
+      "Adverbial Final",
+      "Adverbial Temporal"
+    ],
+    "correct": 2,
+    "explanation": "A locução 'para que' indica a intenção, o objetivo ou a finalidade da ação principal."
+  },
+  {
+    "question": "Na frase '<b>Desde que você chegou</b>, não paramos de rir', a oração destacada é:",
+    "options": [
+      "Adverbial Condicional",
+      "Adverbial Temporal",
+      "Adverbial Conformativa",
+      "Adverbial Proporcional"
+    ],
+    "correct": 1,
+    "explanation": "Neste contexto, 'desde que' indica o momento em que a ação de rir começou (tempo). Vale lembrar que 'desde que' também pode ser condicional, dependendo do verbo."
+  },
+  {
+    "question": "Em 'Ele age <b>conforme as regras determinam</b>', a oração subordinada é:",
+    "options": [
+      "Adverbial Conformativa",
+      "Adverbial Comparativa",
+      "Substantiva Objetiva Direta",
+      "Adverbial de Modo"
+    ],
+    "correct": 0,
+    "explanation": "A conjunção 'conforme' expressa um acordo ou conformidade com o que está estabelecido na oração principal."
+  }
+],
+
+"OracoesCoordenadas":[
+  {
+    "question": "Na frase 'Ela não só foi a primeira a chegar, <b>mas também</b> ajudou na organização', a oração destacada é uma coordenada sindética:",
+    "options": [
+      "Adversativa",
+      "Aditiva",
+      "Conclusiva",
+      "Explicativa"
+    ],
+    "correct": 1,
+    "explanation": "Embora utilize 'mas', a locução 'mas também' estabelece uma relação de soma (adição) em relação à primeira oração."
+  },
+  {
+    "question": "Em 'Estudei muito para a prova, <b>porém</b> não obtive o resultado esperado', a conjunção expressa:",
+    "options": [
+      "Conclusão",
+      "Explicação",
+      "Oposição",
+      "Alternância"
+    ],
+    "correct": 2,
+    "explanation": "'Porém' é uma conjunção adversativa, utilizada para indicar contraste ou oposição entre duas ideias."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta uma oração coordenada sindética <b>alternativa</b>:",
+    "options": [
+      "Ora ria, ora chorava de nervoso.",
+      "Não estudou, nem trabalhou hoje.",
+      "Estude, pois a prova é amanhã.",
+      "Chegou, viu e venceu."
+    ],
+    "correct": 0,
+    "explanation": "A estrutura 'ora... ora' indica exclusão ou alternância de eventos, característica das orações alternativas."
+  },
+  {
+    "question": "Na oração 'O céu está repleto de nuvens escuras, <b>portanto</b> deve chover logo', o termo destacado introduz uma:",
+    "options": [
+      "Explicação",
+      "Adição",
+      "Conclusão",
+      "Oposição"
+    ],
+    "correct": 2,
+    "explanation": "'Portanto' é uma conjunção conclusiva, indicando que a chuva é uma consequência lógica da observação das nuvens."
+  },
+  {
+    "question": "Qual a classificação da oração: 'Venha agora, <b>que</b> o jantar já está na mesa'?",
+    "options": [
+      "Coordenada Sindética Explicativa",
+      "Subordinada Adverbial Causal",
+      "Coordenada Sindética Conclusiva",
+      "Coordenada Assindética"
+    ],
+    "correct": 0,
+    "explanation": "O 'que' aqui equivale a 'porque'. Após orações imperativas (venha), a oração seguinte costuma ser uma coordenada explicativa."
+  },
+  {
+    "question": "Em 'Você agiu mal; deve, <b>pois</b>, pedir desculpas', a conjunção destacada é:",
+    "options": [
+      "Explicativa",
+      "Conclusiva",
+      "Adversativa",
+      "Aditiva"
+    ],
+    "correct": 1,
+    "explanation": "Quando a conjunção 'pois' aparece deslocada (entre vírgulas e após o verbo), ela tem valor conclusivo."
+  },
+  {
+    "question": "Identifique a frase que possui uma oração coordenada sindética <b>adversativa</b>:",
+    "options": [
+      "Não faça barulho, que o bebê dorme.",
+      "Tudo estava pronto, contudo ninguém apareceu.",
+      "Ou você entra, ou você sai.",
+      "Penso, logo existo."
+    ],
+    "correct": 1,
+    "explanation": "'Contudo' é uma conjunção que indica oposição ou ressalva, classificando a oração como adversativa."
+  },
+  {
+    "question": "Na frase 'Não fomos ao cinema, <b>nem</b> ficamos em casa', o termo destacado indica:",
+    "options": [
+      "Negação simples",
+      "Adição de ideias negativas",
+      "Alternância de fatos",
+      "Oposição de ações"
+    ],
+    "correct": 1,
+    "explanation": "A conjunção 'nem' é usada para somar duas orações de valor negativo."
+  },
+  {
+    "question": "Assinale a frase em que a conjunção <b>pois</b> tem valor explicativo:",
+    "options": [
+      "Ele está feliz, pois ganhou o prêmio.",
+      "O time venceu; está, pois, classificado.",
+      "Estudamos muito; seremos, pois, aprovados.",
+      "Não saia agora, pois chove muito."
+    ],
+    "correct": 0,
+    "explanation": "O 'pois' é explicativo quando aparece no início da oração (antes do verbo) e justifica a oração anterior."
+  },
+  {
+    "question": "Em 'Quer chova, <b>quer</b> faça sol, iremos ao campo', a oração é:",
+    "options": [
+      "Sindética Aditiva",
+      "Sindética Alternativa",
+      "Sindética Adversativa",
+      "Sindética Conclusiva"
+    ],
+    "correct": 1,
+    "explanation": "A repetição do termo 'quer... quer' estabelece uma relação de alternância ou escolha."
+  },
+  {
+    "question": "Na frase 'Ele era muito rico, <b>todavia</b> vivia de forma simples', o termo em negrito pode ser substituído sem perda de sentido por:",
+    "options": [
+      "Portanto",
+      "Mas também",
+      "Entretanto",
+      "Porquanto"
+    ],
+    "correct": 2,
+    "explanation": "'Todavia' e 'entretanto' são conjunções adversativas sinônimas."
+  },
+  {
+    "question": "A oração 'Leve o guarda-chuva, <b>porque</b> vai chover' é classificada como:",
+    "options": [
+      "Explicativa",
+      "Conclusiva",
+      "Adversativa",
+      "Causal"
+    ],
+    "correct": 0,
+    "explanation": "Ela justifica a ordem/recomendação dada na oração anterior, caracterizando a coordenação explicativa."
+  },
+  {
+    "question": "Em 'O projeto foi aprovado, <b>por isso</b> as obras começarão', a oração destacada é:",
+    "options": [
+      "Sindética Aditiva",
+      "Sindética Conclusiva",
+      "Sindética Explicativa",
+      "Sindética Adversativa"
+    ],
+    "correct": 1,
+    "explanation": "A locução 'por isso' introduz a consequência ou conclusão lógica do fato anterior."
+  },
+  {
+    "question": "Assinale a alternativa que <b>não</b> apresenta uma oração coordenada sindética:",
+    "options": [
+      "Estudei muito, mas não aprendi.",
+      "Cheguei, sentei, comecei a ler.",
+      "Siga o mapa, ou se perderá.",
+      "O diretor saiu, portanto a reunião acabou."
+    ],
+    "correct": 1,
+    "explanation": "Esta alternativa apresenta apenas orações coordenadas assindéticas (separadas por vírgula, sem conjunção)."
+  }
 ]
 };
 
@@ -741,7 +1032,7 @@ function showQuestion(index) {
     const q = currentQuestions[index];
     const questionDiv = document.createElement('div');
     questionDiv.classList.add('question');
-    questionDiv.innerHTML = `<h3>${index + 1}. ${q.question}</h3>`;
+    questionDiv.innerHTML = `<h4>${index + 1}. ${q.question}</h4>`;
 
     q.options.forEach((option, optIndex) => {
         const optionDiv = document.createElement('div');
