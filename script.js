@@ -954,7 +954,103 @@ const questions = {
     "correct": 1,
     "explanation": "Esta alternativa apresenta apenas orações coordenadas assindéticas (separadas por vírgula, sem conjunção)."
   }
-]
+],
+
+"pronomes":[
+  {
+    "question": "1. (IBGE) Assinale a opção que apresenta o emprego correto do pronome, de acordo com a norma culta:",
+    "options": [
+      "O diretor mandou eu entrar na sala.",
+      "Preciso falar consigo o mais rápido possível.",
+      "Cumprimentei-lhe assim que cheguei.",
+      "Ele só sabe elogiar a si mesmo.",
+      "Após a prova, os candidatos conversaram entre eles."
+    ],
+    "correct": 3,
+    "explanation": "a) Errado. Em construções com verbos causativos (mandar, fazer, deixar) seguidos de infinitivo, a norma culta prefere o uso do pronome oblíquo átono como objeto: 'mandou-me entrar'. <br/>b) Errado. O pronome 'consigo' é estritamente reflexivo. Para se dirigir à 2ª pessoa, deve-se usar 'com você' ou 'com o senhor'. <br/>c) Errado. O verbo 'cumprimentar' é transitivo direto (VTD), portanto exige o pronome 'o/a' e não o 'lhe' (usado para objetos indiretos). <br/>d) Correto. O pronome 'si' é reflexivo e refere-se corretamente ao sujeito 'Ele', reforçado por 'mesmo'. <br/>e) Errado. Para indicar reciprocidade em relação ao sujeito da própria oração, a norma culta exige o uso de 'entre si'."
+  },
+  {
+    "question": "2. (IBGE) Assinale a opção em que houve erro no emprego do pronome pessoal em relação ao uso culto da língua:",
+    "options": [
+      "Ele entregou um texto para mim corrigir.",
+      "Para mim, a leitura está fácil.",
+      "Isto é para eu fazer agora.",
+      "Não saia sem mim.",
+      "Entre mim e ele há uma grande diferença."
+    ],
+    "correct": 0,
+    "explanation": "a) Errado. O pronome 'mim' é oblíquo tônico e não pode exercer a função de sujeito. Antes de um verbo no infinitivo que indique uma ação do sujeito, deve-se usar o pronome reto 'eu' ('para eu corrigir'). <br/>b) Correto. Aqui 'para mim' não é sujeito de verbo, mas sim um complemento com valor de opinião ou alvo da percepção. <br/>c) Correto. O pronome 'eu' exerce corretamente a função de sujeito do verbo 'fazer'. <br/>d) Correto. Após preposição, quando não há verbo subsequente do qual o pronome seja sujeito, utiliza-se a forma oblíqua tônica 'mim'. <br/>e) Correto. A regência da preposição 'entre' exige o uso de pronomes oblíquos tônicos ('entre mim e ti/ele'), nunca a forma reta 'eu'."
+  },
+  {
+    "question": "3. (U-UBERLÂNDIA) Assinale o tratamento dado ao reitor de uma Universidade:",
+    "options": [
+      "Vossa Senhoria",
+      "Vossa Santidade",
+      "Vossa Excelência",
+      "Vossa Magnificência",
+      "Vossa Paternidade"
+    ],
+    "correct": 3,
+    "explanation": "a) Errado. <b>Vossa Senhoria</b> é empregado para autoridades de menor escalão, diretores de empresas ou correspondências comerciais. <br/>b) Errado. <b>Vossa Santidade</b> é de uso exclusivo do Papa. <br/>c) Errado. <b>Vossa Excelência</b> é utilizado para altas autoridades do Estado, como ministros, governadores, juízes e oficiais-generais. <br/>d) Correto. <b>Vossa Magnificência</b> é o pronome de tratamento protocolar exclusivo para reitores de universidades. <br/>e) Errado. <b>Vossa Paternidade</b> é um tratamento utilizado para superiores de ordens religiosas."
+  },
+  {
+    "question": "4. (BB) Colocação incorreta:",
+    "options": [
+      "Preciso que venhas ver-me.",
+      "Procure não desapontá-lo.",
+      "O certo é fazê-los sair.",
+      "Sempre negaram-me tudo.",
+      "As espécies se atraem."
+    ],
+    "correct": 3,
+    "explanation": "a) Correto. Com verbos no infinitivo, a ênclise é sempre permitida, mesmo com a presença da conjunção integrante 'que'. <br/>b) Correto. Em locuções verbais com infinitivo precedido de negação, a ênclise ao verbo principal é aceitável. <br/>c) Correto. A ênclise é o padrão culto para verbos no infinitivo ('fazer' + 'os' vira 'fazê-los'). <br/>d) Errado. O advérbio 'Sempre' é uma palavra atrativa que exige a próclise obrigatória. O correto seria: <b>'Sempre me negaram tudo'</b>. <br/>e) Correto. Quando o sujeito está explícito e não há palavras atrativas, a colocação é facultativa, sendo a próclise muito comum no Brasil."
+  },
+  {
+    "question": "5. (EPCAR) Imagine o pronome entre parênteses no lugar devido e aponte onde não deve haver próclise:",
+    "options": [
+      "Não entristeças. (te)",
+      "Deus favoreça. (o)",
+      "Espero que faças justiça. (se)",
+      "Meus amigos, apresentem em posição de sentido. (se)",
+      "Ninguém faça de rogado. (se)"
+    ],
+    "correct": 3,
+    "explanation": "a) Errado. O advérbio 'Não' atrai o pronome: 'Não <b>te</b> entristeças'. <br/>b) Errado. Em frases optativas (que exprimem desejo), a próclise é obrigatória: 'Deus <b>o</b> favoreça'. <br/>c) Errado. A conjunção 'que' é palavra atrativa: 'Espero que <b>se</b> faça justiça'. <br/>d) Correto. Não se inicia oração ou período com pronome oblíquo. Após a vírgula (pausa), deve-se usar a ênclise: 'apresentem-<b>se</b>'. <br/>e) Errado. O pronome indefinido 'Ninguém' é palavra atrativa, exigindo próclise: 'Ninguém <b>se</b> faça'."
+  },
+  {
+    "question": "(CFS/18) Leia: Ernesto não estava bem. Um sentimento de profunda angústia <b>torturava-lhe</b> naquele turbilhão de pensamentos incessantes. Um adeus definitivo não <b>o</b> tornaria menos sofredor, mas ele precisava resolver o seu drama intenso, que <b>o</b> consumia no cotidiano e <b>lhe</b> deixava o sabor amargo do desprezo. Um dos pronomes oblíquos destacados no texto está incorretamente empregado. Qual?",
+    "options": [
+      "O primeiro.",
+      "O segundo.",
+      "O terceiro.",
+      "O quarto."
+    ],
+    "correct": 0,
+    "explanation": "a) Correto (é o erro). O verbo 'torturar' é transitivo direto (quem tortura, tortura alguém). Por isso, exige o pronome 'o' (torturava-o) e não o 'lhe', que é usado para objetos indiretos. <br/>b) Errado. O verbo 'tornar' (tornar alguém algo) exige objeto direto, logo o uso de 'o' está correto. <br/>c) Errado. O verbo 'consumir' é transitivo direto (consumia o homem), portanto o pronome 'o' está adequadamente empregado. <br/>d) Errado. O verbo 'deixar', neste contexto, é transitivo direto e indireto (deixar algo a alguém). 'Lhe' funciona como objeto indireto (a ele), estando correto."
+  },
+  {
+    "question": "(CFS/17) Leia: <br/>I – Se você precisar, vou <b>te</b> ajudar financeiramente. <br/>II – Trouxeram <b>eu</b> aqui para justificar as falhas cometidas. <br/>III – Não foi comprovada nenhuma relação de parentesco entre <b>mim</b> e <b>ti</b>. <br/>IV – Fui ao shopping e vi sua mãe. Encontrei-<b>a</b> na praça de alimentação. <br/>O emprego dos pronomes pessoais em destaque está correto em:",
+    "options": [
+      "I – II",
+      "III – IV",
+      "II – III",
+      "I – IV"
+    ],
+    "correct": 1,
+    "explanation": "I - Errado. Há uma mistura de pessoas gramaticais: 'você' (3ª pessoa) não combina com o pronome 'te' (2ª pessoa). O correto seria 'ajudá-lo'. <br/>II - Errado. Pronomes retos (eu, tu) não exercem função de objeto. O correto seria 'Trouxeram-me'. <br/>III - Correto. Após a preposição 'entre', devem-se usar pronomes oblíquos tônicos (mim, ti, si). <br/>IV - Correto. O verbo 'encontrar' é transitivo direto e o pronome 'a' substitui corretamente o substantivo feminino 'mãe'."
+  },
+  {
+    "question": "(CFS/15) Assinale a alternativa que completa, correta e respectivamente, as lacunas: <br/>I – Entre ____ e ____, não há qualquer possibilidade de reconciliação. <br/>II – O aluno ____ redação continha muitas incoerências foi desclassificado. <br/>III – ____ livro que trago nas mãos é o romance A mulher que escreveu a Bíblia. <br/>IV – No sobrado ______ morava, havia duas janelas ovaladas. <br/>V – Ao circular pela obra, o pedreiro constatou que havia ferramentas ____ dono ele desconhecia.",
+    "options": [
+      "eu, tu, cuja, Este, onde, cujo o",
+      "mim, ti, cuja, Este, onde, cujo",
+      "eu, ti, que a, Esse, aonde, que o",
+      "mim, tu, que a, Esse, aonde, que o"
+    ],
+    "correct": 1,
+    "explanation": "a) Errado. Não se usa pronome reto (eu, tu) após preposição 'entre' sem verbo no infinitivo, e nunca se usa artigo após o pronome cujo (cujo o). <br/>b) Correto. I: 'mim' e 'ti' (oblíquos após preposição); II: 'cuja' (posse: redação do aluno); III: 'Este' (proximidade com quem fala); IV: 'onde' (lugar fixo); V: 'cujo' (posse: dono das ferramentas). <br/>c) Errado. 'Eu' está incorreto no item I; 'Esse' indica proximidade com o ouvinte, não com quem fala; 'Aonde' exige ideia de movimento. <br/>d) Errado. 'Tu' no item I está incorreto; 'Esse' e 'Aonde' não se aplicam aos contextos de posse e lugar fixo apresentados."
+  }
+],
 };
 
 // Elementos do DOM
