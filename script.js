@@ -1051,6 +1051,649 @@ const questions = {
     "explanation": "a) Errado. Não se usa pronome reto (eu, tu) após preposição 'entre' sem verbo no infinitivo, e nunca se usa artigo após o pronome cujo (cujo o). <br/>b) Correto. I: 'mim' e 'ti' (oblíquos após preposição); II: 'cuja' (posse: redação do aluno); III: 'Este' (proximidade com quem fala); IV: 'onde' (lugar fixo); V: 'cujo' (posse: dono das ferramentas). <br/>c) Errado. 'Eu' está incorreto no item I; 'Esse' indica proximidade com o ouvinte, não com quem fala; 'Aonde' exige ideia de movimento. <br/>d) Errado. 'Tu' no item I está incorreto; 'Esse' e 'Aonde' não se aplicam aos contextos de posse e lugar fixo apresentados."
   }
 ],
+
+"col_pronomes_ob":[
+  {
+    "question": "Assinale a alternativa que apresenta a colocação correta conforme a norma padrão:",
+    "options": [
+      "<b>Me</b> empresta o seu caderno?",
+      "Empresta-<b>me</b> o seu caderno?",
+      "Nunca <b>empresta-me</b> nada.",
+      "Sempre <b>vi-o</b> no parque."
+    ],
+    "correct": 1,
+    "explanation": "A) Errado. Não se inicia frase com pronome oblíquo átono na linguagem formal. <br/>B) Correto. Como a frase inicia o período e não há palavra atrativa, utiliza-se a <b>ênclise</b>. <br/>C) Errado. 'Nunca' é palavra negativa e atrai o pronome (próclise obrigatória): 'Nunca <b>me</b> empresta'. <br/>D) Errado. 'Sempre' é advérbio e atrai o pronome: 'Sempre <b>o</b> vi'."
+  },
+  {
+    "question": "Em qual das frases a <b>próclise</b> é obrigatória devido a uma palavra negativa?",
+    "options": [
+      "Não <b>se</b> esqueça do compromisso.",
+      "Espero que <b>se</b> lembre de tudo.",
+      "Lembraram-<b>me</b> da data.",
+      "Daria-<b>lhe</b> um presente hoje."
+    ],
+    "correct": 0,
+    "explanation": "A) Correto. A palavra 'Não' é um advérbio de negação que exige a <b>próclise</b> (pronome antes do verbo). <br/>B) Errado. Aqui a próclise ocorre por causa da conjunção 'que', não por negação. <br/>C) Errado. Frase iniciada por verbo exige <b>ênclise</b>. <br/>D) Errado. Verbo no futuro do pretérito sem palavra atrativa exige <b>mesóclise</b>: 'Dar-lhe-ia'."
+  },
+  {
+    "question": "Assinale a opção em que o pronome relativo exige a <b>próclise</b>:",
+    "options": [
+      "Viu-<b>nos</b> o homem que saía.",
+      "Este é o livro que <b>me</b> recomendaram.",
+      "Entregue-<b>o</b> ao rapaz que chegar.",
+      "Falaram-<b>lhe</b> sobre o que aconteceu."
+    ],
+    "correct": 1,
+    "explanation": "A) Errado. 'Viu-nos' está correto por ser início de frase; 'que' não afeta o pronome anterior. <br/>B) Correto. O pronome relativo 'que' é palavra atrativa, puxando o pronome 'me' para antes do verbo. <br/>C) Errado. 'Entregue-o' é ênclise correta em início de oração imperativa. <br/>D) Errado. Início de período sem atração exige <b>ênclise</b>."
+  },
+  {
+    "question": "No futuro do presente, sem palavras atrativas, a forma correta é:",
+    "options": [
+      "<b>Lhe</b> direi a verdade.",
+      "Direi-<b>lhe</b> a verdade.",
+      "Dir-<b>lhe</b>-ei a verdade.",
+      "<b>Te</b> direi tudo amanhã."
+    ],
+    "correct": 2,
+    "explanation": "A) Errado. Não se inicia frase com oblíquo. <br/>B) Errado. É proibido o uso de ênclise com verbos no futuro do presente ou futuro do pretérito. <br/>C) Correto. Na ausência de palavra atrativa, verbos no futuro exigem a <b>mesóclise</b>. <br/>D) Errado. Início de frase com pronome de 2ª pessoa fere a norma culta."
+  },
+  {
+    "question": "Identifique a alternativa onde o advérbio <b>não</b> seguido de vírgula atrai o pronome:",
+    "options": [
+      "Ontem, <b>me</b> entregaram o prêmio.",
+      "Ontem <b>me</b> entregaram o prêmio.",
+      "Ontem entregaram-<b>me</b> o prêmio.",
+      "Ontem, entregaram-<b>me</b> o prêmio."
+    ],
+    "correct": 1,
+    "explanation": "A) Errado. A vírgula isola o advérbio; nesse caso, o pronome não pode vir após a pausa (início de oração). <br/>B) Correto. Advérbios sem pausa (vírgula) são palavras atrativas, exigindo <b>próclise</b>. <br/>C) Errado. Pela regra de atração do advérbio, a ênclise é evitada. <br/>D) Correto em outro contexto, mas a questão pede o caso de atração pelo advérbio (que ocorre sem a vírgula)."
+  },
+  {
+    "question": "A oração 'Quem <b>te</b> contou isso?' está correta porque:",
+    "options": [
+      "Frases interrogativas exigem próclise.",
+      "O pronome 'quem' é facultativo.",
+      "O verbo está no passado.",
+      "Trata-se de uma mesóclise oculta."
+    ],
+    "correct": 0,
+    "explanation": "A) Correto. Pronomes interrogativos (Quem, Qual, Que) iniciam orações que exigem obrigatoriamente a <b>próclise</b>. <br/>B) Errado. O pronome 'quem' é atrativo e não facultativo. <br/>C) Errado. O tempo verbal não é o fator determinante aqui, mas sim o tipo de frase. <br/>D) Errado. Não existe o conceito de mesóclise oculta na gramática."
+  },
+  {
+    "question": "Assinale a alternativa correta quanto ao uso com pronomes indefinidos:",
+    "options": [
+      "Tudo <b>se</b> resolve com o tempo.",
+      "Tudo resolve-<b>se</b> com o tempo.",
+      "Alguém viu-<b>me</b> ontem.",
+      "Ninguém ajudará-<b>me</b>."
+    ],
+    "correct": 0,
+    "explanation": "A) Correto. Pronomes indefinidos (Tudo, Nada, Alguém, Ninguém) são <b>palavras atrativas</b> que exigem próclise. <br/>B) Errado. Contraria a regra de atração do pronome indefinido 'Tudo'. <br/>C) Errado. 'Alguém' é indefinido e exige próclise: 'Alguém <b>me</b> viu'. <br/>D) Errado. Além de 'Ninguém' ser atrativo, não se usa ênclise em verbos no futuro."
+  },
+  {
+    "question": "Em 'Em <b>se</b> tratando de negócios...', a colocação é:",
+    "options": [
+      "Ênclise obrigatória.",
+      "Próclise obrigatória.",
+      "Mesóclise necessária.",
+      "Totalmente facultativa."
+    ],
+    "correct": 1,
+    "explanation": "A) Errado. A ênclise não se aplica nessa estrutura fixa. <br/>B) Correto. A estrutura <b>'Em + se + Gerúndio'</b> exige obrigatoriamente a próclise. <br/>C) Errado. Não há futuro para justificar mesóclise. <br/>D) Errado. É uma regra específica e obrigatória da norma culta."
+  },
+  {
+    "question": "Quanto ao uso do infinitivo preposicionado (Ex: 'Para <b>me</b> ver'), a regra diz que:",
+    "options": [
+      "A próclise é obrigatória.",
+      "A ênclise é proibida.",
+      "A colocação é facultativa (<b>me</b> ver ou ver-<b>me</b>).",
+      "Deve-se usar mesóclise."
+    ],
+    "correct": 2,
+    "explanation": "A) Errado. Não é a única opção. <br/>B) Errado. A ênclise também é permitida com infinitivos. <br/>C) Correto. Com verbos no <b>infinitivo impessoal</b> precedidos de preposição, o uso da próclise ou da ênclise é facultativo. <br/>D) Errado. Mesóclise só ocorre com futuro."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta um erro de colocação pronominal:",
+    "options": [
+      "Espero que <b>nos</b> ajudem.",
+      "Tenho <b>comunicado-lhe</b> os fatos.",
+      "Deus <b>o</b> acompanhe!",
+      "Nada <b>me</b> foi dito."
+    ],
+    "correct": 1,
+    "explanation": "A) Correto. 'Que' é conjunção subordinativa e atrai o pronome. <br/>B) Errado (Alternativa com erro). <b>Nunca</b> se utiliza ênclise com verbos no <b>particípio</b>. O correto seria 'Tenho-lhe comunicado'. <br/>C) Correto. Em frases optativas (que exprimem desejo), usa-se a próclise. <br/>D) Correto. 'Nada' é pronome indefinido e atrai o oblíquo."
+  },
+  {
+    "question": "Na frase 'Aquilo <b>me</b> deixou triste', a próclise ocorre por:",
+    "options": [
+      "Presença de pronome demonstrativo.",
+      "Início de frase.",
+      "Presença de verbo de ligação.",
+      "Ser uma frase exclamativa."
+    ],
+    "correct": 0,
+    "explanation": "A) Correto. Pronomes demonstrativos (Aquilo, Isso, Isto) são fatores de <b>próclise</b>. <br/>B) Errado. Se fosse apenas início de frase sem o 'Aquilo', seria ênclise. <br/>C) Errado. 'Deixar' não é verbo de ligação aqui e isso não afetaria a regra. <br/>D) Errado. O fator principal é o pronome demonstrativo no sujeito."
+  },
+  {
+    "question": "Assinale a frase em que a <b>mesóclise</b> é obrigatória:",
+    "options": [
+      "Não <b>lhe</b> direi nada.",
+      "Se pudesse, <b>dir-lhe-ia</b> a verdade.",
+      "Alguém <b>me</b> dirá o caminho.",
+      "<b>Me</b> dirão o que fazer."
+    ],
+    "correct": 1,
+    "explanation": "A) Errado. A palavra negativa 'Não' tem prioridade sobre a mesóclise, exigindo próclise. <br/>B) Correto. Verbo no futuro do pretérito em início de oração (após a pausa da vírgula) exige <b>mesóclise</b>. <br/>C) Errado. 'Alguém' é palavra atrativa e exige próclise. <br/>D) Errado. Não se inicia frase com pronome oblíquo; o correto seria mesóclise 'Dir-me-ão'."
+  }
+],
+"regras_pronomes":[
+{
+    "question": "Assinale a alternativa que preenche corretamente a lacuna: 'Esta tarefa é para <b>___</b> terminar ainda hoje.'",
+    "options": [
+      "mim",
+      "<b>eu</b>",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. 'Mim' não pode ser sujeito do verbo 'terminar'.<br/><b>B:</b> <b>Correta.</b> O pronome reto <b>eu</b> deve ser usado quando exerce a função de sujeito de um verbo no infinitivo.<br/><b>C:</b> Incorreta. 'Me' é um pronome oblíquo átono e não funciona como sujeito de infinitivo nesta estrutura.<br/><b>D:</b> Incorreta. 'Mim mesmo' é usado para ênfase, mas não substitui o sujeito 'eu' antes de verbo."
+  },
+  {
+    "question": "Escolha a opção correta: 'Não há mais nenhum segredo entre <b>___</b> e você.'",
+    "options": [
+      "eu",
+      "<b>mim</b>",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. Após preposições como 'entre', não se usa o pronome reto 'eu'.<br/><b>B:</b> <b>Correta.</b> Com a preposição 'entre', deve-se utilizar o pronome oblíquo tônico <b>mim</b>.<br/><b>C:</b> Incorreta. 'Me' é átono e não pode ser usado após preposição.<br/><b>D:</b> Incorreta. Embora gramaticalmente possível em contextos reflexivos, a regra básica exige apenas o pronome oblíquo tônico <b>mim</b>."
+  },
+  {
+    "question": "Complete a frase: 'Eles trouxeram esses documentos para <b>___</b>.'",
+    "options": [
+      "eu",
+      "me",
+      "<b>mim</b>",
+      "ti"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O pronome reto 'eu' não pode aparecer no final da frase após preposição sem um verbo para conjugar.<br/><b>B:</b> Incorreta. 'Me' não pode ser precedido por preposição no final da frase.<br/><b>C:</b> <b>Correta.</b> O pronome oblíquo tônico <b>mim</b> é o termo correto para finalizar a oração após a preposição 'para'.<br/><b>D:</b> Incorreta. 'Ti' refere-se à segunda pessoa, mudando o sentido solicitado implicitamente pela regra de primeira pessoa."
+  },
+  {
+    "question": "Qual das alternativas está correta? 'Emprestou o carro para <b>___</b> viajar no final de semana.'",
+    "options": [
+      "<b>eu</b>",
+      "mim",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> O pronome <b>eu</b> é o sujeito do verbo 'viajar'.<br/><b>B:</b> Incorreta. 'Mim' não conjuga verbo, logo não pode ser sujeito de 'viajar'.<br/><b>C:</b> Incorreta. 'Me' não exerce função de sujeito de verbo no infinitivo nesta construção.<br/><b>D:</b> Incorreta. 'Mim mesmo' não é adequado para exercer a função de sujeito simples antes do infinitivo."
+  },
+  {
+    "question": "Assinale a opção que apresenta erro: 'Para <b>___</b>, estudar português é um prazer.'",
+    "options": [
+      "eu",
+      "<b>mim</b>",
+      "mim mesmo",
+      "minha pessoa"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Incorreta (apresenta erro).</b> Na função de complemento com valor de opinião ('na minha opinião'), deve-se usar <b>mim</b> e não o pronome reto 'eu'.<br/><b>B:</b> Correta. O uso de <b>mim</b> após a preposição em frases intercaladas ou de opinião é o padrão da norma culta.<br/><b>C:</b> Correta. Pode ser usado para dar ênfase à opinião pessoal.<br/><b>D:</b> Correta. Embora menos comum, é gramaticalmente possível, ao contrário do 'eu' isolado como complemento."
+  },
+  {
+    "question": "Indique a forma correta: 'Pediram para <b>___</b> ficar em silêncio durante a palestra.'",
+    "options": [
+      "mim",
+      "<b>eu</b>",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. 'Mim' não pode realizar a ação de 'ficar'.<br/><b>B:</b> <b>Correta.</b> O pronome <b>eu</b> atua como sujeito do verbo 'ficar'.<br/><b>C:</b> Incorreta. O pronome átono 'me' não substitui o sujeito reto antes de infinitivo.<br/><b>D:</b> Incorreta. O uso de 'mim mesmo' é desnecessário e incorreto como sujeito simples neste caso."
+  },
+  {
+    "question": "Complete: 'Sem <b>___</b>, o projeto dificilmente será aprovado pela diretoria.'",
+    "options": [
+      "eu",
+      "<b>mim</b>",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. Após a preposição 'sem', deve-se usar a forma oblíqua tônica.<br/><b>B:</b> <b>Correta.</b> <b>Mim</b> é o pronome oblíquo tônico exigido após a preposição 'sem'.<br/><b>C:</b> Incorreta. 'Me' é átono e não admite preposição.<br/><b>D:</b> Incorreta. 'Mim mesmo' seria redundante sem uma necessidade de reflexividade ou ênfase específica."
+  },
+  {
+    "question": "Marque a alternativa correta: 'Entregaram o livro para <b>___</b> ler durante as férias.'",
+    "options": [
+      "<b>eu</b>",
+      "mim",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> O pronome <b>eu</b> é o sujeito do verbo 'ler'.<br/><b>B:</b> Incorreta. Regra fundamental: 'mim' não lê, não escreve e não faz nada, pois não conjuga verbo.<br/><b>C:</b> Incorreta. 'Me' não exerce função de sujeito de infinitivo nesta regência.<br/><b>D:</b> Incorreta. 'Mim mesmo' não é o sujeito adequado para o verbo 'ler' nesta estrutura."
+  },
+  {
+    "question": "Preencha corretamente: 'Isto é um problema apenas para <b>___</b> resolver.'",
+    "options": [
+      "mim",
+      "<b>eu</b>",
+      "me",
+      "mim mesmo"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. 'Mim' não pode ser o agente da ação de 'resolver'.<br/><b>B:</b> <b>Correta.</b> Usa-se <b>eu</b> pois existe um verbo no infinitivo ('resolver') do qual o pronome é o sujeito.<br/><b>C:</b> Incorreta. 'Me' não funciona como sujeito de verbos no infinitivo.<br/><b>D:</b> Incorreta. 'Mim mesmo' não deve ser usado como sujeito simples antes do verbo."
+  },
+  {
+    "question": "Assinale a frase gramaticalmente correta:",
+    "options": [
+      "Não vá sem <b>eu</b>.",
+      "Ele é mais alto do que <b>mim</b>.",
+      "Comprei este presente para <b>mim</b>.",
+      "Deixe <b>mim</b> ver o resultado."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O correto é 'sem <b>mim</b>', pois não há verbo após o pronome.<br/><b>B:</b> Incorreta. Em comparações, subentende-se um verbo: 'mais alto do que <b>eu</b> (sou)'.<br/><b>C:</b> <b>Correta.</b> <b>Mim</b> é usado corretamente como objeto indireto após a preposição 'para'.<br/><b>D:</b> Incorreta. Com verbos causativos (deixar, fazer, mandar), usa-se o pronome oblíquo átono 'me': 'Deixe-<b>me</b> ver'."
+  },
+  {
+    "question": "Analise as lacunas: 'Para <b>___</b>, viajar é bom; mas, para <b>___</b> viajar, preciso de dinheiro.'",
+    "options": [
+      "eu - mim",
+      "<b>mim - eu</b>",
+      "mim - mim",
+      "eu - eu"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. Inverte a lógica: o primeiro é opinião, o segundo é sujeito.<br/><b>B:</b> <b>Correta.</b> No primeiro caso, <b>mim</b> indica opinião. No segundo, <b>eu</b> é sujeito do verbo 'viajar'.<br/><b>C:</b> Incorreta. O segundo 'mim' não pode conjugar o verbo 'viajar'.<br/><b>D:</b> Incorreta. O primeiro 'eu' não pode ser usado isoladamente após preposição para indicar opinião."
+  },
+  {
+    "question": "Marque a alternativa em que o uso do pronome está <b>incorreto</b>:",
+    "options": [
+      "Para <b>mim</b>, o café está frio.",
+      "Trouxeram a comida para <b>eu</b> comer.",
+      "<b>Mim</b> não sabe o que dizer.",
+      "Fale tudo para <b>mim</b>."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Correta. <b>Mim</b> indica opinião pessoal perfeitamente.<br/><b>B:</b> Correta. <b>Eu</b> é o sujeito do verbo 'comer'.<br/><b>C:</b> <b>Incorreta.</b> 'Mim' nunca pode ser sujeito de um verbo (neste caso, o verbo 'saber'). O correto é '<b>Eu</b> não sei'.<br/><b>D:</b> Correta. <b>Mim</b> é o objeto indireto após a preposição 'para'."
+  }
+  ,{
+    "question": "Assinale a alternativa que apresenta o uso <b>correto</b> do pronome de acordo com a norma culta:",
+    "options": [
+      "Eu encontrei <b>ele</b> no shopping ontem à tarde.",
+      "O diretor chamou <b>nós</b> para uma reunião de emergência.",
+      "Os documentos, o estagiário <b>os</b> entregou ao gerente.",
+      "Vi <b>ela</b> atravessando a rua apressadamente."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O pronome <b>ele</b> é reto e não deve ser objeto direto (vi ele); o correto seria <b>encontrei-o</b>.<br/><b>B:</b> Incorreta. <b>Nós</b> é reto e não deve ser objeto direto após o verbo; o correto seria <b>chamou-nos</b>.<br/><b>C:</b> <b>Correta.</b> O pronome <b>os</b> é oblíquo átono e exerce corretamente a função de objeto direto.<br/><b>D:</b> Incorreta. <b>Ela</b> é pronome reto e não deve ocupar posição de objeto; o correto seria <b>vi-a</b>."
+  },
+  {
+    "question": "Complete a frase corretamente: 'Isto é para ___ fazer, não para ___.'",
+    "options": [
+      "mim - eu",
+      "eu - mim",
+      "mim - mim",
+      "eu - eu"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. 'Mim' não pode ser sujeito do verbo 'fazer'.<br/><b>B:</b> <b>Correta.</b> O pronome reto <b>eu</b> é sujeito do infinitivo 'fazer'. No segundo espaço, o pronome oblíquo <b>mim</b> é usado após a preposição sem verbo seguinte.<br/><b>C:</b> Incorreta. 'Mim' não conjuga verbo.<br/><b>D:</b> Incorreta. O segundo 'eu' ficaria sem função de sujeito, exigindo-se o oblíquo tônico 'mim'."
+  },
+  {
+    "question": "Na frase 'O guarda deteve <b>os suspeitos</b>', ao substituir o termo em destaque, a forma correta é:",
+    "options": [
+      "O guarda deteve <b>eles</b>.",
+      "O guarda deteve-<b>nos</b>.",
+      "O guarda deteve-<b>los</b>.",
+      "O guarda deteve-<b>os</b>."
+    ],
+    "correct": 3,
+    "explanation": "<b>A:</b> Incorreta. <b>Eles</b> é pronome reto e não pode ser objeto direto na norma culta.<br/><b>B:</b> Incorreta. 'Nos' refere-se à primeira pessoa (nós), alterando o sentido da frase.<br/><b>C:</b> Incorreta. A terminação <b>-los</b> só ocorre se o verbo terminar em R, S ou Z.<br/><b>D:</b> <b>Correta.</b> Como o verbo termina em vogal, utiliza-se o pronome oblíquo <b>-os</b> para substituir o objeto direto."
+  },
+  {
+    "question": "Indique o erro gramatical na seguinte frase: 'Não houve nada entre <b>eu</b> e <b>você</b>.'",
+    "options": [
+      "O uso de 'nada' está incorreto.",
+      "Deveria ser usado 'mim' em vez de 'eu'.",
+      "O pronome 'você' deveria ser 'ti'.",
+      "A frase está perfeitamente correta."
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. O termo 'nada' está bem empregado.<br/><b>B:</b> <b>Correta.</b> Após preposições (como 'entre'), deve-se usar pronomes oblíquos tônicos (<b>mim, ti</b>). O correto é 'entre <b>mim</b> e você'.<br/><b>C:</b> Incorreta. Embora 'ti' seja possível, o erro principal reside no uso do pronome reto 'eu'.<br/><b>D:</b> Incorreta. A norma culta proíbe pronomes retos após a preposição 'entre' quando não há verbo."
+  },
+  {
+    "question": "Em qual das frases o pronome <b>reto</b> exerce corretamente a função de sujeito?",
+    "options": [
+      "Deixaram <b>eu</b> falar durante a assembleia.",
+      "Pediram para <b>mim</b> trazer os relatórios.",
+      "É necessário que <b>vós</b> saibais a verdade.",
+      "Mandaram <b>ele</b> sair da sala imediatamente."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. Em 'Deixaram-me falar', o pronome deveria ser oblíquo (me) ou o reto 'eu' só se fosse sujeito de 'falar' em estrutura específica, mas soa coloquial.<br/><b>B:</b> Incorreta. 'Para mim trazer' é erro clássico; deve ser 'para <b>eu</b> trazer'.<br/><b>C:</b> <b>Correta.</b> O pronome reto <b>vós</b> é o sujeito da forma verbal 'saibais'.<br/><b>D:</b> Incorreta. 'Ele' está como objeto direto de mandaram; o correto é <b>mandaram-no</b>."
+  },
+  {
+    "question": "Substituindo o objeto direto em 'Eles amam <b>a pátria</b>', obtemos:",
+    "options": [
+      "Eles amam-<b>na</b>.",
+      "Eles amam <b>ela</b>.",
+      "Eles amam-<b>la</b>.",
+      "Eles <b>lhe</b> amam."
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> Verbos terminados em sons nasais (M) exigem as variações <b>-na, -no</b> do pronome oblíquo.<br/><b>B:</b> Incorreta. <b>Ela</b> é reto e não pode ser objeto direto.<br/><b>C:</b> Incorreta. A forma '-la' é para verbos terminados em R, S ou Z.<br/><b>D:</b> Incorreta. 'Lhe' é objeto indireto, e o verbo amar é transitivo direto."
+  },
+  {
+    "question": "Marque a alternativa onde o pronome <b>não</b> deveria ser reto:",
+    "options": [
+      "<b>Nós</b> fomos ao cinema.",
+      "Diga para <b>eles</b> que o prazo acabou.",
+      "O professor trouxe as provas para <b>eu</b> corrigir.",
+      "Esperamos <b>tu</b> na saída da escola."
+    ],
+    "correct": 3,
+    "explanation": "<b>A:</b> Correta. <b>Nós</b> é sujeito de 'fomos'.<br/><b>B:</b> Correta. Após a preposição 'para', quando indica direção ou destinatário, 'eles' (que pode ser reto ou oblíquo) é aceito.<br/><b>C:</b> Correta. <b>Eu</b> é sujeito do verbo 'corrigir'.<br/><b>D:</b> <b>Incorreta.</b> O verbo esperar exige objeto direto; o correto seria 'Esperamos-<b>te</b>' ou 'Esperamos <b>você</b>'."
+  },
+  {
+    "question": "Qual opção preenche as lacunas: 'Sempre ___ vi dedicados, por isso ___ confiei a tarefa.'",
+    "options": [
+      "os - os",
+      "lhes - lhes",
+      "os - lhes",
+      "eles - lhes"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O segundo verbo (confiar) exige objeto indireto (confiar algo A alguém).<br/><b>B:</b> Incorreta. O primeiro verbo (ver) é transitivo direto e não aceita 'lhes'.<br/><b>C:</b> <b>Correta.</b> 'Ver' é VTD (ver <b>os</b> alunos) e 'confiar' é VTDI (confiar a tarefa <b>lhes</b>).<br/><b>D:</b> Incorreta. <b>Eles</b> não deve ser usado como objeto direto do verbo ver."
+  },
+  {
+    "question": "Na oração 'Quero <b>te</b> ver feliz', o pronome <b>te</b> é:",
+    "options": [
+      "Um pronome reto em função de sujeito.",
+      "Um pronome oblíquo em função de objeto direto.",
+      "Um pronome de tratamento.",
+      "Um pronome reto em função de objeto."
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. Pronomes retos são eu, tu, ele, etc.<br/><b>B:</b> <b>Correta.</b> <b>Te</b> é a forma oblíqua de 'tu', exercendo função de complemento (objeto direto) de ver.<br/><b>C:</b> Incorreta. Pronomes de tratamento são 'Você', 'Vossa Excelência', etc.<br/><b>D:</b> Incorreta. Não existe pronome reto em função de objeto na norma culta."
+  },
+  {
+    "question": "A frase 'Chamaram <b>eu</b> para depor' apresenta qual desvio?",
+    "options": [
+      "Uso de pronome reto em vez de oblíquo no sujeito.",
+      "Uso de pronome oblíquo em função de sujeito.",
+      "Uso de pronome reto em função de objeto direto.",
+      "Uso indevido de preposição antes do pronome."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O termo 'eu' não é o sujeito de 'chamaram'.<br/><b>B:</b> Incorreta. 'Eu' não é pronome oblíquo.<br/><b>C:</b> <b>Correta.</b> <b>Eu</b> é reto e está sendo usado como complemento do verbo chamar, o que é um erro. O correto é 'Chamaram-<b>me</b>'.<br/><b>D:</b> Incorreta. Não há preposição na frase original."
+  },
+  {
+    "question": "Substitua o termo em destaque: 'O professor <b>ajudou os alunos</b> na revisão.'",
+    "options": [
+      "O professor ajudou-<b>lhes</b> na revisão.",
+      "O professor <b>os</b> ajudou na revisão.",
+      "O professor ajudou <b>eles</b> na revisão.",
+      "O professor ajudou-<b>nos</b> na revisão."
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. O verbo 'ajudar' é transitivo direto (VTD), logo não aceita o pronome 'lhes'.<br/><b>B:</b> <b>Correta.</b> Como 'ajudar' é VTD, o pronome oblíquo <b>os</b> substitui corretamente o objeto direto 'os alunos'.<br/><b>C:</b> Incorreta. O pronome reto 'eles' não deve ser usado como objeto direto na norma culta.<br/><b>D:</b> Incorreta. 'Nos' refere-se à primeira pessoa (nós), alterando o sentido da frase original."
+  },
+  {
+    "question": "Assinale a frase que utiliza corretamente o pronome <b>lhe</b>:",
+    "options": [
+      "Eu <b>lhe</b> amo com todas as minhas forças.",
+      "Nunca <b>lhe</b> vi tão feliz como hoje.",
+      "O filho sempre <b>lhe</b> obedeceu sem questionar.",
+      "A empresa <b>lhe</b> contratou na semana passada."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Amar' é VTD; o correto seria 'Eu <b>a/o</b> amo'.<br/><b>B:</b> Incorreta. 'Ver' é VTD; o correto seria 'Nunca <b>o/a</b> vi'.<br/><b>C:</b> <b>Correta.</b> O verbo 'obedecer' é transitivo indireto (VTI) e rege a preposição 'a', permitindo o uso do <b>lhe</b>.<br/><b>D:</b> Incorreta. 'Contratar' é VTD; o correto seria 'A empresa <b>o/a</b> contratou'."
+  },
+  {
+    "question": "Complete a lacuna: 'Os diretores não ___ convocaram para a assembleia.'",
+    "options": [
+      "<b>os</b>",
+      "lhes",
+      "a eles",
+      "lo"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> O verbo 'convocar' é VTD (quem convoca, convoca alguém), exigindo o pronome <b>os</b>.<br/><b>B:</b> Incorreta. 'Lhes' é para objetos indiretos e o verbo em questão não rege preposição para o complemento.<br/><b>C:</b> Incorreta. 'A eles' é uma forma tônica que exigiria preposição e, geralmente, ênfase, não sendo a substituição padrão aqui.<br/><b>D:</b> Incorreta. A forma 'lo' só ocorre após verbos terminados em R, S ou Z."
+  },
+  {
+    "question": "Na oração 'Entreguei <b>o relatório ao chefe</b>', substituindo apenas o termo 'ao chefe', temos:",
+    "options": [
+      "Entreguei-<b>o</b> o relatório.",
+      "Entreguei <b>ele</b> o relatório.",
+      "Entreguei-<b>lhe</b> o relatório.",
+      "Entreguei-<b>lo</b> o relatório."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'O' substituiria 'o relatório', e não 'ao chefe'.<br/><b>B:</b> Incorreta. 'Ele' é pronome reto e não deve exercer função de objeto indireto.<br/><b>C:</b> <b>Correta.</b> 'Ao chefe' é um objeto indireto; o pronome <b>lhe</b> é o substituto gramatical adequado.<br/><b>D:</b> Incorreta. A forma 'lo' é variação de objeto direto, não indireto."
+  },
+  {
+    "question": "Qual alternativa apresenta erro de regência no uso de <b>o/a</b>?",
+    "options": [
+      "Ninguém <b>a</b> convidou para a festa.",
+      "O médico <b>o</b> assistiu durante a cirurgia.",
+      "Eu <b>a</b> perdoei pelo erro cometido.",
+      "O público <b>o</b> assistiu no estádio."
+    ],
+    "correct": 3,
+    "explanation": "<b>A:</b> Correta. 'Convidar' é VTD.<br/><b>B:</b> Correta. 'Assistir' no sentido de dar assistência/ajudar é VTD.<br/><b>C:</b> Correta. 'Perdoar' é VTD quando o objeto é uma coisa ('o erro'), mas quando se refere à pessoa ('a ela'), a norma culta prefere VTI (lhe), embora o uso de 'a' seja aceito em certas bancas. Contudo, a D é um erro crasso.<br/><b>D:</b> <b>Incorreta.</b> 'Assistir' no sentido de ver/presenciar é VTI; o correto seria 'O público assistiu <b>a ele</b>' (o pronome 'lhe' é evitado por alguns gramáticos para este verbo, mas 'o' é erro absoluto)."
+  },
+  {
+    "question": "Substitua o termo: 'O palestrante <b>cumprimentou os ouvintes</b>.'",
+    "options": [
+      "O palestrante cumprimentou-<b>lhes</b>.",
+      "O palestrante <b>lhes</b> cumprimentou.",
+      "O palestrante cumprimentou-<b>os</b>.",
+      "O palestrante cumprimentou <b>eles</b>."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Cumprimentar' é VTD, não aceita 'lhes'.<br/><b>B:</b> Incorreta. Além do erro de 'lhes', a próclise não é obrigatória sem palavra atrativa.<br/><b>C:</b> <b>Correta.</b> <b>Os</b> substitui corretamente o objeto direto 'os ouvintes' em posição de ênclise.<br/><b>D:</b> Incorreta. Uso de pronome reto 'eles' como objeto direto."
+  },
+  {
+    "question": "Escolha a opção que preenche corretamente: 'Desejo-___ muito sucesso, pois ___ admiro muito.'",
+    "options": [
+      "o - o",
+      "lhe - lhe",
+      "<b>lhe - o</b>",
+      "o - lhe"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Desejar' (algo A alguém) exige objeto indireto (lhe).<br/><b>B:</b> Incorreta. 'Admirar' é VTD (quem admira, admira alguém), não aceita 'lhe'.<br/><b>C:</b> <b>Correta.</b> 'Desejar' é VTDI (lhe = a você) e 'Admirar' é VTD (o = você).<br/><b>D:</b> Incorreta. Inverte as funções sintáticas dos pronomes."
+  },
+  {
+    "question": "Em 'Paguei <b>ao fornecedor</b>', a substituição correta pelo pronome é:",
+    "options": [
+      "Paguei-<b>o</b>.",
+      "Paguei-<b>lhe</b>.",
+      "Paguei <b>ele</b>.",
+      "Paguei-<b>lo</b>."
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. 'Pagar' é VTD para coisas (paguei o boleto) e VTI para pessoas (paguei ao fornecedor).<br/><b>B:</b> <b>Correta.</b> Como o objeto é uma pessoa precedida de preposição (indireto), usa-se <b>lhe</b>.<br/><b>C:</b> Incorreta. 'Ele' é pronome reto.<br/><b>D:</b> Incorreta. 'Lo' é variação de objeto direto."
+  },
+  {
+    "question": "Substituindo o objeto em 'Visitei <b>minha tia</b> no hospital':",
+    "options": [
+      "Visitei-<b>lhe</b> no hospital.",
+      "<b>Lhe</b> visitei no hospital.",
+      "Visitei-<b>a</b> no hospital.",
+      "Visitei <b>ela</b> no hospital."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Visitar' é VTD, não aceita 'lhe'.<br/><b>B:</b> Incorreta. 'Lhe' é incorreto para o verbo e não se inicia frase com pronome átono.<br/><b>C:</b> <b>Correta.</b> O pronome <b>a</b> exerce a função de objeto direto de 'visitar'.<br/><b>D:</b> Incorreta. Uso coloquial de 'ela' como objeto."
+  },
+  {
+    "question": "Assinale a alternativa onde o pronome <b>o</b> foi usado de forma <b>incorreta</b>:",
+    "options": [
+      "Espero-<b>o</b> na saída do metrô.",
+      "Agradeci-<b>o</b> pelo presente recebido.",
+      "Não <b>o</b> conheço muito bem.",
+      "Quero-<b>o</b> sempre por perto."
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Correta. 'Esperar' é VTD.<br/><b>B:</b> <b>Incorreta.</b> 'Agradecer' é VTI para pessoas (agradecer A alguém); o correto seria 'Agradeci-<b>lhe</b>'.<br/><b>C:</b> Correta. 'Conhecer' é VTD.<br/><b>D:</b> Correta. 'Querer' (no sentido de desejar/estimar) é VTD."
+  },
+  {
+    "question": "No trecho 'O juiz <b>lhe</b> deu a palavra', o pronome em destaque é:",
+    "options": [
+      "Objeto direto.",
+      "Sujeito da oração.",
+      "Objeto indireto.",
+      "Adjunto adnominal."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O objeto direto é 'a palavra'.<br/><b>B:</b> Incorreta. O sujeito é 'O juiz'.<br/><b>C:</b> <b>Correta.</b> Quem dá, dá algo ('a palavra') A alguém (<b>lhe</b>). O 'lhe' é o objeto indireto.<br/><b>D:</b> Incorreta. Embora o 'lhe' possa ter valor possessivo (adjunto), aqui ele é o destinatário da ação verbal."
+  },
+  {
+    "question": "Complete corretamente: 'Se você ___ encontrar, diga-___ que estou esperando.'",
+    "options": [
+      "<b>o - lhe</b>",
+      "lhe - o",
+      "o - o",
+      "lhe - lhe"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> 'Encontrar' é VTD (encontrar alguém = <b>o</b>) e 'Dizer' é VTDI (dizer algo A alguém = <b>lhe</b>).<br/><b>B:</b> Incorreta. Inverte as regências verbais.<br/><b>C:</b> Incorreta. 'Dizer' exige objeto indireto para a pessoa a quem se fala.<br/><b>D:</b> Incorreta. 'Encontrar' não rege preposição 'a' para seu objeto."
+  },
+  {
+    "question": "Ao unir o verbo <b>analisar</b> com o pronome <b>o</b>, a forma correta resultante é:",
+    "options": [
+      "analisar-o",
+      "analisá-lo",
+      "analisar-no",
+      "analisá-no"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. Na norma culta, o 'r' final deve ser suprimido antes dos pronomes o/a.<br/><b>B:</b> <b>Correta.</b> Verbos terminados em <b>R, S ou Z</b> perdem a terminação e o pronome vira <b>lo/la</b>. O acento agudo marca a tonicidade da vogal 'a'.<br/><b>C:</b> Incorreta. A terminação 'no' é usada apenas para verbos terminados em sons nasais.<br/><b>D:</b> Incorreta. Mistura a regra do corte da letra 'r' com a terminação nasal inexistente neste verbo."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta a substituição correta para 'Eles <b>fizeram o</b> trabalho':",
+    "options": [
+      "Eles fizero-lo trabalho.",
+      "Eles fizeram-lo.",
+      "Eles fizeram-no.",
+      "Eles fizê-lo."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Fizeram' termina em som nasal, não em R, S ou Z.<br/><b>B:</b> Incorreta. A forma '-lo' não se aplica após terminações nasais (M, ÃO, ÕE).<br/><b>C:</b> <b>Correta.</b> Verbos terminados em <b>sons nasais (M, ÃO, ÕE)</b> mantêm a terminação e o pronome assume a forma <b>no/na</b>.<br/><b>D:</b> Incorreta. Forma inexistente para a terceira pessoa do plural do pretérito perfeito."
+  },
+  {
+    "question": "Na frase 'Eu <b>fiz a</b> lição', ao substituir o objeto pelo pronome, temos:",
+    "options": [
+      "Eu fi-la.",
+      "Eu fiz-la.",
+      "Eu fiz-na.",
+      "Eu fi-na."
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> O verbo 'fiz' termina em <b>Z</b>. Suprime-se o 'z' e adiciona-se <b>-la</b> (fi-la).<br/><b>B:</b> Incorreta. O 'z' não deve ser mantido na grafia com o pronome oblíquo.<br/><b>C:</b> Incorreta. A terminação em 'z' exige a variação 'la', não 'na'.<br/><b>D:</b> Incorreta. Erro na escolha da variação pronominal (na)."
+  },
+  {
+    "question": "Qual a forma correta da união '<b>propomos</b> + <b>os</b>'?",
+    "options": [
+      "propomos-nos",
+      "propomo-nos",
+      "propomo-los",
+      "propomos-los"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. 'Propomos-nos' seria o uso do pronome reflexivo (nós a nós mesmos).<br/><b>B:</b> Incorreta. Refere-se à primeira pessoa do plural reflexiva, não à substituição de 'os'.<br/><b>C:</b> <b>Correta.</b> O verbo termina em <b>S</b>. Retira-se o 's' e acrescenta-se <b>-los</b> (propomo-los).<br/><b>D:</b> Incorreta. O 's' final deve ser obrigatoriamente removido."
+  },
+  {
+    "question": "Assinale a alternativa que apresenta erro na variação do pronome:",
+    "options": [
+      "Vê-lo é um prazer.",
+      "Eles dão-no por encerrado.",
+      "Quero dizê-lo a verdade.",
+      "Puseram-nas sobre a mesa."
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Correta. Ver + o = Vê-lo (terminação em R).<br/><b>B:</b> Correta. Dão + o = Dão-no (terminação nasal ÃO).<br/><b>C:</b> <b>Incorreta.</b> O verbo 'dizer' é transitivo indireto para pessoas (dizer <b>lhe</b>). Se fosse objeto direto, seria 'dizê-lo', mas o contexto de 'verdade' exige o indireto.<br/><b>D:</b> Correta. Puseram + as = Puseram-nas (terminação nasal M)."
+  },
+  {
+    "question": "A união do verbo <b>seduzir</b> com o pronome <b>a</b> resulta em:",
+    "options": [
+      "seduiz-la",
+      "seduiz-a",
+      "sedu-la",
+      "sedu-na"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. O 'z' deve ser removido totalmente.<br/><b>B:</b> Incorreta. Após 'z', o pronome deve sofrer a variação para 'la'.<br/><b>C:</b> <b>Correta.</b> Terminação em <b>Z</b>: retira-se a letra e adiciona-se <b>-la</b>.<br/><b>D:</b> Incorreta. 'Na' é exclusivo para terminações nasais."
+  },
+  {
+    "question": "Escolha a opção que completa: 'Se os documentos chegarem, <b>põe-___</b> na pasta.'",
+    "options": [
+      "los",
+      "nos",
+      "nas",
+      "as"
+    ],
+    "correct": 1,
+    "explanation": "<b>A:</b> Incorreta. O verbo 'põe' termina em ditongo nasal (õe), não em R, S ou Z.<br/><b>B:</b> <b>Correta.</b> Verbos terminados em <b>ÕE</b> (nasal) exigem a variação <b>no/nos/na/nas</b>.<br/><b>C:</b> Incorreta. O objeto 'os documentos' é masculino.<br/><b>D:</b> Incorreta. Após sons nasais, o pronome 'os' deve obrigatoriamente tornar-se 'nos'."
+  },
+  {
+    "question": "Como fica a combinação '<b>querer</b> + <b>as</b>'?",
+    "options": [
+      "querê-las",
+      "querer-as",
+      "querê-nas",
+      "quere-las"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> Verbo em <b>R</b>: cai o 'r', o 'e' recebe acento circunflexo por ser oxítona terminada em 'e', e o pronome vira <b>-las</b>.<br/><b>B:</b> Incorreta. Não houve a supressão do 'r' nem a modificação do pronome.<br/><b>C:</b> Incorreta. 'Nas' não se aplica a infinitivos.<br/><b>D:</b> Incorreta. Falta o acento tônico obrigatório no 'e' após a queda do 'r'."
+  },
+  {
+    "question": "Na frase 'As meninas <b>compram as</b> flores', a substituição correta é:",
+    "options": [
+      "compram-las",
+      "compram-as",
+      "compram-nas",
+      "comprá-las"
+    ],
+    "correct": 2,
+    "explanation": "<b>A:</b> Incorreta. '-las' não segue terminações em 'm'.<br/><b>B:</b> Incorreta. É obrigatória a variação para 'n' após som nasal.<br/><b>C:</b> <b>Correta.</b> 'Compram' termina em <b>M</b>, o que atrai a forma <b>-nas</b> do pronome.<br/><b>D:</b> Incorreta. Esta forma seria para o infinitivo 'comprar'."
+  },
+  {
+    "question": "Assinale a alternativa que completa corretamente: 'Vou <b>refazer o</b> teste' $\rightarrow$ 'Vou <b>___</b>.'",
+    "options": [
+      "refazê-lo",
+      "refazer-no",
+      "refaze-lo",
+      "refa-lo"
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> Refazer + o = <b>Refazê-lo</b>. O 'r' cai e a vogal 'e' é acentuada.<br/><b>B:</b> Incorreta. Uso indevido da forma nasal.<br/><b>C:</b> Incorreta. Falta o acento circunflexo para marcar a vogal tônica 'e'.<br/><b>D:</b> Incorreta. Redução excessiva do radical do verbo."
+  },
+  {
+    "question": "A forma '<b>dispõe-no</b>' pode ser a substituição de:",
+    "options": [
+      "Dispõe o livro.",
+      "Dispões o livro.",
+      "Dispor o livro.",
+      "Dispõe os livros."
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> O verbo 'dispõe' termina em ditongo nasal, exigindo <b>-no</b> para o objeto direto singular masculino.<br/><b>B:</b> Incorreta. 'Dispões' termina em S, resultando em 'dispõe-lo'.<br/><b>C:</b> Incorreta. 'Dispor' termina em R, resultando em 'dispô-lo'.<br/><b>D:</b> Incorreta. 'Os livros' exigiria a forma plural 'dispõe-nos'."
+  },
+  {
+    "question": "Qual destas frases apresenta a norma culta de forma <b>impecável</b>?",
+    "options": [
+      "Quisemos os livros e <b>quisemo-los</b> prontamente.",
+      "Disseram a verdade e <b>disseram-la</b> bem.",
+      "Vou compor a música e <b>compô-a</b> agora.",
+      "Eles dão a notícia e <b>dão-la</b> com alegria."
+    ],
+    "correct": 0,
+    "explanation": "<b>A:</b> <b>Correta.</b> Quisemos termina em <b>S</b>; retira-se o 's' e usa-se <b>-los</b>.<br/><b>B:</b> Incorreta. Disseram termina em M; o correto é 'disseram-na'.<br/><b>C:</b> Incorreta. Compor termina em R; o correto é 'compô-la'.<br/><b>D:</b> Incorreta. Dão termina em som nasal (ÃO); o correto é 'dão-na'."
+  }
+],
 };
 
 // Elementos do DOM
