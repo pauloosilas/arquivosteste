@@ -1692,6 +1692,171 @@ const questions = {
     ],
     "correct": 0,
     "explanation": "<b>A:</b> <b>Correta.</b> Quisemos termina em <b>S</b>; retira-se o 's' e usa-se <b>-los</b>.<br/><b>B:</b> Incorreta. Disseram termina em M; o correto é 'disseram-na'.<br/><b>C:</b> Incorreta. Compor termina em R; o correto é 'compô-la'.<br/><b>D:</b> Incorreta. Dão termina em som nasal (ÃO); o correto é 'dão-na'."
+  },
+  {
+    "question": "Assinale a alternativa que substitui corretamente o termo destacado: 'Vou vender <b>o carro</b> amanhã'.",
+    "options": [
+      "Vou vender-o",
+      "Vou vendê-lo",
+      "Vou vender-no",
+      "Vou vender-lhe"
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Vou vender-o</b>: Errado. Quando o verbo termina em -r, -s ou -z, essas letras caem e o pronome assume a forma lo/la. <br/>B) <b>Vou vendê-lo</b>: Correto. O -r de 'vender' cai e acrescenta-se o 'lo' com acento tônico. <br/>C) <b>Vou vender-no</b>: Errado. A forma 'no/na' só ocorre após sons nasais (-am, -em, -ão). <br/>D) <b>Vou vender-lhe</b>: Errado. O verbo 'vender' é transitivo direto (VTD) e 'lhe' é usado para objetos indiretos."
+  },
+  {
+    "question": "Na frase 'Eles <b>fizeram o dever</b> com atenção', a substituição correta do objeto é:",
+    "options": [
+      "Fizeram-lo",
+      "Fizeram-o",
+      "Fizeram-no",
+      "Fizeram-lhe"
+    ],
+    "correct": 2,
+    "explanation": "A) <b>Fizeram-lo</b>: Errado. 'Lo' não se usa após terminação nasal. <br/>B) <b>Fizeram-o</b>: Errado. A pronúncia exigiria a forma nasal para manter a sonoridade. <br/>C) <b>Fizeram-no</b>: Correto. Verbos terminados em sons nasais (-am, -em, -ão, -õe) exigem as formas 'no, na, nos, nas'. <br/>D) <b>Fizeram-lhe</b>: Errado. 'O dever' é objeto direto; 'lhe' substituiria um objeto indireto preposicionado."
+  },
+  {
+    "question": "Qual a forma correta para 'Nós <b>fizemos as tarefas</b>'?",
+    "options": [
+      "Fizemos-las",
+      "Fizemo-las",
+      "Fizemos-nas",
+      "Fizemos-as"
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Fizemos-las</b>: Errado. Deve-se retirar o -s final do verbo antes de anexar o 'las'. <br/>B) <b>Fizemo-las</b>: Correto. Verbos terminados em -s perdem essa letra ao se unirem aos pronomes o/a (que viram lo/la). <br/>C) <b>Fizemos-nas</b>: Errado. A forma nasal 'nas' não se aplica a verbos terminados em -s. <br/>D) <b>Fizemos-as</b>: Errado. Gramaticalmente incorreto conforme a norma culta de colocação pronominal."
+  },
+  {
+    "question": "Assinale a frase em que o pronome <b>lhe</b> está empregado incorretamente:",
+    "options": [
+      "Entreguei-<b>lhe</b> os documentos.",
+      "Eu <b>lhe</b> vi no shopping ontem.",
+      "Desejamos-<b>lhe</b> muita sorte.",
+      "Perdoei-<b>lhe</b> a dívida."
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Entreguei-lhe</b>: Correto. Entregar algo 'a alguém' (Objeto Indireto). <br/>B) <b>Eu lhe vi</b>: Errado. O verbo 'ver' é transitivo direto (VTD). O correto seria 'Eu <b>o</b> vi' ou 'Vi-<b>o</b>'. <br/>C) <b>Desejamos-lhe</b>: Correto. Desejar algo 'a alguém'. <br/>D) <b>Perdoei-lhe</b>: Correto. Perdoar algo 'a alguém' exige objeto indireto de pessoa."
+  },
+  {
+    "question": "Em 'Não <b>os</b> encontramos na sala', a próclise ocorre porque:",
+    "options": [
+      "O verbo está no plural.",
+      "Existe uma palavra negativa.",
+      "O pronome termina em -s.",
+      "É início de frase."
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Verbo no plural</b>: Errado. O número do verbo não influencia a posição do pronome. <br/>B) <b>Palavra negativa</b>: Correto. O advérbio 'Não' é uma palavra atrativa que exige a próclise (pronome antes do verbo). <br/>C) <b>Pronome em -s</b>: Errado. A terminação do pronome não determina a atração. <br/>D) <b>Início de frase</b>: Errado. A frase começa com o advérbio, não com o pronome."
+  },
+  {
+    "question": "Substituindo o termo '<b>a decisão</b>' em 'Precisamos tomar a decisão', temos:",
+    "options": [
+      "Tomar-a",
+      "Tomar-na",
+      "Tomá-la",
+      "Tomar-lhe"
+    ],
+    "correct": 2,
+    "explanation": "A) <b>Tomar-a</b>: Errado. O -r final deve cair. <br/>B) <b>Tomar-na</b>: Errado. O verbo não termina em som nasal. <br/>C) <b>Tomá-la</b>: Correto. Verbo em -r perde o -r, ganha acento (se oxítona) e o pronome vira 'la'. <br/>D) <b>Tomar-lhe</b>: Errado. 'A decisão' é objeto direto."
+  },
+  {
+    "question": "Na frase '<b>Puseram as flores</b> no vaso', a substituição do objeto resulta em:",
+    "options": [
+      "Puseram-nas",
+      "Puseram-las",
+      "Puseram-as",
+      "Pusê-las"
+    ],
+    "correct": 0,
+    "explanation": "A) <b>Puseram-nas</b>: Correto. O verbo termina em som nasal (-am), logo o pronome 'as' vira 'nas'. <br/>B) <b>Puseram-las</b>: Errado. 'Las' só ocorre após -r, -s ou -z. <br/>C) <b>Puseram-as</b>: Errado. A norma culta exige a forma nasal para eufonia. <br/>D) <b>Pusê-las</b>: Errado. Essa forma ocorreria se o verbo fosse 'Puser' (infinitivo), não 'Puseram'."
+  },
+  {
+    "question": "Assinale a alternativa que completa corretamente: 'Nunca ____ visto antes'.",
+    "options": [
+      "tinha-o",
+      "o tinha",
+      "tinha-lo",
+      "tinha-no"
+    ],
+    "correct": 1,
+    "explanation": "A) <b>tinha-o</b>: Errado. O advérbio 'Nunca' atrai o pronome para antes do verbo. <br/>B) <b>o tinha</b>: Correto. Próclise obrigatória devido à palavra negativa 'Nunca'. <br/>C) <b>tinha-lo</b>: Errado. Não há -r, -s ou -z no verbo para justificar 'lo'. <br/>D) <b>tinha-no</b>: Errado. O verbo não termina em som nasal."
+  },
+  {
+    "question": "Qual a forma correta para 'Eles <b>compram os livros</b>'?",
+    "options": [
+      "Compram-nos",
+      "Compram-los",
+      "Compram-os",
+      "Comprá-los"
+    ],
+    "correct": 0,
+    "explanation": "A) <b>Compram-nos</b>: Correto. Verbo termina em -am (nasal), o pronome 'os' vira 'nos'. <br/>B) <b>Compram-los</b>: Errado. Forma 'los' é exclusiva para terminações em -r, -s, -z. <br/>C) <b>Compram-os</b>: Errado. Falta a variação nasal exigida pela gramática. <br/>D) <b>Comprá-los</b>: Errado. Esta é a forma do infinitivo 'Comprar'."
+  },
+  {
+    "question": "Em 'Dar-<b>lhe</b>-emos uma resposta', o uso da mesóclise ocorre porque:",
+    "options": [
+      "O verbo está no futuro do presente e não há atração.",
+      "O pronome 'lhe' só pode ser usado no meio do verbo.",
+      "Há uma palavra negativa oculta.",
+      "O verbo está no passado."
+    ],
+    "correct": 0,
+    "explanation": "A) <b>Futuro do presente</b>: Correto. Sem palavra atrativa, verbos no futuro exigem mesóclise se iniciarem a frase. <br/>B) <b>Uso do 'lhe'</b>: Errado. 'Lhe' pode ser usado em próclise ou ênclise também. <br/>C) <b>Palavra negativa</b>: Errado. Se houvesse negação, seria próclise ('Não lhe daremos'). <br/>D) <b>Verbo no passado</b>: Errado. O verbo 'Daremos' está no futuro."
+  },
+  {
+    "question": "Substitua o termo: 'Encontramos <b>os documentos</b>'.",
+    "options": [
+      "Encontramo-los",
+      "Encontramos-os",
+      "Encontramos-nos",
+      "Encontramo-nos"
+    ],
+    "correct": 0,
+    "explanation": "A) <b>Encontramo-los</b>: Correto. Retira-se o -s de 'Encontramos' e adiciona-se 'los'. <br/>B) <b>Encontramos-os</b>: Errado. Incorreto segundo as regras de eufonia e gramática. <br/>C) <b>Encontramos-nos</b>: Errado. 'Nos' indicaria a 1ª pessoa do plural (nós), alterando o sentido para 'Encontramos a nós mesmos'. <br/>D) <b>Encontramo-nos</b>: Errado. Novamente, 'nos' é pronome reflexivo/pessoal de 1ª pessoa, não substituto de 'os documentos'."
+  },
+  {
+    "question": "Na frase 'Alguém <b>o</b> chamou na porta', a próclise é:",
+    "options": [
+      "Facultativa.",
+      "Obrigatória, pois 'Alguém' é pronome indefinido.",
+      "Errada, deveria ser 'chamou-o'.",
+      "Justificada pelo som nasal do verbo."
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Facultativa</b>: Errado. Pronomes indefinidos são atratores fortes. <br/>B) <b>Obrigatória</b>: Correto. Pronomes indefinidos como 'Alguém', 'Tudo', 'Ninguém' exigem próclise. <br/>C) <b>Errada</b>: Errado. A ênclise seria incorreta devido à atração do pronome indefinido. <br/>D) <b>Som nasal</b>: Errado. 'Chamou' não termina em som nasal."
+  },
+  {
+    "question": "Como fica a frase 'Vou <b>pôr o livro</b> na estante' com a substituição do objeto?",
+    "options": [
+      "Vou pôr-lo",
+      "Vou pô-lo",
+      "Vou pôr-no",
+      "Vou po-lo"
+    ],
+    "correct": 1,
+    "explanation": "A) <b>Vou pôr-lo</b>: Errado. O -r deve ser removido. <br/>B) <b>Vou pô-lo</b>: Correto. O verbo 'pôr' termina em -r, que cai, e o pronome 'o' vira 'lo'. O acento circunflexo se mantém. <br/>C) <b>Vou pôr-no</b>: Errado. Não há terminação nasal. <br/>D) <b>Vou po-lo</b>: Errado. Falta o acento obrigatório do monossílabo tônico 'pô'."
+  },
+  {
+    "question": "Assinale o erro de colocação pronominal:",
+    "options": [
+      "Me empresta a caneta.",
+      "Empreste-me a caneta.",
+      "Não me empreste a caneta.",
+      "Quero que me empreste a caneta."
+    ],
+    "correct": 0,
+    "explanation": "A) <b>Me empresta</b>: Errado. Pela norma culta, não se inicia frase com pronome oblíquo átono. <br/>B) <b>Empreste-me</b>: Correto. Início de frase exige ênclise. <br/>C) <b>Não me empreste</b>: Correto. 'Não' atrai o pronome (próclise). <br/>D) <b>Que me empreste</b>: Correto. A conjunção 'que' atrai o pronome (próclise)."
+  },
+  {
+    "question": "Substituindo '<b>o resultado</b>' em 'Eles <b>querem saber o resultado</b>', temos:",
+    "options": [
+      "querem saber-o",
+      "querem sabê-lo",
+      "querem saber-lhe",
+      "querem saber-no"
+    ],
+    "correct": 1,
+    "explanation": "A) <b>saber-o</b>: Errado. O -r deve cair. <br/>B) <b>sabê-lo</b>: Correto. Verbo em -r cai a letra final e o pronome vira 'lo'. <br/>C) <b>saber-lhe</b>: Errado. 'O resultado' é objeto direto. <br/>D) <b>saber-no</b>: Errado. Sem terminação nasal no verbo 'saber'."
   }
 ],
 };
