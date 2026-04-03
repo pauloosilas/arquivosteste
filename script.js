@@ -666,6 +666,336 @@ const questions = {
 ],
 "OracoesSubordinadas":[
   {
+    "question": "Na oração 'Parece <b>que o tempo vai mudar</b>', a classificação correta da subordinada é:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Apositiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta. O verbo 'parecer' é usado de forma impessoal na principal, e a oração subordinada funciona como seu sujeito.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Não há verbo transitivo direto que exija objeto direto.<br/><b>Substantiva Predicativa</b>: Incorreta. O verbo 'parece' aqui inicia uma estrutura subjetiva, não ligando sujeito ao predicativo.<br/><b>Substantiva Apositiva</b>: Incorreta. Não há função de aposto explicativo."
+  },
+  {
+    "question": "Qual a função da oração em: 'O certo é <b>que todos compareçam</b>'?",
+    "options": [
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Predicativa</b>: Correta. A oração vem após o verbo de ligação 'é' e define o sujeito 'O certo'.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'O certo' já está presente na oração principal.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Verbos de ligação não possuem objeto direto.<br/><b>Substantiva Completiva Nominal</b>: Incorreta. A oração completa o sentido de um sujeito via verbo de ligação, não um nome diretamente."
+  },
+  {
+    "question": "Em 'Ninguém sabe <b>quem ele é</b>', a oração destacada é:",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Objetiva Direta",
+      "Substantiva Predicativa"
+    ],
+    "correct": 2,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta. Quem sabe, sabe 'algo'. A oração funciona como objeto direto do verbo 'saber'.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'Ninguém' já está expresso.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. O verbo 'saber' não rege preposição neste contexto.<br/><b>Substantiva Predicativa</b>: Incorreta. O verbo 'saber' não é de ligação."
+  },
+  {
+    "question": "Classifique a oração: 'Tenho necessidade <b>de que me ajudem</b>'.",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta. A oração completa o substantivo abstrato 'necessidade'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. Embora tenha preposição, ela completa um substantivo (nome), e não um verbo.<br/><b>Substantiva Predicativa</b>: Incorreta. Não exerce função de predicativo do sujeito.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'Eu' está oculto na principal."
+  },
+  {
+    "question": "Identifique a oração: 'Exijo uma condição: <b>que sejas pontual</b>'.",
+    "options": [
+      "Substantiva Apositiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Apositiva</b>: Correta. A oração explica o substantivo 'condição' e vem após dois-pontos, como um aposto.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. O objeto direto de 'exijo' é 'uma condição'.<br/><b>Substantiva Predicativa</b>: Incorreta. Não há verbo de ligação ligando sujeito ao termo.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito de 'exijo' é 'Eu' (desinencial)."
+  },
+  {
+    "question": "A oração 'Necessitamos <b>de que o projeto seja aprovado</b>' é:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Predicativa"
+    ],
+    "correct": 2,
+    "explanation": "<b>Substantiva Objetiva Indireta</b>: Correta. Completa o verbo transitivo indireto 'necessitar', que exige a preposição 'de'.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. O verbo exige preposição, o que impede ser objetiva direta.<br/><b>Substantiva Completiva Nominal</b>: Incorreta. A oração completa um verbo, não um nome.<br/><b>Substantiva Predicativa</b>: Incorreta. O verbo 'necessitar' não é de ligação."
+  },
+  {
+    "question": "Na frase 'Diz-se <b>que a economia vai crescer</b>', temos uma oração:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Apositiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta. Em 'Diz-se' (voz passiva sintética), a oração que segue é o sujeito paciente (Que a economia vai crescer é dito).<br/><b>Substantiva Objetiva Direta</b>: Incorreta. A presença da partícula apassivadora 'se' converte o objeto em sujeito.<br/><b>Substantiva Predicativa</b>: Incorreta. Não há verbo de ligação.<br/><b>Substantiva Apositiva</b>: Incorreta. Não funciona como explicação de termo anterior."
+  },
+  {
+    "question": "Classifique a oração: 'Perguntei-lhe <b>se estava bem</b>'.",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Subjetiva",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta. O verbo 'perguntar' é bitransitivo; 'lhe' é o objeto indireto e a oração é o objeto direto.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. A oração não é regida por preposição; o 'lhe' já ocupa essa função.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'Eu' é oculto.<br/><b>Substantiva Completiva Nominal</b>: Incorreta. Não completa um nome."
+  },
+  {
+    "question": "Em 'Estou convencido <b>de que venceremos</b>', a oração é:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta. A oração completa o sentido do adjetivo 'convencido'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. Embora preposicionada, completa um nome (adjetivo) e não um verbo.<br/><b>Substantiva Predicativa</b>: Incorreta. 'Convencido' já é o predicativo do sujeito na oração principal.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito da principal é 'Eu'."
+  },
+  {
+    "question": "Qual a classificação de: 'A dúvida era <b>se ele viria</b>'?",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Objetiva Direta",
+      "Substantiva Apositiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Predicativa</b>: Correta. Segue o verbo de ligação 'era' e caracteriza o sujeito 'A dúvida'.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'A dúvida' já está expresso.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. O verbo 'ser' é de ligação, não transitivo direto.<br/><b>Substantiva Apositiva</b>: Incorreta. Não está explicando um nome através de pontuação de aposto."
+  },
+  {
+    "question": "Na frase 'Ela não gosta <b>de que falem alto</b>', a oração é:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Objetiva Indireta</b>: Correta. Completa o verbo transitivo indireto 'gostar', regido pela preposição 'de'.<br/><b>Substantiva Completiva Nominal</b>: Incorreta. Completa um verbo, portanto é objeto, não complemento nominal.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Verbos que exigem preposição não admitem objeto direto.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito é 'Ela'."
+  },
+  {
+    "question": "Em 'Foi anunciado <b>que os preços subiriam</b>', a oração é:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta. Na voz passiva analítica (Verbo auxiliar + Particípio), a oração é o sujeito da principal.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Em estruturas passivas, o que seria objeto torna-se sujeito.<br/><b>Substantiva Predicativa</b>: Incorreta. 'Anunciado' é parte da locução verbal passiva, não um predicativo comum.<br/><b>Substantiva Completiva Nominal</b>: Incorreta. Não completa um nome."
+  },
+  {
+    "question": "Classifique: 'O diretor comunicou <b>que a reunião foi cancelada</b>'.",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta. Funciona como objeto direto do verbo transitivo 'comunicar'.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito 'O diretor' está presente.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. Não há preposição ligando o verbo à oração subordinada.<br/><b>Substantiva Predicativa</b>: Incorreta. O verbo 'comunicar' não é de ligação."
+  },
+  {
+    "question": "A oração 'Havia o receio <b>de que a chuva estragasse a festa</b>' é:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Apositiva",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta. Completa o sentido do substantivo 'receio'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta. 'Receio' é um substantivo, o que caracteriza complemento nominal, não objeto indireto.<br/><b>Substantiva Apositiva</b>: Incorreta. Não é uma explicação solta, mas um complemento necessário ao nome.<br/><b>Substantiva Subjetiva</b>: Incorreta. O sujeito da principal é inexistente (verbo haver), mas a subordinada não é subjetiva."
+  },
+  {
+    "question": "Identifique a oração: 'Ficou decidido <b>que sairíamos cedo</b>'.",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Objetiva Direta",
+      "Substantiva Apositiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta. 'Ficou decidido' é uma locução verbal que exige um sujeito, que é a oração seguinte.<br/><b>Substantiva Predicativa</b>: Incorreta. A oração não caracteriza um sujeito já existente.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Não completa um verbo transitivo direto na voz ativa.<br/><b>Substantiva Apositiva</b>: Incorreta. Não exerce função de aposto."
+  }
+  ,{
+    "question": "Na frase 'É necessário <b>que todos colaborem</b>', a oração destacada é classificada como:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta, pois a oração exerce a função de sujeito do verbo 'é'.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, pois não completa um verbo transitivo direto.<br/><b>Substantiva Predicativa</b>: Incorreta, pois não atua como predicativo do sujeito.<br/><b>Substantiva Completiva Nominal</b>: Incorreta, pois não completa o sentido de um nome."
+  },
+  {
+    "question": "Assinale a alternativa que classifica corretamente a oração: 'Desejo <b>que sejas feliz</b>'.",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Apositiva",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta, funciona como objeto direto do verbo transitivo 'desejar'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, pois não há preposição regida pelo verbo.<br/><b>Substantiva Apositiva</b>: Incorreta, pois não explica um termo anterior como aposto.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito de 'desejo' é oculto (Eu)."
+  },
+  {
+    "question": "Em 'Lembre-se <b>de que a vida é curta</b>', temos uma oração:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 2,
+    "explanation": "<b>Substantiva Objetiva Indireta</b>: Correta, completa o verbo 'lembrar-se', que é transitivo indireto e exige a preposição 'de'.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, pois o complemento é preposicionado.<br/><b>Substantiva Completiva Nominal</b>: Incorreta, pois completa um verbo e não um substantivo/adjetivo.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito é 'você' (implícito no imperativo)."
+  },
+  {
+    "question": "A oração 'Tenho medo <b>de que ele falhe</b>' é classificada como:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta, pois completa o sentido do substantivo 'medo'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, embora tenha preposição, ela completa um nome, não um verbo.<br/><b>Substantiva Predicativa</b>: Incorreta, não exerce função de característica do sujeito após verbo de ligação.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito da oração principal é 'Eu'."
+  },
+  {
+    "question": "Qual a classificação da oração: 'Meu desejo é <b>que todos passem</b>'?",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Predicativa",
+      "Substantiva Apositiva"
+    ],
+    "correct": 2,
+    "explanation": "<b>Substantiva Predicativa</b>: Correta, pois aparece após o verbo de ligação 'é', atribuindo uma qualidade/definição ao sujeito 'meu desejo'.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito já está expresso ('meu desejo').<br/><b>Substantiva Objetiva Direta</b>: Incorreta, não completa um verbo transitivo direto.<br/><b>Substantiva Apositiva</b>: Incorreta, não funciona como uma explicação entre pontuação."
+  },
+  {
+    "question": "Identifique a oração apositiva em: 'Só quero uma coisa: <b>que vivam em paz</b>'.",
+    "options": [
+      "Substantiva Apositiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Apositiva</b>: Correta, pois explica o termo 'uma coisa', vindo geralmente após dois-pontos.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, embora pareça completar o verbo, sua função sintática é de aposto explicativo.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito 'Eu' está implícito.<br/><b>Substantiva Predicativa</b>: Incorreta, não há função de predicativo aqui."
+  },
+  {
+    "question": "Na frase 'Sabe-se <b>que o resultado foi positivo</b>', a oração é:",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta. Com o verbo na voz passiva sintética (verbo + se), a oração atua como sujeito.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, o 'se' aqui é partícula apassivadora, transformando o que seria objeto em sujeito.<br/><b>Substantiva Predicativa</b>: Incorreta, não há verbo de ligação ligando sujeito ao predicativo.<br/><b>Substantiva Completiva Nominal</b>: Incorreta, não completa um nome."
+  },
+  {
+    "question": "Classifique: 'O professor quer <b>que façamos o dever</b>'.",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta, pois completa o sentido do verbo transitivo direto 'querer'.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito é 'O professor'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, não há preposição exigida pelo verbo.<br/><b>Substantiva Predicativa</b>: Incorreta, o verbo 'querer' não é de ligação."
+  },
+  {
+    "question": "A oração 'Sou favorável <b>a que ele seja eleito</b>' é:",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Subjetiva",
+      "Substantiva Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta, pois completa o sentido do adjetivo 'favorável'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, pois 'favorável' é um nome (adjetivo), não um verbo.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito é 'Eu'.<br/><b>Substantiva Predicativa</b>: Incorreta, 'favorável' já é o predicativo do sujeito na oração principal."
+  },
+  {
+    "question": "Em 'Convém <b>que fiques aqui</b>', a oração destacada é:",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Predicativa",
+      "Substantiva Apositiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta, o verbo 'convir' é impessoal/unipessoal nesta estrutura, e a oração funciona como seu sujeito.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, não completa um verbo transitivo direto.<br/><b>Substantiva Predicativa</b>: Incorreta, não há verbo de ligação ligando a um sujeito anterior.<br/><b>Substantiva Apositiva</b>: Incorreta, não exerce função de aposto."
+  },
+  {
+    "question": "Classifique: 'Duvido <b>de que ele venha</b>'.",
+    "options": [
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Subjetiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Objetiva Indireta</b>: Correta, completa o verbo 'duvidar', que rege a preposição 'de'.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, pois o verbo exige preposição.<br/><b>Substantiva Completiva Nominal</b>: Incorreta, pois completa um verbo e não um nome.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito é 'Eu'."
+  },
+  {
+    "question": "Na frase 'A verdade é <b>que não estudamos o suficiente</b>', temos:",
+    "options": [
+      "Substantiva Predicativa",
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Apositiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Predicativa</b>: Correta, exerce a função de predicativo do sujeito 'A verdade' através do verbo de ligação 'é'.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito já está presente na principal.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, não completa verbo transitivo direto.<br/><b>Substantiva Apositiva</b>: Incorreta, não é um esclarecimento de termo anterior em forma de aposto."
+  },
+  {
+    "question": "Em 'Urge <b>que se tome uma decisão</b>', a oração é:",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Predicativa",
+      "Substantiva Completiva Nominal"
+    ],
+    "correct": 0,
+    "explanation": "<b>Substantiva Subjetiva</b>: Correta, verbos como 'urgir', 'conter', 'bastar' iniciam orações onde a subordinada é o sujeito.<br/><b>Substantiva Objetiva Direta</b>: Incorreta, o verbo 'urgir' não transita diretamente para um objeto aqui.<br/><b>Substantiva Predicativa</b>: Incorreta, 'urgir' não é verbo de ligação.<br/><b>Substantiva Completiva Nominal</b>: Incorreta, não completa nenhum substantivo ou adjetivo."
+  },
+  {
+    "question": "A oração 'Perguntaram <b>quem era o culpado</b>' é:",
+    "options": [
+      "Substantiva Subjetiva",
+      "Substantiva Objetiva Direta",
+      "Substantiva Objetiva Indireta",
+      "Substantiva Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Objetiva Direta</b>: Correta, é uma interrogativa indireta que funciona como objeto direto do verbo 'perguntar'.<br/><b>Substantiva Subjetiva</b>: Incorreta, o sujeito da principal é indeterminado.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, o verbo perguntar, neste sentido, é transitivo direto.<br/><b>Substantiva Predicativa</b>: Incorreta, não há verbo de ligação na principal."
+  },
+  {
+    "question": "Classifique a oração: 'Temos esperança <b>de que a situação melhore</b>'.",
+    "options": [
+      "Substantiva Objetiva Indireta",
+      "Substantiva Completiva Nominal",
+      "Substantiva Apositiva",
+      "Substantiva Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "<b>Substantiva Completiva Nominal</b>: Correta, pois completa o sentido do substantivo 'esperança'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, pois completa um nome, não um verbo.<br/><b>Substantiva Apositiva</b>: Incorreta, não explica 'esperança' como um aposto, mas sim completa sua significação.<br/><b>Substantiva Predicativa</b>: Incorreta, não funciona como predicativo."
+  }
+  ,{
     "question": "Na frase 'É necessário <b>que todos participem da reunião</b>', a oração destacada classifica-se como:",
     "options": [
       "Substantiva Objetiva Direta",
@@ -1859,6 +2189,7 @@ const questions = {
     "explanation": "A) <b>saber-o</b>: Errado. O -r deve cair. <br/>B) <b>sabê-lo</b>: Correto. Verbo em -r cai a letra final e o pronome vira 'lo'. <br/>C) <b>saber-lhe</b>: Errado. 'O resultado' é objeto direto. <br/>D) <b>saber-no</b>: Errado. Sem terminação nasal no verbo 'saber'."
   }
 ],
+
 };
 
 // Elementos do DOM
