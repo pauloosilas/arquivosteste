@@ -829,8 +829,8 @@ const questions = {
     ],
     "correct": 0,
     "explanation": "<b>Substantiva Subjetiva</b>: Correta. 'Ficou decidido' é uma locução verbal que exige um sujeito, que é a oração seguinte.<br/><b>Substantiva Predicativa</b>: Incorreta. A oração não caracteriza um sujeito já existente.<br/><b>Substantiva Objetiva Direta</b>: Incorreta. Não completa um verbo transitivo direto na voz ativa.<br/><b>Substantiva Apositiva</b>: Incorreta. Não exerce função de aposto."
-  }
-  ,{
+  },
+  {
     "question": "Na frase 'É necessário <b>que todos colaborem</b>', a oração destacada é classificada como:",
     "options": [
       "Substantiva Objetiva Direta",
@@ -994,139 +994,174 @@ const questions = {
     ],
     "correct": 1,
     "explanation": "<b>Substantiva Completiva Nominal</b>: Correta, pois completa o sentido do substantivo 'esperança'.<br/><b>Substantiva Objetiva Indireta</b>: Incorreta, pois completa um nome, não um verbo.<br/><b>Substantiva Apositiva</b>: Incorreta, não explica 'esperança' como um aposto, mas sim completa sua significação.<br/><b>Substantiva Predicativa</b>: Incorreta, não funciona como predicativo."
+  },
+  
+{
+    "question": "É necessário <b>que você estude mais</b> para a prova. A oração destacada é:",
+    "options": [
+      "Subordinada substantiva subjetiva",
+      "Subordinada substantiva objetiva direta",
+      "Subordinada substantiva completiva nominal",
+      "Subordinada substantiva predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. A oração exerce função de <b>sujeito</b> do verbo \"é\".<br/>B) Incorreta. Não é objeto direto de verbo transitivo.<br/>C) Incorreta. Não completa um nome.<br/>D) Incorreta. Não funciona como predicativo."
+  },
+  {
+    "question": "Eu sei <b>que ele virá</b>. A oração destacada é:",
+    "options": [
+      "Subjetiva",
+      "Objetiva direta",
+      "Objetiva indireta",
+      "Predicativa"
+    ],
+    "correct": 1,
+    "explanation": "A) Incorreta. Não exerce função de sujeito.<br/>B) Correta. Funciona como <b>objeto direto</b> do verbo \"sei\".<br/>C) Incorreta. Não há preposição exigida.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "Preciso de <b>que você me ajude</b>. A oração destacada é:",
+    "options": [
+      "Objetiva indireta",
+      "Objetiva direta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. A oração completa o verbo com <b>preposição</b> (de).<br/>B) Incorreta. Não é objeto direto.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "Tenho medo de <b>que ele falhe</b>. A oração destacada é:",
+    "options": [
+      "Completiva nominal",
+      "Objetiva indireta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Completa o nome \"medo\" com preposição.<br/>B) Incorreta. Não completa verbo.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "O importante é <b>que todos participem</b>. A oração destacada é:",
+    "options": [
+      "Predicativa",
+      "Subjetiva",
+      "Objetiva direta",
+      "Objetiva indireta"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Funciona como <b>predicativo do sujeito</b>.<br/>B) Incorreta. Não é sujeito.<br/>C) Incorreta. Não é objeto direto.<br/>D) Incorreta. Não há preposição."
+  },
+  {
+    "question": "É certo <b>que ele venceu</b>. A oração destacada é:",
+    "options": [
+      "Subjetiva",
+      "Predicativa",
+      "Objetiva direta",
+      "Completiva nominal"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. A oração é o <b>sujeito</b> da oração principal.<br/>B) Incorreta. Não é predicativo.<br/>C) Incorreta. Não é objeto.<br/>D) Incorreta. Não completa nome."
+  },
+  {
+    "question": "Desejo <b>que você seja feliz</b>. A oração destacada é:",
+    "options": [
+      "Objetiva direta",
+      "Subjetiva",
+      "Predicativa",
+      "Completiva nominal"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Completa o verbo \"desejo\" sem preposição.<br/>B) Incorreta. Não é sujeito.<br/>C) Incorreta. Não é predicativo.<br/>D) Incorreta. Não completa nome."
+  },
+  {
+    "question": "Ele insistiu em <b>que ficássemos</b>. A oração destacada é:",
+    "options": [
+      "Objetiva indireta",
+      "Objetiva direta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. O verbo exige <b>preposição</b> \"em\".<br/>B) Incorreta. Não é objeto direto.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "Minha esperança é <b>que ele volte</b>. A oração destacada é:",
+    "options": [
+      "Predicativa",
+      "Subjetiva",
+      "Objetiva indireta",
+      "Objetiva direta"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Atua como <b>predicativo</b> do sujeito.<br/>B) Incorreta. Não é sujeito.<br/>C) Incorreta. Não depende de preposição.<br/>D) Incorreta. Não é objeto direto."
+  },
+  {
+    "question": "Convém <b>que você espere</b>. A oração destacada é:",
+    "options": [
+      "Subjetiva",
+      "Predicativa",
+      "Objetiva direta",
+      "Completiva nominal"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. A oração é o <b>sujeito</b> de \"convém\".<br/>B) Incorreta. Não é predicativo.<br/>C) Incorreta. Não é objeto.<br/>D) Incorreta. Não completa nome."
+  },
+  {
+    "question": "Ele tem certeza de <b>que vencerá</b>. A oração destacada é:",
+    "options": [
+      "Completiva nominal",
+      "Objetiva indireta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Completa o nome \"certeza\".<br/>B) Incorreta. Não completa verbo.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "Não sei <b>se ele virá</b>. A oração destacada é:",
+    "options": [
+      "Objetiva direta",
+      "Objetiva indireta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Funciona como <b>objeto direto</b> do verbo \"sei\".<br/>B) Incorreta. Não há preposição.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "É importante <b>que todos estudem</b>. A oração destacada é:",
+    "options": [
+      "Subjetiva",
+      "Predicativa",
+      "Objetiva direta",
+      "Objetiva indireta"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. A oração exerce função de <b>sujeito</b>.<br/>B) Incorreta. Não é predicativo.<br/>C) Incorreta. Não é objeto.<br/>D) Incorreta. Não há preposição."
+  },
+  {
+    "question": "Ele gosta de <b>que o elogiem</b>. A oração destacada é:",
+    "options": [
+      "Objetiva indireta",
+      "Objetiva direta",
+      "Subjetiva",
+      "Predicativa"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Completa o verbo com <b>preposição</b> \"de\".<br/>B) Incorreta. Não é objeto direto.<br/>C) Incorreta. Não é sujeito.<br/>D) Incorreta. Não é predicativo."
+  },
+  {
+    "question": "A verdade é <b>que ele mentiu</b>. A oração destacada é:",
+    "options": [
+      "Predicativa",
+      "Subjetiva",
+      "Objetiva direta",
+      "Completiva nominal"
+    ],
+    "correct": 0,
+    "explanation": "A) Correta. Funciona como <b>predicativo do sujeito</b> \"verdade\".<br/>B) Incorreta. Não é sujeito.<br/>C) Incorreta. Não é objeto.<br/>D) Incorreta. Não completa nome."
   }
-  ,{
-    "question": "Na frase 'É necessário <b>que todos participem da reunião</b>', a oração destacada classifica-se como:",
-    "options": [
-      "Substantiva Objetiva Direta",
-      "Substantiva Subjetiva",
-      "Substantiva Predicativa",
-      "Substantiva Completiva Nominal"
-    ],
-    "correct": 1,
-    "explanation": "A oração exerce a função de sujeito do verbo 'é'. Quando a oração principal começa com verbo de ligação + predicativo (É necessário, é bom, é urgente), a subordinada é subjetiva."
-  },
-  {
-    "question": "Em 'Os homens <b>que são honestos</b> vivem felizes', a oração subordinada é:",
-    "options": [
-      "Adjetiva Explicativa",
-      "Adjetiva Restritiva",
-      "Substantiva Predicativa",
-      "Adverbial Causal"
-    ],
-    "correct": 1,
-    "explanation": "A oração restringe o sentido do substantivo 'homens' (não são todos os homens, apenas os honestos) e não está separada por vírgulas, sendo, portanto, restritiva."
-  },
-  {
-    "question": "Qual a classificação da oração destacada em: '<b>Como estava chovendo muito</b>, não fomos ao parque'?",
-    "options": [
-      "Adverbial Conformativa",
-      "Adverbial Comparativa",
-      "Adverbial Causal",
-      "Adverbial Consecutiva"
-    ],
-    "correct": 2,
-    "explanation": "A conjunção 'como' no início da frase introduz o motivo, a causa de não terem ido ao parque."
-  },
-  {
-    "question": "Na oração 'Desejo <b>que você seja muito feliz</b>', o termo destacado exerce função de:",
-    "options": [
-      "Sujeito",
-      "Objeto Indireto",
-      "Objeto Direto",
-      "Aposto"
-    ],
-    "correct": 2,
-    "explanation": "Quem deseja, deseja algo. A oração completa o sentido do verbo transitivo direto 'desejo', sendo uma substantiva objetiva direta."
-  },
-  {
-    "question": "Assinale a alternativa que apresenta uma oração subordinada adverbial concessiva:",
-    "options": [
-      "Se você estudar, passará.",
-      "<b>Embora estivesse cansado</b>, continuou trabalhando.",
-      "Estudou tanto que adormeceu.",
-      "Fiz a tarefa como o professor pediu."
-    ],
-    "correct": 1,
-    "explanation": "A conjunção 'embora' introduz uma ideia de oposição ou ressalva que não impede a ação principal, característica da concessiva."
-  },
-  {
-    "question": "Em 'Meu maior desejo é <b>que todos alcancem seus objetivos</b>', a oração classifica-se como:",
-    "options": [
-      "Substantiva Predicativa",
-      "Substantiva Objetiva Direta",
-      "Substantiva Subjetiva",
-      "Substantiva Completiva Nominal"
-    ],
-    "correct": 0,
-    "explanation": "A oração vem após um verbo de ligação ('é') e funciona como predicativo do sujeito 'meu maior desejo'."
-  },
-  {
-    "question": "Na frase 'O aluno, <b>que era muito dedicado</b>, tirou nota dez', a oração adjetiva é explicativa porque:",
-    "options": [
-      "Generaliza uma característica própria do antecedente e vem entre vírgulas.",
-      "Restringe o grupo de alunos que tiraram nota dez.",
-      "Completa o sentido de um substantivo abstrato.",
-      "Indica a causa de o aluno ter tirado nota dez."
-    ],
-    "correct": 0,
-    "explanation": "As orações adjetivas explicativas apenas acrescentam uma nota esclarecedora sobre o antecedente e são obrigatoriamente isoladas por pontuação."
-  },
-  {
-    "question": "A oração em destaque em 'Tenho medo <b>de que você me esqueça</b>' é:",
-    "options": [
-      "Substantiva Objetiva Indireta",
-      "Substantiva Completiva Nominal",
-      "Substantiva Predicativa",
-      "Adverbial Causal"
-    ],
-    "correct": 1,
-    "explanation": "A oração completa o sentido do substantivo 'medo' (um nome). Quando a oração completa um nome com preposição, é completiva nominal."
-  },
-  {
-    "question": "Em 'Choveu tanto <b>que as ruas ficaram alagadas</b>', a oração indica:",
-    "options": [
-      "Causa",
-      "Consequência",
-      "Condição",
-      "Finalidade"
-    ],
-    "correct": 1,
-    "explanation": "A estrutura 'tanto... que' indica uma oração subordinada adverbial consecutiva (consequência do que foi dito antes)."
-  },
-  {
-    "question": "Qual a classificação da oração: 'Fizemos tudo <b>para que eles ficassem confortáveis</b>'?",
-    "options": [
-      "Adverbial Causal",
-      "Adverbial Proporcional",
-      "Adverbial Final",
-      "Adverbial Temporal"
-    ],
-    "correct": 2,
-    "explanation": "A locução 'para que' indica a intenção, o objetivo ou a finalidade da ação principal."
-  },
-  {
-    "question": "Na frase '<b>Desde que você chegou</b>, não paramos de rir', a oração destacada é:",
-    "options": [
-      "Adverbial Condicional",
-      "Adverbial Temporal",
-      "Adverbial Conformativa",
-      "Adverbial Proporcional"
-    ],
-    "correct": 1,
-    "explanation": "Neste contexto, 'desde que' indica o momento em que a ação de rir começou (tempo). Vale lembrar que 'desde que' também pode ser condicional, dependendo do verbo."
-  },
-  {
-    "question": "Em 'Ele age <b>conforme as regras determinam</b>', a oração subordinada é:",
-    "options": [
-      "Adverbial Conformativa",
-      "Adverbial Comparativa",
-      "Substantiva Objetiva Direta",
-      "Adverbial de Modo"
-    ],
-    "correct": 0,
-    "explanation": "A conjunção 'conforme' expressa um acordo ou conformidade com o que está estabelecido na oração principal."
-  }
+  
 ],
 
 "OracoesCoordenadas":[
