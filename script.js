@@ -2225,6 +2225,360 @@ const questions = {
   }
 ],
 
+"vozes_verbais":[
+  {
+    "question": "Identifique a voz verbal em: '<b>Conservaram-se</b> as provas.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 2,
+    "explanation": "<b>Ativa</b>: Incorreta. Na voz ativa, o sujeito realiza a ação, o que não ocorre aqui.<br/><b>Passiva Analítica</b>: Incorreta. Esta voz exigiria o verbo auxiliar 'ser' (As provas foram conservadas).<br/><b>Passiva Sintética</b>: Correta. Formada pelo verbo na 3ª pessoa + partícula apassivadora 'se'.<br/><b>Reflexiva</b>: Incorreta. O sujeito não pratica e recebe a ação simultaneamente."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'As provas <b>foram conservadas</b>.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Ativa</b>: Incorreta. O sujeito 'as provas' sofre a ação, não a pratica.<br/><b>Passiva Analítica</b>: Correta. Apresenta a estrutura: verbo auxiliar (ser) + particípio do verbo principal.<br/><b>Passiva Sintética</b>: Incorreta. Não utiliza a partícula 'se'.<br/><b>Reflexiva</b>: Incorreta. Não há ideia de ação voltada para o próprio sujeito."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'Não <b>se discutiram</b> as reformas.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 2,
+    "explanation": "<b>Ativa</b>: Incorreta. O sujeito 'as reformas' é paciente.<br/><b>Passiva Analítica</b>: Incorreta. Não há locução verbal com o verbo 'ser'.<br/><b>Passiva Sintética</b>: Correta. O 'se' atua como partícula apassivadora junto ao verbo transitivo direto.<br/><b>Reflexiva</b>: Incorreta. As reformas não discutem a si mesmas."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'As reformas não <b>foram discutidas</b>.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Ativa</b>: Incorreta. O sujeito sofre a ação de não ser discutido.<br/><b>Passiva Analítica</b>: Correta. Estrutura clássica de voz passiva com o verbo auxiliar 'foram' + particípio 'discutidas'.<br/><b>Passiva Sintética</b>: Incorreta. A passiva sintética exigiria o pronome 'se'.<br/><b>Reflexiva</b>: Incorreta. Não indica ação reflexiva."
+  },
+  {
+    "question": "Identifique a voz verbal em: '<b>Roubaram</b> meu carro.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Ativa</b>: Correta. Embora o sujeito seja indeterminado, o verbo está na 3ª pessoa do plural executando a ação.<br/><b>Passiva Analítica</b>: Incorreta. Não há verbo auxiliar + particípio.<br/><b>Passiva Sintética</b>: Incorreta. Não há presença da partícula apassivadora 'se'.<br/><b>Reflexiva</b>: Incorreta. O sujeito não sofre a ação que ele mesmo praticou."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'O professor <b>leu</b> o livro.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 0,
+    "explanation": "<b>Ativa</b>: Correta. O sujeito 'O professor' é o agente que pratica a ação de ler.<br/><b>Passiva Analítica</b>: Incorreta. O foco está no agente, não no objeto sofrido.<br/><b>Passiva Sintética</b>: Incorreta. Não há partícula 'se'.<br/><b>Reflexiva</b>: Incorreta. A ação não recai sobre o próprio professor."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'O livro <b>foi lido</b> pelo professor.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Ativa</b>: Incorreta. Na ativa seria 'O professor leu o livro'.<br/><b>Passiva Analítica</b>: Correta. O sujeito 'O livro' recebe a ação, com presença de verbo auxiliar e agente da passiva.<br/><b>Passiva Sintética</b>: Incorreta. Não utiliza a estrutura verbo + 'se'.<br/><b>Reflexiva</b>: Incorreta. Não há reflexividade na ação."
+  },
+  {
+    "question": "Identifique a voz verbal em: '<b>Entregaram-se</b> os prêmios aos alunos.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 2,
+    "explanation": "<b>Ativa</b>: Incorreta. O sujeito 'os prêmios' não entrega nada.<br/><b>Passiva Analítica</b>: Incorreta. Seria 'Os prêmios foram entregues'.<br/><b>Passiva Sintética</b>: Correta. Verbo + pronome apassivador 'se' com sujeito paciente 'os prêmios'.<br/><b>Reflexiva</b>: Incorreta. Os prêmios não praticam ação sobre si mesmos."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'Aquela triste notícia <b>foi dada</b> pelo pai.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 1,
+    "explanation": "<b>Ativa</b>: Incorreta. Na ativa seria 'O pai deu aquela triste notícia'.<br/><b>Passiva Analítica</b>: Correta. O sujeito sofre a ação expressa pela locução verbal (verbo ser + particípio).<br/><b>Passiva Sintética</b>: Incorreta. Não apresenta o pronome 'se'.<br/><b>Reflexiva</b>: Incorreta. Não se trata de uma ação que retorna ao sujeito."
+  },
+  {
+    "question": "Identifique a voz verbal em: 'O estudante <b>cortou-se</b> durante o exercício.'",
+    "options": [
+      "Ativa",
+      "Passiva Analítica",
+      "Passiva Sintética",
+      "Reflexiva"
+    ],
+    "correct": 3,
+    "explanation": "<b>Ativa</b>: Incorreta. O sujeito não apenas pratica, mas também sofre a ação.<br/><b>Passiva Analítica</b>: Incorreta. Não há a locução verbal característica (ser + particípio).<br/><b>Passiva Sintética</b>: Incorreta. O 'se' aqui não é apassivador, mas reflexivo.<br/><b>Reflexiva</b>: Correta. O sujeito 'O estudante' pratica a ação de cortar e ele mesmo sofre a consequência."
+  }
+],
+
+"concordancia_nominal":[
+  {
+    "question": "1. Em relação à concordância nominal, a ordem que preenche corretamente as lacunas é :\nI. Justiça entre os homens é ...................\nII. É ......................... a entrada de pessoas estranhas.\nIII. A água gelada sempre é .....................",
+    "options": [
+      "a) necessário, proibida, gostosa.",
+      "b) necessária, proibida, gostoso.",
+      "c) necessário, proibida, gostoso.",
+      "d) necessária, proibido, gostoso.",
+      "e) necessário, proibido, gostosa."
+    ],
+    "correct": 0,
+    "explanation": "a) Correta. I: 'Justiça' sem artigo exige o masculino (necessário); II: 'a entrada' com artigo exige concordância (proibida); III: 'A água' com artigo exige concordância (gostosa).<br/>b) Incorreta. I deveria ser 'necessário' (sem artigo) e III deveria ser 'gostosa'.<br/>c) Incorreta. III deveria ser 'gostosa' para concordar com 'A água'.<br/>d) Incorreta. I deveria ser 'necessário' e II deveria ser 'proibida' (devido ao artigo 'a').<br/>e) Incorreta. II deveria ser 'proibida' por causa do artigo que determina o sujeito."
+  },
+  {
+    "question": "2. Assinale a opção em que a concordância nominal está incorreta:",
+    "options": [
+      "a) As matas foram bastante danificadas pelo fogo.",
+      "b) Ele trazia muito bem tratados a barba e os cabelos.",
+      "c) O carro tinha um dos faróis queimados.",
+      "d) Há muitos anos que coleciono selos e moedas raros.",
+      "e) Nesta circunstância, Vossa Excelência está enganado, Doutor Juiz!"
+    ],
+    "correct": 2,
+    "explanation": "a) Correta. 'Bastante' é advérbio (muito) e 'danificadas' concorda com 'matas'.<br/>b) Correta. O adjetivo anteposto 'tratados' concorda com o conjunto ou o mais próximo (masculino plural predomina).<br/>c) Incorreta (Gabarito). Na expressão 'um dos... que', o adjetivo/particípio deve concordar com o numeral: 'um dos faróis queimado'.<br/>d) Correta. 'Raros' concorda com 'selos e moedas'.<br/>e) Correta. A concordância de Vossa Excelência (silepse de gênero) faz-se com o sexo da pessoa a quem se refere (Doutor Juiz)."
+  },
+  {
+    "question": "3. Em relação à concordância nominal, a ordem que preenche corretamente as lacunas é:\n\"Vai ............... à carta minha fotografia. Essas pessoas cometeram um crime de ............\npatriotismo. Elas .............. não quiseram colaborar com a campanha.\"",
+    "options": [
+      "a) incluso, leso, mesmo.",
+      "b) inclusa, leso, mesmas.",
+      "c) inclusa, lesa, mesmas.",
+      "d) incluso, lesa, mesmas.",
+      "e) incluso, lesa, mesmo."
+    ],
+    "correct": 1,
+    "explanation": "a) Incorreta. 'Inclusa' deve concordar com 'fotografia' e 'mesmas' com 'elas'.<br/>b) Correta. 'Inclusa' (concortda com fotografia), 'leso' (concorda com patriotismo), 'mesmas' (concorda com elas).<br/>c) Incorreta. 'Leso' concorda com o substantivo masculino 'patriotismo'.<br/>d) Incorreta. 'Inclusa' deve ser feminino e 'leso' deve ser masculino.<br/>e) Incorreta. 'Inclusa' concorda com fotografia e 'mesmas' concorda com elas."
+  },
+  {
+    "question": "4. Em relação à concordância nominal, a ordem que preenche corretamente as lacunas é: \n\" Vão ................... aos processos várias fotografias. Paisagens as mais belas ................ .\n Ela estava .......................... narcotizada.\"",
+    "options": [
+      "a) anexas, possíveis, meio.",
+      "b) anexas, possível, meio.",
+      "c) anexo, possíveis, meia.",
+      "d) anexo, possível, meio.",
+      "e) anexo, possível, meia."
+    ],
+    "correct": 0,
+    "explanation": "a) Correta. 'Anexas' (com fotografias), 'possíveis' (concorda com 'as mais'), 'meio' (advérbio = um pouco).<br/>b) Incorreta. 'Possíveis' deve estar no plural acompanhando 'as belas'.<br/>c) Incorreta. 'Anexo' deve ser 'anexas' e 'meia' não existe como advérbio de intensidade.<br/>d) Incorreta. 'Anexas' e 'possíveis' deveriam estar no plural.<br/>e) Incorreta. Erro em todos os termos: deveria ser anexas, possíveis e meio."
+  },
+  {
+    "question": "5. Uma das frases abaixo possui erro de concordância. Indique-a.",
+    "options": [
+      "a) Havia menos flores no jardim.",
+      "b) Recebeu bastante elogios.",
+      "c) Permanecemos alerta.",
+      "d) Comprou caro os papéis.",
+      "e) As casas custam barato."
+    ],
+    "correct": 1,
+    "explanation": "a) Correta. 'Menos' é palavra invariável.<br/>b) Incorreta (Gabarito). 'Bastante' aqui é adjetivo (muitos) e deve concordar com o substantivo: 'bastantes elogios'.<br/>c) Correta. 'Alerta' é advérbio, portanto invariável.<br/>d) Correta. 'Caro' funciona como advérbio (pelo preço de).<br/>e) Correta. 'Barato' funciona como advérbio."
+  },
+  {
+    "question": "6. Assinale o erro de concordância nominal.",
+    "options": [
+      "a) – Muito obrigada, disse ela.",
+      "b) Só as mulheres foram interrogadas.",
+      "c) Eles estavam só.",
+      "d) Já era meio-dia e meia.",
+      "e) Sós, ficaram tristes."
+    ],
+    "correct": 2,
+    "explanation": "a) Correta. Mulher diz 'obrigada'.<br/>b) Correta. 'Só' como 'apenas' é invariável.<br/>c) Incorreta (Gabarito). 'Só' com sentido de 'sozinho' é adjetivo e deve variar: 'Eles estavam sós'.<br/>d) Correta. 'Meia' concorda com 'hora' (implícito).<br/>e) Correta. 'Sós' (sozinhos) concorda com o sujeito plural."
+  },
+  {
+    "question": "7. Em qual frase abaixo não se cometeu erro de concordância nominal?",
+    "options": [
+      "a) Seriam verdades o mais duras possíveis.",
+      "b) As crianças estavam bastantes cansadas.",
+      "c) Não me venha com meias palavras.",
+      "d) Carlos está quites com o colégio.",
+      "e) havia bastante montanhas naquela região."
+    ],
+    "correct": 2,
+    "explanation": "a) Incorreta. O correto seria 'as mais duras possíveis' ou 'o mais duras possível'.<br/>b) Incorreta. 'Bastante' é advérbio de intensidade (muito), logo, invariável.<br/>c) Correta (Gabarito). 'Meias' concorda com o substantivo 'palavras' (numeral fracionário).<br/>d) Incorreta. 'Quite' deve concordar com o sujeito: 'Carlos está quite'.<br/>e) Incorreta. 'Bastantes' deveria concordar com 'montanhas' (muitas montanhas)."
+  },
+  {
+    "question": "8. Aponte o erro de concordância.",
+    "options": [
+      "a) Péssimo lugar e ocasião escolheste.",
+      "b) Escolheste lugar e ocasião péssimos.",
+      "c) Precisamos de rapaz e moça altos.",
+      "d) Anexo ao processo, encaminhamos duas fotos.",
+      "e) Seguem em anexo alguns documentos."
+    ],
+    "correct": 3,
+    "explanation": "a) Correta. O adjetivo anteposto pode concordar com o mais próximo.<br/>b) Correta. O adjetivo posposto concorda com o conjunto (masculino plural).<br/>c) Correta. O adjetivo concorda com o conjunto.<br/>d) Incorreta (Gabarito). O adjetivo 'anexo' deve concordar com o substantivo 'fotos': 'Anexas ao processo...'.<br/>e) Correta. A expressão 'em anexo' é considerada invariável por muitos gramáticos."
+  },
+  {
+    "question": "9. Só não há erro de concordância nominal em:",
+    "options": [
+      "a) Motocicleta é perigosa.",
+      "b) Haverá bastantes oportunidades.",
+      "c) Cometeu crime de lesa-patriotismo.",
+      "d) Nós mesmo faremos o requerimento.",
+      "e) Obrigada, respondeu ele."
+    ],
+    "correct": 1,
+    "explanation": "a) Incorreta. Sem artigo, o predicativo fica no masculino: 'Motocicleta é perigoso'.<br/>b) Correta (Gabarito). 'Bastantes' concorda com 'oportunidades' (muitas oportunidades).<br/>c) Incorreta. O termo é 'leso-patriotismo' (leso concorda com patriotismo).<br/>d) Incorreta. Deveria ser 'Nós mesmos' (plural).<br/>e) Incorreta. Homem diz 'obrigado'."
+  },
+  {
+    "question": "10. Está errada a concordância em:",
+    "options": [
+      "a) Não será permitida a permanência de estranhos.",
+      "b) Todos permaneceram sós.",
+      "c) Um e outro funcionário se apresentaram.",
+      "d) Por nenhuns motivos eu irei.",
+      "e) Cebola é ótima no combate à gripe"
+    ],
+    "correct": 4,
+    "explanation": "a) Correta. 'Permitida' concorda com 'a permanência'.<br/>b) Correta. 'Sós' concorda com 'Todos'.<br/>c) Correta. Com 'um e outro', o verbo pode ir ao plural e o substantivo fica no singular.<br/>d) Correta. 'Nenhum' pode variar em casos de ênfase acompanhando substantivo plural.<br/>e) Incorreta (Gabarito). Sem o artigo 'a' antes de 'cebola', o adjetivo deve ser masculino: 'Cebola é ótimo'."
+  },
+  {
+    "question": "11. Aponte o erro de concordância nominal.\na) Andei por longes terras.\nb) Ela chegou toda machucada.\nc) Carla anda meio aborrecida.\nd) Elas não progredirão por si mesmo.\ne) Ela própria nos procurou.",
+    "options": [
+      "a) Andei por longes terras.",
+      "b) Ela chegou toda machucada.",
+      "c) Carla anda meio aborrecida.",
+      "d) Elas não progredirão por si mesmo.",
+      "e) Ela própria nos procurou."
+    ],
+    "correct": 3,
+    "explanation": "a) Correta. 'Longes' funciona como adjetivo concordando com 'terras'.<br/>b) Correta. 'Toda' concorda com o sujeito 'Ela'.<br/>c) Correta. 'Meio' é advérbio de intensidade (um pouco), portanto invariável.<br/>d) Incorreta (Gabarito). O pronome reflexivo 'mesmo' deve concordar com o sujeito plural: 'por si mesmas'.<br/>e) Correta. 'Própria' concorda corretamente com 'Ela'."
+  },
+  {
+    "question": "12. Aponte o erro de concordância.\n\na) Ficou calada a natureza, a terra e os homens.\nb) Vi bastantes pessoas lá.\nc) Só eles não falaram nada.\nd) Sós, eles não falaram nada.\ne) Parou e olhou para um e outro lados.",
+    "options": [
+      "a) Ficou calada a natureza, a terra e os homens.",
+      "b) Vi bastantes pessoas lá.",
+      "c) Só eles não falaram nada.",
+      "d) Sós, eles não falaram nada.",
+      "e) Parou e olhou para um e outro lados."
+    ],
+    "correct": 4,
+    "explanation": "a) Correta. O adjetivo anteposto pode concordar com o núcleo mais próximo ('a natureza').<br/>b) Correta. 'Bastantes' é adjetivo (muitas) e concorda com 'pessoas'.<br/>c) Correta. 'Só' com sentido de 'apenas' é invariável.<br/>d) Correta. 'Sós' com sentido de 'sozinhos' concorda com 'eles'.<br/>e) Incorreta (Gabarito). Na expressão 'um e outro', o substantivo deve obrigatoriamente ficar no singular: 'um e outro lado'."
+  },
+  {
+    "question": "13. O item em que ocorre concordância nominal inaceitável é:\na) Era uma árvore cujas folhas e frutos bem diziam de sua utilidade.\nb) Vinha com bolsos e mãos cheios de dinheiro.\nc) Ela sempre anda meia assustada.\nd) Envio-lhe anexas as declarações de bens.\ne) Elas próprias assim o queriam. ",
+    "options": [
+      "a) Era uma árvore cujas folhas e frutos bem diziam de sua utilidade.",
+      "b) Vinha com bolsos e mãos cheios de dinheiro.",
+      "c) Ela sempre anda meia assustada.",
+      "d) Envio-lhe anexas as declarações de bens.",
+      "e) Elas próprias assim o queriam."
+    ],
+    "correct": 2,
+    "explanation": "a) Correta. O pronome relativo 'cujas' concorda com o substantivo posterior 'folhas'.<br/>b) Correta. O adjetivo 'cheios' concorda com o conjunto (masculino plural prevalece).<br/>c) Incorreta (Gabarito). 'Meio' é advérbio (um pouco) e deve ser invariável: 'meio assustada'.<br/>d) Correta. 'Anexas' concorda com 'as declarações'.<br/>e) Correta. 'Próprias' concorda com 'Elas'."
+  },
+  {
+    "question": "14. Aponte a frase cuja concordância não está de\nacordo com a norma culta da língua.\n\na) Não gosto de meias medidas.\nb) Voltou a todo-poderosa.\nc) Ela emagrecia a olhos vistos.\nd) Ela ficou meio perturbada.\ne) É proibida entrada de pessoas estranhas ao serviço.",
+    "options": [
+      "a) Não gosto de meias medidas.",
+      "b) Voltou a todo-poderosa.\nc) Ela emagrecia a olhos vistos.",
+      "d) Ela ficou meio perturbada.",
+      "e) É proibida entrada de pessoas estranhas ao serviço."
+    ],
+    "correct": 4,
+    "explanation": "a) Correta. 'Meias' é adjetivo concordando com 'medidas'.<br/>b) Correta. 'Todo' em 'todo-poderosa' é advérbio e fica invariável.<br/>c) Correta. A expressão 'a olhos vistos' é fixa e invariável.<br/>d) Correta. 'Meio' (um pouco) é advérbio invariável.<br/>e) Incorreta (Gabarito). Sem o artigo definido 'a' antes de entrada, a expressão deve ser masculina: 'É proibido entrada'."
+  },
+  {
+    "question": "15. Assinale a frase com erro de concordância.\na) Trazia pintados o cabelo e as sobrancelhas.\nb) Estava nervosa a menina e seu pai.\nc) Chegou a pseudassábia.\nd) Desenvolvemos uma atividade monstro.\ne) Anexo segue um bom glossário.",
+    "options": [
+      "a) Trazia pintados o cabelo e as sobrancelhas.",
+      "b) Estava nervosa a menina e seu pai.",
+      "c) Chegou a pseudassábia.\n",
+      "d) Desenvolvemos uma atividade monstro.",
+      "e) Anexo segue um bom glossário."
+    ],
+    "correct": 2,
+    "explanation": "a) Correta. 'Pintados' concorda com o conjunto no masculino plural.<br/>b) Correta. O adjetivo anteposto concorda com o núcleo mais próximo ('a menina').<br/>c) Incorreta (Gabarito). O prefixo 'pseudo' é invariável, não deve haver variação de gênero para 'pseuda'.<br/>d) Correta. Substantivos usados como adjetivos para indicar qualidade/tipo (como monstro) podem ficar invariáveis.<br/>e) Correta. 'Anexo' concorda com 'glossário'."
+  },
+  {
+    "question": "16. Há erro na concordância de um item.\na) Todos estávamos alerta, no quartel.\nb) Eu já estou quites com as mensalidades.\nc) Há menos pessoas aqui, nesta noite.\nd) Um e outro advogado são hábeis.\ne) Uma e outra resposta está correta.",
+    "options": [
+      "a) Todos estávamos alerta, no quartel.",
+      "b) Eu já estou quites com as mensalidades.",
+      "c) Há menos pessoas aqui, nesta noite.",
+      "d) Um e outro advogado são hábeis.",
+      "e) Uma e outra resposta está correta."
+    ],
+    "correct": 1,
+    "explanation": "a) Correta. 'Alerta' é advérbio e não varia.<br/>b) Incorreta (Gabarito). O adjetivo 'quite' concorda com o sujeito: 'Eu estou quite'.<br/>c) Correta. 'Menos' é invariável.<br/>d) Correta. Com 'um e outro', o adjetivo/predicativo deve ir para o plural.<br/>e) Correta. O substantivo fica no singular, mas o verbo pode ficar no singular ou plural."
+  },
+  {
+    "question": "17. “Torna-se ...................., para o povo brasileiro, a percepção de que um estudo\nprofundo se faz preciso, haja .................... os índices altos da criminalidade no país.\nAssinale a opção que completa corretamente as lacunas.",
+    "options": [
+      "a) necessário - vistos",
+      "b) necessário - visto",
+      "c) necessária - vista",
+      "d) necessário - vista",
+      "e) necessária - vistos"
+    ],
+    "correct": 2,
+    "explanation": "a) Incorreta. 'Necessária' deve concordar com 'a percepção'.<br/>b) Incorreta. O primeiro termo deve ser feminino e o segundo faz parte da expressão 'haja vista'.<br/>c) Correta (Gabarito). 'Necessária' (concorda com 'a percepção') e 'haja vista' (expressão invariável ou concordando com o termo seguinte).<br/>d) Incorreta. O termo 'necessário' deve variar para o feminino.<br/>e) Incorreta. Embora 'necessária' esteja correto, 'vistos' não se aplica na expressão fixa 'haja vista'."
+  },
+  {
+    "question": "18. Assinale a alternativa que completa corretamente as lacunas da frase abaixo:\n“É ________ discussão entre homens e mulheres ________ ao mesmo ideal, pois já se\ndisse ________ vezes que da discussão, ainda que ________ acalorada, nasce a luz”.",
+    "options": [
+      "a) bom ‑ voltados ‑ bastantes ‑ meio.",
+      "b) bom ‑ voltadas ‑ bastante ‑ meia.",
+      "c) boa - voltadas ‑ bastantes ‑ meio.",
+      "d) boa - voltados ‑ bastante ‑ meia.",
+      "e) bom ‑ voltadas ‑ bastantes ‑ meia."
+    ],
+    "correct": 0,
+    "explanation": "a) Correta (Gabarito). 'bom' (expressão 'é bom' sem artigo é invariável), 'voltados' (homens e mulheres), 'bastantes' (muitas vezes), 'meio' (um pouco).<br/>b) Incorreta. 'Meia' não é advérbio e 'bastante' deveria estar no plural.<br/>c) Incorreta. 'Boa' exigiria o artigo 'a' antes de discussão; 'voltadas' ignora o elemento masculino.<br/>d) Incorreta. 'Bastante' deveria ser plural e 'meia' não pode ser advérbio.<br/>e) Incorreta. 'Meia' está incorreto como advérbio de intensidade."
+  },
+  {
+    "question": "19. Considerando a concordância nominal, assinale a frase correta:",
+    "options": [
+      "a) Ela mesmo confirmou a realização do encontro.",
+      "b) Foi muito criticado pelos jornais a reedição da obra.",
+      "c) Ela ficou meia preocupada com a notícia.",
+      "d) Muito obrigada, querido, falou‑me emocionada.",
+      "e) Anexo, remeto‑lhes nossas últimas fotografias."
+    ],
+    "correct": 3,
+    "explanation": "a) Incorreta. Deveria ser 'Ela mesma'.<br/>b) Incorreta. Deveria ser 'criticada' para concordar com 'a reedição'.<br/>c) Incorreta. 'Meia' é metade; como advérbio deve ser 'meio'.<br/>d) Correta (Gabarito). 'Obrigada' concorda com a pessoa do sexo feminino que fala.<br/>e) Incorreta. 'Anexas' deveria concordar com 'fotografias'."
+  },
+  {
+    "question": "20. Preencha as lacunas das frases abaixo.\nVocês estão ______________ com a tesouraria.\nAs janelas ___________ abertas deixavam entrar a leve brisa.\nVai ___________ à presente a relação dos livros solicitados.\nAs matas foram ______________ danificadas pelo fogo.\nÉ ________________ a entrada de animais.\nA alternativa contendo a sequência verdadeira, de cima para baixo, é:",
+    "options": [
+      "a) quite – meia – anexa – bastantes – proibida.",
+      "b) quites – meia – anexa – bastantes – proibida.",
+      "c) quite – meio – anexo – bastante – proibido.",
+      "d) quites – meio – anexa – bastante – proibida.",
+      "e) quites – meio – anexo – bastante – proibido."
+    ],
+    "correct": 3,
+    "explanation": "a) Incorreta. 'Quites' deve estar no plural e 'meio' deve ser invariável.<br/>b) Incorreta. 'Meio' é advérbio e não deve ser 'meia'.<br/>c) Incorreta. 'Quites' deve ser plural e 'anexa' deve ser feminino para concordar com 'relação'.<br/>d) Correta (Gabarito). 'Quites' (plural), 'meio' (advérbio), 'anexa' (relação), 'bastante' (advérbio), 'proibida' (devido ao artigo 'a').<br/>e) Incorreta. 'Anexo' deve ser 'anexa' e 'proibido' deve ser 'proibida' devido ao artigo definido."
+  }
+],
 };
 
 // Elementos do DOM
